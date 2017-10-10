@@ -205,12 +205,21 @@
   			</li>
 
 
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-smile-o"></i>Promotions  <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="promotions.php">See Promotions</a></li>
+            <li><a href="dynamic-bonus.php">Dynamic Bonus</a></li>
+            <li><a href="welcome-bonus.php">40% Welcome Bonus</a></li>
+            <li><a href="energy-bonus.php">60% Energy Bonus</a></li>
+            <li><a href="hot-bonus.php">120% Hot Bonus</a></li>
+          </ul>
+        </li>
 
 
 
 
-
-        <li class="dropdown dropdown-large">
+        <!-- <li class="dropdown dropdown-large">
   				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-smile-o"></i>Promotions <b class="caret"></b></a>
 
   				<ul class="dropdown-menu dropdown-menu-large row">
@@ -230,8 +239,7 @@
   					</li>
   					<li class="col-sm-3">
   						<ul>
-  							<li class="dropdown-header">Button groups</li>
-  							<li><a href="#">Basic example</a></li>
+  							<li><a href="bonus.php">Dynamic Bonus</a></li>
   							<li><a href="#">Button toolbar</a></li>
   							<li><a href="#">Sizing</a></li>
   							<li><a href="#">Nesting</a></li>
@@ -270,131 +278,53 @@
   					</li>
   				</ul>
 
-  			</li>
+  			</li> -->
 
 
-        <li class="dropdown dropdown-large">
-  				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-graduation-cap"></i>Education <b class="caret"></b></a>
-
-  				<ul class="dropdown-menu dropdown-menu-large row">
-  					<li class="col-sm-3">
-  						<ul>
-  							<li class="dropdown-header">Glyphicons</li>
-  							<li><a href="#">Available glyphs</a></li>
-  							<li class="disabled"><a href="#">How to use</a></li>
-  							<li><a href="#">Examples</a></li>
-  							<li class="divider"></li>
-  							<li class="dropdown-header">Dropdowns</li>
-  							<li><a href="#">Example</a></li>
-  							<li><a href="#">Aligninment options</a></li>
-  							<li><a href="#">Headers</a></li>
-  							<li><a href="#">Disabled menu items</a></li>
-  						</ul>
-  					</li>
-  					<li class="col-sm-3">
-  						<ul>
-  							<li class="dropdown-header">Button groups</li>
-  							<li><a href="#">Basic example</a></li>
-  							<li><a href="#">Button toolbar</a></li>
-  							<li><a href="#">Sizing</a></li>
-  							<li><a href="#">Nesting</a></li>
-  							<li><a href="#">Vertical variation</a></li>
-  							<li class="divider"></li>
-  							<li class="dropdown-header">Button dropdowns</li>
-  							<li><a href="#">Single button dropdowns</a></li>
-  						</ul>
-  					</li>
-  					<li class="col-sm-3">
-  						<ul>
-  							<li class="dropdown-header">Input groups</li>
-  							<li><a href="#">Basic example</a></li>
-  							<li><a href="#">Sizing</a></li>
-  							<li><a href="#">Checkboxes and radio addons</a></li>
-  							<li class="divider"></li>
-  							<li class="dropdown-header">Navs</li>
-  							<li><a href="#">Tabs</a></li>
-  							<li><a href="#">Pills</a></li>
-  							<li><a href="#">Justified</a></li>
-  						</ul>
-  					</li>
-  					<li class="col-sm-3">
-  						<ul>
-  							<li class="dropdown-header">Navbar</li>
-  							<li><a href="#">Default navbar</a></li>
-  							<li><a href="#">Buttons</a></li>
-  							<li><a href="#">Text</a></li>
-  							<li><a href="#">Non-nav links</a></li>
-  							<li><a href="#">Component alignment</a></li>
-  							<li><a href="#">Fixed to top</a></li>
-  							<li><a href="#">Fixed to bottom</a></li>
-  							<li><a href="#">Static top</a></li>
-  							<li><a href="#">Inverted navbar</a></li>
-  						</ul>
-  					</li>
-  				</ul>
-
-  			</li>
-
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-book"></i>Education  <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Video Education Center</a></li>
+            <li><a href="#">Online Webinar Lessons</a></li>
+            <li><a href="#">Trading Central</a></li>
+          </ul>
+        </li>
 
 
         <li class="dropdown dropdown-large">
   				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-handshake-o"></i>Partnership <b class="caret"></b></a>
 
   				<ul class="dropdown-menu dropdown-menu-large row">
-  					<li class="col-sm-3">
+  					<li class="col-sm-4">
   						<ul>
-  							<li class="dropdown-header">Glyphicons</li>
-  							<li><a href="#">Available glyphs</a></li>
-  							<li class="disabled"><a href="#">How to use</a></li>
-  							<li><a href="#">Examples</a></li>
-  							<li class="divider"></li>
-  							<li class="dropdown-header">Dropdowns</li>
-  							<li><a href="#">Example</a></li>
-  							<li><a href="#">Aligninment options</a></li>
-  							<li><a href="#">Headers</a></li>
-  							<li><a href="#">Disabled menu items</a></li>
+  							<li class="dropdown-header">Why Become A Partner?</li>
+  							<li><a href="#">Partnership Programs</a></li>
+  							<li><a href="#">Benefits For Partners</a></li>
+                <li><a href="#">Benefits For Clients</a></li>
+                <li><a href="#">Partner's Earnings</a></li>
+                <li><a href="#">Rebate System</a></li>
   						</ul>
   					</li>
   					<li class="col-sm-3">
   						<ul>
-  							<li class="dropdown-header">Button groups</li>
-  							<li><a href="#">Basic example</a></li>
-  							<li><a href="#">Button toolbar</a></li>
-  							<li><a href="#">Sizing</a></li>
-  							<li><a href="#">Nesting</a></li>
-  							<li><a href="#">Vertical variation</a></li>
-  							<li class="divider"></li>
-  							<li class="dropdown-header">Button dropdowns</li>
-  							<li><a href="#">Single button dropdowns</a></li>
+  							<li class="dropdown-header">Partnership Types</li>
+  							<li><a href="#">Standard</a></li>
+  							<li><a href="#">Sub-Ezy Partners</a></li>
   						</ul>
   					</li>
   					<li class="col-sm-3">
   						<ul>
-  							<li class="dropdown-header">Input groups</li>
-  							<li><a href="#">Basic example</a></li>
-  							<li><a href="#">Sizing</a></li>
-  							<li><a href="#">Checkboxes and radio addons</a></li>
-  							<li class="divider"></li>
-  							<li class="dropdown-header">Navs</li>
-  							<li><a href="#">Tabs</a></li>
-  							<li><a href="#">Pills</a></li>
-  							<li><a href="#">Justified</a></li>
+  							<li class="dropdown-header">Promo Material</li>
+  							<li><a href="#">Banners, Logos &amp; Avatars</a></li>
+  							<li><a href="#">EZYFX Certificates</a></li>
+  							<li><a href="#">EZYFX Corporate Seals</a></li>
+                <li><a href="#">Informers</a></li>
+                <li><a href="#">Merchandise</a></li>
+                <li><a href="#">API's</a></li>
+                <li><a href="#">Partner's Ready Site</a></li>
   						</ul>
   					</li>
-  					<li class="col-sm-3">
-  						<ul>
-  							<li class="dropdown-header">Navbar</li>
-  							<li><a href="#">Default navbar</a></li>
-  							<li><a href="#">Buttons</a></li>
-  							<li><a href="#">Text</a></li>
-  							<li><a href="#">Non-nav links</a></li>
-  							<li><a href="#">Component alignment</a></li>
-  							<li><a href="#">Fixed to top</a></li>
-  							<li><a href="#">Fixed to bottom</a></li>
-  							<li><a href="#">Static top</a></li>
-  							<li><a href="#">Inverted navbar</a></li>
-  						</ul>
-  					</li>
+
   				</ul>
 
   			</li>
