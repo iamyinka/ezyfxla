@@ -29,6 +29,8 @@
         <h4>Safety of Clients Funds</h4>
         <p>At Ezyfx, we know you work hard for your money and quite frankly deserve that peace of mind. We give our customers complete satisfaction of security because we practice what we preach unlike others. All our funds are stored in separate client accounts with no overlapping.</p>
 
+        <a href="#">Read More &raquo;</a>
+
         <p>We enforce stringent standards of Data Security subject to a high-level scrutiny and all your personal details are encrypted using SSL (Secure Sots Layer). We personally do not store any of your financial detail as they are all processed using our partner network which is a fully licensed payment gateway protecting client with PCI regulated servers.</p>
 
         <p>Your fund and its security is our number one priority, with Ezyfx you can be completely sure that we are protecting your funds. Here’s how:</p>

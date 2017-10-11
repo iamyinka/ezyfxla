@@ -132,12 +132,12 @@
   					</li>
   					<li class="col-sm-3">
   						<ul>
-  							<li><a href="#">License &amp; Regulations</a></li>
-  							<li><a href="#">EzyFx Regulation</a></li>
-  							<li><a href="#">About VFSC</a></li>
-  							<li><a href="#">Why VFSC</a></li>
-  							<li><a href="#">Permitted Activities</a></li>
-  							<li><a href="#">VFSC Faq</a></li>
+  							<li class="disabled"><a href="#">License &amp; Regulations</a></li>
+  							<li><a href="regulations.php">EzyFx Regulation</a></li>
+  							<li><a href="about-vfsc.php">About VFSC</a></li>
+  							<li><a href="why-vfsc.php">Why VFSC</a></li>
+  							<li><a href="permitted-activites.php">Permitted Activities</a></li>
+  							<li><a href="vfsc-faq.php">VFSC Faq</a></li>
   							<li class="divider"></li>
   							<li class="dropdown-header">Need Help?</li>
   							<li><a href="#">Contact Us</a></li>
