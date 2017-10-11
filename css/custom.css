@@ -269,6 +269,7 @@ section {
 
 .intro {
   color: #444;
+  background: url('../images/acct-demo/small-bg.png') repeat;
 }
 
 .intro h1 {
@@ -301,6 +302,26 @@ section {
     Buttons
 ************************* */
 
+.btn-custom-demo {
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  background-color: #b33;
+  padding: 10px 3px;
+  transition: .8s all;
+  box-shadow: 4px 2px 2px 0 #ccc;
+}
+
+.btn-custom-live {
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  background-color: #444;
+  padding: 10px 3px;
+  transition: .8s all;
+  box-shadow: 4px 2px 2px 0 #ccc;
+}
+
 .btn-custom-default {
   color: #000;
   border: 2px solid #fff;
@@ -332,8 +353,13 @@ section {
   color: #000;
 }
 
-.btn-custom-default:hover {
+.btn-custom-default:hover, .btn-custom-demo:hover {
   background-color: #000;
+  color: #fff;
+}
+
+.btn-custom-live:hover {
+  background-color: #2B6A33;
   color: #fff;
 }
 
@@ -379,10 +405,11 @@ h5 {
 
 h6 {
   font-size: 1.1em;
+  color: #444;
 }
 
 p {
-  font-size: .88em;
+  font-size: 1em;
   color: #444;
 }
 
@@ -481,6 +508,10 @@ p {
 
 .why img {
   width: 100%;
+}
+
+.trading {
+  background: url('../images/acct-demo/small-bg.png') repeat;
 }
 
 .accts-reg {
@@ -698,7 +729,11 @@ a:hover {
   min-height: 260px;
   /*border-radius: 20px;*/
   /*border: 2px solid #444;*/
-  /*box-shadow: 5px 3px 2px 8px #b33;   # This is cool   */ 
+  /*box-shadow: 5px 3px 2px 8px #b33;   # This is cool   */
+}
+
+.sider1 {
+  background: url('../images/acct-demo/small-bg.png') repeat;
 }
 
 .each-advantage .panel-heading {
@@ -716,6 +751,62 @@ a:hover {
 .side-bar .panel:nth-child(even) {
   border-right: 10px solid #b33;
 }
+
+
+.reasons-into img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.reasons-list {
+  background: url('../images/acct-demo/small-bg.png') repeat;
+}
+
+.notice-me {
+  text-align: center;
+  background-color: #f6f6f6;
+  /*box-shadow: 5px 3px 2px 8px #2b6a33;*/
+}
+
+.notice-me p {
+  margin-top: 10px;
+}
+
+.reason-tabs {
+  text-align: center;
+  min-height: 320px;
+  box-shadow: 5px 3px 2px 8px #b33;
+  margin-bottom: 40px;
+  padding: 0 5px;
+}
+
+.reason-tabs p {
+  text-align: justify;
+}
+
+.reason-tabs i.fa {
+  font-size: 5em;
+  color: #444;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.reason-tabs i.fa:hover {
+  color: #b33;
+}
+
+.fa-spin-hover:hover {
+    animation: fa-spin-hover 2s infinite linear;
+}
+/*// The animation bellow is taken from font-awesome.css*/
+@-webkit-keyframes fa-spin-hover{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}
+@keyframes fa-spin-hover{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}100%{-webkit-transfo rm:rotate(359deg);transform:rotate(359deg)}}
+
+
+
+
+
+
 
 /* *************************
     Footer

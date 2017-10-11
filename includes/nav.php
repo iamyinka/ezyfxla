@@ -79,7 +79,7 @@
               <div class="row">
                 <div class="col-sm-4 col-xs-4" id="email-us">
                   <a href="#" id="emailIcon"><i class="fa fa-envelope"></i></a>
-                  <a href="mailto:info@ezyfx.la" id="ourEmail" class="animated infinite wobble">&rarr; info@ezyfx.la</a>
+                  <a href="mailto:info@ezyfx.la" id="ourEmail" class="animated infinite wobble">info@ezyfx.la</a>
                 </div>
                 <div class="col-sm-4 col-xs-4" id="call-us">
                   <a href="#"><i class="fa fa-volume-control-phone" id="phoneIcon"></i></a>
