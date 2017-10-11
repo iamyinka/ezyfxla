@@ -29,7 +29,9 @@
       </div>
 
       <div class="col-xs-12 col-sm-5">
-        <img src="images/reasons/1.jpg" alt="">
+        <div class="reason-banner">
+          <img src="images/reasons/1.jpg" alt="">
+        </div>
       </div>
     </div>
   </div>
