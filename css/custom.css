@@ -1185,7 +1185,15 @@ footer .trademark {
   .myNav .navbar-nav li a {
     font-size: 2em;
   }
+}
+
+
+@media (max-width: 390px) {
+  .myNav .navbar-nav li a {
+    font-size: 1.5em;
+  }
 
   .myNav .navbar-nav li a:nth-child(1) {
+    margin-left: 9px;
   }
 }
