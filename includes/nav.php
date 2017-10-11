@@ -140,24 +140,24 @@
   							<li><a href="vfsc-faq.php">VFSC Faq</a></li>
   							<li class="divider"></li>
   							<li class="dropdown-header">Need Help?</li>
-  							<li><a href="#">Contact Us</a></li>
-                <li><a href="#">FAQ</a></li>
+  							<li><a href="contact-us.php">Contact Us</a></li>
+                <li><a href="faq.php">FAQ</a></li>
   						</ul>
   					</li>
 
   					<li class="col-sm-3">
   						<ul>
-  							<li><a href="#">Legal Documents</a></li>
-  							<li><a href="#">Terms Of Use</a></li>
-  							<li><a href="#">Acceptable Use</a></li>
-  							<li><a href="#">Deposit &amp; Withdrawal</a></li>
-  							<li><a href="#">Risk Disclosure &amp; Disclaimer</a></li>
-  							<li><a href="#">Complaint Handling Policy</a></li>
-  							<li><a href="#">Order Execution Policy</a></li>
-  							<li><a href="#">Margin Call Policy</a></li>
-  							<li><a href="#">Anti Money Laundering</a></li>
-  							<li><a href="#">Know Your Customer</a></li>
-                <li><a href="#">Privacy Policy</a></li>
+  							<li><a href="legal-docs.php">Legal Documents</a></li>
+  							<li><a href="tou.php">Terms Of Use</a></li>
+  							<li><a href="au.php">Acceptable Use</a></li>
+  							<li><a href="deposit-withdrawal.php">Deposit &amp; Withdrawal</a></li>
+  							<li><a href="risk-disclosure.php">Risk Disclosure &amp; Disclaimer</a></li>
+  							<li><a href="complaints.php">Complaint Handling Policy</a></li>
+  							<li><a href="oep.php">Order Execution Policy</a></li>
+  							<li><a href="margin-call-policy.php">Margin Call Policy</a></li>
+  							<li><a href="anti-money-laundering.php">Anti Money Laundering</a></li>
+  							<li><a href="know-your-customer.php">Know Your Customer</a></li>
+                <li><a href="privacy-policy.php">Privacy Policy</a></li>
   						</ul>
   					</li>
   				</ul>
@@ -171,33 +171,33 @@
   				<ul class="dropdown-menu dropdown-menu-large row">
   					<li class="col-sm-3">
   						<ul>
-  							<li><a href="#">Deposits &amp; Withdrawal</a></li>
-  							<li><a href="#">Payment Options</a></li>
-  							<li><a href="#">Deposit My Account</a></li>
-  							<li><a href="#">Withdrawals</a></li>
+  							<li><a href="deposit-withdrawal.php">Deposits &amp; Withdrawal</a></li>
+  							<li><a href="payment-options.php">Payment Options</a></li>
+  							<li><a href="deposit-my-account.php">Deposit My Account</a></li>
+  							<li><a href="withdrawals.php">Withdrawals</a></li>
   						</ul>
   					</li>
   					<li class="col-sm-3">
   						<ul>
   							<li><a href="accounts-and-conditions.php">Accounts &amp; Conditions</a></li>
-  							<li><a href="#">Trading Account</a></li>
-  							<li><a href="#">Trading Account Conditions</a></li>
-  							<li><a href="#">Islamic Accounts</a></li>
+  							<li><a href="trading-accounts.php">Trading Account</a></li>
+  							<li><a href="tac.php">Trading Account Conditions</a></li>
+  							<li><a href="islamic-accounts.php">Islamic Accounts</a></li>
   						</ul>
   					</li>
   					<li class="col-sm-3">
   						<ul>
-  							<li><a href="#">Software Downloads</a></li>
-  							<li><a href="#">MetaTrader 4</a></li>
-  							<li><a href="#">WebTrader</a></li>
-  							<li><a href="#">MetaTrader 4 Mobile</a></li>
+  							<li><a href="software-downloads.php">Software Downloads</a></li>
+  							<li><a href="metatrader-4.php">MetaTrader 4</a></li>
+  							<li><a href="webtrader.php">WebTrader</a></li>
+  							<li><a href="metatrader4-mobile.php">MetaTrader 4 Mobile</a></li>
   						</ul>
   					</li>
   					<li class="col-sm-3">
   						<ul>
-  							<li><a href="#">Copy Trading</a></li>
-  							<li><a href="#">Ezy Socio</a></li>
-  							<li><a href="#">FX Junction</a></li>
+  							<li><a href="copy-trading.php">Copy Trading</a></li>
+  							<li><a href="ezy-socio.php">Ezy Socio</a></li>
+  							<li><a href="fx-junction.php">FX Junction</a></li>
   						</ul>
   					</li>
   				</ul>
@@ -284,9 +284,9 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-book"></i>Education  <b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="#">Video Education Center</a></li>
-            <li><a href="#">Online Webinar Lessons</a></li>
-            <li><a href="#">Trading Central</a></li>
+            <li><a href="vec.php">Video Education Center</a></li>
+            <li><a href="online-webinar-lessons.php">Online Webinar Lessons</a></li>
+            <li><a href="trading-central.php">Trading Central</a></li>
           </ul>
         </li>
 
@@ -298,30 +298,30 @@
   					<li class="col-sm-4">
   						<ul>
   							<li class="dropdown-header">Why Become A Partner?</li>
-  							<li><a href="#">Partnership Programs</a></li>
-  							<li><a href="#">Benefits For Partners</a></li>
-                <li><a href="#">Benefits For Clients</a></li>
-                <li><a href="#">Partner's Earnings</a></li>
-                <li><a href="#">Rebate System</a></li>
+  							<li><a href="partnership-programs.php">Partnership Programs</a></li>
+  							<li><a href="partner-benefits.php">Benefits For Partners</a></li>
+                <li><a href="client-benefits.php">Benefits For Clients</a></li>
+                <li><a href="partner-earnings.php">Partner's Earnings</a></li>
+                <li><a href="rebate-system.php">Rebate System</a></li>
   						</ul>
   					</li>
   					<li class="col-sm-3">
   						<ul>
   							<li class="dropdown-header">Partnership Types</li>
-  							<li><a href="#">Standard</a></li>
-  							<li><a href="#">Sub-Ezy Partners</a></li>
+  							<li><a href="standard-partners.php">Standard</a></li>
+  							<li><a href="sub-ezy-partners.php">Sub-Ezy Partners</a></li>
   						</ul>
   					</li>
   					<li class="col-sm-3">
   						<ul>
   							<li class="dropdown-header">Promo Material</li>
-  							<li><a href="#">Banners, Logos &amp; Avatars</a></li>
-  							<li><a href="#">EZYFX Certificates</a></li>
-  							<li><a href="#">EZYFX Corporate Seals</a></li>
-                <li><a href="#">Informers</a></li>
-                <li><a href="#">Merchandise</a></li>
-                <li><a href="#">API's</a></li>
-                <li><a href="#">Partner's Ready Site</a></li>
+  							<li><a href="banners-n-more.php">Banners, Logos &amp; Avatars</a></li>
+  							<li><a href="ezy-certificate.php">EZYFX Certificates</a></li>
+  							<li><a href="ezy-seals.php">EZYFX Corporate Seals</a></li>
+                <li><a href="informers.php">Informers</a></li>
+                <li><a href="merchandise.php">Merchandise</a></li>
+                <li><a href="apis.php">API's</a></li>
+                <li><a href="partners-ready-site.php">Partner's Ready Site</a></li>
   						</ul>
   					</li>
 
@@ -331,7 +331,7 @@
 
 
 
-        <li><a href="#"><i class="fa fa-calendar"></i>Events</a></li>
+        <li><a href="events.php"><i class="fa fa-calendar"></i>Events</a></li>
   		</ul>
 
   	</div><!-- /.nav-collapse -->
