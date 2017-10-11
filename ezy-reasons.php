@@ -55,7 +55,7 @@
 
           <div class="col-sm-6">
             <div class="reason-tabs">
-              <i class="fa fa-money fa-spin-hover"></i>
+              <i class="fa fa-cubes fa-spin-hover"></i>
               <h6>Platforms and Assets</h6>
               <p>Having an assortment of world-class tools enhances profitability prospects and that’s exactly what Ezyfx does. Open an account with us and see how our range of platforms and assets from Forex and major contractors make a difference to your profitability.</p>
             </div>
@@ -63,7 +63,7 @@
 
           <div class="col-sm-6">
             <div class="reason-tabs">
-              <i class="fa fa-money fa-spin-hover"></i>
+              <i class="fa fa-life-ring fa-spin-hover"></i>
               <h6>Seamless Trading</h6>
 
               <p>We provide our traders seamless access to all our platforms and versions allowing them to trade efficiently. Our award-winning MT4 platform is perfect for trading in Forex, CFDs on stocks, Indices, and Commodities.</p>
@@ -72,7 +72,7 @@
 
           <div class="col-sm-6">
             <div class="reason-tabs">
-              <i class="fa fa-money fa-spin-hover"></i>
+              <i class="fa fa-bar-chart fa-spin-hover"></i>
               <h6>Platforms and Assets</h6>
               <p>Having an assortment of world-class tools enhances profitability prospects and that’s exactly what Ezyfx does. Open an account with us and see how our range of platforms and assets from Forex and major contractors make a difference to your profitability.</p>
             </div>
@@ -81,7 +81,7 @@
 
           <div class="col-sm-6">
             <div class="reason-tabs">
-              <i class="fa fa-money fa-spin-hover"></i>
+              <i class="fa fa-users fa-spin-hover"></i>
               <h6>Seamless Trading</h6>
 
               <p>We provide our traders seamless access to all our platforms and versions allowing them to trade efficiently. Our award-winning MT4 platform is perfect for trading in Forex, CFDs on stocks, Indices, and Commodities.</p>
@@ -90,7 +90,7 @@
 
           <div class="col-sm-6">
             <div class="reason-tabs">
-              <i class="fa fa-money fa-spin-hover"></i>
+              <i class="fa fa-lock fa-spin-hover"></i>
               <h6>Platforms and Assets</h6>
               <p>Having an assortment of world-class tools enhances profitability prospects and that’s exactly what Ezyfx does. Open an account with us and see how our range of platforms and assets from Forex and major contractors make a difference to your profitability.</p>
             </div>
@@ -98,7 +98,7 @@
 
           <div class="col-sm-6">
             <div class="reason-tabs">
-              <i class="fa fa-money fa-spin-hover"></i>
+              <i class="fa fa-connectdevelop fa-spin-hover"></i>
               <h6>Seamless Trading</h6>
 
               <p>We provide our traders seamless access to all our platforms and versions allowing them to trade efficiently. Our award-winning MT4 platform is perfect for trading in Forex, CFDs on stocks, Indices, and Commodities.</p>
@@ -107,7 +107,7 @@
 
           <div class="col-sm-6">
             <div class="reason-tabs">
-              <i class="fa fa-money fa-spin-hover"></i>
+              <i class="fa fa-wrench fa-spin-hover"></i>
               <h6>Platforms and Assets</h6>
               <p>Having an assortment of world-class tools enhances profitability prospects and that’s exactly what Ezyfx does. Open an account with us and see how our range of platforms and assets from Forex and major contractors make a difference to your profitability.</p>
             </div>
