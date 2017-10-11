@@ -483,6 +483,7 @@ p {
 
 .why-us h1, .why-us p {
   text-align: center;
+  color: #fff;
 }
 
 .why-us h1 i.fa {
@@ -940,7 +941,18 @@ a:hover {
   visibility: hidden;
 }
 
+.safety-starter {
+  background: url('../images/acct-demo/small-bg.png') repeat;
+}
 
+.safety-blocks {
+  box-shadow: 5px 3px 2px 2px #444;
+  margin-bottom: 10px;
+}
+
+.safety-blocks img {
+  width: 100%;
+}
 
 
 
