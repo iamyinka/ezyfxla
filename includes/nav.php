@@ -37,6 +37,7 @@
             <li class="ct-language"><a href="#"><i class="fa fa-flag-o fa-4x" title="Select Language"></i> <span>Choose Your Language</span></a>
             <!-- <li ><i class="fa fa-flag-o fa-4x"></i> Choose Your Language -->
               <ul class="list-unstyled ct-language__dropdown">
+                <!-- <li><a href="#" class="lang-en lang-select" data-lang="en"><i class="fa fa-caret-down"></i> Scroll Down</a></li> -->
           		  <li><a href="#googtrans(en|en)" class="lang-en lang-select" data-lang="en"><img src="https://www.solodev.com/assets/google-translate/flag-usa.png" alt="USA"> English</a></li>
           		  <li><a href="#googtrans(en|es)" class="lang-es lang-select" data-lang="es"><img src="https://www.solodev.com/assets/google-translate/flag-mexico.png" alt="MEXICO"> Spanish</a></li>
           		  <li><a href="#googtrans(en|fr)" class="lang-es lang-select" data-lang="fr"><img src="https://www.solodev.com/assets/google-translate/flag-france.png" alt="FRANCE"> French</a></li>
