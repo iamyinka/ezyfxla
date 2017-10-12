@@ -1078,6 +1078,10 @@ a:hover {
 
 /* FAQs */
 
+.faq-intro {
+  margin-bottom: 50px;
+}
+
 .faq-cat-tabs li a {
   background-color: #f6f6f6;
 }

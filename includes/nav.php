@@ -132,7 +132,7 @@
   					</li>
   					<li class="col-sm-3">
   						<ul>
-  							<li class="disabled"><a href="#">License &amp; Regulations</a></li>
+  							<li class="dropdown-header">License &amp; Regulations</li>
   							<li><a href="regulations.php">EzyFx Regulation</a></li>
   							<li><a href="about-vfsc.php">About VFSC</a></li>
   							<li><a href="why-vfsc.php">Why VFSC</a></li>
@@ -147,7 +147,7 @@
 
   					<li class="col-sm-3">
   						<ul>
-  							<li><a href="legal-docs.php">Legal Documents</a></li>
+  							<li class="dropdown-header">Legal Documents</li>
   							<li><a href="tou.php">Terms Of Use</a></li>
   							<li><a href="au.php">Acceptable Use</a></li>
   							<li><a href="deposit-withdrawal.php">Deposit &amp; Withdrawal</a></li>
@@ -171,7 +171,7 @@
   				<ul class="dropdown-menu dropdown-menu-large row">
   					<li class="col-sm-3">
   						<ul>
-  							<li><a href="deposit-withdrawal.php">Deposits &amp; Withdrawal</a></li>
+  							<li class="dropdown-header">Deposits &amp; Withdrawals</li>
   							<li><a href="payment-options.php">Payment Options</a></li>
   							<li><a href="deposit-my-account.php">Deposit My Account</a></li>
   							<li><a href="withdrawals.php">Withdrawals</a></li>
