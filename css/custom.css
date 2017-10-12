@@ -21,7 +21,7 @@ body {
 
 
 .myNav .navbar-nav li a {
-  font-size: 1.2em;
+  font-size: 1em;
   color: #fff;
 }
 
@@ -41,6 +41,10 @@ body {
 
 .navbar .navbar-nav li {
   margin-right: 5px;
+}
+
+.navbar .navbar-nav li a {
+  text-transform: uppercase;
 }
 
 .navbar .navbar-nav li a i.fa {
@@ -1069,11 +1073,37 @@ a:hover {
   color: #444;
 }
 
+.bs-component {
+  color: #444;
+}
 
+.table img {
+  width: 100%;
+  height: auto;
+}
 
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+  vertical-align: middle;
+}
 
+.table {
+  display: block !important;
+  /*text-align: left;*/
+}
 
+.myTableTabs li.active a {
+  background-color: #b33;
+  color: #fff;
+}
 
+.take-note {
+  color: #444;
+}
+
+.take-note li {
+  margin-bottom: 5px;
+  border-bottom: 1px solid #eee;
+}
 
 
 /* FAQs */
@@ -1471,6 +1501,12 @@ footer .trademark {
 
   .myNav .navbar-nav li a:nth-child(1) {
     margin-left: 60px;
+  }
+}
+
+@media (max-width: 770px) {
+  .myNav .navbar-nav li a:nth-child(1) {
+    margin-left: 30px;
   }
 }
 
