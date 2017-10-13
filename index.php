@@ -182,7 +182,7 @@
           <a href="#">
             <div class="accts-reg">
               <div class="acct-demo">
-                <img src="images/acct-demo/03.png" alt="">
+                <img src="images/acct-demo/04.jpg" alt="">
               </div>
               <div class="acct-demo-details3">
                 <i class="fa fa-thumbs-o-up"></i>
@@ -196,7 +196,7 @@
           <a href="#">
             <div class="accts-reg">
               <div class="acct-demo">
-                <img src="images/acct-demo/04.jpg" alt="">
+                <img src="images/acct-demo/03.png" alt="">
               </div>
               <div class="acct-demo-details4">
                 <i class="fa fa-thumbs-up"></i>
