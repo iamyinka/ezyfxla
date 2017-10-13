@@ -45,6 +45,7 @@
       <div class="col-xs-12 col-sm-4">
         <div class="mt4-dl license">
           <!-- <img src="images/meta.png" alt=""> -->
+          <h6>Download Ezyfx metatrader 4 &rarr;</h6>
             <div class="overlay">
               <h6 style="color: #fff;">EZYFX Metatrader 4</h6>
               <a class="info" href="https://google.com" target="_blank">Download NOW <i class="fa fa-arrow-down"></i></a>

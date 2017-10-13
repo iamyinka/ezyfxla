@@ -1206,6 +1206,10 @@ a:hover {
   min-height: 300px;
 }
 
+.mt4-dl h6 {
+  margin-top: 50px;
+}
+
 /*.mt4-dl:hover {
   opacity: .2;
   color: rgba(10, 10, 10, .5);
