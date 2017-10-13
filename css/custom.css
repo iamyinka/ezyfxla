@@ -1141,13 +1141,28 @@ a:hover {
   margin-top: 10px;
 }
 
+.tb-color1 {
+  background-color: #444;
+  color: #fff;
+}
 
+.tb-color2 {
+  background-color: #b78500;
+  color: #fff;
+}
 
+.tb-color3 {
+  background-color: #b33;
+  color: #fff;
+}
 
+.tac li {
+  color: #b33;
+}
 
-
-
-
+.tac li span {
+  color: #444;
+}
 
 
 
