@@ -34,7 +34,7 @@
 <section class="reg-start islamic-area">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-8">
+      <div class="col-xs-12 col-sm-7 col-md-8">
         <div class="islamic-content">
           <div class="row">
             <div class="col-xs-12 col-sm-12">
@@ -64,7 +64,7 @@
         </div>
       </div>
 
-      <div class="col-xs-12 col-sm-12 col-md-4">
+      <div class="col-xs-12 col-sm-5 col-md-4">
         <div class="islamic-content2">
           <p class="lead"><strong>We Are Happy To Be Distinguished By A Trusted Forex Web Portal</strong></p>
           <p>Islamic account has no swap applied during a rollover but a fixed fee instead. This fee is not an interest and primarily depends on the direction of your position.</p>

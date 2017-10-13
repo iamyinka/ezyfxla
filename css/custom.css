@@ -315,6 +315,10 @@ section {
     Buttons
 ************************* */
 
+.why-us .btn-link:hover {
+  color: #fff;
+}
+
 .btn-custom-demo {
   color: #fff;
   border: 2px solid #fff;
@@ -336,7 +340,7 @@ section {
 }
 
 .btn-custom-default {
-  color: #000;
+  color: #fff;
   border: 2px solid #fff;
   background-color: #888;
   padding: 10px 0;
@@ -371,6 +375,7 @@ section {
   color: #fff;
 }
 
+
 .btn-custom-live:hover {
   background-color: #2B6A33;
   color: #fff;
@@ -378,7 +383,7 @@ section {
 
 .btn-custom-danger:hover {
   background-color: transparent;
-  color: #000;
+  color: #fff;
 }
 
 .btn-primary {
@@ -479,7 +484,7 @@ p {
 
 
 .mt4 a:hover {
-  color: #b33
+  color: #b33;
 }
 
 .why-us {
