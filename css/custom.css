@@ -194,6 +194,10 @@ header {
           animation-duration: 2s;*/
 }
 
+#ourPhone:hover {
+  cursor: pointer;
+}
+
 #email-us {
   background-color: #DD1E27;
 }
@@ -1127,10 +1131,15 @@ a:hover {
   text-align: center;
 }
 
+.deposit-types {
+  background: #f6f6f6;
+}
 
-
-
-
+.deposit-banner {
+  background: linear-gradient(rgba(255, 255, 255, .3), rgba(255, 0, 0, 0.5)), url('http://placehold.it/400x400') center center no-repeat;
+  min-height: 300px;
+  margin-top: 10px;
+}
 
 
 

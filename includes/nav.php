@@ -149,16 +149,16 @@
   					<li class="col-sm-3">
   						<ul>
   							<li class="dropdown-header">Legal Documents</li>
-  							<li><a href="tou.php">Terms Of Use</a></li>
-  							<li><a href="au.php">Acceptable Use</a></li>
-  							<li><a href="deposit-withdrawal.php">Deposit &amp; Withdrawal</a></li>
-  							<li><a href="risk-disclosure.php">Risk Disclosure &amp; Disclaimer</a></li>
-  							<li><a href="complaints.php">Complaint Handling Policy</a></li>
-  							<li><a href="oep.php">Order Execution Policy</a></li>
-  							<li><a href="margin-call-policy.php">Margin Call Policy</a></li>
-  							<li><a href="anti-money-laundering.php">Anti Money Laundering</a></li>
-  							<li><a href="know-your-customer.php">Know Your Customer</a></li>
-                <li><a href="privacy-policy.php">Privacy Policy</a></li>
+  							<li class="disabled"><a href="tou.php">Terms Of Use</a></li>
+  							<li class="disabled"><a href="au.php">Acceptable Use</a></li>
+  							<li class="disabled"><a href="deposit-withdrawal.php">Deposit &amp; Withdrawal</a></li>
+  							<li class="disabled"><a href="risk-disclosure.php">Risk Disclosure &amp; Disclaimer</a></li>
+  							<li class="disabled"><a href="complaints.php">Complaint Handling Policy</a></li>
+  							<li class="disabled"><a href="oep.php">Order Execution Policy</a></li>
+  							<li class="disabled"><a href="margin-call-policy.php">Margin Call Policy</a></li>
+  							<li class="disabled"><a href="anti-money-laundering.php">Anti Money Laundering</a></li>
+  							<li class="disabled"><a href="know-your-customer.php">Know Your Customer</a></li>
+                <li class="disabled"><a href="privacy-policy.php">Privacy Policy</a></li>
   						</ul>
   					</li>
   				</ul>
