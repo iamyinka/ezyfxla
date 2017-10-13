@@ -30,7 +30,7 @@
           <div class="overlay">
             <h2>We are Licensed!</h2>
             <a class="info" href="#">See It &raquo;</a>
-        </div>
+          </div>
         </div>
       </div>
 

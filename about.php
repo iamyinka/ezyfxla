@@ -41,7 +41,7 @@
         <div class="col-sm-5 why">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h6>Some of our Characteristics at Ezyfx:</h6>
+              <h6 style="color: #fff;">Some of our Characteristics at Ezyfx:</h6>
             </div>
             <div class="panel-body">
                 <div class="row">
@@ -101,7 +101,7 @@
         <div class="col-sm-7">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h4>Get to know us</h4>
+              <h4 style="color: #fff;">Get to know us</h4>
             </div>
             <div class="panel-body">
               <p>
