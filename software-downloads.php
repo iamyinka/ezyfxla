@@ -47,7 +47,7 @@
           <!-- <img src="images/meta.png" alt=""> -->
             <div class="overlay">
               <h6 style="color: #fff;">EZYFX Metatrader 4</h6>
-              <a class="info" href="#">Download NOW <i class="fa fa-arrow-down"></i></a>
+              <a class="info" href="https://google.com" target="_blank">Download NOW <i class="fa fa-arrow-down"></i></a>
             </div>
         </div>
       </div>
