@@ -1216,6 +1216,66 @@ a:hover {
   color: rgba(10, 10, 10, .5);
 }*/
 
+.mt4-features li, .wt-features li {
+  color: #444;
+  margin-bottom: 10px;
+  list-style-image: url('../images/checked.png');
+}
+
+.mt4-feat2 {
+  background: url('../images/payments/mt4-pc.png') no-repeat 100% 100%;
+  min-height: 500px;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.web-trader img {
+  width: 100%;
+}
+
+.web-trader {
+  text-align: center;
+}
+
+.webtrader-info {
+  margin-top: 50px;
+}
+
+.wt-features {
+  background: linear-gradient(to right, rgba(135, 0, 0, .6), rgba(25, 10, 5, .8)), url('../images/webtrader04.jpg') center center no-repeat;
+  width: 100%;
+  max-width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.wt-features h4, .wt-features h6 {
+  color: #fff;
+}
+
+.wt-features li {
+  color: #fff;
+}
+
+.webtrader-note {
+  text-align: justify;
+  margin-top: 40px;
+}
+
+.webtrader-note h4 small, .webtrader-note  p {
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
