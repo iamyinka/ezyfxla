@@ -73,7 +73,7 @@ if(isset($_REQUEST['myactionper']) && $_REQUEST['myactionper']=='banktransfer')
     <script type="text/javascript">
 		document.getElementById("banktransfer").submit();
     	$('#banktransfer').submit();
-    // amount parameter is invalid. It must be greater than 0.
+
     </script>
 <?php }
 else if(isset($_REQUEST['myactionper']) && $_REQUEST['myactionper']=='credit'){

@@ -43,4 +43,5 @@ $(document).ready(function() {
    $("#emailIcon").toggle();
    $("#chatIcon").toggle();
  });
+
 });
