@@ -195,9 +195,9 @@
   					</li>
   					<li class="col-sm-3">
   						<ul>
-  							<li><a href="copy-trading.php">Copy Trading</a></li>
-  							<li><a href="ezy-socio.php">Ezy Socio</a></li>
-  							<li><a href="fx-junction.php">FX Junction</a></li>
+  							<li class="disabled"><a href="copy-trading.php">Copy Trading</a></li>
+  							<li class="disabled"><a href="ezy-socio.php">Ezy Socio</a></li>
+  							<li class="disabled"><a href="fx-junction.php">FX Junction</a></li>
   						</ul>
   					</li>
   				</ul>
@@ -284,9 +284,9 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-book"></i>Education  <b class="caret"></b></a>
           <ul class="dropdown-menu">
-            <li><a href="vec.php">Video Education Center</a></li>
-            <li><a href="online-webinar-lessons.php">Online Webinar Lessons</a></li>
-            <li><a href="trading-central.php">Trading Central</a></li>
+            <li class="disabled"><a href="vec.php">Video Education Center</a></li>
+            <li class="disabled"><a href="online-webinar-lessons.php">Online Webinar Lessons</a></li>
+            <li class="disabled"><a href="trading-central.php">Trading Central</a></li>
           </ul>
         </li>
 

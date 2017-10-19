@@ -1266,13 +1266,138 @@ a:hover {
   color: #fff;
 }
 
+.promos {
+  background: #f6f6f6;
+  box-sizing: border-box;
+}
 
+  /*NEEDS MEDIA QUERY FIXING */
 
+  .each-promo img {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 15px;
+  }
 
+  .each-promo {
+    border-top: 2px solid #b33;
+    padding: 10px;
+    margin-bottom: 50px;
+  }
 
+  .each-promo:hover {
+    box-shadow: 3px 4px 2px 2px #444;
+  }
 
+  .promo-details {
+    min-height: 450px;
+  }
 
+  .btnDivs {
+    color: #000;
+  }
 
+  .btnDivs:hover {
+    color: #444;
+  }
+
+  .d-bonus {
+      background: -webkit-linear-gradient(to bottom, rgba(255, 251, 213, .5), rgba(178, 10, 44, .7)), url('http://placehold.it/1600x350') no-repeat center center;
+      background: -o-linear-gradient(to bottom, rgba(255, 251, 213, .5), rgba(178, 10, 44, .7)), url('http://placehold.it/1600x350') no-repeat center center;
+      background: linear-gradient(to bottom, rgba(255, 251, 213, .5), rgba(178, 10, 44, .7)), url('http://placehold.it/1600x350') no-repeat center center;
+    }
+
+.d-bonus h2, .d-bonus h4 {
+  color: #fff;
+}
+
+.d-bonus h2 {
+  font-size: 3.5em;
+}
+
+.bonus-intro p {
+  color: #fff;
+}
+
+.bonus-icons {
+  color: #444;
+}
+
+.bonus-icons i.fa {
+  margin-bottom: 10px;
+}
+
+.bonus-icons .fa-gift {
+  color: #FF975C;
+  font-size: 3em;
+}
+
+.bonus-icons .fa-star-half {
+  color: #FFCC24;
+  font-size: 3em;
+}
+
+.bonus-icons .fa-google-wallet {
+  color: #afa401;
+  font-size: 3em;
+}
+
+.bonus-icons .fa-lock {
+  color: #7BBD5A;
+  font-size: 3em;
+}
+
+.bonus-icons .fa-venus-double {
+  color: #7EC8DD;
+  font-size: 3em;
+}
+
+.bonus-icons .fa-tasks {
+  color: #DA8FE3;
+  font-size: 3em;
+}
+
+.bonus-hero table {
+  background: #444;
+  width: 20%;
+}
+
+.bonus-hero table thead {
+  text-transform: uppercase;
+}
+
+.bonus-hero .note {
+  margin-left: 20px;
+}
+
+.bonus-hero h6 {
+  color: #94BD49;
+}
+
+/*.steps {
+  margin-right: 20px;
+}*/
+
+.steps i.fa {
+  font-size: 4em;
+  color: #94BD49;
+}
+
+.extra-footer a {
+  background: rgba(255, 255, 255, .2);
+  opacity: .3;
+}
+
+.extra-footer a img {
+  margin-right: 0;
+  padding-left: 0;
+  margin-bottom: 10px;
+  width: 130px;
+}
+
+.extra-footer a:hover {
+  opacity: 1;
+}
 
 
 
@@ -1585,6 +1710,43 @@ footer .trademark {
 /* *************************
     Media Queries
 ************************* */
+
+@media (max-width: 1199px) {
+  .bonus-hero table {
+    width: 30%;
+  }
+}
+
+@media (max-width: 991px) {
+  .bonus-hero table {
+    width: 40%;
+  }
+}
+
+@media (max-width: 597px) {
+  .bonus-hero table {
+    width: 50%;
+  }
+}
+
+@media (max-width: 483px) {
+  .bonus-hero table {
+    width: 60%;
+  }
+}
+
+@media (max-width: 408px) {
+  .bonus-hero table {
+    width: 80%;
+  }
+}
+
+
+
+
+
+
+
 
 
 @media (max-width: 768px) {
