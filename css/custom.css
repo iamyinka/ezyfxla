@@ -324,7 +324,7 @@ section {
   border: 2px solid #fff;
   border-radius: 20px;
   background-color: #b33;
-  padding: 10px 3px;
+  padding: 10px 10px;
   transition: .8s all;
   box-shadow: 4px 2px 2px 0 #ccc;
 }
@@ -334,7 +334,7 @@ section {
   border: 2px solid #fff;
   border-radius: 20px;
   background-color: #444;
-  padding: 10px 3px;
+  padding: 10px 10px;
   transition: .8s all;
   box-shadow: 4px 2px 2px 0 #ccc;
 }
@@ -343,7 +343,7 @@ section {
   color: #fff;
   border: 2px solid #fff;
   background-color: #888;
-  padding: 10px 0;
+  padding: 10px 10px;
   transition: .8s all;
   box-shadow: 4px 2px 2px 0 #ccc;
 }
@@ -352,7 +352,7 @@ section {
   color: #fff;
   border: 2px solid #fff;
   background-color: #b33;
-  padding: 10px 0;
+  padding: 10px 10px;
   transition: .8s all;
   box-shadow: 4px 3px 2px 0 #444;
 }
@@ -1398,6 +1398,61 @@ a:hover {
 .extra-footer a:hover {
   opacity: 1;
 }
+
+ul.ppro {
+  padding-left: 0;
+}
+
+ul.ppro li {
+  font-size: .98em;
+}
+
+ul.ppro li i.fa {
+  margin-right: 10px;
+}
+
+
+.ppro li {
+  list-style: none;
+  color: #444;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.ppro li i.fa {
+  color: #b33;
+}
+
+.client-benefits {
+  margin-bottom: 20px;
+}
+
+.benefits i.fa {
+  font-size: 3em;
+  border: 2px solid #b33;
+  border-radius: 50%;
+  padding: 20px;
+  background: #C95B60;
+}
+
+.standard-partner img {
+  width: 100%;
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

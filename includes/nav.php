@@ -301,7 +301,7 @@
   							<li><a href="partnership-programs.php">Partnership Programs</a></li>
   							<li><a href="partner-benefits.php">Benefits For Partners</a></li>
                 <li><a href="client-benefits.php">Benefits For Clients</a></li>
-                <li><a href="partner-earnings.php">Partner's Earnings</a></li>
+                <li class="disabled"><a href="partner-earnings.php">Partner's Earnings</a></li>
                 <li><a href="rebate-system.php">Rebate System</a></li>
   						</ul>
   					</li>
