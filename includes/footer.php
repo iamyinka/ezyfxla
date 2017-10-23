@@ -1,4 +1,9 @@
 <footer>
+  <a href="#">
+    <div class="live-chat">
+      Chat With Us
+    </div>
+  </a>
   <section class="footer-icons">
     <div class="container-fluid">
       <div class="row">
