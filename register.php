@@ -58,7 +58,7 @@
         <div class="demo-acct">
           <h4>OPENING OF DEMO ACCOUNT</h4>
           <p>You can open a fully functional demo account using professional MetaTrader 4 platform which is rightly considered to be the most popular solution in Forex trading .The MetaTrader 4 trading platform is designed for Forex, futures and CFD trading. With MetaTrader 4, traders can analyze financial markets, perform advanced trading operations, run trading robots (Expert Advisors) and copy deals of other traders.</p>
-          <a href="#" class="btn btn-custom-demo btn-block">Open A Demo Account &rarr;</a>
+          <a href="https://secure.ezyfx.la/open-demo-account" target="_blank" class="btn btn-custom-demo btn-block">Open A Demo Account &rarr;</a>
         </div>
       </div>
 
@@ -66,7 +66,7 @@
         <div class="live-acct">
           <h4>OPENING OF LIVE ACCOUNT</h4>
           <p>A live trading account with EZYFX with <a href="#">ZERO DEPOSIT</a> will let you to conclude buy/sell deals on the currency market. Get all the functionalities of MT4 and experience the added advantages of EZYFX to meet your most demanding trading needs and experience our award winning 24/5 customer support.</p>
-          <a href="#" class="btn btn-custom-live btn-block">Open A Live Account &rarr;</a>
+          <a href="https://secure.ezyfx.la/open-live-account" target="_blank" class="btn btn-custom-live btn-block">Open A Live Account &rarr;</a>
         </div>
       </div>
     </div>
