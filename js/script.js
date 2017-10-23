@@ -1,3 +1,8 @@
+$(window).load(function(){
+ $('#homeModal').modal('show');
+});
+
+
 $(document).ready(function() {
  $('.carousel').carousel({
      interval: 3000

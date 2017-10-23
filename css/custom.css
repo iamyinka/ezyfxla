@@ -1470,7 +1470,7 @@ ul.ppro li i.fa {
   bottom: 30px;
   right: 0;
   text-align: center;
-  background: linear-gradient(rgba(0, 0, 0, .5), rgba(10, 10, 10, .7)), url("../images/cs.png") center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(10, 10, 10, .5)), url("../images/cs.png") center center no-repeat;
   background-size: cover;
   transition: .5s all;
 }
@@ -1478,6 +1478,24 @@ ul.ppro li i.fa {
 .live-chat:hover {
   color: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

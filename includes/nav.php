@@ -71,7 +71,7 @@
         <div class="row">
           <div class="col-sm-6">
             <div id="logo" class="logo">
-              <img src="images/logo.png" alt="EzyFx Limited">
+              <a href="/"><img src="images/logo.png" alt="EzyFx Limited"></a>
             </div>
           </div>
           <div class="col-sm-6 col-xs-12">
@@ -83,7 +83,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-4" id="call-us">
                   <a href="#"><i class="fa fa-volume-control-phone" id="phoneIcon"></i></a>
-                  <p id="ourPhone" class="animated zoomIn">+60-31234567</p>
+                  <p id="ourPhone" class="animated zoomIn">+60-3-2711 6422</p>
                 </div>
                 <div class="col-sm-4 col-xs-4" id="chat-us" title="Live Chat">
                   <a href="#" id="chatIcon"><i class="fa fa-comments"></i></a>
