@@ -1,6 +1,6 @@
 <footer>
   <a href="#">
-    <div class="live-chat">
+    <div class="live-chat wow rotateInUpRight">
       Chat With Us
     </div>
   </a>

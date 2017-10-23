@@ -19,6 +19,7 @@
     <![endif]-->
   </head>
   <body>
+    <a href="javascript:" id="return-to-top"><i class="fa fa-toggle-up"></i></a>
     <nav class="navbar navbar-inverse myNav" role="navigation">
       <div class="container-fluid">
         <!-- <div class="navbar-header">
