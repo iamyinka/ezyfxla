@@ -138,7 +138,7 @@
             <a href="#" class="btn-link">EZYFX</a> grants access to all the major trading platforms in the world. Our users may benefit from a brief Forex training course by opening a free demo account and learn the basic steps of managing their funds on the foreign exchange (FX) market.
           </p>
 
-          <p><a href="#" id="ezyfxInfo" class="btn-link">Read More</a></p>
+          <p><a id="ezyfxInfo" class="btn-link">Read More</a></p>
 
           <div id="moreInfo">
             <p>
@@ -159,7 +159,7 @@
 
           <p>The services listed on this website are not available to residents of USA.</p>
 
-          <a href="#" id="ezyfxInfo2" class="btn-link">Read More</a>
+          <a id="ezyfxInfo2" class="btn-link">Read More</a>
 
           <div id="moreInfo2">
             <h6>

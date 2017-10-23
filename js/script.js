@@ -63,4 +63,12 @@ $(document).ready(function() {
    $("#chatIcon").toggle();
  });
 
+ $("#ezyfxInfo").on("click", function() {
+   $("#moreInfo").toggle();
+ });
+
+ $("#ezyfxInfo2").on("click", function() {
+   $("#moreInfo2").toggle();
+ });
+
 });
