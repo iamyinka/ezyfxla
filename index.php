@@ -151,7 +151,7 @@
 
       <div class="row">
         <div class="col-xs-6 col-sm-3 col-md-3">
-          <a href="#">
+          <a href="https://secure.ezyfx.la/open-demo-account" target="_blank">
             <div class="accts-reg">
               <div class="acct-demo">
                 <img src="images/acct-demo/01.png" alt="">
@@ -165,14 +165,14 @@
         </div>
 
         <div class="col-xs-6 col-sm-3 col-md-3">
-          <a href="#">
+          <a href="https://secure.ezyfx.la/open-live-account" target="_blank">
             <div class="accts-reg">
               <div class="acct-demo">
                 <img src="images/acct-demo/02.jpg" alt="">
               </div>
               <div class="acct-demo-details2">
                 <i class="fa fa-money"></i>
-                <h6><span>Client</span>Account</h6>
+                <h6><span>Live</span>Account</h6>
               </div>
             </div>
           </a>

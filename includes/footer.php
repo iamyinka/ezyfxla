@@ -19,7 +19,7 @@
         <div class="col-xs-3 col-sm-3 col-md-3 mt4 footer-links">
           <ul>
             <li>
-              <a href="https://www.instaforex.com/trading_platform" target="_blank">
+              <a href="downloads/MetaTrader4.zip" target="_blank">
                 <i class="fa fa-download"></i><span>Download Trading Platform</span>
               </a>
             </li>
@@ -28,7 +28,7 @@
         <div class="col-xs-3 col-sm-3 col-md-3 mt4 footer-links">
           <ul>
             <li>
-              <a href="https://www.instaforex.com/register_demo_account" target="_blank">
+              <a href="register.php" target="_blank">
                 <i class="fa fa-money"></i><span>Open An Account With Us</span>
               </a>
             </li>
