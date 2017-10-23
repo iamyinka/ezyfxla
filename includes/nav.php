@@ -46,7 +46,7 @@
             </li>
             <li><a href="#" title="Need Help? Contact Us" id="support"><i class="fa fa-headphones"></i> <span>Support</span></a></li>
             <li><a href="https://secure.ezyfx.la/" title="Log In" target="_blank"><i class="fa fa-sign-in"></i> <span>Log In</span></a></li>
-            <li><a href="#" title="Register"><i class="fa fa-user-plus"></i> <span>Register</span></a></li>
+            <li><a href="register.php" title="Register" target="_blank"><i class="fa fa-user-plus"></i> <span>Register</span></a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
