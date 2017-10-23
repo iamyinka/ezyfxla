@@ -19,7 +19,7 @@
     <![endif]-->
   </head>
   <body>
-    <a href="javascript:" id="return-to-top"><i class="fa fa-arrow-up"></i></a>
+    <a href="javascript:" id="return-to-top" title="Back to Top of Page"><i class="fa fa-arrow-up"></i></a>
     <nav class="navbar navbar-inverse myNav" role="navigation">
       <div class="container-fluid">
         <!-- <div class="navbar-header">
