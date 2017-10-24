@@ -1479,6 +1479,7 @@ ul.ppro li i.fa {
 .live-chat:hover {
   color: #fff;
 }
+/*g8appz.wixsite.com/ezysocio*/
 
 
 #return-to-top {
@@ -1493,6 +1494,13 @@ ul.ppro li i.fa {
   display: none;
 }
 
+.mission p, .mission h2 {
+  color: #fff;
+}
+
+.mission .btn-link {
+  color: #b33;
+}
 
 
 
