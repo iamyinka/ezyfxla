@@ -34,17 +34,28 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar">
           <ul class="nav navbar-nav top-layer">
-            <li class="ct-language"><a href="#"><i class="fa fa-flag-o fa-4x" title="Select Language"></i> <span>Choose Your Language</span></a>
+            <!-- <li class="ct-language">
+              <a href="#"><i class="fa fa-flag-o fa-4x" title="Select Language"></i> <span>Choose Your Language</span></a> -->
             <!-- <li ><i class="fa fa-flag-o fa-4x"></i> Choose Your Language -->
-              <ul class="list-unstyled ct-language__dropdown">
+              <!-- <ul class="list-unstyled ct-language__dropdown"> -->
                 <!-- <li><a href="#" class="lang-en lang-select" data-lang="en"><i class="fa fa-caret-down"></i> Scroll Down</a></li> -->
-          		  <li><a href="#googtrans(en|en)" class="lang-en lang-select" data-lang="en"><img src="https://www.solodev.com/assets/google-translate/flag-usa.png" alt="USA"> English</a></li>
+          		  <!-- <li><a href="#googtrans(en|en)" class="lang-en lang-select" data-lang="en"><img src="https://www.solodev.com/assets/google-translate/flag-usa.png" alt="USA"> English</a></li>
           		  <li><a href="#googtrans(en|es)" class="lang-es lang-select" data-lang="es"><img src="https://www.solodev.com/assets/google-translate/flag-mexico.png" alt="MEXICO"> Spanish</a></li>
           		  <li><a href="#googtrans(en|fr)" class="lang-es lang-select" data-lang="fr"><img src="https://www.solodev.com/assets/google-translate/flag-france.png" alt="FRANCE"> French</a></li>
           		  <li><a href="#googtrans(en|zh-CN)" class="lang-es lang-select" data-lang="zh-CN"><img src="https://www.solodev.com/assets/google-translate/flag-china.png" alt="CHINA"> Chinese</a></li>
-          		  <li><a href="#googtrans(en|ja)" class="lang-es lang-select" data-lang="ja"><img src="https://www.solodev.com/assets/google-translate/flag-japan.png" alt="JAPAN"> Japanese</a></li>
-          		</ul>
-            </li>
+          		  <li><a href="#googtrans(en|ja)" class="lang-es lang-select" data-lang="ja"><img src="https://www.solodev.com/assets/google-translate/flag-japan.png" alt="JAPAN"> Japanese</a></li> -->
+                <!-- <li>
+                  <div id="google_translate_element"></div>
+                </li> -->
+          		<!-- </ul> -->
+
+              <!-- <script type="text/javascript">
+
+              </script> -->
+            <!-- </li> -->
+            <li><div id="google_translate_element">
+
+            </div></li>
             <li><a href="#" title="Need Help? Contact Us" id="support"><i class="fa fa-headphones"></i> <span>Support</span></a></li>
             <li><a href="https://secure.ezyfx.la/" title="Log In" target="_blank"><i class="fa fa-sign-in"></i> <span>Log In</span></a></li>
             <li><a href="register.php" title="Register" target="_blank"><i class="fa fa-user-plus"></i> <span>Register</span></a></li>

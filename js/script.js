@@ -2,6 +2,11 @@ $(window).load(function(){
  $('#homeModal').modal('show');
 });
 
+$(window).load(function(){
+    $(".goog-logo-link").empty();
+    $('.goog-te-gadget').html($('.goog-te-gadget').children());
+})
+
 // ===== Scroll to Top ====
 $(window).scroll(function() {
     if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px

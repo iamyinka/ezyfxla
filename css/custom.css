@@ -40,6 +40,10 @@ body {
   border-collapse: collapse;
 }
 
+.top-layer > li:first-child {
+  border: none;
+}
+
 .navbar {
   border-radius: 0;
   margin-bottom: 0;
@@ -1862,7 +1866,20 @@ footer .trademark {
     width: 200px;
 }
 
+.goog-logo-link {
+  display: none;
+}
 
+select.goog-te-combo {
+  /*display: block;*/
+  /*margin: 0 auto;*/
+  /*width: 100%;*/
+  color: #b33 !important;
+}
+
+/*.goog-te-gadget {
+  color: #fff !important;
+}*/
 
 
 
@@ -1941,6 +1958,12 @@ footer .trademark {
     Media Queries
 ************************* */
 
+@media (max-device-width: 1200px) {
+  select.goog-te-combo {
+    color: #fff !important;
+  }
+}
+
 @media (max-width: 1199px) {
   html,body {
     overflow-x: hidden;
@@ -1951,6 +1974,17 @@ footer .trademark {
 }
 
 @media (max-width: 991px) {
+  /*.goog-te-gadget {
+    color: #fff !important;
+    text-align: center;
+  }
+
+  #google_translate_element a.goog-logo-link {
+    font-size: .5em;
+  }*/
+
+
+
   .bonus-hero table {
     width: 40%;
   }
