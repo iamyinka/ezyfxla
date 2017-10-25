@@ -1,5 +1,5 @@
 <footer>
-  <!-- <div class="container">
+  <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12">
         <a href="#">
@@ -9,7 +9,7 @@
         </a>
       </div>
     </div>
-  </div> -->
+  </div>
   <div class="footer-icons">
     <div class="container">
       <div class="row">
