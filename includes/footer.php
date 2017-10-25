@@ -2,21 +2,22 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12">
-        <a style="cursor: pointer;">
+        <a style="cursor: pointer">
           Chat With Us
           <div class="live-chat wow rotateInUpRight" id="phplive_btn_1508839562" onclick="phplive_launch_chat_0(0)">
-              <script type="text/javascript">
 
-              (function() {
-              var phplive_e_1508839562 = document.createElement("script") ;
-              phplive_e_1508839562.type = "text/javascript" ;
-              phplive_e_1508839562.async = true ;
-              phplive_e_1508839562.src = "//secure.ezyfx.la/chat/js/phplive_v2.js.php?v=0|1508839562|0|" ;
-              document.getElementById("phplive_btn_1508839562").appendChild( phplive_e_1508839562 ) ;
-              })() ;
-
-              </script>
           </div>
+          <script type="text/javascript">
+
+          (function() {
+          var phplive_e_1508839562 = document.createElement("script") ;
+          phplive_e_1508839562.type = "text/javascript" ;
+          phplive_e_1508839562.async = true ;
+          phplive_e_1508839562.src = "//secure.ezyfx.la/chat/js/phplive_v2.js.php?v=0|1508839562|0|" ;
+          document.getElementById("phplive_btn_1508839562").appendChild( phplive_e_1508839562 ) ;
+          })() ;
+
+          </script>
         </a>
       </div>
     </div>
