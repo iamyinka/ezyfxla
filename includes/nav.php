@@ -95,7 +95,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-4" id="call-us">
                   <a href="#"><i class="fa fa-volume-control-phone" id="phoneIcon"></i></a>
-                  <p id="ourPhone" class="animated zoomIn">+60-3-2711 6422</p>
+                  <p id="ourPhone" class="animated zoomIn">+44 20309 71796</p>
                 </div>
                 <div class="col-sm-4 col-xs-4" id="chat-us" title="Live Chat">
                   <a href="#" id="chatIcon"><i class="fa fa-comments"></i></a>

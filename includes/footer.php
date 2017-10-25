@@ -3,7 +3,6 @@
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12">
         <a style="cursor: pointer">
-          Chat With Us
           <div class="live-chat wow rotateInUpRight" id="phplive_btn_1508839562" onclick="phplive_launch_chat_0(0)">
 
           </div>
@@ -40,7 +39,7 @@
           <div class="mt4 footer-links">
             <ul>
               <li>
-                <a href="downloads/MetaTrader4.zip" target="_blank">
+                <a href="downloads/EzyFx-MT4.zip" target="_blank">
                   <i class="fa fa-download"></i><span>Download Trading Platform</span>
                 </a>
               </li>
@@ -108,8 +107,8 @@
           </div>
           <ul>
             <li><a href="#">Platform Information</a></li>
-            <li><a href="#">Web Trader</a></li>
-            <li><a href="#">Download MetaTrader 4</a></li>
+            <li><a href="https://trade.mql5.com/trade?servers=EZYFX-Demo+Server%2cEZYFX-Live+7&trade_server=EZYFX" target="_blank">Web Trader</a></li>
+            <li><a href="downloads/EzyFx-MT4.zip" target="_blank">Download MetaTrader 4</a></li>
           </ul>
         </div>
         <div class="col-sm-2">

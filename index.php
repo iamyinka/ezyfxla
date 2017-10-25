@@ -166,7 +166,7 @@
         <div class="row">
           <div class="col-xs-12 col-sm-12 text-center">
   					<div class="animate-flicker">
-  					  <a href="https://www.instaforex.com/trading_platform" class="btn btn-lg btn-link">Download Metatrader trading platform &rarr;</a>
+  					  <a href="downloads/EzyFx-MT4.zip" class="btn btn-lg btn-link">Download Metatrader trading platform &rarr;</a>
   					</div>
   					<br><br>
   				</div>
@@ -178,9 +178,9 @@
             <div class="col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3 col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4">
               <div class="platforms">
 
-        				<a target="_blank" class="appstore" href="https://itunes.apple.com/gb/app/instaforex-mobiletrader/id987486023"></a>
+        				<a target="_blank" class="appstore" href="https://itunes.apple.com/us/app/metatrader-4/id496212596?mt=8"></a>
 
-        				<a target="_blank" class="googleplay" href="https://play.google.com/store/apps/details?id=com.instaforex.mobiletrader&amp;hl=en"></a>
+        				<a target="_blank" class="googleplay" href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4"></a>
 
         			</div>
             </div>
