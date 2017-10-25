@@ -1479,7 +1479,7 @@ ul.ppro li i.fa {
 .live-chat:hover {
   color: #fff;
 }
-/*g8appz.wixsite.com/ezysocio*/
+
 
 
 #return-to-top {
@@ -1502,6 +1502,16 @@ ul.ppro li i.fa {
   color: #b33;
 }
 
+.form-logo {
+  width: 100%;
+}
+
+.form-logo img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  border: none;
+}
 
 
 

@@ -8,10 +8,21 @@
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal">&times;</button>
-              <h4 class="modal-title text-center">Welcome to EZYFX</h4>
+              <h4 class="modal-title text-center">Looking for a new MT4 Broker?</h4>
             </div>
             <div class="modal-body">
-              <p>blah blah blah blah</p>
+              <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                  <div class="form-logo">
+                    <img src="images/logo.png" alt="" class="img-responsive img-thumbnail">
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                  <form class="" action="#" method="post">
+
+                  </form>
+                </div>
+              </div>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
