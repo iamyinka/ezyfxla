@@ -1,9 +1,15 @@
 <footer>
-  <a href="#">
-    <div class="live-chat wow rotateInUpRight">
-      Chat With Us
+  <!-- <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12">
+        <a href="#">
+          <div class="live-chat wow rotateInUpRight">
+            Chat With Us
+          </div>
+        </a>
+      </div>
     </div>
-  </a>
+  </div> -->
   <section class="footer-icons">
     <div class="container-fluid">
       <div class="row">

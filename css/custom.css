@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Chathura:400,700|Signika+Negative:400,600,700');
 
+
+
 body {
   font-size: 16px;
   font-family: 'Signika Negative', sans-serif;
@@ -7,6 +9,7 @@ body {
   text-rendering: optimizeLegibility;
   font-smoothing: antialiased;
   background-color: #f6f6f6;
+  overflow-x: hidden;
 }
 /* *************************
       NAVIGATION AREA
@@ -274,6 +277,8 @@ section {
   padding: 50px 0;
   /*background-color: #443e00;*/
   background-color: #f6f6f6;
+  width: 100%;
+  max-width: 100%;
 }
 
 .section-title {
@@ -1925,6 +1930,9 @@ footer .trademark {
 ************************* */
 
 @media (max-width: 1199px) {
+  html,body {
+    overflow-x: hidden;
+  }
   .bonus-hero table {
     width: 30%;
   }
