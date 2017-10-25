@@ -1582,6 +1582,10 @@ ul.ppro li i.fa {
     LIVE CHAT VIBRATION
 ************************* */
 
+#phplive_btn_1508839562 img {
+  display: none;
+}
+
 .live-chat {
   -webkit-animation: vibrate 2s cubic-bezier(.36, .07, .19, .97) infinite;
   animation: vibrate 2s cubic-bezier(.36, .07, .19, .97) infinite;

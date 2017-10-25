@@ -99,7 +99,7 @@
                 </div>
                 <div class="col-sm-4 col-xs-4" id="chat-us" title="Live Chat">
                   <a href="#" id="chatIcon"><i class="fa fa-comments"></i></a>
-                  <a href="#" id="ourChat" class="animated infinite flash">Chat With Us &raquo;</a>
+                  <a href="#" id="ourChat" class="animated infinite flash" onclick="phplive_launch_chat_0(0)">Chat With Us &raquo;</a>
                 </div>
               </div>
             </div>
