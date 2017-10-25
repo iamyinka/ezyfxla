@@ -60,7 +60,7 @@
       </div>
     </div>
   </div>
-
+  <?php include 'extra-footer.php'; ?>
   <section class="footer-nav">
     <div class="container">
       <div class="row">

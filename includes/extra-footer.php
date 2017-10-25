@@ -10,6 +10,7 @@
         <a href="#"><img src="images/footer/unionpay.png" alt=""></a>
         <a href="#"><img src="images/footer/neteller.png" alt=""></a>
         <a href="#"><img src="images/footer/mt.png" alt=""></a>
+        <a href="#"><img src="images/footer/localpay.jpg" alt=""></a>
       </div>
     </div>
   </div>

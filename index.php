@@ -5,7 +5,7 @@
       <div id="homeModal" class="modal fade" role="dialog">
         <div class="modal-dialog">
           <!-- Modal content-->
-          <div class="modal-content">
+          <div class="modal-content homeModal">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal">&times;</button>
               <h4 class="modal-title text-center">Looking for a new MT4 Broker?</h4>
@@ -18,9 +18,68 @@
                   </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6">
-                  <form class="" action="#" method="post">
+                  <div class="subscribeForm">
+                    <form role="form " action="" method="">
+                      <div class="form-group">
+                        <div class="input-group">
+                          <div class="input-group addon">
+                            <span class="input-group-addon" id="basic-addon1"><i class="fa fa-user"></i></span>
+                            <input type="text" class="form-control" id="subscriberName" placeholder="Enter Full Name">
+                          </div>
+                        </div>
+                      </div>
 
-                  </form>
+                      <div class="form-group">
+                        <div class="input-group">
+                          <div class="input-group addon">
+                            <span class="input-group-addon" id="basic-addon1"><i class="fa fa-envelope-o"></i></span>
+                            <input type="email" class="form-control" id="subscriberEmail" placeholder="Enter Email Address">
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <div class="input-group">
+                          <div class="input-group addon">
+                            <span class="input-group-addon" id="basic-addon1"><i class="fa fa-mobile-phone"></i></span>
+                            <input type="number" class="form-control" id="subscriberPhone" placeholder="Enter Phone Number">
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="form-group">
+                        <input type="submit" name="subscribeBtn" value="JOIN US NOW &raquo;" class="btn btn-custom-demo btn-block">
+                      </div>
+                    </form>
+                  </div>
+                </div>
+
+
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                  <div class="subscribeImgQuoute">
+                    <img src="images/quotes.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                  <p>And get the following benefits for <span>free</span>:</p>
+                  <ul class="ppro">
+                    <li>
+                      <i class="fa fa-check-square-o"></i> 30 minutes consultation on how to trade and earn like a professional trader.
+                    </li>
+
+                    <li>
+                      <i class="fa fa-check-square-o"></i> 21 days "Zero To Hero" professionally guided forex trading course.
+                    </li>
+
+                    <li>
+                      <i class="fa fa-check-square-o"></i> 21 days of <span>forex premium signals</span>.
+                    </li>
+                  </ul>
+                  <p><em>... all of these benefits worth upto $7657 USD available for the first 10 subscribers</em></p>
+                  <p><sup>*</sup> <small>This offer is subjected to <a href="#">Terms &amp; Conditions</a>.</small></p>
                 </div>
               </div>
             </div>

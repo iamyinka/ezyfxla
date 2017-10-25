@@ -153,7 +153,7 @@ INCREASE YOUR MARGIN LEVEL</p>
   </div>
 </section>
 
-<?php include('includes/extra-footer.php'); ?>
+
 
 
 <?php include('includes/footer.php'); ?>
