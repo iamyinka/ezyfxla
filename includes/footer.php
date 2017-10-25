@@ -10,48 +10,56 @@
       </div>
     </div>
   </div> -->
-  <section class="footer-icons">
-    <div class="container-fluid">
+  <div class="footer-icons">
+    <div class="container">
       <div class="row">
-        <div class="col-xs-3 col-sm-3 col-md-3 mt4 footer-links">
-          <ul>
-            <li>
-              <a href="https://secure.instaforex.com/affiliate-registration" target="_blank">
-                <i class="fa fa-usd"></i><span>Make a Deposit</span>
-              </a>
-            </li>
-          </ul>
+        <div class="col-xs-3 col-sm-3 col-md-3">
+          <div class="mt4 footer-links">
+            <ul>
+              <li>
+                <a href="https://secure.instaforex.com/affiliate-registration" target="_blank">
+                  <i class="fa fa-usd"></i><span>Make a Deposit</span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="col-xs-3 col-sm-3 col-md-3 mt4 footer-links">
-          <ul>
-            <li>
-              <a href="downloads/MetaTrader4.zip" target="_blank">
-                <i class="fa fa-download"></i><span>Download Trading Platform</span>
-              </a>
-            </li>
-          </ul>
+        <div class="col-xs-3 col-sm-3 col-md-3">
+          <div class="mt4 footer-links">
+            <ul>
+              <li>
+                <a href="downloads/MetaTrader4.zip" target="_blank">
+                  <i class="fa fa-download"></i><span>Download Trading Platform</span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="col-xs-3 col-sm-3 col-md-3 mt4 footer-links">
-          <ul>
-            <li>
-              <a href="register.php" target="_blank">
-                <i class="fa fa-money"></i><span>Open An Account With Us</span>
-              </a>
-            </li>
-          </ul>
+        <div class="col-xs-3 col-sm-3 col-md-3">
+          <div class="mt4 footer-links">
+            <ul>
+              <li>
+                <a href="register.php" target="_blank">
+                  <i class="fa fa-money"></i><span>Open An Account With Us</span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="col-xs-3 col-sm-3 col-md-3 mt4 footer-links">
-          <ul>
-            <li>
-              <a href="https://www.instaforex.com/fast_open_live_account" target="_blank">
-                <i class="fa fa-sign-in"></i><span>View your Account(s)</span>
-              </a>
-            </li>
-          </ul>
+        <div class="col-xs-3 col-sm-3 col-md-3">
+          <div class="mt4 footer-links">
+            <ul>
+              <li>
+                <a href="https://www.instaforex.com/fast_open_live_account" target="_blank">
+                  <i class="fa fa-sign-in"></i><span>View your Account(s)</span>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
 
   <section class="footer-nav">
     <div class="container">
