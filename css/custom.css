@@ -141,7 +141,7 @@ body {
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     display: block;
-    height: 600px;
+    height: 400px;
     min-width: 100%;
     width: 100%;
     max-width: 100%;
