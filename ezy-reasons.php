@@ -45,7 +45,7 @@
               <i class="fa fa-money fa-spin-hover"></i>
               <h6>Seamless Trading</h6>
 
-              <p>We provide our traders seamless access to all our platforms and versions allowing them to trade efficiently. Our award-winning MT4 platform is perfect for trading in Forex, CFDs on stocks, Indices, and Commodities.</p>
+              <p>We provide our traders seamless access to all our platforms and versions allowing them to trade efficiently. Our award-winning <a href="downloads/EzyFx-MT4.zip">MT4 platform</a> is perfect for trading in Forex, CFDs on stocks, Indices, and Commodities.</p>
             </div>
           </div>
 
@@ -60,17 +60,17 @@
           <div class="col-sm-6">
             <div class="reason-tabs">
               <i class="fa fa-life-ring fa-spin-hover"></i>
-              <h6>Seamless Trading</h6>
+              <h6>24 x 7 Support</h6>
 
-              <p>We provide our traders seamless access to all our platforms and versions allowing them to trade efficiently. Our award-winning MT4 platform is perfect for trading in Forex, CFDs on stocks, Indices, and Commodities.</p>
+              <p>We are there for our customers 24/7. Forex markets operate for only 5-6 days a week and we are there that extra day to give you a kick start to your week.</p>
             </div>
           </div>
 
           <div class="col-sm-6">
             <div class="reason-tabs">
               <i class="fa fa-bar-chart fa-spin-hover"></i>
-              <h6>Platforms and Assets</h6>
-              <p>Having an assortment of world-class tools enhances profitability prospects and that’s exactly what Ezyfx does. Open an account with us and see how our range of platforms and assets from Forex and major contractors make a difference to your profitability.</p>
+              <h6>Forex and CFD Trading</h6>
+              <p>With Ezyfx you get access to not only Forex which is not only the most <a href="http://www.investopedia.com/terms/l/liquidmarket.asp" target="_blank">liquid market</a> in the world today with 4 trillion US Dollar but also CFDs (Contracts for Difference) on leading Stocks, Indices, and Commodities.</p>
             </div>
           </div>
 
@@ -78,34 +78,34 @@
           <div class="col-sm-6">
             <div class="reason-tabs">
               <i class="fa fa-users fa-spin-hover"></i>
-              <h6>Seamless Trading</h6>
+              <h6>Dealing Room</h6>
 
-              <p>We provide our traders seamless access to all our platforms and versions allowing them to trade efficiently. Our award-winning MT4 platform is perfect for trading in Forex, CFDs on stocks, Indices, and Commodities.</p>
+              <p>The ‘Dealing Room’ is your gateway to ultimate success. This is where our customers get a cohesive range of <a href="video-education-center.php">trading tutorials, educational materials and webinars</a> all composed and hosted by world-class traders.</p>
             </div>
           </div>
 
           <div class="col-sm-6">
             <div class="reason-tabs">
               <i class="fa fa-lock fa-spin-hover"></i>
-              <h6>Platforms and Assets</h6>
-              <p>Having an assortment of world-class tools enhances profitability prospects and that’s exactly what Ezyfx does. Open an account with us and see how our range of platforms and assets from Forex and major contractors make a difference to your profitability.</p>
+              <h6>Security</h6>
+              <p>At Ezyfx, we take the security of your personal details and funds seriously. With the rise of cyber-attacks, we ensure that all your information is encrypted with SSL and all financial transactions are regulated by <a href="https://www.serverintellect.com/support/techfaq/pci-compliance/" target="_blank">PCI compliant servers.</a></p>
             </div>
           </div>
 
           <div class="col-sm-6">
             <div class="reason-tabs">
               <i class="fa fa-connectdevelop fa-spin-hover"></i>
-              <h6>Seamless Trading</h6>
+              <h6>Global Footprint</h6>
 
-              <p>We provide our traders seamless access to all our platforms and versions allowing them to trade efficiently. Our award-winning MT4 platform is perfect for trading in Forex, CFDs on stocks, Indices, and Commodities.</p>
+              <p>Ezyfx hosts investors from all corners of the world trading in diverse markets and a network of offices in financial centers. Ezyfx makes traders perfect Global partner.</p>
             </div>
           </div>
 
           <div class="col-sm-6">
             <div class="reason-tabs">
               <i class="fa fa-wrench fa-spin-hover"></i>
-              <h6>Platforms and Assets</h6>
-              <p>Having an assortment of world-class tools enhances profitability prospects and that’s exactly what Ezyfx does. Open an account with us and see how our range of platforms and assets from Forex and major contractors make a difference to your profitability.</p>
+              <h6>Trading Tools</h6>
+              <p>You work hard to have what you have and you deserve the very best resources. At Ezyfx, our trading tools are designed to make your life easier and take that chunk out of manually managing your trading account.</p>
             </div>
           </div>
         </div>
