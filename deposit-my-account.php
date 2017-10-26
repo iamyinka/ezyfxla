@@ -296,12 +296,12 @@ $items = $_REQUEST['ref'];
   <div class="container">
     <div class="each-methods">
       <div class="row">
-        <div class="col-sm-2">
-          <img src="images/deposits/malasya.svg" alt="">
+        <div class="col-sm-4">
+          <img src="images/deposit-methods/bank-tf.png" alt="">
         </div>
 
         <div class="payments">
-          <div class="col-sm-8">
+          <div class="col-sm-6">
             <p><strong>Local transfer in Malaysia</strong></p>
 
             <p>Bank fees vary. Deposit is processed within 1-2 days.</p>
@@ -316,12 +316,12 @@ $items = $_REQUEST['ref'];
 
     <div class="each-methods">
       <div class="row">
-        <div class="col-sm-2">
-          <img src="images/deposits/credit-card.svg" alt="">
+        <div class="col-sm-4">
+          <img src="images/footer/visa.png" alt="">
         </div>
 
         <div class="payments">
-          <div class="col-sm-8">
+          <div class="col-sm-6">
             <p><strong>Local transfer in Malaysia</strong></p>
 
             <p>Bank fees vary. Deposit is processed within 1-2 days.</p>
@@ -332,40 +332,22 @@ $items = $_REQUEST['ref'];
           </div>
         </div>
       </div>
-    </div>
+  </div>
 
 
 
-    <div class="each-methods">
-      <div class="row">
-        <div class="col-sm-2">
-          <img src="images/deposits/bank.svg" alt="">
-        </div>
 
-        <div class="payments">
-          <div class="col-sm-8">
-            <p><strong>Local transfer in Malaysia</strong></p>
-
-            <p>Bank fees vary. Deposit is processed within 1-2 days.</p>
-          </div>
-
-          <div class="col-sm-2">
-            <a class="btn btn-danger btn-block" data-toggle="modal" data-target="#localTransfer" onclick="actionperform('banktransfer');">Deposit</a>
-          </div>
-        </div>
-      </div>
-    </div>
 
 
 
     <div class="each-methods">
       <div class="row">
-        <div class="col-sm-2">
-          <img src="images/deposits/mega-transfer.svg" alt="">
+        <div class="col-sm-4">
+          <img src="images/footer/mt.png" alt="" style="margin-top: 30px;">
         </div>
 
         <div class="payments">
-          <div class="col-sm-8">
+          <div class="col-sm-6">
             <p><strong>Local transfer in Malaysia</strong></p>
 
             <p>Bank fees vary. Deposit is processed within 1-2 days.</p>
@@ -376,16 +358,16 @@ $items = $_REQUEST['ref'];
           </div>
         </div>
       </div>
-    </div>
+  </div>
 
     <div class="each-methods">
       <div class="row">
-        <div class="col-sm-2">
-          <img src="images/deposits/malasya.svg" alt="">
+        <div class="col-sm-4">
+          <img src="images/footer/unionpay.png" alt="">
         </div>
 
         <div class="payments">
-          <div class="col-sm-8">
+          <div class="col-sm-6">
             <p><strong>Local transfer in Malaysia</strong></p>
 
             <p>Bank fees vary. Deposit is processed within 1-2 days.</p>
@@ -396,16 +378,16 @@ $items = $_REQUEST['ref'];
           </div>
         </div>
       </div>
-    </div>
+  </div>
 
     <div class="each-methods">
       <div class="row">
-        <div class="col-sm-2">
-          <img src="images/deposits/skrill.svg" alt="">
+        <div class="col-sm-4">
+          <img src="images/deposit-methods/local-tf.png" alt="">
         </div>
 
         <div class="payments">
-          <div class="col-sm-8">
+          <div class="col-sm-6">
             <p><strong>Local transfer in Malaysia</strong></p>
 
             <p>Bank fees vary. Deposit is processed within 1-2 days.</p>
@@ -418,15 +400,14 @@ $items = $_REQUEST['ref'];
       </div>
     </div>
 
-
-    <div class="each-methods">
+    <!-- <div class="each-methods">
       <div class="row">
-        <div class="col-sm-2">
-          <img src="images/deposits/neteller.svg" alt="">
+        <div class="col-sm-4">
+          <img src="images/deposit-methods/bank-tf.png" alt="">
         </div>
 
         <div class="payments">
-          <div class="col-sm-8">
+          <div class="col-sm-6">
             <p><strong>Local transfer in Malaysia</strong></p>
 
             <p>Bank fees vary. Deposit is processed within 1-2 days.</p>
@@ -439,15 +420,14 @@ $items = $_REQUEST['ref'];
       </div>
     </div>
 
-
     <div class="each-methods">
       <div class="row">
-        <div class="col-sm-2">
-          <img src="images/deposits/bitcoin.svg" alt="">
+        <div class="col-sm-4">
+          <img src="images/deposit-methods/bank-tf.png" alt="">
         </div>
 
         <div class="payments">
-          <div class="col-sm-8">
+          <div class="col-sm-6">
             <p><strong>Local transfer in Malaysia</strong></p>
 
             <p>Bank fees vary. Deposit is processed within 1-2 days.</p>
@@ -458,8 +438,7 @@ $items = $_REQUEST['ref'];
           </div>
         </div>
       </div>
-    </div>
-
+    </div> -->
   </div>
 </section>
 

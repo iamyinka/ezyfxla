@@ -1167,15 +1167,15 @@ section.ourVnM {
 
 .each-methods img {
   width: 50%;
-  margin: 0 auto;
+  margin: 10px auto;
   display: block;
-  margin-top: 20px;
+  /*margin-top: 10px;*/
 }
 
 .payments {
   padding: 0 20px;
   margin: 30px 0;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .deposit-types {
@@ -1706,6 +1706,11 @@ ul.ppro li i.fa {
 .contact-us .input-group {
   width: 100%;
 }
+
+.contact-us .input-group input {
+  text-align: center;
+}
+
 
 .contact-us textarea {
   min-height: 200px;
