@@ -6,23 +6,7 @@
       <div class="col-sm-6">
         <h1><i class="fa fa-eye"></i>Our Vision &amp; Mission</h1>
       </div>
-      <div class="col-sm-6">
-        <p><a href="#" class="btn-link">Download Metatrader trading platform</a></p>
-        <div class="row">
-          <div class="col-xs-3 col-sm-3 col-md-3 downloads">
-            <img src="images/play-store.png" alt="" class="img-responsive">
-          </div>
-          <div class="col-xs-3 col-sm-3 col-md-3 downloads">
-            <img src="images/play-store.png" alt="" class="img-responsive">
-          </div>
-          <div class="col-xs-3 col-sm-3 col-md-3 downloads">
-            <img src="images/play-store.png" alt="" class="img-responsive">
-          </div>
-          <div class="col-xs-3 col-sm-3 col-md-3 downloads">
-            <img src="images/play-store.png" alt="" class="img-responsive">
-          </div>
-        </div>
-      </div>
+      <?php include 'mobile-links.php'; ?>
     </div>
   </div>
 </section>
@@ -37,64 +21,126 @@
   </div>
 </section> -->
 
-<section class="vision-mission">
+<section class="reg-start ourVnM">
   <div class="container">
 
+  </div>
+</section>
+
+<section class="vision-mission">
+  <div class="container-fluid">
+
     <div class="hero-text">
-      <h3 class="text-center">Our Vision</h3>
+      <h3 class="text-center">Our Vision &amp; Mission</h3>
       <div class="small-line" style="width: 5%;"></div>
       <p class="text-center">To Help Maximize The Value Of Our Client’s <a href="#" class="btn-link">Financial Needs</a></p>
     </div>
 
     <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-3">
-        <div class="vision">
-          <div class="vision-title">
-            <i class="fa fa-handshake-o"></i>
-            <h6>Personal</h6>
+      <div class="col-xs-12 col-sm-6">
+        <div class="vision-area">
+          <div class="col-xs-12 col-sm-12 col-md-6">
+            <div class="vision">
+              <div class="vision-title">
+                <i class="fa fa-handshake-o"></i>
+                <h6>Personal</h6>
+              </div>
+              <p>At Ezyfx we value all our customers to demonstrate financial integrity, whether you are small, medium or high volume trade. We have tailored bonuses for all our clients and accounts compatible with all trading styles. which makes our vision more clear and focused.</p>
+            </div>
           </div>
-          <p>At Ezyfx we value all our customers to demonstrate financial integrity, whether you are small, medium or high volume trade. We have tailored bonuses for all our clients and accounts compatible with all trading styles. which makes our vision more clear and focused.</p>
+
+          <div class="col-xs-12 col-sm-12 col-md-6">
+            <div class="vision">
+              <div class="vision-title">
+                <i class="fa fa-certificate"></i>
+                <h6>Efficient</h6>
+              </div>
+              <p>At Ezyfx, efficiency is highly important to us and so we ensure that all our customers have the most efficient tools and communication to suit their needs. We have a dedicated customer support team ready to serve you.</p>
+              <p></p><br>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4">
+            <button type="button" name="button" class="btn btn-danger btn-lg hideAfter"><i class="fa fa-arrow-down"></i> See More</button>
+          </div>
+
+          <div class="moreInfo">
+            <div class="col-xs-12 col-sm-12 col-md-6">
+              <div class="vision">
+                <div class="vision-title">
+                  <i class="fa fa-check-circle-o"></i>
+                  <h6>Transparent</h6>
+                </div>
+                <p>At Ezyfx, we have ‘what you see is what you get’ policy with no hidden charges or spreads. Our website clearly outlines you tariff as so does your account. We make sure to deliver state of the art resources to ensure that our commitment is being fulfilled.</p>
+              </div>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-12 col-md-6">
+              <div class="vision">
+                <div class="vision-title">
+                  <i class="fa fa-thumbs-o-up"></i>
+                  <h6>Competitive</h6>
+                </div>
+                <p>At Ezyfx, we are determined to be competitive so that you, as the customer get the best package on the market. We are constantly introducing the best promotions and freebies for our customers to prosper. We love it when you profit.</p>
+                <p></p><br>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
 
-      <div class="col-xs-12 col-sm-12 col-md-3">
-        <div class="vision">
-          <div class="vision-title">
-            <i class="fa fa-certificate"></i>
-            <h6>Efficient</h6>
+
+
+
+      <div class="col-xs-12 col-sm-6">
+        <div class="mission-area">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+              <p>We have set out to create a society of well versed, educated, well-equipped millionaires around the world through Forex trading who will establish charities using their astounding profits! We are so determined to achieve this society that we intend to fulfill our ambition of one million, millionaires by 2020!</p>
+
+              <p>We are one of the leading International Foreign Exchange brokerage companies in the world. Our outstanding order execution, server performance, and personalized support services are the few from our cohort of services. Our provision is set out to serve the needs of all kinds of traders.</p>
+
+              <p><a class="ezyfxInfo">Learn More &raquo;</a></p>
+
+              <div class="moreInfo">
+                <p>
+                  Trading in forex online is excellent but we all know that the fundamental asset underlining the success of online trading is the stability of the platform. We ensure our customers get the best functionality, speed, and responsiveness by hosting our platform on some of the world’s best serves around the world.
+                </p>
+
+                <p>
+                  With Cyber hacking and information security risk at an all-time high, it is paramount that we have the best security protecting our clients. Our platform has implemented the latest and most power <a href="#" class="btn-link">cybersecurity</a> standards encrypting all data. We have a longstanding relationship with liquidity providers and prime brokers who provide us with the ability to provide the best trading conditions and accurate liquidity always.
+                </p>
+
+                <p>
+                  As you’ve learned, we are all about making you successful and that knowledge is an essential exchange between us. We strive to provide our clients each step of the way through one-to-one training sessions with your dedicated personal account manager, you are exposed to exclusive free online webinars covering hundreds of topics and our dedicated support team is available to support customers 24/5.
+                </p>
+              </div>
+            </div>
           </div>
-          <p>At Ezyfx, efficiency is highly important to us and so we ensure that all our customers have the most efficient tools and communication to suit their needs. We have a dedicated customer support team ready to serve you.</p>
-          <p></p><br>
+
+          <div class="row">
+            <div class="col-xs-12 col-sm-6">
+              <a href="#" class="btn btn-custom-demo btn-block">Open A Demo Account</a>
+              <a href="#" class="btn btn-custom-live btn-block">Open A Live Account</a>
+            </div>
+
+
+            <div class="col-xs-12 col-sm-6">
+              <a href="#" class="btn btn-custom-danger btn-block">Become Our Partner</a>
+              <a href="#" class="btn btn-custom-default btn-block">Make A Deposit</a>
+            </div>
+          </div>
         </div>
       </div>
 
 
-      <div class="col-xs-12 col-sm-12 col-md-3">
-        <div class="vision">
-          <div class="vision-title">
-            <i class="fa fa-check-circle-o"></i>
-            <h6>Transparent</h6>
-          </div>
-          <p>At Ezyfx, we have ‘what you see is what you get’ policy with no hidden charges or spreads. Our website clearly outlines you tariff as so does your account. We make sure to deliver state of the art resources to ensure that our commitment is being fulfilled.</p>
-        </div>
-      </div>
-
-
-      <div class="col-xs-12 col-sm-12 col-md-3">
-        <div class="vision">
-          <div class="vision-title">
-            <i class="fa fa-thumbs-o-up"></i>
-            <h6>Competitive</h6>
-          </div>
-          <p>At Ezyfx, we are determined to be competitive so that you, as the customer get the best package on the market. We are constantly introducing the best promotions and freebies for our customers to prosper. We love it when you profit.</p>
-          <p></p><br>
-        </div>
-      </div>
     </div>
   </div>
 </section>
 
-<section class="mission">
+<!-- <section class="mission">
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
@@ -122,7 +168,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 
 <?php include('includes/footer.php'); ?>

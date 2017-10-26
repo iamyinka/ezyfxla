@@ -6,17 +6,7 @@
       <div class="col-sm-6">
         <h1><i class="fa fa-angle-double-right"></i>Ezy Reasons</h1>
       </div>
-      <div class="col-sm-6">
-        <p><a href="#" class="btn-link">Download Metatrader trading platform</a></p>
-        <div class="row">
-          <div class="col-xs-6 col-sm-6 col-md-6 downloads">
-            <a href="https://www.instaforex.com/register_demo_account" class="btn btn-custom-default btn-lg-xs btn-block">Open Demo account</a>
-          </div>
-          <div class="col-xs-6 col-sm-6 col-md-6 downloads">
-            <a href="https://www.instaforex.com/fast_open_live_account" class="btn btn-custom-danger btn-lg-xs btn-block">Open trading account</a>
-          </div>
-        </div>
-      </div>
+      <?php include 'open-accts.php'; ?>
     </div>
   </div>
 </section>
@@ -24,20 +14,34 @@
 <section class="reasons-into">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-sm-7">
-        <p>You choose to invest with a brokerage for several reasons to suit your trading style and personality. Ezyfx, divulges into the extra mile to produce diversity offering our traders the best facility and provision possible.</p>
+      <div class="reason-a">
+        <div class="col-xs-12 col-sm-7">
+          <p>You choose to invest with a brokerage for several reasons to suit your trading style and personality. Ezyfx, divulges into the extra mile to produce diversity offering our traders the best facility and provision possible.</p>
+
+          <div class="row">
+            <div class="col-xs-12">
+              <a class="btn btn-custom-demo btn-block ezyfxInfo">SEE REASONS BELOW</a>
+            </div>
+
+            <div class="col-xs-12">
+              <a href="#" class="btn btn-custom-live btn-block">Become an EzyFx Partner</a>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="col-xs-12 col-sm-5">
-        <div class="reason-banner">
-          <img src="images/reasons/1.jpg" alt="">
+      <div class="reason-b">
+        <div class="col-xs-12 col-sm-5">
+          <div class="reason-banner">
+            <img src="images/reasons/1.jpg" alt="">
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="reasons-list">
+<section class="reasons-list moreInfo">
   <div class="container">
     <div class="row">
       <div class="col-sm-9">
@@ -115,7 +119,7 @@
         </div>
       </div>
 
-      <div class="col-sm-3">
+      <!-- <div class="col-sm-3">
         <div class="panel panel-default notice-me">
           <div class="panel-body">
             <a href="https://www.instaforex.com/register_demo_account" class="btn btn-custom-demo btn-lg-xs btn-sm btn-block">Open Demo Account</a>
@@ -125,7 +129,7 @@
             <p>Earn more with our trading conditions.</p>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </section>

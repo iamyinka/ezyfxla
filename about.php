@@ -8,17 +8,7 @@
         <div class="col-sm-6">
           <h1><i class="fa fa-users"></i>About Us</h1>
         </div>
-        <div class="col-sm-6">
-          <p><a href="#" class="btn-link">Download Metatrader trading platform</a></p>
-          <div class="row">
-            <div class="col-xs-6 col-sm-6 col-md-6 downloads">
-              <a href="https://secure.ezyfx.la/open-demo-account" class="btn btn-custom-default btn-lg-xs btn-block">Open Demo account</a>
-            </div>
-            <div class="col-xs-6 col-sm-6 col-md-6 downloads">
-              <a href="https://secure.ezyfx.la/open-live-account" class="btn btn-custom-danger btn-lg-xs btn-block">Open live account</a>
-            </div>
-          </div>
-        </div>
+        <?php include 'open-accts.php'; ?>
       </div>
     </div>
   </section>

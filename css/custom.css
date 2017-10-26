@@ -141,7 +141,7 @@ body {
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     display: block;
-    height: 600px;
+    height: 400px;
     min-width: 100%;
     width: 100%;
     max-width: 100%;
@@ -395,7 +395,7 @@ section {
 
 .btn-custom-danger:hover {
   background-color: transparent;
-  color: #fff;
+  color: #000;
 }
 
 .btn-primary {
@@ -698,6 +698,13 @@ a:hover {
   color: #fff;
 }
 
+section.ourVnM {
+  background: linear-gradient(rgba(216, 134, 134, .5), rgba(216, 134, 134, .7)), #000 url('http://placehold.it/1600x600') no-repeat center center;
+  height: 300px;
+  width: 100%;
+  max-width: 100%;
+}
+
 .vision-hero {
   background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), #000 url('../images/bg3.jpg') no-repeat center center;
   height: 300px;
@@ -730,6 +737,7 @@ a:hover {
   padding: 10px;
   transition: all .5s;
   color: #444;
+  min-height: 441px;
 }
 
 .vision:hover {
@@ -785,6 +793,21 @@ a:hover {
   border-right: 10px solid #b33;
 }
 
+.reasons-into {
+  margin-bottom: 0;
+}
+
+.reason-divider {
+  margin-top: 5px;
+}
+
+.reason-b img {
+  margin-top: 30px;
+}
+
+.reason-a p {
+  margin-bottom: 40px;
+}
 
 .reason-banner img {
   width: 100%;
@@ -1501,11 +1524,11 @@ ul.ppro li i.fa {
   z-index: 50;
 }
 
-#ezyfxInfo, #ezyfxInfo2 {
+#ezyfxInfo, #ezyfxInfo2, .ezyfxInfo {
   cursor: pointer;
 }
 
-#moreInfo, #moreInfo2 {
+#moreInfo, #moreInfo2, .moreInfo {
   display: none;
 }
 

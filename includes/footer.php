@@ -28,7 +28,7 @@
           <div class="mt4 footer-links">
             <ul>
               <li>
-                <a href="https://secure.instaforex.com/affiliate-registration" target="_blank">
+                <a href="deposit-my-account.php">
                   <i class="fa fa-usd"></i><span>Make a Deposit</span>
                 </a>
               </li>
@@ -61,7 +61,7 @@
           <div class="mt4 footer-links">
             <ul>
               <li>
-                <a href="https://www.instaforex.com/fast_open_live_account" target="_blank">
+                <a href="https://secure.ezyfx.la/login" target="_blank">
                   <i class="fa fa-sign-in"></i><span>View your Account(s)</span>
                 </a>
               </li>

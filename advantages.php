@@ -6,17 +6,7 @@
       <div class="col-sm-6">
         <h1><i class="fa fa-thumbs-o-up"></i>EZY Advantages</h1>
       </div>
-      <div class="col-sm-6">
-        <p><a href="#" class="btn-link">Download Metatrader trading platform</a></p>
-        <div class="row wow fadeInUp">
-          <div class="col-xs-6 col-sm-6 col-md-6 downloads">
-            <a href="https://www.instaforex.com/register_demo_account" class="btn btn-custom-default btn-lg-xs btn-block">Open Demo account</a>
-          </div>
-          <div class="col-xs-6 col-sm-6 col-md-6 downloads">
-            <a href="https://www.instaforex.com/fast_open_live_account" class="btn btn-custom-danger btn-lg-xs btn-block">Open trading account</a>
-          </div>
-        </div>
-      </div>
+      <?php include 'open-accts.php'; ?>
     </div>
   </div>
 </section>
@@ -367,7 +357,7 @@
 contact us by Chat as well.
                 </p>
                 <p>
-                  <a href="#" class="btn btn-custom-danger btn-lg-xs btn-block">Chat Live With Us &rarr;</a>
+                  <a href="#" class="btn btn-custom-danger btn-lg-xs btn-block" onclick="phplive_launch_chat_0(0)">Chat Live With Us &rarr;</a>
                 </p>
               </div>
             </div>
@@ -383,7 +373,7 @@ contact us by Chat as well.
     based on their trading volumes, which are easily trackable by a detailed statistic.
                 </p>
                 <p>
-                  <a href="#" class="btn btn-custom-default btn-lg-xs btn-block">Open a Demo Account &rarr;</a>
+                  <a href="https://secure.ezyfx.la/open-demo-account" class="btn btn-custom-default btn-lg-xs btn-block" target="_blank">Open a Demo Account &rarr;</a>
                 </p>
               </div>
             </div>
@@ -399,7 +389,7 @@ contact us by Chat as well.
     based on their trading volumes, which are easily trackable by a detailed statistic.
                 </p>
                 <p>
-                  <a href="#" class="btn btn-custom-danger btn-lg-xs btn-block">Open a Live Account &rarr;</a>
+                  <a href="https://secure.ezyfx.la/open-live-account" class="btn btn-custom-danger btn-lg-xs btn-block" target="_blank">Open a Live Account &rarr;</a>
                 </p>
               </div>
             </div>
@@ -415,7 +405,7 @@ contact us by Chat as well.
     based on their trading volumes, which are easily trackable by a detailed statistic.
                 </p>
                 <p>
-                  <a href="#" class="btn btn-custom-default btn-lg-xs btn-block">Make A Deposit &rarr;</a>
+                  <a href="deposit-my-account.php" class="btn btn-custom-default btn-lg-xs btn-block">Make A Deposit &rarr;</a>
                 </p>
               </div>
             </div>
