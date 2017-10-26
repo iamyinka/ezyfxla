@@ -141,7 +141,7 @@ body {
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     display: block;
-    height: 400px;
+    height: 600px;
     min-width: 100%;
     width: 100%;
     max-width: 100%;
@@ -1538,7 +1538,7 @@ ul.ppro li i.fa {
   color: #fff;
 }*/
 
-.subscribeForm {
+.subscribeForm, .fundsDeposit {
   width: 100%;
   /*border-right: 3px solid #b33;*/
 }
@@ -1547,10 +1547,18 @@ ul.ppro li i.fa {
   max-height: 206px;
 }
 
-.subscribeForm .input-group {
+.subscribeForm .input-group, .fundsDeposit .input-group {
   width: 100%;
 }
 
+/*.fundsDeposit select.currencymy {
+  width: 30%;
+}*/
+
+
+/*.fundsDeposit span.chooseCurrency {
+  width: 50%;
+}*/
 
 /*form {
   width: 100%;
