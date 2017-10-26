@@ -15,25 +15,17 @@
   <div class="container">
     <div class="row">
       <div class="reason-a">
-        <div class="col-xs-12 col-sm-7">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
           <p>You choose to invest with a brokerage for several reasons to suit your trading style and personality. Ezyfx, divulges into the extra mile to produce diversity offering our traders the best facility and provision possible.</p>
 
           <div class="row">
-            <div class="col-xs-12">
-              <a class="btn btn-custom-demo btn-block ezyfxInfo">SEE REASONS BELOW</a>
+            <div class="col-xs-12 col-sm-6">
+              <a class="btn btn-custom-demo btn-block ezyfxInfo">CLICK TO SEE REASONS BELOW</a>
             </div>
 
-            <div class="col-xs-12">
+            <div class="col-xs-12 col-sm-6">
               <a href="#" class="btn btn-custom-live btn-block">Become an EzyFx Partner &rarr;</a>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="reason-b">
-        <div class="col-xs-12 col-sm-5">
-          <div class="reason-banner">
-            <img src="images/reasons/1.jpg" alt="">
           </div>
         </div>
       </div>
@@ -44,8 +36,8 @@
 <section class="reasons-list moreInfo">
   <div class="container">
     <div class="row">
-      <div class="col-sm-9">
-        <p class="lead">8 Reasons why Forex Trading with EZYFX is Best Choice for Traders</p>
+      <div class="col-sm-10 col-sm-offset-1">
+        <p class="lead text-center">8 Reasons why Forex Trading with EZYFX is Best Choice for Traders</p>
 
         <div class="row">
           <div class="col-sm-6">

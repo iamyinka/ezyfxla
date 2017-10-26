@@ -61,7 +61,7 @@
           </div>
 
           <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4">
-            <button type="button" name="button" class="btn btn-danger btn-lg hideAfter"><i class="fa fa-arrow-down"></i> See More</button>
+            <button type="button" name="button" class="btn btn-danger btn-lg hideAfter"><i class="fa fa-arrow-down"></i> Read More</button>
           </div>
 
           <div class="moreInfo">

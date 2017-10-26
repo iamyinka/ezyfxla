@@ -801,9 +801,6 @@ section.ourVnM {
   margin-top: 5px;
 }
 
-.reason-b img {
-  margin-top: 30px;
-}
 
 .reason-a p {
   margin-bottom: 40px;
@@ -817,23 +814,22 @@ section.ourVnM {
   background: url('../images/acct-demo/small-bg.png') repeat;
 }
 
-.notice-me {
+/*.notice-me {
   text-align: center;
   background-color: #f6f6f6;
   position: fixed;
   top: 400px;
   z-index: 1;
-  /*box-shadow: 5px 3px 2px 8px #2b6a33;*/
 }
 
 .notice-me p {
   margin-top: 10px;
-}
+}*/
 
 .reason-tabs {
   text-align: center;
   min-height: 320px;
-  box-shadow: 5px 3px 2px 8px #b33;
+  box-shadow: 5px 3px 2px 2px #b33;
   margin-bottom: 40px;
   padding: 0 5px;
 }
@@ -1010,6 +1006,12 @@ section.ourVnM {
 
 .reg-start {
   background: url('../images/acct-demo/small-bg.png') repeat;
+}
+
+.license img {
+  background: rgba(0, 0, 0, .2);
+  opacity: .05;
+  height: 50vh;
 }
 
 .license img, #myModal img {
