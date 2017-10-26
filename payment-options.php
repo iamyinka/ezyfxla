@@ -18,7 +18,7 @@
             <!-- Nav tabs category -->
             <ul class="nav nav-tabs faq-cat-tabs myTableTabs text-center">
                 <li class="active" style="width: 50%;"><a href="#faq-cat-1" data-toggle="tab">Opening An Account</a></li>
-                <li style="width: 50%;"><a href="#faq-cat-2" data-toggle="tab">Dashboard</a></li>
+                <!-- <li style="width: 50%;"><a href="#faq-cat-2" data-toggle="tab">Dashboard</a></li> -->
             </ul>
 
             <!-- Tab panes -->
@@ -45,7 +45,7 @@
                                           <tr>
                                             <td>
                                               <small>Local Transfer</small>
-                                              <img src="images/payments/local.png" alt="">
+                                              <img src="images/deposit-methods/local-tf.png" alt="">
                                             </td>
                                             <td>Local Currency</td>
                                             <td>Usually within 30 minutes</td>
@@ -58,7 +58,7 @@
                                           <tr>
                                             <td>
                                               <small>Credit / Debit Card (Visa &amp; MasterCard)</small>
-                                              <img src="images/payments/cc.png" alt="">
+                                              <img src="images/deposit-methods/cc.png" alt="">
                                             </td>
                                             <td>USD</td>
                                             <td>Instantly if no further verification needed</td>
@@ -71,8 +71,36 @@
 
                                           <tr>
                                             <td>
-                                              <small>Bank Wire / Telegraphic Transfer</small>
-                                              <img src="images/payments/swift.png" alt="">
+                                              <!-- <small>Bank Wire / Telegraphic Transfer</small> -->
+                                              <img src="images/deposit-methods/bank-tf.png" alt="">
+                                            </td>
+                                            <td>USD</td>
+                                            <td>1 ~ 5 working days</td>
+                                            <td>$500 USD</td>
+                                            <td>Bank charges upon sending and receiving</td>
+                                            <td>$300 USD</td>
+                                            <td>Bank charges upon sending and receiving</td>
+                                            <td><a href="#" class="btn btn-danger">Make Deposit &raquo;</a></td>
+                                          </tr>
+
+                                          <tr>
+                                            <td>
+                                              <!-- <small>Mega Transfer</small> -->
+                                              <img src="images/footer/mt.png" alt="">
+                                            </td>
+                                            <td>USD</td>
+                                            <td>1 ~ 5 working days</td>
+                                            <td>$500 USD</td>
+                                            <td>Bank charges upon sending and receiving</td>
+                                            <td>$300 USD</td>
+                                            <td>Bank charges upon sending and receiving</td>
+                                            <td><a href="#" class="btn btn-danger">Make Deposit &raquo;</a></td>
+                                          </tr>
+
+                                          <tr>
+                                            <td>
+                                              <!-- <small>Mega Transfer</small> -->
+                                              <img src="images/deposit-methods/upay.svg" alt="">
                                             </td>
                                             <td>USD</td>
                                             <td>1 ~ 5 working days</td>
@@ -92,7 +120,7 @@
                 </div>
 
 
-                <div class="tab-pane fade" id="faq-cat-2">
+                <!-- <div class="tab-pane fade" id="faq-cat-2">
                     <div class="panel-group" id="accordion-cat-2">
                         <div class="panel panel-default panel-faq">
                             <div class="panel-heading">
@@ -125,7 +153,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
             </div>
           </div>
