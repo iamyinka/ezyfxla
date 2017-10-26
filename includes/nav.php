@@ -123,7 +123,7 @@
 
   	<div class="collapse navbar-collapse js-navbar-collapse">
   		<ul class="nav navbar-nav">
-        <li><a href="index.php"><i class="fa fa-home"></i>Home</a></li>
+        <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
   			<li class="dropdown dropdown-large">
   				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-building"></i>Company <b class="caret"></b></a>
 

@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
-        <h1><i class="fa fa-question-circle"></i>FAQs</h1>
+        <h1><i class="fa fa-question-circle"></i>FAQ<span style="text-transform:lowercase">s</span></h1>
       </div>
       <?php include 'open-accts.php'; ?>
     </div>
@@ -47,14 +47,14 @@ can't find an answer to, our support agents are always there to help you out.</p
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#accordion-cat-1" href="#faq-cat-1-sub-1">
                                     <h4 class="panel-title">
-                                        HOW CAN I LOG IN?
+                                        HOW CAN I OPEN AN ACCOUNT?
                                         <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
                                     </h4>
                                 </a>
                             </div>
                             <div id="faq-cat-1-sub-1" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    You can log in to the portal by visiting <a href="#">EZYFX LOGIN</a> and entering your registered email address and password.
+                                    Opening an account is easy. Simply <a href="register.php" target="_blank">click here</a> to start the process.
                                 </div>
                             </div>
                         </div>
@@ -62,14 +62,95 @@ can't find an answer to, our support agents are always there to help you out.</p
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#accordion-cat-2" href="#faq-cat-1-sub-2">
                                     <h4 class="panel-title">
-                                        I HAVE FORGOTTEN MY PASSWORD – WHAT DO I DO?
+                                        WHAT DOCUMENTS DO I NEED TO OPEN AN ACCOUNT?
                                         <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
                                     </h4>
                                 </a>
                             </div>
                             <div id="faq-cat-1-sub-2" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    At the login page, click on ‘Forgot Password?’ and enter your registered email address. You’ll then be sent an instructions on how to retrieve your login details.
+                                    Depending on what type of account you’ve applied for, the documents required are different. <br><br>
+                                    <strong><sup>***</sup> Individual Account</strong>
+                                    <br> <br>
+                                    An individual account is one in which you will be using yourself, for personal trading.
+                                    <br>
+                                    <strong>Photo ID</strong> – acceptable forms of photo identification to open an account are:
+
+                                    <ul>
+                                      <li>A valid passport</li>
+                                      <li>A valid government ID, such as a Driver’s License or State ID</li>
+                                      <li>A valid National Identity Card</li>
+                                    </ul>
+                                    <br>
+                                    <strong>Proof of residence</strong> – acceptable forms of proof of residence are:
+                                    <br>
+                                    <ul>
+                                      <li>A utility or landline phone bill, or a bank statement</li>
+                                    </ul>
+                                    <br>
+                                    <em>All proof of residences must be current and not outdated by more than 180 days</em>
+
+                                    <br><br>
+
+
+                                    <strong><sup>***</sup> Joint Account</strong>
+                                    <br> <br>
+                                    A Joint account is one in which there are two main users, both who can deposit, withdraw and trade.
+                                    <br>
+                                    The following documents are required for both primary and secondary account holders: <br>
+                                    <strong>Photo ID</strong> – acceptable forms of photo identification are:
+
+                                    <ul>
+                                      <li>A valid passport</li>
+                                      <li>A valid government ID, such as a Driver’s License or State ID</li>
+                                      <li>A valid National Identity Card</li>
+                                    </ul>
+                                    <br>
+                                    <sup>*</sup> <em>Please note that all photo IDs are verified through third-party compliance software.</em> <br>
+
+                                    <strong>Proof of residence</strong> – acceptable forms of proof of residence are:
+                                    <br>
+                                    <ul>
+                                      <li>A utility or landline phone bill, or a bank statement</li>
+                                    </ul>
+                                    <br>
+                                    <em>All proof of residences must be current and not outdated by more than 90 days</em>
+                                    <br><br>
+
+                                    <strong><sup>***</sup> Corporate</strong>
+                                    <br>
+                                    A corporate account is one which enterprises can open a trading account.
+                                    <br>
+                                    <strong>Photo ID for all directors and any shareholders who own over 25% of shares</strong> – The following are acceptable forms of photo identification:
+                                    <br>
+                                    <ul>
+                                      <li>A valid passport</li>
+                                      <li>A valid government ID, such as a Driver’s License or State ID</li>
+                                      <li>A valid National Identity Card</li>
+                                    </ul>
+                                    <br>
+                                    <strong>Proof of residence for all directors and any shareholders who own over 25% of shares</strong> – The following are acceptable forms of proof of residence:
+                                    <br>
+                                    <ul>
+                                      <li>A utility or landline phone bill, or a bank statement</li>
+                                    </ul>
+                                    <br>
+                                    <em>All proof of residences must be current and not outdated by more than 90 days</em>
+                                    <br>
+                                    <strong>Company information</strong>
+                                    <br>
+                                    <ul>
+                                      <li>Certificate of Incorporation</li>
+                                      <li>Articles of Incorporation</li>
+                                    </ul>
+                                    <br>
+                                    <strong>Company proof of address</strong>
+                                    <br>
+                                    <ul>
+                                      <li>A utility or landline phone bill, or a bank statement</li>
+                                    </ul>
+                                    <br>
+                                    <em>All proof of residences must be current and not outdated by more than 90 days</em>
                                 </div>
                             </div>
                         </div>
@@ -79,14 +160,16 @@ can't find an answer to, our support agents are always there to help you out.</p
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#accordion-cat-3" href="#faq-cat-1-sub-3">
                                     <h4 class="panel-title">
-                                        WHY CAN’T I SEE ALL THE FEATURES OF THE DASHBOARD?
+                                        HOW LONG DOES IT TAKE TO OPEN AN ACCOUNT?
                                         <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
                                     </h4>
                                 </a>
                             </div>
                             <div id="faq-cat-1-sub-3" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    EZY Dashboard has some features which may not be applicable to your account type. For example, if you only have a demo account, you’ll not see information on depositing funds. You’ll always see the features applicable to you. As your account type and status changes, your portal access will also evolve.
+                                    Account opening times vary by client, but provided you’ve supplied your documents and they are acceptable, you should receive your login details within two working days.
+                                    <br>
+                                    If you have any queries regarding your account application please email <a href="mailto:support@ezyfx.la">support@ezyfx.la</a> and we’ll try to assist you in any way possible.
                                 </div>
                             </div>
                         </div>

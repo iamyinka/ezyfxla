@@ -29,7 +29,7 @@
 
         <p>To ensure our services are lawful and fair EZYFX is subject to regulation by the International Financial Services Commission. As a non-biased governmental regulatory organ, the VFSC has examined EZYFX policies, services, and assets.</p>
 
-        <p>VFSC found that EZYFX meets all of its conditions and requirements adequately. To confirm our reliability as a financial services provider, here you can inspect our regulation. For further information, you can contact the <a href="https://vsfc.vu" target="_blank">VFSC</a>.</p>
+        <p>VFSC found that EZYFX meets all of its conditions and requirements adequately. To confirm our reliability as a financial services provider, here you can inspect our regulation. For further information, you can contact the <a href="https://www.vfsc.vu" target="_blank">VFSC</a>.</p>
       </div>
     </div>
 

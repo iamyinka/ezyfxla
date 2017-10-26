@@ -203,7 +203,20 @@
           <p style="text-transform: uppercase;">
             ALL ISSUES RELATES TO THIRD PARTY SERVICES INCLUDING WITHOUT LIMITATION ROBOTS, ALGO TRADING, SIGNALS AND SOFTWARE ARE PROVIDED BY A THIRD PARTY (AFFILIATE) AND THE PLATFORM DOES NOT ENDORSE ANY VENDORS OR HOLD ANY LIABILITY FOR ANY INCIDENTAL, CONSEQUENTIAL, DIRECT, INDIRECT, SPECIAL OR PUNITIVE DAMAGES (INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF BUSINESS, LOSS OF PROFITS OR LOSS OF USE) AND THE USE OF IT IS SUBJECT TO YOUR DISCRETION AND AT YOUR OWN RISK.
           </p>
+          <hr>
+          <div class="contactInfo">
+            <h6>OPERATION HOUR</h6>
 
+            <p><strong>Monday to Friday (GMT + 01:00am – 10:00am)</strong></p>
+
+            <p><strong>Telephone number</strong>: +44 20309 71796</p>
+
+            <p>This site is owned and operated by: <a href="/">EZYFX LIMITED</a></p>
+
+            <p>Company Number: 17925</p>
+
+            <p><strong>Address</strong>: S.I.P. Building, P.O Box 3010, Rue Pasteur,Port Vila, Vanuatu</p>
+          </div>
         </div>
       </div>
     </div>

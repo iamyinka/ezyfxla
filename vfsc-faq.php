@@ -38,7 +38,7 @@
         </div>
         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
           <div class="panel-body">
-            The Financial Centre Associate of Vanuatu (FCA) should not be confused with either the FCA in the UK or the Vanuatu Financial Services Commission (VFSC), rather the FCA is a group of organizations based in Vanuatu that provide a variety of services such as banking, investments, and legal guidance. More details on the Vanuatu FCA can be found here:  <a href="http://www.fca.vu/fca/">http://www.fca.vu/fca/</a>
+            The Financial Centre Associate of Vanuatu (FCA) should not be confused with either the FCA in the UK or the Vanuatu Financial Services Commission (VFSC), rather the FCA is a group of organizations based in Vanuatu that provide a variety of services such as banking, investments, and legal guidance. More details on the Vanuatu FCA can be found here:  <a href="http://www.fca.vu/fca/" target="_blank">http://www.fca.vu/fca/</a>
           </div>
         </div>
       </div>
