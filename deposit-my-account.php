@@ -302,9 +302,9 @@ $items = $_REQUEST['ref'];
 
         <div class="payments">
           <div class="col-sm-6">
-            <p><strong>Local transfer in Malaysia</strong></p>
+            <p><strong>Bank Transfer</strong></p>
 
-            <p>Bank fees vary. Deposit is processed within 1-2 days.</p>
+            <p>Bank fee. During transfer an additional correspondent bank commission could be charged. Deposit is processed within 2-4 business days.</p>
           </div>
 
           <div class="col-sm-2">
@@ -317,14 +317,14 @@ $items = $_REQUEST['ref'];
     <div class="each-methods">
       <div class="row">
         <div class="col-sm-4">
-          <img src="images/footer/visa.png" alt="">
+          <img src="images/deposit-methods/cc.png" alt="">
         </div>
 
-        <div class="payments">
+        <div class="payments" style="margin-top: 50px;">
           <div class="col-sm-6">
-            <p><strong>Local transfer in Malaysia</strong></p>
+            <p><strong>Credit/Debit Card</strong></p>
 
-            <p>Bank fees vary. Deposit is processed within 1-2 days.</p>
+            <p>System fee. Deposit is processed within 24-48 hours.</p>
           </div>
 
           <div class="col-sm-2">
@@ -346,11 +346,11 @@ $items = $_REQUEST['ref'];
           <img src="images/footer/mt.png" alt="" style="margin-top: 30px;">
         </div>
 
-        <div class="payments">
+        <div class="payments" style="margin-top: 20px;">
           <div class="col-sm-6">
-            <p><strong>Local transfer in Malaysia</strong></p>
+            <p><strong>Mega Transfer</strong></p>
 
-            <p>Bank fees vary. Deposit is processed within 1-2 days.</p>
+            <p>No fees. Instant deposit.</p>
           </div>
 
           <div class="col-sm-2">
@@ -363,14 +363,14 @@ $items = $_REQUEST['ref'];
     <div class="each-methods">
       <div class="row">
         <div class="col-sm-4">
-          <img src="images/footer/unionpay.png" alt="">
+          <img src="images/deposit-methods/upay.svg" alt="">
         </div>
 
-        <div class="payments">
+        <div class="payments" style="margin-top: 50px;">
           <div class="col-sm-6">
-            <p><strong>Local transfer in Malaysia</strong></p>
+            <p><strong>Deposit via China Union Pay</strong></p>
 
-            <p>Bank fees vary. Deposit is processed within 1-2 days.</p>
+            <p>No fees. Instant deposit. Only for residents of China.</p>
           </div>
 
           <div class="col-sm-2">
@@ -386,9 +386,9 @@ $items = $_REQUEST['ref'];
           <img src="images/deposit-methods/local-tf.png" alt="">
         </div>
 
-        <div class="payments">
+        <div class="payments" style="margin-top: 50px;">
           <div class="col-sm-6">
-            <p><strong>Local transfer in Malaysia</strong></p>
+            <p><strong>Local Transfer</strong></p>
 
             <p>Bank fees vary. Deposit is processed within 1-2 days.</p>
           </div>
