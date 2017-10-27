@@ -333,6 +333,13 @@ blockquote {
   color: #fff;
 }
 
+.btn-custom-success {
+  border: 0;
+  background-color: #444;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
 .btn-custom-demo {
   color: #fff;
   border: 2px solid #fff;
@@ -401,6 +408,15 @@ blockquote {
 .btn-custom-danger:hover {
   background-color: transparent;
   color: #000;
+}
+
+.btn-custom-success:visited {
+  color: #fff;
+}
+
+.btn-custom-success:hover {
+  background-color: #b33;
+  color: #fff;
 }
 
 .btn-primary {
@@ -675,7 +691,10 @@ a .acct-demo-details4 i.fa {
 
 
 .accounts-page {
-  background-color: #FFE900;
+  background: #ee0979;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   text-align: center;
 }
 
@@ -1238,14 +1257,32 @@ section.ourVnM {
   margin-bottom: 10px;
 }
 
+.softwares {
+  border: 1px solid #ccc;
+  margin: 20px 0;
+  border-left: 10px solid #ccc;
+  border-right: 10px solid #b33;
+  padding: 20px;
+}
+
+.softwares img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.softwares .softImgDl {
+  width: 30%;
+  height: auto;
+  vertical-align: left;
+}
 
 .soft-dls {
   background: #fff;
 }
 
 .mt4-dl {
-  background: url('../images/meta.png') 100% 100% no-repeat;
-  /*background-size: cover;*/
+  background: url('../images/payments/mt4-pc.png') 100% 100% no-repeat;
+  background-size: cover;
   min-height: 300px;
 }
 
@@ -1266,8 +1303,8 @@ section.ourVnM {
 }
 
 .mt4-feat2 {
-  background: url('../images/payments/mt4-pc.png') no-repeat 100% 100%;
-  min-height: 500px;
+  background: linear-gradient(rgba(10, 80, 102, .4), rgba(10, 0, 0, .7)), url('../images/payments/mt4-pc.png') no-repeat 100% 100%;
+  /*min-height: 500px;*/
   background-position: center;
   background-attachment: fixed;
 }
@@ -1532,11 +1569,11 @@ ul.ppro li i.fa {
   z-index: 50;
 }
 
-#ezyfxInfo, #ezyfxInfo2, .ezyfxInfo {
+#ezyfxInfo, #ezyfxInfo2, .ezyfxInfo, #learnMore1, #learnMore2, #learnMore3, #learnMore4, #learnMore5, #learnMore6 {
   cursor: pointer;
 }
 
-#moreInfo, #moreInfo2, .moreInfo {
+#moreInfo, #moreInfo2, .moreInfo, #openInfo1, #learnMore2, #openInfo2, #learnMore4, #openInfo3, #learnMore6 {
   display: none;
 }
 
@@ -1721,7 +1758,23 @@ footer .contactInfo {
   margin-top: 30px;
 }
 
+#option1, #option2, #option3, #option4, #option5 {
+  cursor: pointer;
+}
 
+#option1Sign2, #paymentOption1, #option2Sign2, #paymentOption2, #option3Sign2, #paymentOption3, #option4Sign2, #paymentOption4, #option5Sign2, #paymentOption5 {
+  display: none;
+}
+
+.mobile-icons {
+  margin-top: 30px;
+}
+
+.mobile-icons img {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
 
 
 
@@ -1798,6 +1851,11 @@ footer .contactInfo {
     Footer
 ************************* */
 
+
+footer {
+  border-top: 2px solid yellow;
+  margin-top: 0;
+}
 
 
 footer p, footer h6 {

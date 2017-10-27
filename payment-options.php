@@ -1,165 +1,436 @@
 <?php include('includes/nav.php'); ?>
 
+<?php
+$creaditcard = array("EUR", "GBP", "USD", "RUB");
+$megatransfer = array("EUR", "USD", "GBP", "AED", "AUD", "BTC", "CAD", "CHF", "CNY", "CZK", "DKK", "HKD", "HUF","ILS", "IDR", "INR", "JPY", "KWD", "LTC", "LTL", "MYR", "NOK", "NZD", "PHP", "PLN", "RON", "RUB", "SAR", "SEK", "SGD");
+$chinapay = array("EUR", "USD", "GBP", "AED", "AUD", "CAD", "CHF", "CNY", "CZK", "DKK", "HKD", "HUF","ILS", "IDR", "INR", "JPY", "KWD", "LTL", "MYR", "NOK", "NZD", "PHP", "PLN", "RON", "RUB", "SAR", "SEK", "SGD");
+$wiretrans = array("EUR", "USD", "GBP", "CZK", "NOK", "SEK", "CHF", "CAD", "AUD", "DKK", "HKD", "JPY", "NZD", "PLN", "RUB", "SGD");
+
+
+
+if(isset($_REQUEST['myactionper']) && $_REQUEST['myactionper']=='banktransfer')
+{
+
+
+  $items = $_REQUEST['ref'];
+  $quantity = '1';
+  $amount =  (float) ($_REQUEST['amount']);
+  $currency = $_REQUEST['wirecurrency'];
+  $client_name = $_REQUEST['customer'];
+  $client_country = 'Malaysia';
+  $client_city = 'Klang Selangor';
+  $client_email = 'ezyfx4u@gmail.com';
+  $reg_date = date('Y-m-d');
+  $url = "https://www.megatransfer.com/";
+  $merchant_id = "368570928";
+  $secret_code = "38ee540e9cffe4f8a93370edfdf68afb49bba7a75accfbe2e5687feb27cf8e68";
+  $separator = "10113696";
+  $order_id = strtotime("now");
+  $total_amount = (float) ($_REQUEST['amount']);
+  $total_amount = sprintf("%1.2f", $total_amount);
+  $signature = hash("sha256", $secret_code . $separator . $merchant_id . $separator . $items . $separator . $quantity . $separator . $amount . $separator . $total_amount . $separator . $currency . $separator . $secret_code);
+  ?>
+  <form id="banktransfer" name="form" method="post" action="https://www.megatransfer.com/payments/">
+      <input type="hidden" name="items" value="<?php echo $items ?>"/>
+      <input type="hidden" name="quantity" value="<?php echo $quantity ?>"/>
+      <input type="hidden" name="amount" value="<?php echo $amount ?>"/>
+      <input type="hidden" name="currency" value="<?php echo $currency ?>"/>
+      <input type="hidden" name="total_amount" value="<?php echo $total_amount ?>"/>
+      <input type="hidden" name="merchant_id" value="<?php echo $merchant_id ?>"/>
+      <input type="hidden" name="order_id" value="<?php echo $order_id ?>"/>
+      <input type="hidden" name="client_name" value="<?php echo $client_name ?>"/>
+      <input type="hidden" name="client_country" value="<?php echo $client_country ?>"/>
+      <input type="hidden" name="client_city" value="<?php echo $client_city ?>"/>
+      <input type="hidden" name="client_email" value="<?php echo $client_email ?>"/>
+      <input type="hidden" name="client_regdate" value="<?php echo $reg_date ?>"/>
+      <input type="hidden" name="url" value="<?php echo $url ?>"/>
+      <input type="hidden" name="signature" value="<?php echo $signature ?>"/>
+      <!--FOR TEST GATEWAY-->
+      <input type="hidden" name="gateway_id" value="0"/>
+      <!--//FOR LIVE GATEWAY-->
+      <!--<input type="hidden" name="gateway_id" value="1"/>-->
+      <input type="hidden" name="payment_method" value="wt"/>
+      <input type="hidden" name="success_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=success"/>
+      <input type="hidden" name="fail_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=fail"/>
+      <input type="hidden" name="callback_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=callback"/>
+      <input type="submit" name="Submit" class="ic-btn" value="Deposit Now"/>
+  </form>
+  <script type="text/javascript">
+  document.getElementById("banktransfer").submit();
+    $('#banktransfer').submit();
+
+  </script>
+<?php }
+else if(isset($_REQUEST['myactionper']) && $_REQUEST['myactionper']=='credit'){
+
+$items = $_REQUEST['ref'];
+  $quantity = '1';
+  $amount =  (float) ($_REQUEST['amount']);
+  $currency = $_REQUEST['creditcurrency'];
+  $client_name = $_REQUEST['customer'];
+  $client_country = 'Malaysia';
+  $client_city = 'Klang Selangor';
+  $client_email = 'ezyfx4u@gmail.com';
+  $reg_date = date('Y-m-d');
+  $url = "https://www.megatransfer.com/";
+  $merchant_id = "368570928";
+  $secret_code = "38ee540e9cffe4f8a93370edfdf68afb49bba7a75accfbe2e5687feb27cf8e68";
+  $separator = "10113696";
+  $order_id = strtotime("now");
+  $total_amount = (float) ($_REQUEST['amount']);
+  $total_amount = sprintf("%1.2f", $total_amount);
+  $signature = hash("sha256", $secret_code . $separator . $merchant_id . $separator . $items . $separator . $quantity . $separator . $amount . $separator . $total_amount . $separator . $currency . $separator . $secret_code);
+  ?>
+  <form id="credit" name="form" method="post" action="https://www.megatransfer.com/payments/">
+      <input type="hidden" name="items" value="<?php echo $items ?>"/>
+      <input type="hidden" name="quantity" value="<?php echo $quantity ?>"/>
+      <input type="hidden" name="amount" value="<?php echo $amount ?>"/>
+      <input type="hidden" name="currency" value="<?php echo $currency ?>"/>
+      <input type="hidden" name="total_amount" value="<?php echo $total_amount ?>"/>
+      <input type="hidden" name="merchant_id" value="<?php echo $merchant_id ?>"/>
+      <input type="hidden" name="order_id" value="<?php echo $order_id ?>"/>
+      <input type="hidden" name="client_name" value="<?php echo $client_name ?>"/>
+      <input type="hidden" name="client_country" value="<?php echo $client_country ?>"/>
+      <input type="hidden" name="client_city" value="<?php echo $client_city ?>"/>
+      <input type="hidden" name="client_email" value="<?php echo $client_email ?>"/>
+      <input type="hidden" name="client_regdate" value="<?php echo $reg_date ?>"/>
+      <input type="hidden" name="url" value="<?php echo $url ?>"/>
+      <input type="hidden" name="signature" value="<?php echo $signature ?>"/>
+      <!--FOR TEST GATEWAY-->
+      <input type="hidden" name="gateway_id" value="0"/>
+      <!--//FOR LIVE GATEWAY-->
+      <!--<input type="hidden" name="gateway_id" value="1"/>-->
+      <input type="hidden" name="payment_method" value="cc"/>
+      <input type="hidden" name="success_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=success"/>
+      <input type="hidden" name="fail_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=fail"/>
+      <input type="hidden" name="callback_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=callback"/>
+      <input type="submit" name="Submit" class="ic-btn" value="Deposit Now"/>
+  </form>
+  <script type="text/javascript">
+  document.getElementById("credit").submit();
+    $('#credit').submit();
+
+  </script>
+
+<?php } else if(isset($_REQUEST['myactionper']) && $_REQUEST['myactionper']=='unionpayment'){
+
+$items = $_REQUEST['ref'];
+  $quantity = '1';
+  $amount =  (float) ($_REQUEST['amount']);
+  $currency = $_REQUEST['chinacurrency'];
+  $client_name = $_REQUEST['customer'];
+  $client_country = 'Malaysia';
+  $client_city = 'Klang Selangor';
+  $client_email = 'ezyfx4u@gmail.com';
+  $reg_date = date('Y-m-d');
+  $url = "https://www.megatransfer.com/";
+  $merchant_id = "368570928";
+  $secret_code = "38ee540e9cffe4f8a93370edfdf68afb49bba7a75accfbe2e5687feb27cf8e68";
+  $separator = "10113696";
+  $order_id = strtotime("now");
+  $total_amount = (float) ($_REQUEST['amount']);
+  $total_amount = sprintf("%1.2f", $total_amount);
+  $signature = hash("sha256", $secret_code . $separator . $merchant_id . $separator . $items . $separator . $quantity . $separator . $amount . $separator . $total_amount . $separator . $currency . $separator . $secret_code);
+  ?>
+  <form id="unionpayment" name="form" method="post" action="https://www.megatransfer.com/payments/">
+      <input type="hidden" name="items" value="<?php echo $items ?>"/>
+      <input type="hidden" name="quantity" value="<?php echo $quantity ?>"/>
+      <input type="hidden" name="amount" value="<?php echo $amount ?>"/>
+      <input type="hidden" name="currency" value="<?php echo $currency ?>"/>
+      <input type="hidden" name="total_amount" value="<?php echo $total_amount ?>"/>
+      <input type="hidden" name="merchant_id" value="<?php echo $merchant_id ?>"/>
+      <input type="hidden" name="order_id" value="<?php echo $order_id ?>"/>
+      <input type="hidden" name="client_name" value="<?php echo $client_name ?>"/>
+      <input type="hidden" name="client_country" value="<?php echo $client_country ?>"/>
+      <input type="hidden" name="client_city" value="<?php echo $client_city ?>"/>
+      <input type="hidden" name="client_email" value="<?php echo $client_email ?>"/>
+      <input type="hidden" name="client_regdate" value="<?php echo $reg_date ?>"/>
+      <input type="hidden" name="url" value="<?php echo $url ?>"/>
+      <input type="hidden" name="signature" value="<?php echo $signature ?>"/>
+      <!--FOR TEST GATEWAY-->
+      <input type="hidden" name="gateway_id" value="0"/>
+      <!--//FOR LIVE GATEWAY-->
+      <!--<input type="hidden" name="gateway_id" value="1"/>-->
+      <input type="hidden" name="payment_method" value="mt"/>
+      <input type="hidden" name="success_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=success"/>
+      <input type="hidden" name="fail_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=fail"/>
+      <input type="hidden" name="callback_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=callback"/>
+      <input type="submit" name="Submit" class="ic-btn" value="Deposit Now"/>
+  </form>
+  <script type="text/javascript">
+  document.getElementById("unionpayment").submit();
+    $('#unionpayment').submit();
+
+  </script>
+
+<?php } else if(isset($_REQUEST['myactionper']) && $_REQUEST['myactionper']=='megatransfer'){
+
+$items = $_REQUEST['ref'];
+  $quantity = '1';
+  $amount =  (float) ($_REQUEST['amount']);
+  $currency = $_REQUEST['megacurrency'];
+  $client_name = $_REQUEST['customer'];
+  $client_country = 'Malaysia';
+  $client_city = 'Klang Selangor';
+  $client_email = 'ezyfx4u@gmail.com';
+  $reg_date = date('Y-m-d');
+  $url = "https://www.megatransfer.com/";
+  $merchant_id = "368570928";
+  $secret_code = "38ee540e9cffe4f8a93370edfdf68afb49bba7a75accfbe2e5687feb27cf8e68";
+  $separator = "10113696";
+  $order_id = strtotime("now");
+  $total_amount = (float) ($_REQUEST['amount']);
+  $total_amount = sprintf("%1.2f", $total_amount);
+  $signature = hash("sha256", $secret_code . $separator . $merchant_id . $separator . $items . $separator . $quantity . $separator . $amount . $separator . $total_amount . $separator . $currency . $separator . $secret_code);
+  ?>
+  <form id="megatransfer" name="form" method="post" action="https://www.megatransfer.com/payments/">
+      <input type="hidden" name="items" value="<?php echo $items ?>"/>
+      <input type="hidden" name="quantity" value="<?php echo $quantity ?>"/>
+      <input type="hidden" name="amount" value="<?php echo $amount ?>"/>
+      <input type="hidden" name="currency" value="<?php echo $currency ?>"/>
+      <input type="hidden" name="total_amount" value="<?php echo $total_amount ?>"/>
+      <input type="hidden" name="merchant_id" value="<?php echo $merchant_id ?>"/>
+      <input type="hidden" name="order_id" value="<?php echo $order_id ?>"/>
+      <input type="hidden" name="client_name" value="<?php echo $client_name ?>"/>
+      <input type="hidden" name="client_country" value="<?php echo $client_country ?>"/>
+      <input type="hidden" name="client_city" value="<?php echo $client_city ?>"/>
+      <input type="hidden" name="client_email" value="<?php echo $client_email ?>"/>
+      <input type="hidden" name="client_regdate" value="<?php echo $reg_date ?>"/>
+      <input type="hidden" name="url" value="<?php echo $url ?>"/>
+      <input type="hidden" name="signature" value="<?php echo $signature ?>"/>
+      <!--FOR TEST GATEWAY-->
+      <input type="hidden" name="gateway_id" value="0"/>
+      <!--//FOR LIVE GATEWAY-->
+      <!--<input type="hidden" name="gateway_id" value="1"/>-->
+      <input type="hidden" name="payment_method" value="mt"/>
+      <input type="hidden" name="success_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=success"/>
+      <input type="hidden" name="fail_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=fail"/>
+      <input type="hidden" name="callback_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=callback"/>
+      <input type="submit" name="Submit" class="ic-btn" value="Deposit Now"/>
+  </form>
+  <script type="text/javascript">
+  document.getElementById("megatransfer").submit();
+    $('#megatransfer').submit();
+
+  </script>
+
+<?php } else if(isset($_REQUEST['myactionper']) && $_REQUEST['myactionper']=='default'){
+
+$items = $_REQUEST['ref'];
+  $quantity = '1';
+  $amount =  (float) ($_REQUEST['amount']);
+  $currency = $_REQUEST['currency'];
+  $client_name = $_REQUEST['customer'];
+  $client_country = 'Malaysia';
+  $client_city = 'Klang Selangor';
+  $client_email = 'ezyfx4u@gmail.com';
+  $reg_date = date('Y-m-d');
+  $url = "https://www.megatransfer.com/";
+  $merchant_id = "368570928";
+  $secret_code = "38ee540e9cffe4f8a93370edfdf68afb49bba7a75accfbe2e5687feb27cf8e68";
+  $separator = "10113696";
+  $order_id = strtotime("now");
+  $total_amount = (float) ($_REQUEST['amount']);
+  $total_amount = sprintf("%1.2f", $total_amount);
+  $signature = hash("sha256", $secret_code . $separator . $merchant_id . $separator . $items . $separator . $quantity . $separator . $amount . $separator . $total_amount . $separator . $currency . $separator . $secret_code);
+  ?>
+  <form id="default" name="form" method="post" action="https://www.megatransfer.com/payments/">
+      <input type="hidden" name="items" value="<?php echo $items ?>"/>
+      <input type="hidden" name="quantity" value="<?php echo $quantity ?>"/>
+      <input type="hidden" name="amount" value="<?php echo $amount ?>"/>
+      <input type="hidden" name="currency" value="<?php echo $currency ?>"/>
+      <input type="hidden" name="total_amount" value="<?php echo $total_amount ?>"/>
+      <input type="hidden" name="merchant_id" value="<?php echo $merchant_id ?>"/>
+      <input type="hidden" name="order_id" value="<?php echo $order_id ?>"/>
+      <input type="hidden" name="client_name" value="<?php echo $client_name ?>"/>
+      <input type="hidden" name="client_country" value="<?php echo $client_country ?>"/>
+      <input type="hidden" name="client_city" value="<?php echo $client_city ?>"/>
+      <input type="hidden" name="client_email" value="<?php echo $client_email ?>"/>
+      <input type="hidden" name="client_regdate" value="<?php echo $reg_date ?>"/>
+      <input type="hidden" name="url" value="<?php echo $url ?>"/>
+      <input type="hidden" name="signature" value="<?php echo $signature ?>"/>
+      <!--FOR TEST GATEWAY-->
+      <input type="hidden" name="gateway_id" value="0"/>
+      <!--//FOR LIVE GATEWAY-->
+      <!--<input type="hidden" name="gateway_id" value="1"/>-->
+      <input type="hidden" name="payment_method" value="cc|ch|mt|wt"/>
+      <input type="hidden" name="success_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=success"/>
+      <input type="hidden" name="fail_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=fail"/>
+      <input type="hidden" name="callback_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=callback"/>
+      <input type="submit" name="Submit" class="ic-btn" value="Deposit Now"/>
+  </form>
+  <script type="text/javascript">
+  document.getElementById("megatransfer").submit();
+    $('#default').submit();
+
+  </script>
+
+<?php } ?>
+
 <section class="why-us">
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
         <h1><i class="fa fa-credit-card-alt"></i>Payment Options</h1>
       </div>
-      <?php include 'open-accts.php'; ?>
+      <?php include 'mobile-links.php'; ?>
     </div>
   </div>
 </section>
 
-<section class="reg-start payment-options">
+<section class="reg-start">
   <div class="container">
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12">
-            <!-- Nav tabs category -->
-            <ul class="nav nav-tabs faq-cat-tabs myTableTabs text-center">
-                <li class="active" style="width: 50%;"><a href="#faq-cat-1" data-toggle="tab">Opening An Account</a></li>
-                <!-- <li style="width: 50%;"><a href="#faq-cat-2" data-toggle="tab">Dashboard</a></li> -->
-            </ul>
-
-            <!-- Tab panes -->
-            <div class="tab-content faq-cat-content">
-                <div class="tab-pane active in fade" id="faq-cat-1">
-                    <div class="panel-group" id="accordion-cat-1">
-
-                        <div class="bs-component">
-
-                          <div class="tab-content">
-                              <div id="tab1" class="tab-pane fade active in">
-                                  <table class="table table-responsive table-striped table-bordered table-hover footable toggle-medium">
-                                      <thead>
-                                           <th>Deposits</th>
-                                           <th data-hide="all">Currency</th>
-                                           <th data-hide="all">Lead Time</th>
-                                           <th data-hide="all">Minimum Deposit</th>
-                                           <th data-hide="all">Deposit Charge</th>
-                                           <th data-hide="all">Minimum Withdraw</th>
-                                           <th data-hide="all">Withdraw Charge</th>
-                                           <th data-hide="all">Action</th>
-                                       </thead>
-                                       <tbody>
-                                          <tr>
-                                            <td>
-                                              <small>Local Transfer</small>
-                                              <img src="images/deposit-methods/local-tf.png" alt="">
-                                            </td>
-                                            <td>Local Currency</td>
-                                            <td>Usually within 30 minutes</td>
-                                            <td>$100 USD depends on the local depositor</td>
-                                            <td>Fixed Rate Applies</td>
-                                            <td>Profit cannot be withdrawn by local depositor</td>
-                                            <td> Not Applicable  </td>
-                                            <td><a href="#" class="btn btn-danger">Make Deposit &raquo;</a></td>
-                                          </tr>
-                                          <tr>
-                                            <td>
-                                              <small>Credit / Debit Card (Visa &amp; MasterCard)</small>
-                                              <img src="images/deposit-methods/cc.png" alt="">
-                                            </td>
-                                            <td>USD</td>
-                                            <td>Instantly if no further verification needed</td>
-                                            <td>$10 USD</td>
-                                            <td>No</td>
-                                            <td>Withdraw treat as ‘Refund’ from the previous deposit, hence the withdraw amount has to be same with the previous deposit amount.</td>
-                                            <td>No * (Refund takes 5 ~ 7 working days)</td>
-                                            <td><a href="#" class="btn btn-danger">Make Deposit &raquo;</a></td>
-                                          </tr>
-
-                                          <tr>
-                                            <td>
-                                              <!-- <small>Bank Wire / Telegraphic Transfer</small> -->
-                                              <img src="images/deposit-methods/bank-tf.png" alt="">
-                                            </td>
-                                            <td>USD</td>
-                                            <td>1 ~ 5 working days</td>
-                                            <td>$500 USD</td>
-                                            <td>Bank charges upon sending and receiving</td>
-                                            <td>$300 USD</td>
-                                            <td>Bank charges upon sending and receiving</td>
-                                            <td><a href="#" class="btn btn-danger">Make Deposit &raquo;</a></td>
-                                          </tr>
-
-                                          <tr>
-                                            <td>
-                                              <!-- <small>Mega Transfer</small> -->
-                                              <img src="images/footer/mt.png" alt="">
-                                            </td>
-                                            <td>USD</td>
-                                            <td>1 ~ 5 working days</td>
-                                            <td>$500 USD</td>
-                                            <td>Bank charges upon sending and receiving</td>
-                                            <td>$300 USD</td>
-                                            <td>Bank charges upon sending and receiving</td>
-                                            <td><a href="#" class="btn btn-danger">Make Deposit &raquo;</a></td>
-                                          </tr>
-
-                                          <tr>
-                                            <td>
-                                              <!-- <small>Mega Transfer</small> -->
-                                              <img src="images/deposit-methods/upay.svg" alt="">
-                                            </td>
-                                            <td>USD</td>
-                                            <td>1 ~ 5 working days</td>
-                                            <td>$500 USD</td>
-                                            <td>Bank charges upon sending and receiving</td>
-                                            <td>$300 USD</td>
-                                            <td>Bank charges upon sending and receiving</td>
-                                            <td><a href="#" class="btn btn-danger">Make Deposit &raquo;</a></td>
-                                          </tr>
-                                       </tbody>
-                                   </table>
-                               </div>
-                             </div>
-                          </div>
-
-                    </div>
-                </div>
-
-
-                <!-- <div class="tab-pane fade" id="faq-cat-2">
-                    <div class="panel-group" id="accordion-cat-2">
-                        <div class="panel panel-default panel-faq">
-                            <div class="panel-heading">
-                                <a data-toggle="collapse" data-parent="#accordion-cat-2" href="#faq-cat-2-sub-1">
-                                    <h4 class="panel-title">
-                                        FAQ Item Category #2
-                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
-                                    </h4>
-                                </a>
-                            </div>
-                            <div id="faq-cat-2-sub-1" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="panel panel-default panel-faq">
-                            <div class="panel-heading">
-                                <a data-toggle="collapse" data-parent="#accordion-cat-2" href="#faq-cat-2-sub-2">
-                                    <h4 class="panel-title">
-                                        FAQ Item Category #2
-                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
-                                    </h4>
-                                </a>
-                            </div>
-                            <div id="faq-cat-2-sub-2" class="panel-collapse collapse">
-                                <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-
-            </div>
+    <div class="row softwares paymentOptions">
+        <a id="option1">
+          <div class="col-sm-4 col-md-4">
+            <img src="images/deposit-methods/bank-tf.png" alt="EZYFX MT4 Trader For Desktop">
           </div>
+
+          <div class="col-sm-8 col-md-8">
+            <h4>Bank Wire Transfer <span class="pull-right" id="option1Sign1"><strong>+</strong></span><span class="pull-right" id="option1Sign2"><strong>-</strong></span></h4>
+            <p><strong>Region</strong>: Worldwide</p>
+            <p><strong>Max. Deposit</strong>: $10000</p>
+            <p><strong>Fees / Commissions</strong>: $0 USD</p>
+            <p><strong>Processing Time</strong>: Up to 2 Business Days</p>
+            <!-- <p class="pull-right" id="learnMore3"><a>Read More &raquo;</a></p>
+            <p class="pull-right" id="learnMore4"><a>Read Less &raquo;</a></p> -->
+
+          </div>
+        </a>
+        <div class="col-sm-4">
+
+        </div>
+        <div class="col-sm-8">
+          <div id="paymentOption1">
+            <p>In order to ensure the highest levels of security for Customers' transactions, EZYFX uses the services of MegaTransfer to receive deposits via Bank Transfer. MegaTransfer is a global leader in money transfer services and is licensed and regulated in the United Kingdom by the Financial Conduct Authority, the UK's Financial Services Regulator.</p>
+
+            <a href="register.php" class="btn btn-custom-success btn-lg" target="_blank">OPEN AN ACCOUNT &raquo;</a> <a data-toggle="modal" data-target="#localTransfer" onclick="actionperform('banktransfer');" class="btn btn-custom-success btn-lg">Make Deposit Via Bank Transfer &raquo;</a>
+          </div>
+        </div>
+    </div>
+
+
+    <div class="row softwares paymentOptions">
+        <a id="option2">
+          <div class="col-sm-4 col-md-4">
+            <img src="images/deposit-methods/cc.png" alt="EZYFX MT4 Trader For Desktop">
+          </div>
+
+          <div class="col-sm-8 col-md-8">
+            <h4>Credit Card <span class="pull-right" id="option2Sign1"><strong>+</strong></span><span class="pull-right" id="option2Sign2"><strong>-</strong></span></h4>
+            <p><strong>Region</strong>: Worldwide</p>
+            <p><strong>Max. Deposit</strong>: $10000</p>
+            <p><strong>Fees / Commissions</strong>: $0 USD</p>
+            <p><strong>Processing Time</strong>: Up to 2 Business Days</p>
+            <!-- <p class="pull-right" id="learnMore3"><a>Read More &raquo;</a></p>
+            <p class="pull-right" id="learnMore4"><a>Read Less &raquo;</a></p> -->
+
+          </div>
+        </a>
+        <div class="col-sm-4">
+
+        </div>
+        <div class="col-sm-8">
+          <div id="paymentOption2">
+            <p>Did you know that according to the European Central Bank, during 2014 almost half of all non-cash transactions within the EU were card payments? Furthermore, card payments marked an increase of 8.8% compared to the previous year.</p>
+            <p>EZYFX supports that trend by allowing you to deposit into your Trading Account through the use of your international Visa or MasterCard, regardless whether you are in the EU or not.</p>
+
+            <a href="register.php" class="btn btn-custom-success btn-lg" target="_blank">OPEN AN ACCOUNT &raquo;</a> <a data-toggle="modal" data-target="#localTransfer" onclick="actionperform('credit');" class="btn btn-custom-success btn-lg">Deposit via Credit Card &raquo;</a>
+          </div>
+        </div>
+    </div>
+
+    <div class="row softwares paymentOptions">
+        <a id="option3">
+          <div class="col-sm-4 col-md-4">
+            <img src="images/footer/mt2.png" alt="EZYFX MT4 Trader For Desktop">
+          </div>
+
+          <div class="col-sm-8 col-md-8">
+            <h4>Mega Transfer <span class="pull-right" id="option3Sign1"><strong>+</strong></span><span class="pull-right" id="option3Sign2"><strong>-</strong></span></h4>
+            <p><strong>Region</strong>: Worldwide</p>
+            <p><strong>Max. Deposit</strong>: $10000</p>
+            <p><strong>Fees / Commissions</strong>: $0 USD</p>
+            <p><strong>Processing Time</strong>: Up to 2 Business Days</p>
+            <!-- <p class="pull-right" id="learnMore3"><a>Read More &raquo;</a></p>
+            <p class="pull-right" id="learnMore4"><a>Read Less &raquo;</a></p> -->
+
+          </div>
+        </a>
+        <div class="col-sm-4">
+
+        </div>
+        <div class="col-sm-8">
+          <div id="paymentOption3">
+            <p>In order to ensure the highest levels of security for Customers' transactions, EZYFX uses the services of MegaTransfer to receive deposits. MegaTransfer is a global leader in money transfer services and is licensed and regulated in the United Kingdom by the Financial Conduct Authority, the UK's Financial Services Regulator.</p>
+
+            <a href="register.php" class="btn btn-custom-success btn-lg" target="_blank">OPEN AN ACCOUNT &raquo;</a> <a data-toggle="modal" data-target="#localTransfer" onclick="actionperform('megatransfer');" class="btn btn-custom-success btn-lg">Deposit via MegaTransfer &raquo;</a>
+          </div>
+        </div>
+    </div>
+
+    <div class="row softwares paymentOptions">
+        <a id="option4">
+          <div class="col-sm-4 col-md-4">
+            <img src="images/deposit-methods/upay.svg" alt="EZYFX MT4 Trader For Desktop">
+          </div>
+
+          <div class="col-sm-8 col-md-8">
+            <h4>UnionPay <span class="pull-right" id="option4Sign1"><strong>+</strong></span><span class="pull-right" id="option4Sign2"><strong>-</strong></span></h4>
+            <p><strong>Region</strong>: Worldwide</p>
+            <p><strong>Max. Deposit</strong>: $10000</p>
+            <p><strong>Fees / Commissions</strong>: $0 USD</p>
+            <p><strong>Processing Time</strong>: Up to 2 Business Days</p>
+            <!-- <p class="pull-right" id="learnMore3"><a>Read More &raquo;</a></p>
+            <p class="pull-right" id="learnMore4"><a>Read Less &raquo;</a></p> -->
+
+          </div>
+        </a>
+        <div class="col-sm-4">
+
+        </div>
+        <div class="col-sm-8">
+          <div id="paymentOption4">
+            <p>In order to ensure the highest levels of security for Customers' transactions, EZYFX uses the services of MegaTransfer to receive deposits via UnionPay. MegaTransfer is a global leader in money transfer services and is licensed and regulated in the United Kingdom by the Financial Conduct Authority, the UK's Financial Services Regulator.</p>
+
+            <a href="register.php" class="btn btn-custom-success btn-lg" target="_blank">OPEN AN ACCOUNT &raquo;</a> <a data-toggle="modal" data-target="#localTransfer" onclick="actionperform('megatransfer');" class="btn btn-custom-success btn-lg">Deposit via UnionPay &raquo;</a>
+          </div>
+        </div>
+    </div>
+
+
+    <div class="row softwares paymentOptions">
+        <a id="option5">
+          <div class="col-sm-4 col-md-4">
+            <img src="images/deposit-methods/local-tf.png" alt="EZYFX MT4 Trader For Desktop">
+          </div>
+
+          <div class="col-sm-8 col-md-8">
+            <h4>Local Bank Transfer <span class="pull-right" id="option5Sign1"><strong>+</strong></span><span class="pull-right" id="option5Sign2"><strong>-</strong></span></h4>
+            <p><strong>Region</strong>: Worldwide</p>
+            <p><strong>Max. Deposit</strong>: $10000</p>
+            <p><strong>Fees / Commissions</strong>: $0 USD</p>
+            <p><strong>Processing Time</strong>: Up to 2 Business Days</p>
+            <!-- <p class="pull-right" id="learnMore3"><a>Read More &raquo;</a></p>
+            <p class="pull-right" id="learnMore4"><a>Read Less &raquo;</a></p> -->
+
+          </div>
+        </a>
+        <div class="col-sm-4">
+
+        </div>
+        <div class="col-sm-8">
+          <div id="paymentOption5">
+            <p>Text for Local Bank Transfer.</p>
+
+            <a href="register.php" class="btn btn-custom-success btn-lg" target="_blank">OPEN AN ACCOUNT &raquo;</a> <a data-toggle="modal" data-target="#localTransfer" onclick="actionperform('megatransfer');" class="btn btn-custom-success btn-lg">Deposit via Local Bank &raquo;</a>
+          </div>
+        </div>
     </div>
   </div>
 </section>
+
+
 
 <section class="take-note">
   <div class="container">
@@ -176,4 +447,180 @@
 </section>
 
 
+
+
+
+
+                    <!-- PAYMENT MODAL -->
+
+<div class="row">
+ <div class="col-xs-12 col-sm-6 col-sm-offset-3">
+   <div id="localTransfer" class="modal fade" role="dialog">
+     <div class="modal-dialog">
+       <!-- Modal content-->
+       <div class="modal-content homeModal">
+         <div class="modal-header">
+           <button type="button" class="close" data-dismiss="modal">&times;</button>
+           <h4 class="modal-title text-center">Make a Deposit</h4>
+         </div>
+         <div class="modal-body">
+           <div class="row">
+             <div class="col-xs-12 col-sm-12">
+               <div class="form-logo">
+                 <img src="images/logo.png" alt="" class="img-responsive img-thumbnail">
+               </div>
+             </div>
+             <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+               <div class="fundsDeposit">
+                 <form role="form " action="" method="get" id="mypopupaction">
+                   <input type="hidden" name="myactionper" id="myactionper" value="" />
+                   <div class="form-group">
+                     <div class="input-group">
+                       <div class="input-group addon">
+                         <span class="input-group-addon" id="basic-addon1"><i class="fa fa-user"></i></span>
+                         <input type="text" class="form-control" id="depositName" placeholder="Full Name" name="customer">
+                       </div>
+                     </div>
+                   </div>
+
+                   <div class="form-group">
+                     <div class="input-group">
+                       <div class="input-group addon">
+                         <span class="input-group-addon" id="basic-addon1"><i class="fa fa-envelope-o"></i></span>
+                         <input type="email" class="form-control" id="depositEmail" placeholder="Enter Email Address">
+                       </div>
+                     </div>
+                   </div>
+
+                   <div class="form-group">
+                     <div class="input-group">
+                       <div class="input-group addon">
+                         <span class="input-group-addon" id="basic-addon1"><i class="fa fa-hand-o-up"></i></span>
+                         <select class="form-control currencymy" name="wirecurrency" id="wiretrans" required>
+                           <option value="Select Currency"> Select Currency</option>
+                           <?php foreach($wiretrans as $mywird){?>
+                             <option value="<?php echo $mywird;?>"> <?php echo $mywird;?></option>
+                           <?php }?>
+                         </select>
+
+                         <select class="form-control currencymy" name="creditcurrency" id="creaditcard" required>
+                           <option value="Select Currency"> Select Currency</option>
+                           <?php foreach($creaditcard as $mycreaditcard){?>
+                             <option value="<?php echo $mycreaditcard;?>"><?php echo $mycreaditcard;?></option>
+                           <?php }?>
+                         </select>
+
+
+                         <select class="form-control currencymy" name="megacurrency" id="megatransfer" required>
+                           <option value="Select Currency"> Select Currency</option>
+                           <?php foreach($megatransfer as $mymegatransfer){?>
+                             <option value="<?php echo $mymegatransfer;?>"><?php echo $mymegatransfer;?></option>
+                           <?php }?>
+                         </select>
+
+                         <select class="form-control currencymy" name="chinacurrency" id="chinapay" required>
+                           <option value="Select Currency"> Select Currency</option>
+                           <?php foreach($chinapay as $mychinapay){?>
+                             <option value="<?php echo $mychinapay;?>"><?php echo $mychinapay;?></option>
+                           <?php }?>
+                         </select>
+                       </div>
+                     </div>
+                   </div>
+
+                   <div class="form-group">
+                     <div class="input-group">
+                       <div class="input-group addon">
+                         <span class="input-group-addon" id="basic-addon1"><i class="fa fa-money"></i></span>
+                         <input type="amount" class="form-control" id="depositAmount" placeholder="Enter Amount" name="amount">
+                       </div>
+                     </div>
+                   </div>
+
+                   <div class="form-group">
+                     <div class="input-group">
+                       <div class="input-group addon">
+                         <span class="input-group-addon" id="basic-addon1"><i class="fa fa-pencil-square-o"></i></span>
+                         <input type="text" class="form-control" id="depositAcct" placeholder="Enter MT4 Account Number" name="ref">
+                       </div>
+                     </div>
+                   </div>
+
+                   <div class="form-group">
+                     <div class="input-group">
+                       <div class="input-group addon">
+                         <span class="input-group-addon" id="basic-addon1"><i class="fa fa-mobile-phone"></i></span>
+                         <input type="phone" class="form-control" id="subscriberPhone" placeholder="Enter Phone Number">
+                       </div>
+                     </div>
+                   </div>
+
+                   <div class="form-group">
+                     <input type="submit" name="depositBtn" value="Make Deposit &rarr;" class="btn btn-custom-demo btn-block">
+                   </div>
+                 </form>
+               </div>
+             </div>
+           </div>
+
+
+           <!-- <hr>
+           <div class="row">
+             <div class="col-xs-12 col-sm-12">
+               <p>And get the following benefits for <span>free</span>:</p>
+               <ul class="ppro">
+                 <li>
+                   <i class="fa fa-check-square-o"></i> 30 minutes consultation on how to trade and earn like a professional trader.
+                 </li>
+
+                 <li>
+                   <i class="fa fa-check-square-o"></i> 21 days "Zero To Hero" professionally guided forex trading course.
+                 </li>
+
+                 <li>
+                   <i class="fa fa-check-square-o"></i> 21 days of <span>forex premium signals</span>.
+                 </li>
+               </ul>
+               <p><em>... all of these benefits worth upto $7657 USD available for the first 10 subscribers</em></p>
+               <p><sup>*</sup> <small>This offer is subjected to <a href="#">Terms &amp; Conditions</a>.</small></p>
+             </div>
+           </div> -->
+         </div>
+         <div class="modal-footer">
+           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+         </div>
+       </div>
+
+     </div>
+   </div>
+ </div>
+</div>
+
+
 <?php include('includes/footer.php'); ?>
+<script type="text/javascript">
+function actionperform(myvalue)
+{
+	$('.currencymy').css('display','none');
+	if(myvalue=='banktransfer')
+	{
+		$('#wiretrans').css('display','block');
+	}
+	else if(myvalue=='credit')
+	{
+		$('#creaditcard').css('display','block');
+	}
+	else if(myvalue=='unionpayment')
+	{
+		$('#chinapay').css('display','block');
+	}
+	else if(myvalue=='megatransfer')
+	{
+		$('#megatransfer').css('display','block');
+	}
+	$('#myactionper').val(myvalue);
+	$('#popupmodeshow').click();
+
+}
+
+</script>

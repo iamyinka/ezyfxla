@@ -60,7 +60,7 @@
           <p>Islamic account has no swap applied during a rollover but a fixed fee instead. This fee is not an interest and primarily depends on the direction of your position.</p>
           <p><em>We care about our customers and we do our best to make their trading experience easy and convenient.</em></p>
           <p>Open an award-winning Islamic account with EZYFX today!</p>
-          <a href="#" class="btn btn-custom-live btn-block">Open An Account</a>
+          <a href="register.php" class="btn btn-custom-live btn-block">Open An Account</a>
         </div>
       </div>
     </div>

@@ -11,11 +11,25 @@
   </div>
 </section>
 
-<section class="reg-start">
+<!-- class mt4-feat2 -->
+<section class="reg-start mt4-features">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12">
         <h3 class="text-center">The EZYFX Trading Experience</h3>
+        <div class="row">
+          <div class="col-sm-4 col-sm-offset-4">
+            <div class="mt4-dl license">
+              <!-- <img src="images/meta.png" alt=""> -->
+              <!-- <h6>Download Ezyfx metatrader 4 &rarr;</h6> -->
+              <a class="btn btn-link" href="software-downloads.php" style="color: #fff; margin-top: 60px;">DOWNLOAD NOW</a>
+                <div class="overlay">
+                  <h6 style="color: #fff;">EZYFX Metatrader 4</h6>
+                  <a class="info" href="software-downloads.php">Download NOW <i class="fa fa-arrow-down"></i></a>
+                </div>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div class="col-xs-12 col-sm-8">
@@ -28,30 +42,7 @@
         <p>EZY pioneered the offering of an MT4 platform with trading execution quality in mind. Trade on MT4 with <strong>no requotes, no rejections</strong> and flexible leverage ranging from 1:1 – to 1:1000</p>
       </div>
 
-      <div class="col-xs-12 col-sm-4">
-        <div class="mt4-dl license">
-          <!-- <img src="images/meta.png" alt=""> -->
-          <h6>Download Ezyfx metatrader 4 &rarr;</h6>
-          <a class="btn btn-link" href="https://google.com" target="_blank">Download NOW</a>
-            <div class="overlay">
-              <h6 style="color: #fff;">EZYFX Metatrader 4</h6>
-              <a class="info" href="https://google.com" target="_blank">Download NOW <i class="fa fa-arrow-down"></i></a>
-            </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="mt4-features">
-  <div class="container">
-    <div class="row">
-
-      <div class="col-xs-12 col-sm-12 col-md-8 mt4-feat2">
-
-      </div>
-
-      <div class="col-xs-12 col-sm-12 col-md-4">
+      <div class="col-xs-12 col-sm-4 mt4-features">
         <h4>EZY MT4 FEATURES</h4>
 
         <ul>
@@ -67,13 +58,28 @@
           <li>VPS Functionality</li>
         </ul>
 
-        <a href="#" class="btn btn-custom-live btn-block">Get Your EzyFX Account</a>
+        <a href="register.php" class="btn btn-custom-live btn-block">Get Your EzyFX Account</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <section class="mt4-features">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-xs-12 col-sm-12 col-md-8">
+
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-4">
+
       </div>
 
 
     </div>
   </div>
-</section>
+</section> -->
 
 
 <?php include('includes/footer.php'); ?>

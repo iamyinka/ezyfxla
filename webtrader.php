@@ -24,7 +24,7 @@
 
           <p><strong><em>Browser Based</em></strong> – Tailored to suit the needs of Desktop & Mobile traders. Flexible and powerful platform for Mac and Window usage.</p>
 
-          <a href="#" class="btn btn-custom-default btn-block">Access EZYFX MT4 Web Trader &raquo;</a>
+          <a href="https://trade.mql5.com/trade?servers=EZYFX-Demo+Server,EZYFX-Live+7&trade_server=EZYFX" target="_blank" class="btn btn-custom-default btn-block">Access EZYFX MT4 Web Trader &raquo;</a>
         </div>
       </div>
     </div>
@@ -46,14 +46,14 @@
           <li>Close By and Multiple Close By trade requests</li>
           <li>Editable properties of graphical objects</li>
         </ul>
-        <a href="#" class="btn btn-custom-demo btn-block">Open An Account &rarr;</a>
-        <a href="#" class="btn btn-custom-live btn-block">Access EZYFX MT4 WebTrader &rarr;</a>
+        <a href="register.php" class="btn btn-custom-demo btn-block">Open An Account &rarr;</a>
+        <a href="https://trade.mql5.com/trade?servers=EZYFX-Demo+Server,EZYFX-Live+7&trade_server=EZYFX" class="btn btn-custom-live btn-block" target="_blank">Access EZYFX MT4 WebTrader &rarr;</a>
       </div>
 
       <div class="col-xs-12 col-sm-8 col-md-7">
         <h4>How to access the EZY MT4 WebTrader</h4>
         <ul>
-          <li>Access the terminal by clicking <a href="#" style="color:#ffe900;">here</a>.</li>
+          <li>Access the terminal by clicking <a href="https://trade.mql5.com/trade?servers=EZYFX-Demo+Server,EZYFX-Live+7&trade_server=EZYFX" style="color:#ffe900;" target="_blank">here</a>.</li>
           <li>Enter your real or demo account login data.</li>
           <li>Without having to download anything at all, you can use the full practicality of EZY MT4 WebTrader for instant online trading on both demo and trading accounts. The complete trading functionality of EZY WebTrader is based on its compatibility with MetaTrader4. This allows one-click operations for opening and closing trades, setting stops and entry limits, placing direct orders, setting and editing limit and stop loss, and charting.</li>
         </ul>

@@ -357,7 +357,7 @@
 contact us by Chat as well.
                 </p>
                 <p>
-                  <a href="#" class="btn btn-custom-danger btn-lg-xs btn-block" onclick="phplive_launch_chat_0(0)">Chat Live With Us &rarr;</a>
+                  <a class="btn btn-custom-danger btn-lg-xs btn-block" onclick="phplive_launch_chat_0(0)">Chat Live With Us &rarr;</a>
                 </p>
               </div>
             </div>

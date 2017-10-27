@@ -27,7 +27,7 @@
         <div class="col-xs-3 col-sm-3 col-md-3">
           <div class="mt4 footer-links">
             <ul>
-              <li>
+              <li style="height: 92px;">
                 <a href="deposit-my-account.php">
                   <i class="fa fa-usd"></i><span>Make a Deposit</span>
                 </a>

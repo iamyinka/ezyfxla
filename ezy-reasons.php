@@ -24,7 +24,7 @@
             </div>
 
             <div class="col-xs-12 col-sm-6">
-              <a href="#" class="btn btn-custom-live btn-block">Become an EzyFx Partner &rarr;</a>
+              <a href="register.php" class="btn btn-custom-live btn-block">Become an EzyFx Partner &rarr;</a>
             </div>
           </div>
         </div>
