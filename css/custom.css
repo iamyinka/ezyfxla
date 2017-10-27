@@ -1807,6 +1807,27 @@ footer .contactInfo {
   color: #fff;
 }
 
+.demo-acct, .live-acct {
+  text-align: justify;
+}
+
+.demo-acct h4, .live-acct h4 {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2145,7 +2166,9 @@ select.goog-te-combo {
   background-size: contain;
 }
 
-
+/* *************************
+    Bootstrap Slider on Mobile Devices
+************************* */
 
 .carousel {
   margin-bottom: 60px;

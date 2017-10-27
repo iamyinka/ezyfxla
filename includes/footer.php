@@ -1,5 +1,5 @@
 <footer>
-  <div class="container">
+  <div class="container text-center">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12">
         <a style="cursor: pointer">
@@ -24,48 +24,50 @@
   <div class="footer-icons">
     <div class="container">
       <div class="row">
-        <div class="col-xs-3 col-sm-3 col-md-3">
-          <div class="mt4 footer-links">
-            <ul>
-              <li style="height: 92px;">
-                <a href="deposit-my-account.php">
-                  <i class="fa fa-usd"></i><span>Make a Deposit</span>
-                </a>
-              </li>
-            </ul>
+        <div class="col-md-12">
+          <div class="col-md-3">
+            <div class="mt4 footer-links">
+              <ul>
+                <li style="height: 92px;">
+                  <a href="deposit-my-account.php">
+                    <i class="fa fa-usd"></i><span>Make a Deposit</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="col-xs-3 col-sm-3 col-md-3">
-          <div class="mt4 footer-links">
-            <ul>
-              <li>
-                <a href="downloads/EzyFx-MT4.zip" target="_blank">
-                  <i class="fa fa-download"></i><span>Download Trading Platform</span>
-                </a>
-              </li>
-            </ul>
+          <div class="col-md-3">
+            <div class="mt4 footer-links">
+              <ul>
+                <li>
+                  <a href="downloads/EzyFx-MT4.zip" target="_blank">
+                    <i class="fa fa-download"></i><span>Download Trading Platform</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="col-xs-3 col-sm-3 col-md-3">
-          <div class="mt4 footer-links">
-            <ul>
-              <li>
-                <a href="register.php" target="_blank">
-                  <i class="fa fa-money"></i><span>Open An Account With Us</span>
-                </a>
-              </li>
-            </ul>
+          <div class="col-md-3">
+            <div class="mt4 footer-links">
+              <ul>
+                <li>
+                  <a href="register.php" target="_blank">
+                    <i class="fa fa-money"></i><span>Open An Account With Us</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="col-xs-3 col-sm-3 col-md-3">
-          <div class="mt4 footer-links">
-            <ul>
-              <li>
-                <a href="https://secure.ezyfx.la/login" target="_blank">
-                  <i class="fa fa-sign-in"></i><span>View your Account(s)</span>
-                </a>
-              </li>
-            </ul>
+          <div class="col-md-3">
+            <div class="mt4 footer-links">
+              <ul>
+                <li>
+                  <a href="https://secure.ezyfx.la/login" target="_blank">
+                    <i class="fa fa-sign-in"></i><span>View your Account(s)</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -75,58 +77,112 @@
   <section class="footer-nav">
     <div class="container">
       <div class="row">
-        <div class="col-sm-2">
-          <h6>About</h6>
-          <div class="small-line">
+        <!-- <div class="col-lg-12">
+          <div class="col-md-2">
+            <ul class="nav nav-pills nav-stacked">
+              <li><a href="/">Home</a></li>
+              <li><a href="about.php">About Us</a></li>
+              <li><a href="safety-and-more.php">Safety &amp; Security</a></li>
+              <li><a href="regulations.php">License &amp; Registration</a></li>
+              <li><a href="contact-us.php">Support</a></li>
+              <li><a href="careers.php">Careers</a></li>
+            </ul>
           </div>
+          <div class="col-md-2">
+            <ul class="nav nav-pills nav-stacked">
+              <li><a href="#">Accounts</a></li>
+              <li><a href="#">Deposit</a></li>
+              <li><a href="#">Register (Live)</a></li>
+              <li><a href="#">Register (Demo)</a></li>
+              <li><a href="#">Log In</a></li>
+              <li><a href="#">My Account</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul class="nav nav-pills nav-stacked">
+              <li><a href="#">Web analytics</a></li>
+              <li><a href="#">Presentations</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul class="nav nav-pills nav-stacked">
+              <li><a href="#">Product Help</a></li>
+              <li><a href="#">Developer API</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul class="nav nav-pills nav-stacked">
+              <li><a href="#">Product Help</a></li>
+              <li><a href="#">Developer API</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <ul class="nav nav-pills nav-stacked">
+              <li><a href="#">Product Help</a></li>
+              <li><a href="#">Developer API</a></li>
+            </ul>
+          </div>
+        </div> -->
+
+
+      <div class="col-md-12">
+        <div class="col-md-2">
+
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Safety &amp; Security</a></li>
-            <li><a href="#">License &amp; Registration</a></li>
-            <li><a href="#">Support</a></li>
-            <li><a href="#">Careers</a></li>
+            <h6>About</h6>
+            <div class="small-line">
+            </div>
+            <li><a href="/">Home</a></li>
+            <li><a href="about.php">About Us</a></li>
+            <li><a href="safety-and-more.php">Safety &amp; Security</a></li>
+            <li><a href="regulations.php">License &amp; Registration</a></li>
+            <li><a href="contact-us.php">Support</a></li>
+            <li><a href="careers.php">Careers</a></li>
           </ul>
         </div>
-        <div class="col-sm-2">
-          <h6>Account</h6>
-          <div class="small-line">
-          </div>
+        <div class="col-md-2">
+
           <ul>
-            <li><a href="#">Accounts</a></li>
-            <li><a href="#">Deposit</a></li>
-            <li><a href="#">Register (Live)</a></li>
-            <li><a href="#">Register (Demo)</a></li>
-            <li><a href="#">Log In</a></li>
-            <li><a href="#">My Account</a></li>
+            <h6>Account</h6>
+            <div class="small-line">
+            </div>
+            <li><a href="trading-accounts.php">Accounts</a></li>
+            <li><a href="deposit-my-account.php">Deposit</a></li>
+            <li><a href="https://secure.ezyfx.la/open-live-account" target="_blank">Register (Live)</a></li>
+            <li><a href="https://secure.ezyfx.la/open-demo-account" target="_blank">Register (Demo)</a></li>
+            <li><a href="https://secure.ezyfx.la/login" target="_blank">Log In</a></li>
+            <li><a href="https://secure.ezyfx.la/login" target="_blank">My Account</a></li>
           </ul>
         </div>
-        <div class="col-sm-2">
-          <h6>Trade</h6>
-          <div class="small-line">
-          </div>
+        <div class="col-md-2">
+
           <ul>
-            <li><a href="#">Platform Information</a></li>
+            <h6>Trade</h6>
+            <div class="small-line">
+            </div>
+            <li><a href="software-downloads.php">Platform Information</a></li>
             <li><a href="https://trade.mql5.com/trade?servers=EZYFX-Demo+Server%2cEZYFX-Live+7&trade_server=EZYFX" target="_blank">Web Trader</a></li>
             <li><a href="downloads/EzyFx-MT4.zip" target="_blank">Download MetaTrader 4</a></li>
           </ul>
         </div>
-        <div class="col-sm-2">
-          <h6>Instruments</h6>
-          <div class="small-line">
-          </div>
+        <div class="col-md-2">
+
           <ul>
+            <h6>Instruments</h6>
+            <div class="small-line">
+            </div>
             <li><a href="#">Forex</a></li>
             <li><a href="#">CFDs</a></li>
             <li><a href="#">Indices</a></li>
             <li><a href="#">Shares</a></li>
           </ul>
         </div>
-        <div class="col-sm-2">
-          <h6>Education</h6>
-          <div class="small-line">
-          </div>
+        <div class="col-md-2">
+
           <ul>
+            <h6>Education</h6>
+            <div class="small-line">
+            </div>
             <li><a href="#">Trading Manual</a></li>
             <li><a href="#">Video Education Centre</a></li>
             <li><a href="#">Online Webinar Lesson</a></li>
@@ -134,11 +190,12 @@
             <li><a href="#">FAQs</a></li>
           </ul>
         </div>
-        <div class="col-sm-2 long-links">
-          <h6>Legal</h6>
-          <div class="small-line">
-          </div>
+        <div class="col-md-2 long-links">
+
           <ul>
+            <h6>Legal</h6>
+            <div class="small-line">
+            </div>
             <li><a href="#">Terms of Use</a></li>
             <li><a href="#">Acceptable Use</a></li>
             <li><a href="#">Deposit &amp; Withdrawal</a></li>

@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
-        <h1><i class="fa fa-handshake-o"></i>Ezyfx Partnership Program</h1>
+        <h1><i class="fa fa-handshake-o"></i>Join as an Ezyfx Partner</h1>
       </div>
       <?php include 'open-accts.php'; ?>
     </div>
