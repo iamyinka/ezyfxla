@@ -272,7 +272,7 @@
         </div>
 
         <div class="col-xs-6 col-sm-3 col-md-3">
-          <a href="#">
+          <a href="register.php">
             <div class="accts-reg">
               <div class="acct-demo">
                 <img src="images/acct-demo/04.jpg" alt="">
