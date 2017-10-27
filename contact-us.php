@@ -40,7 +40,7 @@
             <div class="input-group">
               <div class="input-group addon">
                 <span class="input-group-addon" id="basic-addon1"><i class="fa fa-mobile-phone"></i></span>
-                <input type="phone" class="form-control" id="contactPhone" placeholder="Enter Phone Number">
+                <input type="tel" class="form-control" id="contactPhone" placeholder="Enter Phone Number">
               </div>
             </div>
           </div>
