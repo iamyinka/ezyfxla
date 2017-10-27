@@ -31,7 +31,7 @@
 
       <div class="row">
         <div class="col-xs-3 col-sm-3">
-          <a href="#">
+          <a href="https://secure.ezyfx.la/open-live-account" target="_blank">
             <div class="account-options">
               <i class="fa fa-bar-chart-o"></i>
               <p>From individual traders to institutional investors, EZYFX offers innovative solutions to empower performance. We have a various forex trading account types.</p>
@@ -40,7 +40,7 @@
           </a>
         </div>
         <div class="col-xs-3 col-sm-3">
-          <a href="#">
+          <a href="register.php">
             <div class="account-options">
               <i class="fa fa-clock-o"></i>
               <p>From individual traders to institutional investors, EZYFX offers innovative solutions to empower performance. We have a various forex trading account types.</p>
@@ -49,7 +49,7 @@
           </a>
         </div>
         <div class="col-xs-3 col-sm-3">
-          <a href="#">
+          <a href="https://secure.ezyfx.la/open-demo-account" target="_blank">
             <div class="account-options">
               <i class="fa fa-desktop"></i>
               <p>From individual traders to institutional investors, EZYFX offers innovative solutions to empower performance. We have a various forex trading account types.</p>
@@ -58,7 +58,7 @@
           </a>
         </div>
         <div class="col-xs-3 col-sm-3">
-          <a href="#">
+          <a href="trading-accounts.php">
             <div class="account-options">
               <i class="fa fa-usd"></i>
               <p>From individual traders to institutional investors, EZYFX offers innovative solutions to empower performance. We have a various forex trading account types.</p>
