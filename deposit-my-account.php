@@ -394,7 +394,7 @@ $items = $_REQUEST['ref'];
           </div>
 
           <div class="col-sm-2">
-            <a href="#" class="btn btn-danger btn-block">Deposit</a>
+            <a href="#" class="btn btn-danger btn-block disabled">Contact us for info &raquo;</a>
           </div>
         </div>
       </div>

@@ -63,7 +63,7 @@
 
         <p>Every time you make a deposit to your account you will receive a 60% bonus regardless of the amount of the deposit</p>
 
-        <p>To obtain the 60% Energy Bonus customers need to register a live trading account with us and submit the “Get the 60% Energy Bonus” button from the <a href="#">Clients Cabinet</a>.</p>
+        <p>To obtain the 60% Energy Bonus customers need to register a live trading account with us and submit the “Get the 60% Energy Bonus” button from the <a href="https://secure.ezyfx.la/login" target="_blank">Clients Cabinet</a>.</p>
 
         <p>To benefit from the offer, follow the steps below:</p>
       </div>
@@ -82,7 +82,7 @@
             </div>
           </div>
           <div class="col-xs-10">
-            <p>You can register a real trading account by clicking the "Open Real Account" button on the main page or by following <a href="#">this link &raquo;</a>. You can open an account in any currency (USD, EUR, RUB) to receive the bonus.</p>
+            <p>You can register a real trading account by clicking the "Open Real Account" button on the main page or by following <a href="https://secure.ezyfx.la/open-live-account" target="_blank">this link &raquo;</a>. You can open an account in any currency (USD, EUR, RUB) to receive the bonus.</p>
           </div>
         </div>
       </div>

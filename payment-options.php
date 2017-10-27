@@ -423,7 +423,7 @@ $items = $_REQUEST['ref'];
           <div id="paymentOption5">
             <p>Text for Local Bank Transfer.</p>
 
-            <a href="register.php" class="btn btn-custom-success btn-lg" target="_blank">OPEN AN ACCOUNT &raquo;</a> <a data-toggle="modal" data-target="#localTransfer" onclick="actionperform('megatransfer');" class="btn btn-custom-success btn-lg">Deposit via Local Bank &raquo;</a>
+            <a href="register.php" class="btn btn-custom-success btn-lg" target="_blank">OPEN AN ACCOUNT &raquo;</a> <a data-toggle="modal" data-target="#localTransfer" onclick="actionperform('megatransfer');" class="btn btn-custom-success btn-lg disabled">Contact us for info &raquo;</a>
           </div>
         </div>
     </div>

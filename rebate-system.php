@@ -65,7 +65,7 @@
       </div>
 
       <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3">
-        <a href="#" class="btn btn-custom-live btn-block">Register As Partner</a>
+        <a href="register.php" class="btn btn-custom-live btn-block">Register As Partner</a>
       </div>
     </div>
 

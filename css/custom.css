@@ -1369,9 +1369,9 @@ section.ourVnM {
     box-shadow: 3px 4px 2px 2px #444;
   }
 
-  .promo-details {
-    min-height: 450px;
-  }
+  /*.promo-details {
+    height: auto;
+  }*/
 
   .btnDivs {
     color: #000;
@@ -1524,6 +1524,7 @@ ul.ppro li i.fa {
 .standard-partner img {
   width: 100%;
   max-width: 100%;
+  margin-bottom: 30px;
 }
 
 
@@ -1776,7 +1777,10 @@ footer .contactInfo {
   margin-bottom: 20px;
 }
 
-
+.partnershipTypes img {
+  width: 100%;
+  max-width: 100%;
+}
 
 
 

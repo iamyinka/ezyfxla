@@ -78,7 +78,7 @@ BONUS ON EACH DEPOSIT</p>
             </div>
           </div>
           <div class="col-xs-10">
-            <p>You can register a real trading account by clicking the "Open Real Account" button on the main page or by following <a href="#">this link &raquo;</a>. You can open an account in any currency (USD, EUR, RUB) to receive the bonus.</p>
+            <p>You can register a real trading account by clicking the "Open Real Account" button on the main page or by following <a href="https://secure.ezyfx.la/open-live-account" target="_blank">this link &raquo;</a>. You can open an account in any currency (USD, EUR, RUB) to receive the bonus.</p>
           </div>
         </div>
       </div>
