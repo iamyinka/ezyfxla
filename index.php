@@ -106,13 +106,13 @@
         </ol>
         <div class="carousel-inner">
             <div class="item" style="">
-                <img src="images/01e.jpg" alt="" class="">
+                <img src="images/refactor/sliders/01.png" alt="" class="">
             </div>
             <div class="item active">
-                <img src="images/02e.jpg" alt="" class="">
+                <img src="images/refactor/sliders/02.png" alt="" class="">
             </div>
             <div class="item" style="">
-                <img src="images/03e.jpg" alt="" class="">
+                <img src="images/refactor/sliders/03.png" alt="" class="">
                 <!-- <div class="carousel-caption">
                     <h4 class="">Third Slide Title</h4>
 
@@ -122,10 +122,10 @@
                 </div> -->
             </div>
             <div class="item">
-                <img src="images/fb-header-1-website-b.jpg" alt="" class="">
+                <img src="images/refactor/sliders/04.png" alt="" class="">
             </div>
             <div class="item">
-                <img src="images/fb-header-2-website-b.jpg" alt="" class="">
+                <img src="images/refactor/sliders/05.png" alt="" class="">
             </div>
         </div>
 
