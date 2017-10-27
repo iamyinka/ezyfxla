@@ -23,7 +23,7 @@
         <div class="col-sm-5 why">
           <div class="panel panel-default">
             <div class="panel-body">
-              <img src="images/logo.png" alt="">
+              <img src="images/refactor/sliders/08.png" alt="">
             </div>
           </div>
         </div>

@@ -14,12 +14,12 @@
   </section>
 
 
-  <section>
+  <section class="aboutEzy">
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-sm-12" style="color: #444;">
-          <h3 class="page-header">Welcome to EzyFX</h3>
-          <p><small><em>[Your Wealth is our health]</em></small></p>
+        <div class="col-xs-12 col-sm-12">
+          <h3 class="page-header" style="color: #fff;">Welcome to EzyFX</h3>
+          <p style="color: #fff;"><small><em>[Your Wealth is our health]</em></small></p>
         </div>
       </div>
     </div>
@@ -91,7 +91,7 @@
         <div class="col-sm-7">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h4 style="color: #fff;">Get to know us</h4>
+              <h4 style="color: #fff;">About EZYFX</h4>
             </div>
             <div class="panel-body">
               <p>

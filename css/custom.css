@@ -562,6 +562,9 @@ p {
 
 .why img {
   width: 100%;
+  max-width: 100%;
+  background: transparent;
+  height: auto;
 }
 
 .trading {
@@ -1782,6 +1785,12 @@ footer .contactInfo {
   max-width: 100%;
 }
 
+.aboutEzy {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)), url('../images/refactor/sliders/01.png') center center no-repeat;
+  background-size: cover;
+  min-height: 300px;
+  background-attachment: fixed;
+}
 
 
 
