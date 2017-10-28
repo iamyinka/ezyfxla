@@ -57,7 +57,7 @@
 
                 <div class="col-xs-12 col-sm-6 col-md-6">
                   <div class="subscribeImgQuoute">
-                    <img src="images/quotes.png" alt="">
+                    <img src="images/refactor/home-modal.png" alt="">
                   </div>
                 </div>
               </div>
