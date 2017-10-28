@@ -2,10 +2,11 @@
   <div class="container text-center">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12">
-        <a style="cursor: pointer">
-          <div class="live-chat wow rotateInUpRight" id="phplive_btn_1508839562" onclick="phplive_launch_chat_0(0)">
+        <!-- <a  class="" id="draggable"> -->
+          <div class="live-chat wow rotateInUpRight ui-widget-content" id="phplive_btn_1508839562" onclick="phplive_launch_chat_0(0)" style="cursor: pointer">
 
           </div>
+
           <script type="text/javascript">
 
           (function() {
@@ -17,7 +18,7 @@
           })() ;
 
           </script>
-        </a>
+        <!-- </a> -->
       </div>
     </div>
   </div>
@@ -293,6 +294,7 @@
 <!-- End of carousel -->
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" charset="utf-8"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="js/script.js" charset="utf-8"></script>

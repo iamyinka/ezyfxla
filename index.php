@@ -106,13 +106,15 @@
         </ol>
         <div class="carousel-inner">
             <div class="item" style="">
-                <img src="images/refactor/sliders/01.png" alt="" class="">
+                <a href="about.php">
+                  <img src="images/refactor/sliders/01.png" alt="" class="">
+                </a>
             </div>
             <div class="item active">
-                <img src="images/refactor/sliders/02.png" alt="" class="">
+                <a href="contact-us.php"><img src="images/refactor/sliders/02.png" alt="" class=""></a>
             </div>
             <div class="item" style="">
-                <img src="images/refactor/sliders/03.png" alt="" class="">
+                <a href="deposit-my-account.php"><img src="images/refactor/sliders/03.png" alt="" class=""></a>
                 <!-- <div class="carousel-caption">
                     <h4 class="">Third Slide Title</h4>
 
@@ -122,10 +124,14 @@
                 </div> -->
             </div>
             <div class="item">
-                <img src="images/refactor/sliders/04.png" alt="" class="">
+                <a>
+                  <img src="images/refactor/sliders/04.png" alt="" class="">
+                </a>
             </div>
             <div class="item">
-                <img src="images/refactor/sliders/05.png" alt="" class="">
+                <a href="regulations.php">
+                  <img src="images/refactor/sliders/05.png" alt="" class="">
+                </a>
             </div>
         </div>
 
