@@ -180,14 +180,14 @@ can't find an answer to, our support agents are always there to help you out.</p
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#accordion-cat-4" href="#faq-cat-1-sub-4">
                                     <h4 class="panel-title">
-                                        WHAT IS MY PROFILE?
+                                        WHY ISN’T MY COUNTRY INCLUDED IN THE LIST?
                                         <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
                                     </h4>
                                 </a>
                             </div>
                             <div id="faq-cat-1-sub-4" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    My Profile is the area of the site that stores your personal information, such as your date of birth and contact information. This is automatically populated with information you’ve provided when signing up for your account.
+                                    Due to regulatory and compliance reasons we are unable to open accounts from some countries. For more information, please <a href="contact-us.php">contact us</a>.
                                 </div>
                             </div>
                         </div>
@@ -197,14 +197,14 @@ can't find an answer to, our support agents are always there to help you out.</p
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#accordion-cat-5" href="#faq-cat-1-sub-5">
                                     <h4 class="panel-title">
-                                        CAN I UPDATE MY PROFILE?
+                                        CAN I HAVE MULTIPLE TRADING ACCOUNTS?
                                         <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
                                     </h4>
                                 </a>
                             </div>
                             <div id="faq-cat-1-sub-5" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    Your ability to update your profile information depends on the status of your account. For example, if you have a live account already, you are not able to edit your address directly and must contact us. If you only have a demo account, you can easily update your details.
+                                    Yes, you can. To request an additional account, log in to EZY Dashboard and request for an additional account. Once the account is setup, you can quickly and easily transfer funds between accounts directly through us and start trading.
                                 </div>
                             </div>
                         </div>
@@ -215,14 +215,14 @@ can't find an answer to, our support agents are always there to help you out.</p
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#accordion-cat-6" href="#faq-cat-1-sub-6">
                                     <h4 class="panel-title">
-                                        CAN I CHANGE MY TRADING ACCOUNT PASSWORD?
+                                        CAN I OPEN A JOINT ACCOUNT?
                                         <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
                                     </h4>
                                 </a>
                             </div>
                             <div id="faq-cat-1-sub-6" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    Yes, you can. Simply choose ‘Live Accounts’ or ‘Demo Accounts’ from the menu in your MetaTrader 4 Terminal – Tools – Options – Server and enter the new password and confirm for the change to become active.
+                                    Yes. Joint account applications are much like individual accounts, but there are two applicants who must complete personal details and send through identification and proof of residence documents. Please apply through EZY Dashboard.
                                 </div>
                             </div>
                         </div>
@@ -234,34 +234,34 @@ can't find an answer to, our support agents are always there to help you out.</p
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#accordion-cat-7" href="#faq-cat-1-sub-7">
                                     <h4 class="panel-title">
-                                        I NEED TO CHANGE MY LEVERAGE – HOW DO I DO THIS?
+                                        CAN I OPEN A CORPORATE ACCOUNT?
                                         <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
                                     </h4>
                                 </a>
                             </div>
                             <div id="faq-cat-1-sub-7" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    Leverage are pre-set per your selected packages. Any changes need to go through a special request. Please note that there may be leverage restrictions in place based on your account balance. please <a href="#">contact us</a>
+                                    Yes. Applying for a Corporate Account is simple and easy. Please complete the online application form and submit ID, Proof of Address and Corporate documents as indicated on the application. You can also submit these by emailing to support@ezyfx.la with the requested documents attached.
                                 </div>
                             </div>
                         </div>
 
 
-
+                        <h6 class="text-center">Demo Account</h6 class="text-center">
 
 
                         <div class="panel panel-default panel-faq">
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#accordion-cat-8" href="#faq-cat-1-sub-8">
                                     <h4 class="panel-title">
-                                        CAN I CHANGE MY ACCOUNT CURRENCY?
+                                        HOW DO I OPEN A DEMO ACCOUNT?
                                         <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
                                     </h4>
                                 </a>
                             </div>
                             <div id="faq-cat-1-sub-8" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    You are not able to change the currency of your trading account through the portal. This is because you may have existing trading history which would become inaccurate after making such a change. You can easily apply for a new account and select your desired currency.
+                                    Opening a demo account is easy. To start the process, <a href="register.php">click here</a>
                                 </div>
                             </div>
                         </div>
@@ -273,14 +273,14 @@ can't find an answer to, our support agents are always there to help you out.</p
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#accordion-cat-9" href="#faq-cat-1-sub-9">
                                     <h4 class="panel-title">
-                                        HOW DO I APPLY FOR A NEW LIVE ACCOUNT?
+                                        DO DEMO ACCOUNTS REFLECT COMMISSIONS?
                                         <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
                                     </h4>
                                 </a>
                             </div>
                             <div id="faq-cat-1-sub-9" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    If you want to sign up for a live account, or an additional live account, simply select ‘My Account’ from the EZYFX Dashboard.
+                                    Yes, demo accounts reflect commissions that are charged on accounts.
                                 </div>
                             </div>
                         </div>
@@ -293,14 +293,14 @@ can't find an answer to, our support agents are always there to help you out.</p
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#accordion-cat-10" href="#faq-cat-1-sub-10">
                                     <h4 class="panel-title">
-                                        CAN I OPEN ADDITIONAL DEMO ACCOUNTS?
+                                        DO DEMO ACCOUNTS EXPIRE?
                                         <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
                                     </h4>
                                 </a>
                             </div>
                             <div id="faq-cat-1-sub-10" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    Yes, you can! Select ‘Create demo account’ from our MetaTrader 4 Terminal or our mobile app. The account will be created in a few seconds and you’ll then be able to log in.
+                                    Demo accounts for the MT4 platform will expire after 30 days of inactivity, so please make sure you use the platform periodically.
                                 </div>
                             </div>
                         </div>
@@ -315,27 +315,14 @@ can't find an answer to, our support agents are always there to help you out.</p
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#accordion-cat-11" href="#faq-cat-1-sub-11">
                                     <h4 class="panel-title">
-                                        WHAT BASE CURRENCIES CAN YOU OPEN AN ACCOUNT IN?
+                                        CAN YOUR STAFF RETRIEVE MY DEMO ACCOUNT PASSWORD?
                                         <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
                                     </h4>
                                 </a>
                             </div>
                             <div id="faq-cat-1-sub-11" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    We offer the following base currencies: USD, EUR, GBP, AUD and CHF.
-
-                                    <h6>Deposits &amp; Withdrawals</h6>
-                                    You can fund your account through any of the methods below:
-
-                                    <ul>
-                                      <li>Bank Wire/ Bank Transfer</li>
-                                      <li>Visa</li>
-                                      <li>Mastercard</li>
-                                      <li>Skrill</li>
-                                      <li>Neteller</li>
-                                    </ul>
-
-                                    Please note, certain methods are available only in selected countries. If you are unsure, please contact our support team for more information.To initiate funding, select ‘Deposit Funds’ once logged-into EZY Dashboard, select your desired method then simply follow the prompts to fund your trading account.
+                                    Unfortunately, our Support team are unable to retrieve passwords for demo accounts. If you have opened a demo account on the platform, please find your demo account number and password in the automatic email sent out to your mailbox on our EZYFX MT4 terminal -Mailbox tab. Please be reminded to safely save and store your log in details when you open the account.
                                 </div>
                             </div>
                         </div>
@@ -345,14 +332,26 @@ can't find an answer to, our support agents are always there to help you out.</p
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#accordion-cat-12" href="#faq-cat-1-sub-12">
                                     <h4 class="panel-title">
-                                        CAN I TRANSFER MONEY BETWEEN MY ACCOUNTS?
+                                        WILL MY ACCOUNT WITH EZYFX NEED TO BE VERIFIED?
                                         <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
                                     </h4>
                                 </a>
                             </div>
                             <div id="faq-cat-1-sub-12" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    Yes, you can transfer any free equity between accounts using the EZY Dashboard. From within the ‘Trading Accounts’ menu, select ‘Inter-Account Transfer’ and choose the sending and recipient accounts and the amount.
+                                    Yes. We pride ourselves on abiding by the highest standards of compliance and anti money-laundering procedures. This requires all trading accounts to be verified. To verify your account you will need to provide with copies of the following documents:
+
+                                    <br><br>
+
+                                    <ol>
+                                      <li><strong>Personal ID Document</strong></li>
+                                      Copy of your Passport or national photo ID card or Driver’s license. Expiry date should be not less than 3 months from date of submission to us.
+                                      <br>
+                                      <li><strong>Proof of address</strong></li>
+                                      A utility bill in your name clearly showing the address used to open your trading account with us (gas, water, electricity, fixed phone , etc.) or bank statement in your name. Issue date should be not more than 3 months before date of submission to us.
+                                    </ol>
+                                    <br>
+                                    Acceptable file formats: gif, jpg, png or pdf.
                                 </div>
                             </div>
                         </div>
@@ -364,16 +363,14 @@ can't find an answer to, our support agents are always there to help you out.</p
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#accordion-cat-13" href="#faq-cat-1-sub-13">
                                     <h4 class="panel-title">
-                                        HOW DO I WITHDRAW FUNDS FROM MY TRADING ACCOUNT?
+                                        IS IT NECESSARY TO INSTALL SOFTWARE TO MY COMPUTER TO TRADE WITH YOU?
                                         <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
                                     </h4>
                                 </a>
                             </div>
                             <div id="faq-cat-1-sub-13" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                  To withdraw funds from your trading account, first select ‘Withdraw Funds’ in the EZY Dashboard, where you will be guided through the process.
-  Our Accounts team will then process the withdrawal from your trading account.
-  Withdrawals are usually processed within 48 hours. Funds are typically sent back to the original source, meaning, if you deposit through Credit Card, funds will be sent back to the same Credit Card.
+                                  No. While we do provide a desktop version of our MetaTrader 4 trading platform which can be downloaded and installed on your PC, all our clients also get access to a web-based version of the platform. Using the web-based platform does not require any software download or installation.
                                 </div>
                             </div>
                         </div>
@@ -384,14 +381,17 @@ can't find an answer to, our support agents are always there to help you out.</p
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#accordion-cat-14" href="#faq-cat-1-sub-14">
                                     <h4 class="panel-title">
-                                        CAN I SEE A LIST OF ALL MY DEPOSIT AND WITHDRAWAL TRANSACTIONS?
+                                        WHAT IS THE MINIMUM REQUIREMENT TO OPEN AN ACCOUNT WITH YOU?
                                         <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
                                     </h4>
                                 </a>
                             </div>
                             <div id="faq-cat-1-sub-14" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    Yes, you can see a list of all deposit and withdrawal transactions you’ve completed across all your accounts from the ‘Funding History’ section. You can search by account number or by date, and can click on the reference number for more information.
+                                    We believe in making our trading accounts accessible to the widest possible cross-section of traders and an EZYFX account can be opened with a starting deposit as low as $10.
+                                    <br><br>
+
+                                    Or you may choose our EZY real account with <strong>ZERO</strong>-dollar deposit that gives you USD 100 immediately for you to start trading. All profits made is withdrawable. <em>Terms and Condition apply</em>.
                                 </div>
                             </div>
                         </div>
@@ -401,14 +401,16 @@ can't find an answer to, our support agents are always there to help you out.</p
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#accordion-cat-15" href="#faq-cat-1-sub-15">
                                     <h4 class="panel-title">
-                                        ARE THERE FEES FOR WITHDRAWING FUNDS FROM MY ACCOUNT?
+                                        WHAT DEPOSIT METHODS DO YOU SUPPORT TO FUND MY TRADING ACCOUNT?
                                         <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
                                     </h4>
                                 </a>
                             </div>
                             <div id="faq-cat-1-sub-15" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    We do not charge fees for withdrawing funds by bank wire transfer. However, please note that you will be liable for any fees charged by the banks involved in the transaction, including intermediaries. Withdrawals via credit card will attract a fee.
+                                    Our funding methods include Credit Cards, Bank Transfer and e-Wallets. All payments are fully secured and go through regulated PCI compliant payment processors.
+                                    <br><br>
+                                    You can fund your account <a href="deposit-my-account.php">here &raquo;</a>
                                 </div>
                             </div>
                         </div>
@@ -418,40 +420,30 @@ can't find an answer to, our support agents are always there to help you out.</p
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#accordion-cat-16" href="#faq-cat-1-sub-16">
                                     <h4 class="panel-title">
-                                        DOES EZYFX ALLOW THIRD-PARTY PAYMENTS?
+                                        DO YOU CHARGE ANY FEES FOR DEPOSITS?
                                         <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
                                     </h4>
                                 </a>
                             </div>
                             <div id="faq-cat-1-sub-16" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    EZYFX does not allow third-party payments. Funds can only be sent to an account in the same name as the EZYFX trading account
+                                    EZYFX will not charge any processing fees for account funding. Please be aware however that your bank or credit card company may apply fees to your transactions. Please check with your bank for more details.
                                 </div>
                             </div>
                         </div>
-
-                        <h6 class="text-center">Statements and Trading History</h6>
 
                         <div class="panel panel-default panel-faq">
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#accordion-cat-17" href="#faq-cat-1-sub-17">
                                     <h4 class="panel-title">
-                                        CAN I SEE MY TRADING HISTORY?
+                                        DO YOU OFFER SWAP FREE ACCOUNTS?
                                         <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
                                     </h4>
                                 </a>
                             </div>
                             <div id="faq-cat-1-sub-17" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    Your trading history on EZYFX can be seen by clicking on the “Order History” tab in the terminal. If the Order History panel is not visible, you can add it as a widget to your view.
-
-                                    To view your account history and generate statements on requests through MT4. Once logged-in:
-
-                                    <ul>
-                                      <li>Select the ‘Account History’ tab</li>
-                                      <li>Right-click to define the period you want the information for</li>
-                                      <li>Once period has been selected, select the ‘Save a Report’ or ‘Save a Detailed Report’ buttons to generate</li>
-                                    </ul>
+                                    Yes. EZYFX offers a Swap Free Account for Islamic traders and qualifying traders. Please contact your account manager for more details.
                                 </div>
                             </div>
                         </div>
@@ -461,14 +453,14 @@ can't find an answer to, our support agents are always there to help you out.</p
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#accordion-cat-18" href="#faq-cat-1-sub-18">
                                     <h4 class="panel-title">
-                                        CAN I SEE A LIST OF ALL MY DEPOSIT AND WITHDRAWAL TRANSACTIONS?
+                                        WHAT IS LEVERAGE?
                                         <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
                                     </h4>
                                 </a>
                             </div>
                             <div id="faq-cat-1-sub-18" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    Yes, you can see a list of all deposit and withdrawal transactions you’ve completed across all your accounts from the ‘Funding History’ section. You can search by account number or by date, and can click on the reference number for more information.
+                                    Leverage is a way to maximize your trading power by multiplying the funds available in your trading account and is a form of “credit” from your broker. EZYFX accounts can have leverage as high as 1:1000. For example, if you deposit $1,000 in your trading account with 1:200 leverage, you will effectively be able to open trading positions of up to $200,000. Leverage increases losses as well as profits, so please use with caution.
                                 </div>
                             </div>
                         </div>
@@ -478,14 +470,46 @@ can't find an answer to, our support agents are always there to help you out.</p
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#accordion-cat-19" href="#faq-cat-1-sub-19">
                                     <h4 class="panel-title">
-                                        I NEED HELP. HOW CAN I CONTACT YOU?
+                                        DO YOU ALLOW SCALPING?
                                         <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
                                     </h4>
                                 </a>
                             </div>
                             <div id="faq-cat-1-sub-19" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    You can contact us in many ways – select ‘Support’ from within the EZY Dashboard and you can see our full contact information, or start a Live Chat with one of our representatives or request a Call Back.
+                                    Yes
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-20" href="#faq-cat-1-sub-20">
+                                    <h4 class="panel-title">
+                                        ARE MY FUNDS SECURE?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-1-sub-20" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    We operate with fully segregated accounts and client funds are never deposited with any EZYFX corporate funds. Your funds are safe and accessible at all times.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-21" href="#faq-cat-1-sub-21">
+                                    <h4 class="panel-title">
+                                        WILL I EXPERIENCE SLIPPAGE?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-1-sub-21" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    While our normal execution model does not allow for slippage, this may become evident in volatile market conditions. This is not something over which we have any control.
                                 </div>
                             </div>
                         </div>
