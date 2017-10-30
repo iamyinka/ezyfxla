@@ -151,33 +151,10 @@ $(document).ready(function() {
    $("#paymentOption5").toggle();
  });
 
- $("#subscribeForm").validate({
-    rules: {
-      input: {
-        required: true
-      }
-    },
-    messages: {
-      input: {
-        required: "required"
-      }
-    },
-    ignore: "",
-    errorClass: 'fieldError',
-    onkeyup: false,
-    onblur: false,
-    errorElement: 'label',
-    submitHandler: function () {
-      alert("alert");
-    }
-  });
-
-  $(document).on("click", "#subscribeBtn", function () {
-    $("#form").valid();
-  });
-
-});
-
-$(function() {
+ $(function() {
   $("#phplive_btn_1508839562").draggable();
 });
+
+});
+
+

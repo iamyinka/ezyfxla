@@ -17,17 +17,17 @@
                   <div class="form-logo">
                     <img src="images/logo.png" alt="" class="img-responsive img-thumbnail">
                   </div>
-                  <p class="statusMsg"></p>
+                  <div id="mail-status"></div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-6">
                   <div class="subscribeForm">
                     
-                    <form role="form " method="post" id="subscribeForm">
+                    <form role="form" action="#" method="post" id="subscribeForm">
                       <div class="form-group">
                         <div class="input-group">
                           <div class="input-group addon">
                             <span class="input-group-addon" id="basic-addon1"><i class="fa fa-user"></i></span>
-                            <input type="text" class="form-control" id="subscriberName" placeholder="Enter Full Name" name="subscriberName">
+                            <input type="text" class="form-control" id="subscriberName" placeholder="Enter Full Name" name="subscriberName" required="" minlength="3">
                           </div>
                         </div>
                       </div>
@@ -36,7 +36,7 @@
                         <div class="input-group">
                           <div class="input-group addon">
                             <span class="input-group-addon" id="basic-addon1"><i class="fa fa-envelope-o"></i></span>
-                            <input type="email" class="form-control" id="subscriberEmail" placeholder="Enter Email Address" name="subscriberEmail">
+                            <input type="email" class="form-control" id="subscriberEmail" placeholder="Enter Email Address" name="subscriberEmail" required="">
                           </div>
                         </div>
                       </div>
@@ -45,14 +45,14 @@
                         <div class="input-group">
                           <div class="input-group addon">
                             <span class="input-group-addon" id="basic-addon1"><i class="fa fa-mobile-phone"></i></span>
-                            <input type="tel" class="form-control" id="subscriberPhone" placeholder="Enter Phone Number" name="subscriberPhone">
+                            <input type="text" class="form-control" id="subscriberPhone" placeholder="Enter Phone Number" name="subscriberPhone" required="" minlength="8">
                           </div>
                         </div>
                       </div>
 
                       <div class="checkbox" style="color: #444;">
                         <label for="check"></label>
-                        <input type="checkbox" name="check" id="check"> I <strong style="color: #b33;">Agree</strong> to the <em>Terms &amp; Conditions</em>.
+                        <input type="checkbox" name="check" id="check" required=""> I <strong style="color: #b33;">Agree</strong> to the <em>Terms &amp; Conditions</em>.
                       </div>
 
                       <div class="form-group">

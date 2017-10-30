@@ -133,7 +133,9 @@ body {
     End of NAVIGATION AREA
 ************************* */
 
-
+.intro {
+  margin-top: -60px;
+}
 
 /* *************************
     Begin Sliders
