@@ -1,6 +1,6 @@
 <?php
 
-$post = (!empty($_POST['subscribeBtn'])) ? true : false;
+/*$post = (!empty($_POST['subscribeBtn'])) ? true : false;
  
 if($post) {
  
@@ -14,6 +14,12 @@ if($post) {
      "From: ".$name." <".$email.">rn"
     ."Reply-To: ".$email."rn"
     ."X-Mailer: PHP/" . phpversion());
-}
+}*/
+
+
+  $name = $_POST['subscriberName'];
+  $email = $_POST['subscriberEmail'];
+  $phone = $_POST['subscriberPhone'];
+  echo "<div class='alert alert-success alert-dismissable' style='color: #444;'>Thank you " . $name . " for your joining EZYFX.</div>";
  
 ?>

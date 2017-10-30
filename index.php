@@ -22,7 +22,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-6">
                   <div class="subscribeForm">
                     
-                    <form role="form" action="#" method="post" id="subscribeForm">
+                    <form role="form" action="includes/process.php" method="post" id="subscribeForm">
                       <div class="form-group">
                         <div class="input-group">
                           <div class="input-group addon">
@@ -61,6 +61,8 @@
                     </form>
                   </div>
                 </div>
+
+                
                 
 
                 <div class="col-xs-12 col-sm-6 col-md-6">

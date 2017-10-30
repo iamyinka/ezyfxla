@@ -28,6 +28,10 @@ $(document).ready(function() {
  });
 
  new WOW().init();
+ 
+$("#submitForm").on('click', function() {
+    $("#contact_form").submit();
+});
 
  $("#emailIcon").on("click", function() {
    $("#emailIcon").hide();
@@ -153,6 +157,29 @@ $(document).ready(function() {
 
  $(function() {
   $("#phplive_btn_1508839562").draggable();
+});
+
+ $("#subscribeForm").on("submit", function(e) {
+    var postData = $(this).serializeArray();
+    var formURL = $(this).attr("action");
+    $.ajax({
+        url: formURL,
+        type: "POST",
+        data: postData,
+        success: function(data, textStatus, jqXHR) {
+            $('#homeModal .modal-header .modal-title').html("EZYFX WELCOMES YOU!!!");
+            $('#homeModal .modal-body').html(data);
+            $("#subscribeBtn").remove();
+        },
+        error: function(jqXHR, status, error) {
+            console.log(status + ": " + error);
+        }
+    });
+    e.preventDefault();
+
+    $("#subscribeBtn").on('click', function() {
+        $("#subscribeForm").submit();
+    });
 });
 
 });
