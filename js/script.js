@@ -151,38 +151,30 @@ $(document).ready(function() {
    $("#paymentOption5").toggle();
  });
 
- $('#subscribeForm').validate({
+ $("#subscribeForm").validate({
     rules: {
-        subscriberName: {
-            minlength: 6,
-            required: true
-        },
-        subscriberEmail: {
-            required: true,
-            email: true
-        },
+      input: {
+        required: true
+      }
     },
-    highlight: function(element) {
-    $(element).closest('.control-group').removeClass('success').addClass('error');
+    messages: {
+      input: {
+        required: "required"
+      }
     },
-    success: function(element) {
-        element
-        .text('OK!').addClass('valid')
-        .closest('.control-group').removeClass('error').addClass('success');
-    },
-    submitHandler: function(form) {
-        $.ajax({
-            type:"POST",
-            url: "register.php",
-            data: $(form).serialize(),
-            }).done(function(data) {
-            $('#register_alert').append(
-            '<div class="alert alert-danger text-center">' +
-                '<button type="button" class="close" data-dismiss="alert">' +
-                '&times;</button>' + data + '</div>');
-            });
+    ignore: "",
+    errorClass: 'fieldError',
+    onkeyup: false,
+    onblur: false,
+    errorElement: 'label',
+    submitHandler: function () {
+      alert("alert");
     }
-});
+  });
+
+  $(document).on("click", "#subscribeBtn", function () {
+    $("#form").valid();
+  });
 
 });
 

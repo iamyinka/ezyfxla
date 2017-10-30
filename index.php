@@ -22,7 +22,7 @@
                 <div class="col-xs-12 col-sm-6 col-md-6">
                   <div class="subscribeForm">
                     
-                    <form role="form " action="/" method="post" id="subscribeForm">
+                    <form role="form " method="post" id="subscribeForm">
                       <div class="form-group">
                         <div class="input-group">
                           <div class="input-group addon">
@@ -114,21 +114,18 @@
         </ol>
         <div class="carousel-inner">
             <div class="item" style="">
-                <a href="about.php">
-                  <img src="images/01e.jpg" alt="" class="">
-                  <!-- <img src="images/refactor/sliders/01.png" alt="" class=""> -->
+                <a href="register.php">
+                  <img src="images/refactor/sliders/10.png" alt="" class="">
                 </a>
             </div>
             <div class="item active">
-                <a href="contact-us.php">
-                  <!-- <img src="images/refactor/sliders/02.png" alt="" class=""> -->
-                  <img src="images/02e.jpg" alt="" class="">
+                <a href="register.php">
+                  <img src="images/refactor/sliders/11.png" alt="" class="">
                 </a>
             </div>
             <div class="item" style="">
-                <a href="deposit-my-account.php">
-                  <!-- <img src="images/refactor/sliders/03.png" alt="" class=""> -->
-                  <img src="images/03e.jpg" alt="" class="">
+                <a href="register.php">
+                  <img src="images/refactor/sliders/14.png" alt="" class="">
                 </a>
                 <!-- <div class="carousel-caption">
                     <h4 class="">Third Slide Title</h4>
@@ -139,15 +136,13 @@
                 </div> -->
             </div>
             <div class="item">
-                <a>
-                  <!-- <img src="images/refactor/sliders/04.png" alt="" class=""> -->
-                  <img src="images/fb-header-1-website-b.jpg" alt="" class="">
+                <a href="deposit-my-account.php">
+                  <img src="images/refactor/sliders/12.png" alt="" class="">
                 </a>
             </div>
             <div class="item">
-                <a href="regulations.php">
-                  <!-- <img src="images/refactor/sliders/05.png" alt="" class=""> -->
-                  <img src="images/fb-header-2-website-b.jpg" alt="" class="">
+                <a href="deposit-my-account.php">
+                  <img src="images/refactor/sliders/13.png" alt="" class="">
                 </a>
             </div>
         </div>
