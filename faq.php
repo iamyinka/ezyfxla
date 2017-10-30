@@ -523,14 +523,14 @@ can't find an answer to, our support agents are always there to help you out.</p
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#accordion-cat-2" href="#faq-cat-2-sub-1">
                                     <h4 class="panel-title">
-                                        FAQ Item Category #2
+                                        HOW CAN I LOG IN?
                                         <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
                                     </h4>
                                 </a>
                             </div>
                             <div id="faq-cat-2-sub-1" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    You can log in to the portal by visiting <a href="https://secure.ezyfx.la/login">EZYFX LOGIN</a> and entering your registered email address and password.
                                 </div>
                             </div>
                         </div>
@@ -538,14 +538,99 @@ can't find an answer to, our support agents are always there to help you out.</p
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#accordion-cat-2" href="#faq-cat-2-sub-2">
                                     <h4 class="panel-title">
-                                        FAQ Item Category #2
+                                        I HAVE FORGOTTEN MY PASSWORD – WHAT DO I DO?
                                         <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
                                     </h4>
                                 </a>
                             </div>
                             <div id="faq-cat-2-sub-2" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    At the login page, click on ‘Forgot Password?’ and enter your registered email address. You’ll then be sent an instructions on how to retrieve your login details.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-2" href="#faq-cat-2-sub-3">
+                                    <h4 class="panel-title">
+                                        WHY CAN’T I SEE ALL THE FEATURES OF THE DASHBOARD?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-2-sub-3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    EZY Dashboard has some features which may not be applicable to your account type. For example, if you only have a demo account, you’ll not see information on depositing funds. You’ll always see the features applicable to you. As your account type and status changes, your portal access will also evolve.
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-2" href="#faq-cat-2-sub-4">
+                                    <h4 class="panel-title">
+                                        WHAT IS MY PROFILE?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-2-sub-4" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    My Profile is the area of the site that stores your personal information, such as your date of birth and contact information. This is automatically populated with information you’ve provided when signing up for your account.
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-2" href="#faq-cat-2-sub-5">
+                                    <h4 class="panel-title">
+                                        CAN I UPDATE MY PROFILE?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-2-sub-5" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Your ability to update your profile information depends on the status of your account. For example, if you have a live account already, you are not able to edit your address directly and must contact us. If you only have a demo account, you can easily update your details.
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-2" href="#faq-cat-2-sub-6">
+                                    <h4 class="panel-title">
+                                        CAN I CHANGE MY TRADING ACCOUNT PASSWORD?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-2-sub-6" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Yes, you can. Simply choose ‘Live Accounts’ or ‘Demo Accounts’ from the menu in your MetaTrader 4 Terminal – Tools – Options – Server and enter the new password and confirm for the change to become active.
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-2" href="#faq-cat-2-sub-7">
+                                    <h4 class="panel-title">
+                                        I NEED TO CHANGE MY LEVERAGE – HOW DO I DO THIS?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-2-sub-7" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Leverage are pre-set per your selected packages. Any changes need to go through a special request. Please note that there may be leverage restrictions in place based on your account balance. please <a href="contact-us.php">contact us</a>
                                 </div>
                             </div>
                         </div>
