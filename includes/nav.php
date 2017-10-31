@@ -80,7 +80,7 @@
       </div>
     </div> -->
     <header>
-      <div class="container-fluid" style="padding-right: 0;">
+      <div class="container-fluid" style="padding: 0;">
         <div class="row">
           <div class="col-sm-6">
             <div id="logo" class="logo">
