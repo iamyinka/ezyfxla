@@ -173,6 +173,8 @@ header {
   height: auto;
   margin-bottom: 5px;
   margin-top: 5px;
+  /*padding-left: 20px;*/
+  margin-left: 20px;
 }
 
 /*.navbar {
@@ -2235,6 +2237,17 @@ select.goog-te-combo {
 /* *************************
     Media Queries
 ************************* */
+
+
+
+@media (max-width: 767px) {
+  #logo img {
+    margin: 5px auto;
+    /*width: 120px;*/
+    display: block;
+  }
+}
+
 
 @media (max-device-width: 1200px) {
   select.goog-te-combo {
