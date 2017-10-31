@@ -166,7 +166,7 @@
             <li><a href="downloads/EzyFx-MT4.zip" target="_blank">Download MetaTrader 4</a></li>
           </ul>
         </div>
-        <div class="col-md-2">
+        <!-- <div class="col-md-2">
 
           <ul>
             <h6>Instruments</h6>
@@ -177,7 +177,7 @@
             <li><a href="#">Indices</a></li>
             <li><a href="#">Shares</a></li>
           </ul>
-        </div>
+        </div> -->
         <div class="col-md-2">
 
           <ul>
@@ -284,7 +284,7 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-12">
-          <p>&copy; 2017 <a href="#">EzyFx Limited</a> &mdash; All Rights Reserved!</p>
+          <p>&copy; 2017 <a href="#">EZYFX Limited</a> &mdash; All Rights Reserved!</p>
         </div>
       </div>
     </div>

@@ -131,8 +131,9 @@
   				<ul class="dropdown-menu dropdown-menu-large row">
   					<li class="col-sm-3">
   						<ul>
+                <li class="dropdown-header">Welcome To EZYFX</li>
   							<li><a href="about.php">About Us</a></li>
-  							<li class="disabled"><a href="#">Welcome to EzyFx</a></li>
+  							<!-- <li class="disabled"><a href="#">Welcome to EzyFx</a></li> -->
   							<!-- <li class="disabled"><a href="#">How to use</a></li> -->
   							<li><a href="vision-mission.php">Our Vision &amp; Mission</a></li>
   							<li class="divider"></li>

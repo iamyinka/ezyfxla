@@ -23,7 +23,7 @@
 
 <section class="reg-start ourVnM">
   <div class="container">
-
+    <h2>Our Vision &amp; Mission</h2>
   </div>
 </section>
 
@@ -31,9 +31,9 @@
   <div class="container-fluid">
 
     <div class="hero-text">
-      <h3 class="text-center">Our Vision &amp; Mission</h3>
+      <h3 class="text-center" style="margin-top: -80px;">Our Vision &amp; Mission</h3>
       <div class="small-line" style="width: 5%;"></div>
-      <p class="text-center">To Help Maximize The Value Of Our Client’s <a href="#" class="btn-link">Financial Needs</a></p>
+      <p class="lead text-center">To Help Maximize The Value Of Our Client’s <a href="#" class="btn-link">Financial Needs</a></p>
     </div>
 
     <div class="row">

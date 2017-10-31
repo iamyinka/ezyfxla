@@ -10,6 +10,11 @@ body {
   font-smoothing: antialiased;
   background-color: #f6f6f6;
   overflow-x: hidden;
+  /*padding: 0*/
+}
+
+.container, .container-fluid {
+  padding: 0 30px;
 }
 /* *************************
       NAVIGATION AREA
@@ -731,12 +736,24 @@ a:hover {
   color: #fff;
 }
 
+/*linear-gradient(rgba(216, 134, 134, .5), rgba(216, 134, 134, .7)),*/
 section.ourVnM {
-  background: linear-gradient(rgba(216, 134, 134, .5), rgba(216, 134, 134, .7)), #000 url('http://placehold.it/1600x600') no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .5)), #000 url('http://www.bankbic.na/img/vision-mission-values.jpg') no-repeat center center;
   height: 300px;
   width: 100%;
   max-width: 100%;
+  background-size: cover;
 }
+
+
+section.ourVnM h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 3em;
+  font-weight: 700;
+  padding-top: 40px;
+}
+
 
 .vision-hero {
   background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .8)), #000 url('../images/bg3.jpg') no-repeat center center;
@@ -767,14 +784,20 @@ section.ourVnM {
 .vision {
   margin-bottom: 40px;
   box-shadow: 2px -5px 3px 0 #b33;
-  padding: 10px;
+  padding: 10px 0 10px 25px;
   transition: all .5s;
   color: #444;
   min-height: 441px;
+  /*text-align: justify;*/
 }
 
 .vision:hover {
   box-shadow: 2px -5px 3px 0 #444;
+}
+
+.mission-area {
+  text-align: justify;
+  padding-right: 30px;
 }
 
 .mission {

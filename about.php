@@ -17,10 +17,10 @@
   <section class="aboutEzy">
     <div class="container">
       <div class="row">
-        <div class="col-xs-12 col-sm-12">
+        <!-- <div class="col-xs-12 col-sm-12">
           <h3 class="page-header" style="color: #fff;">Welcome to EzyFX</h3>
           <p style="color: #fff;"><small><em>[Your Wealth is our health]</em></small></p>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
@@ -36,7 +36,7 @@
             <div class="panel-body">
                 <div class="row">
                   <div class="col-sm-4">
-                    <p>Leadership</p>
+                    <p>Supportive</p>
                   </div>
                   <div class="col-sm-8">
                     <div class="progress">
@@ -49,7 +49,7 @@
 
                   <div class="row">
                     <div class="col-sm-4">
-                      <p>Teamwork</p>
+                      <p>Friendly</p>
                     </div>
                     <div class="col-sm-8">
                       <div class="progress">
@@ -62,7 +62,7 @@
 
                 <div class="row">
                   <div class="col-sm-4">
-                    <p>Organizing</p>
+                    <p>Reliable</p>
                   </div>
                   <div class="col-sm-8">
                     <div class="progress">
@@ -75,7 +75,7 @@
 
               <div class="row">
                 <div class="col-sm-4">
-                  <p>Negotiation</p>
+                  <p>Profitable</p>
                 </div>
                 <div class="col-sm-8">
                   <div class="progress">
@@ -83,6 +83,8 @@
                       95%
                     </div>
                   </div>
+
+                  <h6>Video Below this div</h6>
               </div>
             </div>
             </div>
@@ -91,7 +93,7 @@
         <div class="col-sm-7">
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h4 style="color: #fff;">About EZYFX</h4>
+              <h4 style="color: #fff; text-align: center;">About EZYFX</h4>
             </div>
             <div class="panel-body">
               <p>
