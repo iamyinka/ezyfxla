@@ -20,6 +20,7 @@ if($post) {
   $name = $_POST['subscriberName'];
   $email = $_POST['subscriberEmail'];
   $phone = $_POST['subscriberPhone'];
-  echo "<div class='alert alert-success alert-dismissable' style='color: #444;'>Thank you " . $name . " for your joining EZYFX.</div>";
+  // $dialCode = $_POST['dial-code'];
+  echo "<div class='alert alert-success alert-dismissable' style='color: #444;'>Thank you " . $name . " and your phone number is " . $phone . " for your joining EZYFX.</div>";
  
 ?>
