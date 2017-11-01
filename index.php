@@ -125,17 +125,17 @@
         <div class="carousel-inner">
             <div class="item" style="">
                 <a href="register.php">
-                  <img src="images/refactor/sliders/10.png" alt="" class="">
+                  <img src="images/refactor/sliders/banners/04.jpg" alt="" class="">
                 </a>
             </div>
             <div class="item active">
                 <a href="register.php">
-                  <img src="images/refactor/sliders/11.png" alt="" class="">
+                  <img src="images/refactor/sliders/banners/05.jpg" alt="" class="">
                 </a>
             </div>
             <div class="item" style="">
                 <a href="register.php">
-                  <img src="images/refactor/sliders/14.png" alt="" class="">
+                  <img src="images/refactor/sliders/banners/06.jpg" alt="" class="">
                 </a>
                 <!-- <div class="carousel-caption">
                     <h4 class="">Third Slide Title</h4>
@@ -147,12 +147,12 @@
             </div>
             <div class="item">
                 <a href="deposit-my-account.php">
-                  <img src="images/refactor/sliders/12.png" alt="" class="">
+                  <img src="images/refactor/sliders/banners/08.jpg" alt="" class="">
                 </a>
             </div>
             <div class="item">
                 <a href="deposit-my-account.php">
-                  <img src="images/refactor/sliders/13.png" alt="" class="">
+                  <img src="images/refactor/sliders/banners/10.jpg" alt="" class="">
                 </a>
             </div>
         </div>

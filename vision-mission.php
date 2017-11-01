@@ -31,25 +31,26 @@
   <div class="container-fluid">
 
     <div class="hero-text">
-      <h3 class="text-center" style="margin-top: -80px;">Our Vision &amp; Mission</h3>
+      <h3 class="text-center" style="margin-top: -80px;">Our Vision</h3>
       <div class="small-line" style="width: 5%;"></div>
       <p class="lead text-center">To Help Maximize The Value Of Our Client’s <a href="#" class="btn-link">Financial Needs</a></p>
     </div>
 
     <div class="row">
-      <div class="col-xs-12 col-sm-6">
+      <div class="col-xs-12 col-md-12">
         <div class="vision-area">
-          <div class="col-xs-12 col-sm-12 col-md-6">
-            <div class="vision">
+           <div class="col-md-3">
+              <div class="vision">
               <div class="vision-title">
                 <i class="fa fa-handshake-o"></i>
                 <h6>Personal</h6>
               </div>
               <p>At Ezyfx we value all our customers to demonstrate financial integrity, whether you are small, medium or high volume trade. We have tailored bonuses for all our clients and accounts compatible with all trading styles. which makes our vision more clear and focused.</p>
             </div>
+           </div>
           </div>
 
-          <div class="col-xs-12 col-sm-12 col-md-6">
+          <div class="col-md-3">
             <div class="vision">
               <div class="vision-title">
                 <i class="fa fa-certificate"></i>
@@ -60,12 +61,9 @@
             </div>
           </div>
 
-          <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-4">
-            <button type="button" name="button" class="btn btn-danger btn-lg hideAfter"><i class="fa fa-arrow-down"></i> Read More</button>
-          </div>
 
-          <div class="moreInfo">
-            <div class="col-xs-12 col-sm-12 col-md-6">
+          <div class="">
+            <div class="col-md-3">
               <div class="vision">
                 <div class="vision-title">
                   <i class="fa fa-check-circle-o"></i>
@@ -76,7 +74,7 @@
             </div>
 
 
-            <div class="col-xs-12 col-sm-12 col-md-6">
+            <div class="col-md-3">
               <div class="vision">
                 <div class="vision-title">
                   <i class="fa fa-thumbs-o-up"></i>
@@ -86,17 +84,24 @@
                 <p></p><br>
               </div>
             </div>
-          </div>
 
         </div>
       </div>
 
 
 
+    </div>
 
-      <div class="col-xs-12 col-sm-6">
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-12">
+        <div class="hero-text">
+          <h3 class="text-center" style="margin-top: -80px;">Our Mission</h3>
+          <div class="small-line" style="width: 5%;"></div>
+          <p class="lead text-center">To Help Maximize The Value Of Our Client’s <a href="#" class="btn-link">Financial Needs</a></p>
+        </div>
+
         <div class="mission-area">
-          <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
               <p>We have set out to create a society of well versed, educated, well-equipped millionaires around the world through Forex trading who will establish charities using their astounding profits! We are so determined to achieve this society that we intend to fulfill our ambition of one million, millionaires by 2020!</p>
 
@@ -118,24 +123,10 @@
                 </p>
               </div>
             </div>
-          </div>
 
-          <div class="row">
-            <div class="col-xs-12 col-sm-6">
-              <a href="#" class="btn btn-custom-demo btn-block">Open A Demo Account</a>
-              <a href="#" class="btn btn-custom-live btn-block">Open A Live Account</a>
-            </div>
-
-
-            <div class="col-xs-12 col-sm-6">
-              <a href="#" class="btn btn-custom-danger btn-block">Become Our Partner</a>
-              <a href="#" class="btn btn-custom-default btn-block">Make A Deposit</a>
-            </div>
-          </div>
+          
         </div>
       </div>
-
-
     </div>
   </div>
 </section>

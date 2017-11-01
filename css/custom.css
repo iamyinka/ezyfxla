@@ -790,12 +790,12 @@ section.ourVnM h2 {
 }
 
 .vision {
-  margin-bottom: 40px;
+  margin-bottom: 80px;
   box-shadow: 2px -5px 3px 0 #b33;
-  padding: 10px 0 10px 25px;
+  padding: 10px 15px 10px 15px;
   transition: all .5s;
   color: #444;
-  min-height: 441px;
+  min-height: 350px;
   /*text-align: justify;*/
 }
 
