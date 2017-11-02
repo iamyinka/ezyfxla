@@ -22,6 +22,23 @@ input[type=checkbox], input[type=radio] {
   margin: 7px 0 0;
 }
 
+
+.carousel-caption {
+  bottom: 120px;
+}
+
+.bigText {
+  font-size: 3em;
+}
+
+.smallText {
+  font-size: 1.3em;
+}
+
+.bigText, .smallText {
+  color: #fff;
+}
+
 /* *************************
       NAVIGATION AREA
 ************************* */

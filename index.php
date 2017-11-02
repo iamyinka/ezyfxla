@@ -115,35 +115,63 @@
 
   <div class="main-hero">
     <div id="myCarousel" class="carousel slide">
-        <ol class="carousel-indicators">
+        <!-- <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="" contenteditable="false"></li>
             <li data-target="#myCarousel" data-slide-to="1" class="active" contenteditable="false"></li>
             <li data-target="#myCarousel" data-slide-to="2" class="" contenteditable="false"></li>
             <li data-target="#myCarousel" data-slide-to="3" class="" contenteditable="false"></li>
             <li data-target="#myCarousel" data-slide-to="4" class="" contenteditable="false"></li>
-        </ol>
+        </ol> -->
         <div class="carousel-inner">
-            <div class="item" style="">
+            <div class="item active" style="">
                 <a href="register.php">
                   <img src="images/refactor/sliders/banners/04.jpg" alt="" class="">
                 </a>
+
+                <div class="carousel-caption">
+                    <h4 class="bigText">No Deposit Bonus</h4>
+
+                    <p class="smallText">
+                      Get $100 USD and trade instantly!
+                    </p>
+
+                    <a href="dynamic-bonus.php" class="btn btn-danger">Get Started Now &raquo;</a>
+
+                    <a href="register.php" class="btn btn-success">Join Us Now &raquo;</a>
+                </div>
             </div>
-            <div class="item active">
+            <div class="item">
                 <a href="register.php">
                   <img src="images/refactor/sliders/banners/05.jpg" alt="" class="">
                 </a>
+
+                <div class="carousel-caption">
+                    <h4 class="bigText">Trade With A Trusted Broker</h4>
+
+                    <p class="smallText">
+                      ... <small><em>Your wealth is our health @ EZYFX</em></small>
+                    </p>
+
+                    <a href="trading-accounts.php" class="btn btn-danger">See Account Types &raquo;</a>
+
+                    <a href="ezy-reasons.php" class="btn btn-success">Learn More &raquo;</a>
+                </div>
             </div>
             <div class="item" style="">
                 <a href="register.php">
                   <img src="images/refactor/sliders/banners/06.jpg" alt="" class="">
                 </a>
-                <!-- <div class="carousel-caption">
-                    <h4 class="">Third Slide Title</h4>
+                <div class="carousel-caption">
+                    <h4 class="bigText">Your way to success starts here</h4>
 
-                                <p class="">
-                       Description for Third Slide, this is Third Slide.
+                    <p class="smallText">
+                      Get $100 USD and trade instantly!
                     </p>
-                </div> -->
+
+                    <a href="dynamic-bonus.php" class="btn btn-danger">Get Started Now &raquo;</a>
+
+                    <a href="register.php" class="btn btn-success">Join Us Now &raquo;</a>
+                </div>
             </div>
             <div class="item">
                 <a href="deposit-my-account.php">
@@ -157,13 +185,13 @@
             </div>
         </div>
 
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span>
         </a>
 
         <a class="right carousel-control" href="#myCarousel" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
+        </a> -->
 
 
     </div>
