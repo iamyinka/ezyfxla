@@ -11,11 +11,11 @@
   </div>
 </section>
 
-<section class="reg-start d-bonus">
+<section class="reg-start e-bonus">
   <div class="container">
     <div class="bonus-intro">
-      <h2>60%</h2>
-      <h4>Energy Bonus</h4>
+      <h2 style="color: #fff;">60%</h2>
+      <h4 style="color: #fff;">Energy Bonus</h4>
       <p>RECHARGE YOUR DEPOSIT</p>
       <a href="#" class="btn btn-success">CLAIM BONUS</a>
     </div>
@@ -57,7 +57,7 @@
     <div class="row">
       <div class="col-xs-12 col-sm-12">
         <h4>60% Energy Bonus on Each Deposit</h4>
-        <p>With SuperForex you can take advantage of a number of special offers and bonuses, designed to suit all preferences and strategies. For our most active traders we created the 60% Energy Bonus.</p>
+        <p>With EZYFX you can take advantage of a number of special offers and bonuses, designed to suit all preferences and strategies. For our most active traders we created the 60% Energy Bonus.</p>
 
         <h6>How does it work?</h6>
 

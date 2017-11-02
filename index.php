@@ -162,26 +162,61 @@
                   <img src="images/refactor/sliders/banners/06.jpg" alt="" class="">
                 </a>
                 <div class="carousel-caption">
-                    <h4 class="bigText">Your way to success starts here</h4>
+                    <h4 class="bigText">Choose Ezyfx</h4>
 
                     <p class="smallText">
-                      Get $100 USD and trade instantly!
+                      For your best forex trading experience
+                    </p>
+
+                    <a href="ezy-reasons.php" class="btn btn-danger">See Why Many Trade With Us &raquo;</a>
+
+                    <a href="register.php" class="btn btn-success">Join Us Now &raquo;</a>
+                </div>
+                <!-- <div class="carousel-caption">
+                    <h4 class="bigText">Start with 100% Tradable Bonus</h4>
+
+                    <p class="smallText">
+                      Trade Forex With Asia's Best Forex Broker.
                     </p>
 
                     <a href="dynamic-bonus.php" class="btn btn-danger">Get Started Now &raquo;</a>
 
                     <a href="register.php" class="btn btn-success">Join Us Now &raquo;</a>
-                </div>
+                </div> -->
             </div>
             <div class="item">
                 <a href="deposit-my-account.php">
                   <img src="images/refactor/sliders/banners/08.jpg" alt="" class="">
                 </a>
+
+                <div class="carousel-caption">
+                    <h4 class="bigText">Do you see a millionaire in your mirror?</h4>
+
+                    <p class="smallText">
+                      If not, It's time for a change!
+                    </p>
+
+                    <a href="register.php" class="btn btn-danger">Register With Us &raquo;</a>
+
+                    <a href="partnership-programs.php" class="btn btn-success">Partner With EZYFX &raquo;</a>
+                </div>
             </div>
             <div class="item">
                 <a href="deposit-my-account.php">
                   <img src="images/refactor/sliders/banners/10.jpg" alt="" class="">
                 </a>
+
+                <div class="carousel-caption">
+                    <h4 class="bigText" style="color: #000;">$100 DEPOSIT Bonus Withdrawable</h4>
+
+                    <p class="smallText" style="color: #000;">
+                      That's right! Start with 100% Tradable Bonus.
+                    </p>
+
+                    <a href="promotions.php" class="btn btn-danger">Read More &raquo;</a>
+
+                    <a href="welcome-bonus.php" class="btn btn-success">Enjoy Our Welcome Bonus &raquo;</a>
+                </div>
             </div>
         </div>
 
@@ -328,7 +363,7 @@
         </div>
 
         <div class="col-xs-6 col-sm-3 col-md-3">
-          <a href="register.php">
+          <a href="partner-with-us.php">
             <div class="accts-reg">
               <div class="acct-demo">
                 <img src="images/acct-demo/04.jpg" alt="">
@@ -342,7 +377,7 @@
         </div>
 
         <div class="col-xs-6 col-sm-3 col-md-3">
-          <a href="#">
+          <a href="partner-with-us.php">
             <div class="accts-reg">
               <div class="acct-demo">
                 <img src="images/acct-demo/03.png" alt="">

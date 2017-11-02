@@ -63,8 +63,8 @@
             <div class="mt4 footer-links">
               <ul>
                 <li>
-                  <a href="https://secure.ezyfx.la/login" target="_blank">
-                    <i class="fa fa-sign-in"></i><span>View your Account(s)</span>
+                  <a href="partner-with-us.php" target="_blank">
+                    <i class="fa fa-handshake-o"></i><span>Become An EZYFX Partner</span>
                   </a>
                 </li>
               </ul>

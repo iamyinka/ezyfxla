@@ -18,7 +18,7 @@
             <div class="row wow fadeInUp">
               <div class="col-xs-12 col-sm-12 col-md-12 animate-banner">
                 <div class="banner">
-                  <img src="images/advantages/dynamicbonus.jpg" alt="Advantages Banner">
+                  <a href="dynamic-bonus.php"><img src="images/advantages/dynamicbonus.jpg" alt="Advantages Banner"></a>
                 </div>
               </div>
             </div>
@@ -99,7 +99,7 @@
             <div class="row wow fadeInUp">
               <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="banner">
-                  <img src="images/advantages/dynamicbonus.jpg" alt="Advantages Banner">
+                  <a href="trading-accounts.php"><img src="images/refactor/sliders/03.png" alt="Advantages Banner"></a>
                 </div>
               </div>
             </div>
@@ -183,7 +183,7 @@
             <div class="row wow fadeInUp">
               <div class="col-xs-12 col-sm-12 col-md-12 animate-banner">
                 <div class="banner">
-                  <img src="images/advantages/dynamicbonus.jpg" alt="Advantages Banner">
+                  <a href="promotions.php"><img src="images/refactor/sliders/12.png" alt="Advantages Banner"></a>
                 </div>
               </div>
             </div>
@@ -264,7 +264,7 @@
             <div class="row wow fadeInUp">
               <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="banner">
-                  <img src="images/advantages/dynamicbonus.jpg" alt="Advantages Banner">
+                  <a href="standard-partners.php"><img src="images/refactor/sliders/07.png" alt="Advantages Banner"></a>
                 </div>
               </div>
             </div>

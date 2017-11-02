@@ -11,11 +11,11 @@
   </div>
 </section>
 
-<section class="reg-start d-bonus">
+<section class="reg-start w-bonus">
   <div class="container">
     <div class="bonus-intro">
-      <h2>40%</h2>
-      <h4>Welcome Bonus</h4>
+      <h2 style="color: #fff;">40%</h2>
+      <h4 style="color: #fff;">Welcome Bonus</h4>
       <p>GET YOUR FULLY TRADEABLE <br>
 BONUS ON EACH DEPOSIT</p>
       <a href="#" class="btn btn-success">CLAIM BONUS</a>
@@ -30,8 +30,8 @@ BONUS ON EACH DEPOSIT</p>
     <div class="row">
       <div class="col-xs-12 col-sm-12">
         <h4>40% Welcome Bonus on Each Deposit</h4>
-        <p>We at SuperForex understand the importance of recognising our customers and their business and reward them for choosing us.</p>
-        <p>For unlimited period of time SuperForex’ new members will get a 40% bonus on each initial deposit. The 40% Welcome Bonus is aimed at increasing the trading volume of customers’ accounts and thus help traders realise better trading profit.</p>
+        <p>We at EZYFX understand the importance of recognising our customers and their business and reward them for choosing us.</p>
+        <p>For unlimited period of time EZYFX’ new members will get a 40% bonus on each initial deposit. The 40% Welcome Bonus is aimed at increasing the trading volume of customers’ accounts and thus help traders realise better trading profit.</p>
         <p>To obtain the 40% Welcome Bonus customers need to register a live trading account with us and submit the “Get the 40% Welcome Bonus” button from <a href="#">Clients Cabinet</a>.</p>
         <p>To benefit from the offer, follow the simple steps below:</p>
       </div>
@@ -96,7 +96,7 @@ BONUS ON EACH DEPOSIT</p>
             </div>
           </div>
           <div class="col-xs-10">
-            <p>The 40% bonus is applied to your first deposit as a new SuperForex member for unlimited period of time and will be automatically credited to your account.</p>
+            <p>The 40% bonus is applied to your first deposit as a new EZYFX member for unlimited period of time and will be automatically credited to your account.</p>
           </div>
         </div>
       </div>

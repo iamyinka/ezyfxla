@@ -46,8 +46,8 @@
     <div class="row">
       <div class="col-xs-12 col-sm-12">
         <h4>Sub-Ezy Partner</h4>
-        <p>SuperForex now gives you the opportunity to grow your own broker network with our Sub-Introducing Broker program. It works much in the same way as our <a href="partnership-programs.php">Introducing Broker</a> type of partnership, but instead of trying to recruit more traders, the goal of the sub-IB is to attract new partners. As a sub-IB, you will earn a bonus of 0.1 pips in commission from every trade made by the customers of the partners you have attracted. Expanding this partner network can increase your bonus to 0.2 pips.</p>
-        <p>By becoming a SuperForex sub-IB you can take advantage of the following benefits:</p>
+        <p>EZYFX now gives you the opportunity to grow your own broker network with our Sub-Introducing Broker program. It works much in the same way as our <a href="partnership-programs.php">Introducing Broker</a> type of partnership, but instead of trying to recruit more traders, the goal of the sub-IB is to attract new partners. As a sub-IB, you will earn a bonus of 0.1 pips in commission from every trade made by the customers of the partners you have attracted. Expanding this partner network can increase your bonus to 0.2 pips.</p>
+        <p>By becoming a EZYFX sub-IB you can take advantage of the following benefits:</p>
       </div>
     </div>
 

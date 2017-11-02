@@ -56,7 +56,7 @@
       <div class="col-xs-12 col-sm-12">
         <h4>Dynamic Bonus</h4>
         <p>How about having a real-money bonus that is meant not only for trading but can also be easily withdrawn?</p>
-        <p>With SuperForex everything is possible – we will give you a tradable and withdrawable bonus of up to $250 per account.</p>
+        <p>With EZYFX everything is possible – we will give you a tradable and withdrawable bonus of up to $250 per account.</p>
         <p>With our Dynamic Bonus customers may withdraw part of the bonus with every trade they made - we do not require any fixed volume of lots to be traded in advance.</p>
       </div>
     </div>

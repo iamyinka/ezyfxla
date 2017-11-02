@@ -55,7 +55,8 @@
       <div class="col-xs-12 col-sm-6 col-md-6">
         <div class="live-acct">
           <h4>OPENING OF LIVE ACCOUNT</h4>
-          <p>A live trading account with EZYFX with <a href="#">ZERO DEPOSIT</a> will let you to conclude buy/sell deals on the currency market. Get all the functionalities of MT4 and experience the added advantages of EZYFX to meet your most demanding trading needs and experience our award winning 24/5 customer support.</p>
+          <p>A live trading account with EZYFX with <a href="#">ZERO DEPOSIT</a> will let you to conclude buy/sell deals on the currency market. Get all the functionalities of MT4 and experience the added advantages of EZYFX to meet your most demanding trading needs and experience our award winning 24/5 customer support. </p>
+          <br>
           <a href="https://secure.ezyfx.la/open-live-account" target="_blank" class="btn btn-custom-live btn-block">Open A Live Account &rarr;</a>
         </div>
       </div>

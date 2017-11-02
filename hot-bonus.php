@@ -11,11 +11,11 @@
   </div>
 </section>
 
-<section class="reg-start d-bonus">
+<section class="reg-start h-bonus">
   <div class="container">
     <div class="bonus-intro">
-      <h2>120%</h2>
-      <h4>HOT BONUS</h4>
+      <h2 style="color: #fff;">120%</h2>
+      <h4 style="color: #fff;">HOT BONUS</h4>
       <p>GET YOUR HOT BONUS AND <br>
 INCREASE YOUR MARGIN LEVEL</p>
       <a href="#" class="btn btn-success">CLAIM BONUS</a>
@@ -58,7 +58,7 @@ INCREASE YOUR MARGIN LEVEL</p>
     <div class="row">
       <div class="col-xs-12 col-sm-12">
         <h4>120% Hot Bonus</h4>
-        <p>For unlimited period of time SuperForex’ customers can get a 120% bonus when replenishing their accounts. The bonus is intended for traders who want to operate with a larger trading volume and earn a better profit.</p>
+        <p>For unlimited period of time EZYFX’ customers can get a 120% bonus when replenishing their accounts. The bonus is intended for traders who want to operate with a larger trading volume and earn a better profit.</p>
 
         <h6>How does it work?</h6>
 

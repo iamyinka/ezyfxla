@@ -55,13 +55,13 @@
       </div>
       <div class="col-xs-9 col-sm-8 col-md-8">
         <h6>Introducing Broker</h6>
-        <p>The Introducing Broker (IB) is the top-level partnership option of SuperForex. In essence, an IB would introduce us to their audience in the hope of attracting new clients for SuperForex. In turn, the Introducing Broker earns commission for every active trader that has been referred by him/her (recorded thanks to our affiliate links). Companies that want to act as an IB for us will get a status of Official SuperForex Representatives for a given city or region, and their company information will be placed on our official website.</p>
+        <p>The Introducing Broker (IB) is the top-level partnership option of EZYFX. In essence, an IB would introduce us to their audience in the hope of attracting new clients for EZYFX. In turn, the Introducing Broker earns commission for every active trader that has been referred by him/her (recorded thanks to our affiliate links). Companies that want to act as an IB for us will get a status of Official EZYFX Representatives for a given city or region, and their company information will be placed on our official website.</p>
         <blockquote cite="#" style="color: #444;">
-          As an IB you will be compensated for introducing new clients to SuperForex. We will provide you with a complete range of solutions to do business, including promotional materials, trading platforms, and transaction execution tools.
+          As an IB you will be compensated for introducing new clients to EZYFX. We will provide you with a complete range of solutions to do business, including promotional materials, trading platforms, and transaction execution tools.
         </blockquote>
-        <p>As a rule, our IBs receive additional rewards for representing SuperForex on a local level.</p>
+        <p>As a rule, our IBs receive additional rewards for representing EZYFX on a local level.</p>
         <p>Read more about the <a href="#">Affiliate Links</a>.</p>
-        <p>Learn more about how to develop your partnership with SuperForex by downloading our <a href="#">Partner’s Starter Kit <sup>pdf</sup></a></p>
+        <p>Learn more about how to develop your partnership with EZYFX by downloading our <a href="#">Partner’s Starter Kit <sup>pdf</sup></a></p>
         <a href="register.php" class="btn btn-custom-success btn-lg">Become a Partner &raquo;</a>
       </div>
 
@@ -74,7 +74,7 @@
         <p>As this is a basic type of partnership, no specific experience or knowledge of web development is required. We will provide you with a complete range of solutions to do business, including promotional materials, trading platforms, and transaction execution tools.</p>
         <p>Your compensation is based on the trading volume of people in your affiliate group.</p>
         <p>Read more about the <a href="#">Affiliate Links</a>.</p>
-        <p>Learn more about how to develop your partnership with SuperForex by downloading our <a href="#">Partner’s Starter Kit <sup>pdf</sup></a></p>
+        <p>Learn more about how to develop your partnership with EZYFX by downloading our <a href="#">Partner’s Starter Kit <sup>pdf</sup></a></p>
         <a href="register.php" class="btn btn-custom-success btn-lg">Become a Partner &raquo;</a>
       </div>
 
@@ -122,7 +122,7 @@
       </div>
       <div class="col-xs-9 col-sm-8 col-md-8">
         <h6>FX Education Project</h6>
-        <p>We developed this option for those who specialize in Forex training courses for traders of all levels of proficiency. As our partner you will be given a status of a Licensed SuperForex Training Center. Compensation is based on commission on the trades made by the training center participants. It is important to note that you will continue to earn commission on trades by participants who have already completed your courses.</p>
+        <p>We developed this option for those who specialize in Forex training courses for traders of all levels of proficiency. As our partner you will be given a status of a Licensed EZYFX Training Center. Compensation is based on commission on the trades made by the training center participants. It is important to note that you will continue to earn commission on trades by participants who have already completed your courses.</p>
         <br><br>
         <p>You are welcome to take advantage of our wide range of promotional materials. They can help you attract new clients as well as keep current ones interested and active.</p>
         <a href="register.php" class="btn btn-custom-success btn-lg">Become a Partner &raquo;</a>

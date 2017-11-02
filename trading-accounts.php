@@ -11,6 +11,15 @@
   </div>
 </section>
 
+<section class="reg-start tradingAccts">
+  <div class="container">
+    <div class="bonus-intro">
+      <!-- <p>TRADE MORE &amp; <br>CONVERT YOUR BONUSES INTO REAL MONEY</p>
+      <a href="#" class="btn btn-success">CLAIM BONUS</a> -->
+    </div>
+  </div>
+</section>
+
 <section class="reg-start deposit">
   <div class="container">
     <div class="row">
@@ -33,12 +42,12 @@
 
           <p>Designed for traders new to the Forex market and those trading smaller volumes, the EZY account allows investors to trade smaller trade sizes and open an account with a ZERO initial deposit than a EZY Classic account all from the powerful MetaTrader 4 platform</p>
 
-          <a href="#" class="btn btn-custom-demo btn-block">Open Demo Account</a>
-          <a href="#" class="btn btn-custom-live btn-block">Open Trading Account</a>
+          <a href="https://secure.ezyfx.la/open-demo-account" target="_blank" class="btn btn-custom-demo btn-block">Open Demo Account</a>
+          <a href="https://secure.ezyfx.la/open-live-account" target="_blank" class="btn btn-custom-live btn-block">Open Trading Account</a>
         </div>
 
         <div class="col-xs-12 col-sm-6 col-md-6">
-          <div class="deposit-banner">
+          <div class="deposit-banner1">
 
           </div>
         </div>
@@ -51,7 +60,7 @@
   <div class="container">
     <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-6">
-          <div class="deposit-banner">
+          <div class="deposit-banner2">
 
           </div>
         </div>
@@ -61,8 +70,8 @@
 
           <p>Designed for traders new to the Forex market and those trading smaller volumes, the EZY account allows investors to trade smaller trade sizes and open an account with a ZERO initial deposit than a EZY Classic account all from the powerful MetaTrader 4 platform</p>
 
-          <a href="#" class="btn btn-custom-demo btn-block">Open Demo Account</a>
-          <a href="#" class="btn btn-custom-live btn-block">Open Trading Account</a>
+          <a href="https://secure.ezyfx.la/open-demo-account" target="_blank" class="btn btn-custom-demo btn-block">Open Demo Account</a>
+          <a href="https://secure.ezyfx.la/open-live-account" target="_blank" class="btn btn-custom-live btn-block">Open Trading Account</a>
         </div>
     </div>
   </div>
@@ -76,12 +85,12 @@
 
           <p>Designed for traders new to the Forex market and those trading smaller volumes, the EZY account allows investors to trade smaller trade sizes and open an account with a ZERO initial deposit than a EZY Classic account all from the powerful MetaTrader 4 platform</p>
 
-          <a href="#" class="btn btn-custom-demo btn-block">Open Demo Account</a>
-          <a href="#" class="btn btn-custom-live btn-block">Open Trading Account</a>
+          <a href="https://secure.ezyfx.la/open-demo-account" target="_blank" class="btn btn-custom-demo btn-block">Open Demo Account</a>
+          <a href="https://secure.ezyfx.la/open-live-account" target="_blank" class="btn btn-custom-live btn-block">Open Trading Account</a>
         </div>
 
         <div class="col-xs-12 col-sm-6 col-md-6">
-          <div class="deposit-banner">
+          <div class="deposit-banner3">
 
           </div>
         </div>
@@ -94,7 +103,7 @@
   <div class="container">
     <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-6">
-          <div class="deposit-banner">
+          <div class="deposit-banner4">
 
           </div>
         </div>
@@ -104,8 +113,8 @@
 
           <p>Designed for traders new to the Forex market and those trading smaller volumes, the EZY account allows investors to trade smaller trade sizes and open an account with a ZERO initial deposit than a EZY Classic account all from the powerful MetaTrader 4 platform</p>
 
-          <a href="#" class="btn btn-custom-demo btn-block">Open Demo Account</a>
-          <a href="#" class="btn btn-custom-live btn-block">Open Trading Account</a>
+          <a href="https://secure.ezyfx.la/open-demo-account" target="_blank" class="btn btn-custom-demo btn-block">Open Demo Account</a>
+          <a href="https://secure.ezyfx.la/open-live-account" target="_blank" class="btn btn-custom-live btn-block">Open Trading Account</a>
         </div>
     </div>
   </div>
@@ -119,12 +128,12 @@
 
           <p>Designed for traders new to the Forex market and those trading smaller volumes, the EZY account allows investors to trade smaller trade sizes and open an account with a ZERO initial deposit than a EZY Classic account all from the powerful MetaTrader 4 platform</p>
 
-          <a href="#" class="btn btn-custom-demo btn-block">Open Demo Account</a>
-          <a href="#" class="btn btn-custom-live btn-block">Open Trading Account</a>
+          <a href="https://secure.ezyfx.la/open-demo-account" target="_blank" class="btn btn-custom-demo btn-block">Open Demo Account</a>
+          <a href="https://secure.ezyfx.la/open-live-account" target="_blank" class="btn btn-custom-live btn-block">Open Trading Account</a>
         </div>
 
         <div class="col-xs-12 col-sm-6 col-md-6">
-          <div class="deposit-banner">
+          <div class="deposit-banner5">
 
           </div>
         </div>
@@ -137,7 +146,7 @@
   <div class="container">
     <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-6">
-          <div class="deposit-banner">
+          <div class="deposit-banner6">
 
           </div>
         </div>
@@ -147,8 +156,8 @@
 
           <p>Designed for traders new to the Forex market and those trading smaller volumes, the EZY account allows investors to trade smaller trade sizes and open an account with a ZERO initial deposit than a EZY Classic account all from the powerful MetaTrader 4 platform</p>
 
-          <a href="#" class="btn btn-custom-demo btn-block">Open Demo Account</a>
-          <a href="#" class="btn btn-custom-live btn-block">Open Trading Account</a>
+          <a href="https://secure.ezyfx.la/open-demo-account" target="_blank" class="btn btn-custom-demo btn-block">Open Demo Account</a>
+          <a href="https://secure.ezyfx.la/open-live-account" target="_blank" class="btn btn-custom-live btn-block">Open Trading Account</a>
         </div>
     </div>
   </div>

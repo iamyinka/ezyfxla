@@ -28,7 +28,7 @@ input[type=checkbox], input[type=radio] {
 }
 
 .bigText {
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .smallText {
@@ -1259,10 +1259,46 @@ section.ourVnM h2 {
   background: #f6f6f6;
 }
 
-.deposit-banner {
-  background: linear-gradient(rgba(255, 255, 255, .3), rgba(255, 0, 0, 0.5)), url('http://placehold.it/400x400') center center no-repeat;
+.deposit-banner1 {
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.5)), url('../images/refactor/sliders/acct-types/2.jpg') center center no-repeat;
   min-height: 300px;
   margin-top: 10px;
+  background-size: cover;
+}
+
+.deposit-banner2 {
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.5)), url('../images/refactor/sliders/acct-types/3.jpg') center center no-repeat;
+  min-height: 300px;
+  margin-top: 10px;
+  background-size: cover;
+}
+
+.deposit-banner3 {
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.5)), url('../images/refactor/sliders/acct-types/4.jpg') center center no-repeat;
+  min-height: 300px;
+  margin-top: 10px;
+  background-size: cover;
+}
+
+.deposit-banner4 {
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.5)), url('../images/refactor/sliders/acct-types/5.jpg') center center no-repeat;
+  min-height: 300px;
+  margin-top: 10px;
+  background-size: cover;
+}
+
+.deposit-banner5 {
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.5)), url('../images/refactor/sliders/acct-types/6.jpg') center center no-repeat;
+  min-height: 300px;
+  margin-top: 10px;
+  background-size: cover;
+}
+
+.deposit-banner6 {
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.5)), url('../images/refactor/sliders/acct-types/7.jpg') center center no-repeat;
+  min-height: 300px;
+  margin-top: 10px;
+  background-size: cover;
 }
 
 .tb-color1 {
@@ -1439,9 +1475,70 @@ section.ourVnM h2 {
   }
 
   .d-bonus {
-      background: -webkit-linear-gradient(to bottom, rgba(255, 251, 213, .5), rgba(178, 10, 44, .7)), url('http://placehold.it/1600x350') no-repeat center center;
-      background: -o-linear-gradient(to bottom, rgba(255, 251, 213, .5), rgba(178, 10, 44, .7)), url('http://placehold.it/1600x350') no-repeat center center;
-      background: linear-gradient(to bottom, rgba(255, 251, 213, .5), rgba(178, 10, 44, .7)), url('http://placehold.it/1600x350') no-repeat center center;
+      background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/banners/01.jpg') no-repeat center center;
+      background: -o-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/banners/01.jpg') no-repeat center center;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/banners/01.jpg') no-repeat center center;
+      background-size: cover;
+      min-height: 200px;
+    }
+
+    .ezyReasons {
+      background: url('../images/refactor/sliders/banners/03.jpg') no-repeat center center;
+      /*background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/banners/03.jpg') no-repeat center center;
+      background: -o-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/banners/03.jpg') no-repeat center center;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/banners/03.jpg') no-repeat center center;*/
+      background-size: cover;
+      min-height: 200px;
+    }
+
+    .tradingAccts {
+      background: url('../images/refactor/sliders/banners/02.jpg') no-repeat center center;
+      /*background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/banners/03.jpg') no-repeat center center;
+      background: -o-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/banners/03.jpg') no-repeat center center;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/banners/03.jpg') no-repeat center center;*/
+      background-size: cover;
+      min-height: 200px;
+    }
+
+    .ezyPartner {
+      background: url('../images/refactor/sliders/banners/09.jpg') no-repeat center center;
+      /*background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/banners/03.jpg') no-repeat center center;
+      background: -o-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/banners/03.jpg') no-repeat center center;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/banners/03.jpg') no-repeat center center;*/
+      background-size: cover;
+      min-height: 200px;
+    }
+
+    .w-bonus {
+      background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/promotions/tinified/40.jpg') no-repeat center center;
+      background: -o-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/promotions/tinified/40.jpg') no-repeat center center;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/promotions/tinified/40.jpg') no-repeat center center;
+      background-size: cover;
+      min-height: 200px;
+    }
+
+    .e-bonus {
+      background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/promotions/tinified/60.jpg') no-repeat center center;
+      background: -o-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/promotions/tinified/60.jpg') no-repeat center center;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/promotions/tinified/60.jpg') no-repeat center center;
+      background-size: cover;
+      min-height: 200px;
+    }
+
+    .h-bonus {
+      background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/promotions/tinified/120.jpg') no-repeat center center;
+      background: -o-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/promotions/tinified/120.jpg') no-repeat center center;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/promotions/tinified/120.jpg') no-repeat center center;
+      background-size: cover;
+      min-height: 200px;
+    }
+
+    .partnerWithUs {
+      background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/tinified1/partnership1.png') no-repeat center center;
+      background: -o-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/tinified1/partnership1.png') no-repeat center center;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/tinified1/partnership1.png') no-repeat center center;
+      background-size: cover;
+      min-height: 200px;
     }
 
 .d-bonus h2, .d-bonus h4 {
@@ -1594,9 +1691,9 @@ ul.ppro li i.fa {
   margin-bottom: 50px;
 }
 
-.live-acct p {
-  margin-bottom: 55px;
-}
+/*.live-acct p {
+  margin-bottom: 32px;
+}*/
 
 
 .live-chat {
