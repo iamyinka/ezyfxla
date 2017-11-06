@@ -11,6 +11,15 @@
   </div>
 </section>
 
+<section class="reg-start ezyRegulations">
+  <div class="container">
+    <div class="bonus-intro">
+      <!-- <p>TRADE MORE &amp; <br>CONVERT YOUR BONUSES INTO REAL MONEY</p>
+      <a href="#" class="btn btn-success">CLAIM BONUS</a> -->
+    </div>
+  </div>
+</section>
+
 <section class="reg-start">
   <div class="container">
     <div class="row">

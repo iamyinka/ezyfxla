@@ -42,7 +42,8 @@
            <div class="col-md-3">
               <div class="vision">
               <div class="vision-title">
-                <i class="fa fa-handshake-o"></i>
+                <!-- <i class="fa fa-handshake-o"></i> -->
+                <img src="images/handshake.jpg" alt="">
                 <h6>Personal</h6>
               </div>
               <p>At Ezyfx we value all our customers to demonstrate financial integrity, whether you are small, medium or high volume trade. We have tailored bonuses for all our clients and accounts compatible with all trading styles. which makes our vision more clear and focused.</p>
@@ -53,7 +54,8 @@
           <div class="col-md-3">
             <div class="vision">
               <div class="vision-title">
-                <i class="fa fa-certificate"></i>
+                <!-- <i class="fa fa-certificate"></i> -->
+                <img src="images/efficiency.jpg" alt="">
                 <h6>Efficient</h6>
               </div>
               <p>At Ezyfx, efficiency is highly important to us and so we ensure that all our customers have the most efficient tools and communication to suit their needs. We have a dedicated customer support team ready to serve you.</p>
@@ -66,7 +68,8 @@
             <div class="col-md-3">
               <div class="vision">
                 <div class="vision-title">
-                  <i class="fa fa-check-circle-o"></i>
+                  <!-- <i class="fa fa-check-circle-o"></i> -->
+                  <img src="images/transparency.jpg" alt=""> 
                   <h6>Transparent</h6>
                 </div>
                 <p>At Ezyfx, we have ‘what you see is what you get’ policy with no hidden charges or spreads. Our website clearly outlines you tariff as so does your account. We make sure to deliver state of the art resources to ensure that our commitment is being fulfilled.</p>
@@ -77,7 +80,8 @@
             <div class="col-md-3">
               <div class="vision">
                 <div class="vision-title">
-                  <i class="fa fa-thumbs-o-up"></i>
+                  <!-- <i class="fa fa-thumbs-o-up"></i> -->
+                  <img src="images/competitive.jpg" alt="">
                   <h6>Competitive</h6>
                 </div>
                 <p>At Ezyfx, we are determined to be competitive so that you, as the customer get the best package on the market. We are constantly introducing the best promotions and freebies for our customers to prosper. We love it when you profit.</p>

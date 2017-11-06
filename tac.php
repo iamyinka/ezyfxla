@@ -125,6 +125,171 @@
                                             <td class="tb-color3">5 Digits</td>
                                             <td class="tb-color3">5 Digits</td>
                                           </tr>
+
+                                          <tr>
+                                            <td class="tb-color1">
+                                              Commission
+                                            </td>
+                                            <td class="tb-color2">No</td>
+                                            <td class="tb-color2">No</td>
+                                            <td class="tb-color2">No</td>
+                                            <td class="tb-color3">Yes</td>
+                                            <td class="tb-color3">Yes</td>
+                                            <td class="tb-color3">Yes</td>
+                                          </tr>
+
+
+                                          <tr>
+                                            <td class="tb-color1">
+                                              Spread Type
+                                            </td>
+                                            <td class="tb-color2">Fix</td>
+                                            <td class="tb-color2">Fix</td>
+                                            <td class="tb-color2">Fix</td>
+                                            <td class="tb-color3">Fix/Var</td>
+                                            <td class="tb-color3">Fix/Var</td>
+                                            <td class="tb-color3">Fix/Var</td>
+                                          </tr>
+
+                                          <tr>
+                                            <td class="tb-color1">
+                                              Spread
+                                            </td>
+                                            <td class="tb-color2">3 Pips</td>
+                                            <td class="tb-color2">3 Pips</td>
+                                            <td class="tb-color2">3 Pips</td>
+                                            <td class="tb-color3">From 1 Pip</td>
+                                            <td class="tb-color3">From 1 Pip</td>
+                                            <td class="tb-color3">From 1 Pip</td>
+                                          </tr>
+
+
+                                          <tr>
+                                            <td class="tb-color1">
+                                              Trading Platform
+                                            </td>
+                                            <td class="tb-color2">MetaTrader4 <br>WebTrader Mobile Trader</td>
+                                            <td class="tb-color2">MetaTrader4 <br>WebTrader Mobile Trader</td>
+                                            <td class="tb-color2">MetaTrader4 <br>WebTrader Mobile Trader</td>
+                                            <td class="tb-color3">MetaTrader4 <br>WebTrader Mobile Trader</td>
+                                            <td class="tb-color3">MetaTrader4 <br>WebTrader Mobile Trader</td>
+                                            <td class="tb-color3">MetaTrader4 <br>WebTrader Mobile Trader</td>
+                                          </tr>
+
+                                          <tr>
+                                            <td class="tb-color1">
+                                              Margin Call / Stop Out Level
+                                            </td>
+                                            <td class="tb-color2">150% / 100%</td>
+                                            <td class="tb-color2">100% / 50%</td>
+                                            <td class="tb-color2">100% / 50%</td>
+                                            <td class="tb-color3">150% / 100%</td>
+                                            <td class="tb-color3">150% / 100%</td>
+                                            <td class="tb-color3">150% / 100%</td>
+                                          </tr>
+
+
+                                          <tr>
+                                            <td class="tb-color1">
+                                              Expert Advisors
+                                            </td>
+                                            <td class="tb-color2">Not Allowed</td>
+                                            <td class="tb-color2">Not Allowed</td>
+                                            <td class="tb-color2">Allowed</td>
+                                            <td class="tb-color3">Allowed</td>
+                                            <td class="tb-color3">Allowed</td>
+                                            <td class="tb-color3">Allowed</td>
+                                          </tr>
+
+
+                                          <tr>
+                                            <td class="tb-color1">
+                                              Hedging<sup>[2]</sup>
+                                            </td>
+                                            <td class="tb-color2">Not Allowed</td>
+                                            <td class="tb-color2">Not Allowed</td>
+                                            <td class="tb-color2">Allowed</td>
+                                            <td class="tb-color3">Allowed</td>
+                                            <td class="tb-color3">Allowed</td>
+                                            <td class="tb-color3">Allowed</td>
+                                          </tr>
+
+                                          <tr>
+                                            <td class="tb-color1">
+                                              Islamic Account<sup>[3]</sup>
+                                            </td>
+                                            <td class="tb-color2">Not Available</td>
+                                            <td class="tb-color2">Not Available</td>
+                                            <td class="tb-color2">Available</td>
+                                            <td class="tb-color3">Available</td>
+                                            <td class="tb-color3">Available</td>
+                                            <td class="tb-color3">Available</td>
+                                          </tr>
+
+
+                                          <tr>
+                                            <td class="tb-color1">
+                                              Deposit<sup>*</sup>
+                                            </td>
+                                            <td class="tb-color2">Not Available</td>
+                                            <td class="tb-color2">Not Available</td>
+                                            <td class="tb-color2">Not Available</td>
+                                            <td class="tb-color3">Up to 50%</td>
+                                            <td class="tb-color3">Up to 70%</td>
+                                            <td class="tb-color3">Not Available</td>
+                                          </tr>
+
+
+                                          <tr>
+                                            <td class="tb-color1">
+                                              Cash Back<sup>*</sup>
+                                            </td>
+                                            <td class="tb-color2">Not Available</td>
+                                            <td class="tb-color2">Not Available</td>
+                                            <td class="tb-color2">Not Available</td>
+                                            <td class="tb-color3">Not Available</td>
+                                            <td class="tb-color3">Not Available</td>
+                                            <td class="tb-color3">Up to $2 USD</td>
+                                          </tr>
+
+
+                                          <tr>
+                                            <td class="tb-color1">
+                                              Monthly Lucky Draw<sup>*</sup>
+                                            </td>
+                                            <td class="tb-color2">Not Available</td>
+                                            <td class="tb-color2">Not Available</td>
+                                            <td class="tb-color2">Not Available</td>
+                                            <td class="tb-color3">Not Available</td>
+                                            <td class="tb-color3">Up to $5,000 USD</td>
+                                            <td class="tb-color3">Up to $5,000 USD</td>
+                                          </tr>
+
+
+                                          <tr>
+                                            <td class="tb-color1">
+                                              Scalping Rules<sup>[4]</sup>
+                                            </td>
+                                            <td class="tb-color2">2 Minutes</td>
+                                            <td class="tb-color2">2 Minutes</td>
+                                            <td class="tb-color2">2 Minutes</td>
+                                            <td class="tb-color3">2 Minutes</td>
+                                            <td class="tb-color3">1 Minute</td>
+                                            <td class="tb-color3">1 Minute</td>
+                                          </tr>
+
+
+                                          <tr>
+                                            <td class="tb-color1">
+                                              Account Currency
+                                            </td>
+                                            <td class="tb-color2">USD</td>
+                                            <td class="tb-color2">USD</td>
+                                            <td class="tb-color2">USD, EUR</td>
+                                            <td class="tb-color3">USD, EUR</td>
+                                            <td class="tb-color3">USD, EUR</td>
+                                            <td class="tb-color3">USD, EUR</td>
+                                          </tr>
                                        </tbody>
                                    </table>
                                </div>

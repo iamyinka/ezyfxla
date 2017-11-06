@@ -1,6 +1,6 @@
-$(window).load(function(){
- $('#homeModal').modal('show');
-});
+// $(window).load(function(){
+ 
+// });
 
 $(window).load(function(){
     $(".goog-logo-link").empty();
@@ -23,8 +23,16 @@ $('#return-to-top').click(function() {      // When arrow is clicked
 
 
 $(document).ready(function() {
+
+  // $('#homeModal').modal('show');
+
+  if (sessionStorage.getItem('dontLoad') == null){
+    $('#homeModal').modal('show');
+    sessionStorage.setItem('dontLoad', 'true');
+  }
+
  $('.carousel').carousel({
-     interval: 3000
+     interval: 5000
  });
 
  new WOW().init();

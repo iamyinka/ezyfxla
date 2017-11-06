@@ -34,7 +34,8 @@
           <a href="https://secure.ezyfx.la/open-live-account" target="_blank">
             <div class="account-options">
               <i class="fa fa-bar-chart-o"></i>
-              <p>From individual traders to institutional investors, EZYFX offers innovative solutions to empower performance. We have a various forex trading account types.</p>
+              <p>Forex Trading Accounts Types From EZYFX. Get started with an EZYFX Forex trading account today! From individual traders to institutional investors, EZYFX offers innovative solutions to
+empower performance.</p>
               <p class="textBtn">Live Accounts</p>
             </div>
           </a>
@@ -43,7 +44,8 @@
           <a href="register.php">
             <div class="account-options">
               <i class="fa fa-clock-o"></i>
-              <p>From individual traders to institutional investors, EZYFX offers innovative solutions to empower performance. We have a various forex trading account types.</p>
+              <p>Our secure application process takes less than 10 minutes. <br>Clients can submit an application
+online or via fax/mail.<br> <br><br></p>
               <p class="textBtn">Apply Online</p>
             </div>
           </a>
@@ -52,7 +54,11 @@
           <a href="https://secure.ezyfx.la/open-demo-account" target="_blank">
             <div class="account-options">
               <i class="fa fa-desktop"></i>
-              <p>From individual traders to institutional investors, EZYFX offers innovative solutions to empower performance. We have a various forex trading account types.</p>
+              <p>A practice account is a vital tool for any trader. <br>
+                Discover forex trading risk-free with virtual
+funds.
+              <br>
+              <br> <br><br><br></p>
               <p class="textBtn">Demo Accounts</p>
             </div>
           </a>
@@ -61,7 +67,8 @@
           <a href="trading-accounts.php">
             <div class="account-options">
               <i class="fa fa-usd"></i>
-              <p>From individual traders to institutional investors, EZYFX offers innovative solutions to empower performance. We have a various forex trading account types.</p>
+              <p>A practice account is a vital tool for any trader. Discover forex trading risk-free with virtual
+funds.</p>
               <p class="textBtn">Try It Today</p>
             </div>
           </a>

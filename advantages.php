@@ -68,7 +68,7 @@
                     </div>
                     <div class="panel-body">
                       <p>
-                        EThe MT4 platform we use is an innovative tool for direct access to
+                        The MT4 platform we use is an innovative tool for direct access to
     financial markets in a safe investment environment. Our website is using SSL certificate to
     guarantee that all traders’ information is highly secured.
                       </p>

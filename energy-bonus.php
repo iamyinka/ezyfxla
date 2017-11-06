@@ -17,7 +17,7 @@
       <h2 style="color: #fff;">60%</h2>
       <h4 style="color: #fff;">Energy Bonus</h4>
       <p>RECHARGE YOUR DEPOSIT</p>
-      <a href="#" class="btn btn-success">CLAIM BONUS</a>
+      <a href="register.php" class="btn btn-success">CLAIM BONUS</a>
     </div>
   </div>
 </section>
@@ -136,7 +136,7 @@
 
     <div class="row">
       <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3">
-        <a href="#" class="btn btn-custom-live btn-block">Claim 60% Welcome Bonus</a>
+        <a href="register.php" class="btn btn-custom-live btn-block">Claim 60% Welcome Bonus</a>
       </div>
     </div>
   </div>

@@ -18,7 +18,7 @@
       <h4 style="color: #fff;">HOT BONUS</h4>
       <p>GET YOUR HOT BONUS AND <br>
 INCREASE YOUR MARGIN LEVEL</p>
-      <a href="#" class="btn btn-success">CLAIM BONUS</a>
+      <a href="register.php" class="btn btn-success">CLAIM BONUS</a>
     </div>
   </div>
 </section>
@@ -137,7 +137,7 @@ INCREASE YOUR MARGIN LEVEL</p>
 
     <div class="row">
       <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3">
-        <a href="#" class="btn btn-custom-live btn-block">Claim 120% Hot Bonus</a>
+        <a href="register.php" class="btn btn-custom-live btn-block">Claim 120% Hot Bonus</a>
       </div>
     </div>
   </div>

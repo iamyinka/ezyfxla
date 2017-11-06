@@ -51,7 +51,7 @@
 
     <div class="row">
       <div class="col-xs-3 col-sm-4 col-md-4">
-        <img src="http://placehold.it/300x200" alt="">
+        <img src="images/brokers/01.jpg" alt="">
       </div>
       <div class="col-xs-9 col-sm-8 col-md-8">
         <h6>Introducing Broker</h6>
@@ -62,11 +62,11 @@
         <p>As a rule, our IBs receive additional rewards for representing EZYFX on a local level.</p>
         <p>Read more about the <a href="#">Affiliate Links</a>.</p>
         <p>Learn more about how to develop your partnership with EZYFX by downloading our <a href="#">Partner’s Starter Kit <sup>pdf</sup></a></p>
-        <a href="register.php" class="btn btn-custom-success btn-lg">Become a Partner &raquo;</a>
+        <a href="partner-with-us.php" target="_blank" class="btn btn-custom-success btn-lg">Become a Partner &raquo;</a>
       </div>
 
       <div class="col-xs-3 col-sm-4 col-md-4">
-        <img src="http://placehold.it/300x200" alt="">
+        <img src="images/brokers/2.jpg" alt="">
       </div>
       <div class="col-xs-9 col-sm-8 col-md-8">
         <h6>Trader-Partner</h6>
@@ -75,12 +75,12 @@
         <p>Your compensation is based on the trading volume of people in your affiliate group.</p>
         <p>Read more about the <a href="#">Affiliate Links</a>.</p>
         <p>Learn more about how to develop your partnership with EZYFX by downloading our <a href="#">Partner’s Starter Kit <sup>pdf</sup></a></p>
-        <a href="register.php" class="btn btn-custom-success btn-lg">Become a Partner &raquo;</a>
+        <a href="partner-with-us.php" target="_blank" class="btn btn-custom-success btn-lg">Become a Partner &raquo;</a>
       </div>
 
 
       <div class="col-xs-3 col-sm-4 col-md-4">
-        <img src="http://placehold.it/300x200" alt="">
+        <img src="images/brokers/03.jpg" alt="">
       </div>
       <div class="col-xs-9 col-sm-8 col-md-8">
         <h6>Investment Project</h6>
@@ -88,49 +88,49 @@
         <p>Partners that register with us as Investment Projects may open a trading account with the EZYFX PAMM system and benefit from the investor’s profit through trust management.</p>
         <p>You are welcome to take advantage of our wide range of promotional materials. They can help you attract new clients as well as keep current ones interested and active. Browse our collection of merchandise, banners, logos, avatars, informers, APIs, certificates, corporate seals, among others.</p>
         <p>Read more about the <a href="#">Affiliate Links</a>.</p>
-        <a href="register.php" class="btn btn-custom-success btn-lg">Become a Partner &raquo;</a>
+        <a href="partner-with-us.php" target="_blank" class="btn btn-custom-success btn-lg">Become a Partner &raquo;</a>
       </div>
 
 
 
       <div class="col-xs-3 col-sm-4 col-md-4">
-        <img src="http://placehold.it/300x200" alt="">
+        <img src="images/brokers/04.jpg" alt="">
       </div>
       <div class="col-xs-9 col-sm-8 col-md-8">
         <h6>Webmaster</h6>
-        <p>f you are webmaster or a website owner, with our affiliate program you have an excellent opportunity to receive high affiliate commissions. If you run a website focused on finance and investments, we will send you an affiliate link and other promotional materials to either place on your website or use anywhere on the internet to redirect users to the EZYFX main website or Client’s Cabinet. You can then make a profit by earning commission on all of your successful referrals.</p>
+        <p>If you are a webmaster or a website owner, with our affiliate program you have an excellent opportunity to receive high affiliate commissions. If you run a website focused on finance and investments, we will send you an affiliate link and other promotional materials to either place on your website or use anywhere on the internet to redirect users to the EZYFX main website or Client’s Cabinet. You can then make a profit by earning commission on all of your successful referrals.</p>
 
         <p>You are welcome to take advantage of our wide range of promotional materials. They can help you attract new clients as well as keep current ones interested and active. Browse our collection of merchandise, banners, logos, avatars, informers, APIs, certificates, corporate seals, among others</p>
         <p>Read more about the <a href="#">Affiliate Links</a>.</p>
-        <a href="register.php" class="btn btn-custom-success btn-lg">Become a Partner &raquo;</a>
+        <a href="partner-with-us.php" target="_blank" class="btn btn-custom-success btn-lg">Become a Partner &raquo;</a>
       </div>
 
 
       <div class="col-xs-3 col-sm-4 col-md-4">
-        <img src="http://placehold.it/300x200" alt="">
+        <img src="images/brokers/05.png" alt="">
       </div>
       <div class="col-xs-9 col-sm-8 col-md-8">
         <h6>Blogger</h6>
         <p>If you are a prominent Internet blogger, we are interested in cooperating with you. You can become a successful partner by simply embedding a EZYFX link into your blog and refer new customers to us. Your successful referrals will be recorded by your affiliate link – a code unique to each partner that you receive upon registration.</p>
         <p>Compensation is based on trading volume. You will receive from 1.5 to 5.3 points for each trade generated by a referred customer. In other words, the more customers you refer to us, the higher your affiliate commission will be.</p>
         <p>You are welcome to take advantage of our wide range of promotional materials. They can help you attract new clients as well as keep current ones interested and active.</p>
-        <a href="register.php" class="btn btn-custom-success btn-lg">Become a Partner &raquo;</a>
+        <a href="partner-with-us.php" target="_blank" class="btn btn-custom-success btn-lg">Become a Partner &raquo;</a>
       </div>
 
       <div class="col-xs-3 col-sm-4 col-md-4">
-        <img src="http://placehold.it/300x200" alt="">
+        <img src="images/brokers/06.jpg" alt="">
       </div>
       <div class="col-xs-9 col-sm-8 col-md-8">
         <h6>FX Education Project</h6>
         <p>We developed this option for those who specialize in Forex training courses for traders of all levels of proficiency. As our partner you will be given a status of a Licensed EZYFX Training Center. Compensation is based on commission on the trades made by the training center participants. It is important to note that you will continue to earn commission on trades by participants who have already completed your courses.</p>
         <br><br>
         <p>You are welcome to take advantage of our wide range of promotional materials. They can help you attract new clients as well as keep current ones interested and active.</p>
-        <a href="register.php" class="btn btn-custom-success btn-lg">Become a Partner &raquo;</a>
+        <a href="partner-with-us.php" target="_blank" class="btn btn-custom-success btn-lg">Become a Partner &raquo;</a>
       </div>
 
 
       <div class="col-xs-3 col-sm-4 col-md-4">
-        <img src="http://placehold.it/300x200" alt="">
+        <img src="images/brokers/07.jpg" alt="">
       </div>
       <div class="col-xs-9 col-sm-8 col-md-8">
         <h6>Exchanger</h6>
@@ -138,12 +138,12 @@
         <p>On the one hand, you will gain profit from EZYFX account deposits and withdrawals. On the other hand, you will receive commission on every trade made by customers referred by you. Your profit depends on trading volume, so the more the traders in your affiliate group trade, the more you would earn.</p>
 
         <p>You are welcome to take advantage of our wide range of promotional materials. They can help you attract new clients as well as keep current ones interested and active.</p>
-        <a href="register.php" class="btn btn-custom-success btn-lg">Become a Partner &raquo;</a>
+        <a href="partner-with-us.php" target="_blank" class="btn btn-custom-success btn-lg">Become a Partner &raquo;</a>
       </div>
 
 
       <div class="col-xs-3 col-sm-4 col-md-4">
-        <img src="http://placehold.it/300x200" alt="">
+        <img src="images/brokers/08.png" alt="">
       </div>
       <div class="col-xs-9 col-sm-8 col-md-8">
         <h6>FX Signal Provider</h6>
@@ -151,12 +151,12 @@
         <br><br>
         <p>You are welcome to take advantage of our wide range of promotional materials. They can help you attract new clients as well as keep current ones interested and active.</p>
 
-        <a href="register.php" class="btn btn-custom-success btn-lg">Become a Partner &raquo;</a>
+        <a href="partner-with-us.php" target="_blank" class="btn btn-custom-success btn-lg">Become a Partner &raquo;</a>
       </div>
 
 
       <div class="col-xs-3 col-sm-4 col-md-4">
-        <img src="http://placehold.it/300x200" alt="">
+        <img src="images/brokers/09.jpg" alt="">
       </div>
       <div class="col-xs-9 col-sm-8 col-md-8">
         <h6>FX Advisor Seller</h6>
@@ -164,7 +164,7 @@
         <br><br>
         <p>You are welcome to take advantage of our wide range of promotional materials. They can help you attract new clients as well as keep current ones interested and active.</p>
 
-        <a href="register.php" class="btn btn-custom-success btn-lg">Become a Partner &raquo;</a>
+        <a href="partner-with-us.php" target="_blank" class="btn btn-custom-success btn-lg">Become a Partner &raquo;</a>
       </div>
     </div>
   </div>

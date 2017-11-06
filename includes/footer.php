@@ -191,6 +191,7 @@
             <li><a href="#">FAQs</a></li>
           </ul>
         </div>
+
         <div class="col-md-2 long-links">
 
           <ul>
@@ -201,12 +202,35 @@
             <li><a href="#">Acceptable Use</a></li>
             <li><a href="#">Deposit &amp; Withdrawal</a></li>
             <li><a href="#">Risk Disclosure &amp; Disclaimer</a></li>
-            <li><a href="#">Complaint Handling Policy</a></li>
-            <li><a href="#">Order Execution Policy</a></li>
-            <li><a href="#">Margin Call Policy</a></li>
-            <li><a href="#">Anti-Money Laundering</a></li>
-            <li><a href="#">Know Your Customer</a></li>
-            <li><a href="#">Privacy Policy</a></li>
+            <div id="learnMore1">
+              <li><a>Click to Expand +</a></li>
+            </div>
+            <div id="learnMore2">
+              <li><a>Click to Reduce -</a></li>
+            </div>
+            
+          </ul>
+        </div>
+
+        <div class="col-md-2">
+
+          <ul>
+            <div id="openInfo1">
+              <li><a href="#">Complaint Handling Policy</a></li>
+              <li><a href="#">Order Execution Policy</a></li>
+              <li><a href="#">Margin Call Policy</a></li>
+              <li><a href="#">Anti-Money Laundering</a></li>
+              <li><a href="#">Know Your Customer</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </div>
+            <!-- <h6>Education</h6>
+            <div class="small-line">
+            </div>
+            <li><a href="#">Trading Manual</a></li>
+            <li><a href="#">Video Education Centre</a></li>
+            <li><a href="#">Online Webinar Lesson</a></li>
+            <li><a href="#">Trading Central</a></li>
+            <li><a href="#">FAQs</a></li> -->
           </ul>
         </div>
       </div>
@@ -295,8 +319,15 @@
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js" integrity="sha256-1A78rJEdiWTzco6qdn3igTBv9VupN3Q1ozZNTR4WE/Y=" crossorigin="anonymous"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <!-- <script type="text/javascript">
+   $(document).ready(function() {
+
+      
+  });
+  </script> -->
   <script src="build/js/intlTelInput.js"></script>
   <script>
   

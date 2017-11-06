@@ -24,11 +24,11 @@ input[type=checkbox], input[type=radio] {
 
 
 .carousel-caption {
-  bottom: 120px;
+  bottom: 60px;
 }
 
 .bigText {
-  font-size: 2em;
+  font-size: 3em;
 }
 
 .smallText {
@@ -734,6 +734,11 @@ a .acct-demo-details4 i.fa {
 
 .account-options p {
   color: #fff;
+  text-align: justify;
+}
+
+.account-options p.textBtn {
+  text-align: center;
 }
 
 a .account-options i.fa {
@@ -798,6 +803,13 @@ section.ourVnM h2 {
 
 .vision-title {
   text-align: center;
+}
+
+.vision-title img {
+  width: 100%;
+  max-width: 100%;
+  /*height: 319px;*/
+  max-height: 319px;
 }
 
 .vision-title i.fa {
@@ -1491,6 +1503,15 @@ section.ourVnM h2 {
       min-height: 200px;
     }
 
+    .ezyRegulations {
+      background: url('../images/refactor/sliders/tinified1/license.png') no-repeat center center;
+      /*background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/banners/03.jpg') no-repeat center center;
+      background: -o-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/banners/03.jpg') no-repeat center center;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/banners/03.jpg') no-repeat center center;*/
+      background-size: cover;
+      min-height: 300px;
+    }
+
     .tradingAccts {
       background: url('../images/refactor/sliders/banners/02.jpg') no-repeat center center;
       /*background: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, .3), rgba(0, 0, 0, .7)), url('../images/refactor/sliders/banners/03.jpg') no-repeat center center;
@@ -1679,6 +1700,7 @@ ul.ppro li i.fa {
   width: 100%;
   max-width: 100%;
   margin-bottom: 30px;
+  max-height: 250px;
 }
 
 
@@ -2160,9 +2182,9 @@ footer .trademark {
   text-align: center;
 }
 
-.long-links ul li {
+/*.long-links ul li {
   font-size: .67em;
-}
+}*/
 
 /* *************************
     GOOGLE TRANSLATE

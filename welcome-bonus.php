@@ -18,7 +18,7 @@
       <h4 style="color: #fff;">Welcome Bonus</h4>
       <p>GET YOUR FULLY TRADEABLE <br>
 BONUS ON EACH DEPOSIT</p>
-      <a href="#" class="btn btn-success">CLAIM BONUS</a>
+      <a href="register.php" class="btn btn-success">CLAIM BONUS</a>
     </div>
   </div>
 </section>
@@ -104,7 +104,7 @@ BONUS ON EACH DEPOSIT</p>
 
     <div class="row">
       <div class="col-xs-6 col-xs-offset-3 col-sm-6 col-sm-offset-3">
-        <a href="#" class="btn btn-custom-live btn-block">Claim 40% Welcome Bonus</a>
+        <a href="register.php" class="btn btn-custom-live btn-block">Claim 40% Welcome Bonus</a>
       </div>
     </div>
   </div>

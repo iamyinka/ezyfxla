@@ -129,15 +129,15 @@
                 </a>
 
                 <div class="carousel-caption">
-                    <h4 class="bigText">No Deposit Bonus</h4>
+                    <h4 class="bigText wow zoomIn" data-wow-duration="2s">No Deposit Bonus</h4>
 
-                    <p class="smallText">
+                    <p class="smallText wow animated zoomIn" data-wow-delay="2s" data-wow-duration="2s">
                       Get $100 USD and trade instantly!
                     </p>
 
-                    <a href="dynamic-bonus.php" class="btn btn-danger">Get Started Now &raquo;</a>
+                    <a href="dynamic-bonus.php" class="btn btn-danger btn-lg wow animated zoomIn" data-wow-delay="2s" data-wow-duration="2s">Get Started Now &raquo;</a>
 
-                    <a href="register.php" class="btn btn-success">Join Us Now &raquo;</a>
+                    <a href="register.php" class="btn btn-success btn-lg wow animated zoomIn" data-wow-delay="2s" data-wow-duration="2s">Join Us Now &raquo;</a>
                 </div>
             </div>
             <div class="item">
@@ -146,15 +146,15 @@
                 </a>
 
                 <div class="carousel-caption">
-                    <h4 class="bigText">Trade With A Trusted Broker</h4>
+                    <h4 class="bigText wow animated zoomIn" data-wow-duration="2s">Trade With A Trusted Broker Like Us</h4>
 
-                    <p class="smallText">
-                      ... <small><em>Your wealth is our health @ EZYFX</em></small>
+                    <p class="smallText wow animated zoomIn" data-wow-delay="2s" data-wow-duration="2s">
+                      &quot; Your Wealth Is Our Health &quot;
                     </p>
 
-                    <a href="trading-accounts.php" class="btn btn-danger">See Account Types &raquo;</a>
+                    <a href="trading-accounts.php" class="btn btn-danger btn-lg wow animated zoomIn" data-wow-delay="2s" data-wow-duration="2s">See Account Types &raquo;</a>
 
-                    <a href="ezy-reasons.php" class="btn btn-success">Learn More &raquo;</a>
+                    <a href="ezy-reasons.php" class="btn btn-success btn-lg wow animated zoomIn" data-wow-delay="2s" data-wow-duration="2s">Learn More &raquo;</a>
                 </div>
             </div>
             <div class="item" style="">
@@ -162,15 +162,15 @@
                   <img src="images/refactor/sliders/banners/06.jpg" alt="" class="">
                 </a>
                 <div class="carousel-caption">
-                    <h4 class="bigText">Choose Ezyfx</h4>
+                    <h4 class="bigText wow zoomIn" data-wow-duration="2s">Choose Ezyfx <br> as your trading partner</h4>
 
-                    <p class="smallText">
+                    <p class="smallText wow animated zoomIn" data-wow-delay="2s" data-wow-duration="2s">
                       For your best forex trading experience
                     </p>
 
-                    <a href="ezy-reasons.php" class="btn btn-danger">See Why Many Trade With Us &raquo;</a>
+                    <a href="ezy-reasons.php" class="btn btn-danger btn-lg wow animated zoomIn" data-wow-delay="2s" data-wow-duration="2s">See Why Many Trade With Us &raquo;</a>
 
-                    <a href="register.php" class="btn btn-success">Join Us Now &raquo;</a>
+                    <a href="register.php" class="btn btn-success btn-lg wow animated zoomIn" data-wow-delay="2s" data-wow-duration="2s">Join Us Now &raquo;</a>
                 </div>
                 <!-- <div class="carousel-caption">
                     <h4 class="bigText">Start with 100% Tradable Bonus</h4>
@@ -190,15 +190,15 @@
                 </a>
 
                 <div class="carousel-caption">
-                    <h4 class="bigText">Do you see a millionaire in your mirror?</h4>
+                    <h4 class="bigText wow zoomIn" data-wow-duration="2s">Do you see a millionaire in your mirror?</h4>
 
-                    <p class="smallText">
+                    <p class="smallText wow animated zoomIn" data-wow-delay="2s" data-wow-duration="2s">
                       If not, It's time for a change!
                     </p>
 
-                    <a href="register.php" class="btn btn-danger">Register With Us &raquo;</a>
+                    <a href="register.php" class="btn btn-danger btn-lg wow animated zoomIn" data-wow-delay="2s" data-wow-duration="2s">Register With Us &raquo;</a>
 
-                    <a href="partnership-programs.php" class="btn btn-success">Partner With EZYFX &raquo;</a>
+                    <a href="partnership-programs.php" class="btn btn-success btn-lg wow animated zoomIn" data-wow-delay="2s" data-wow-duration="2s">Partner With EZYFX &raquo;</a>
                 </div>
             </div>
             <div class="item">
@@ -207,15 +207,15 @@
                 </a>
 
                 <div class="carousel-caption">
-                    <h4 class="bigText" style="color: #000;">$100 DEPOSIT Bonus Withdrawable</h4>
+                    <h4 class="bigText wow zoomIn" data-wow-duration="2s" style="color: #000;">$100 DEPOSIT Bonus Withdrawable</h4>
 
-                    <p class="smallText" style="color: #000;">
+                    <p class="smallText wow animated zoomIn" data-wow-delay="2s" data-wow-duration="2s" style="color: #000;">
                       That's right! Start with 100% Tradable Bonus.
                     </p>
 
-                    <a href="promotions.php" class="btn btn-danger">Read More &raquo;</a>
+                    <a href="promotions.php" class="btn btn-danger btn-lg wow animated zoomIn" data-wow-delay="2s" data-wow-duration="2s">Read More &raquo;</a>
 
-                    <a href="welcome-bonus.php" class="btn btn-success">Enjoy Our Welcome Bonus &raquo;</a>
+                    <a href="welcome-bonus.php" class="btn btn-success btn-lg wow animated zoomIn" data-wow-delay="2s" data-wow-duration="2s">Enjoy Our Welcome Bonus &raquo;</a>
                 </div>
             </div>
         </div>

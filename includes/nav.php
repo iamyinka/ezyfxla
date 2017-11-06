@@ -193,9 +193,10 @@
   							<li class="disabled"><a href="withdrawals.php">Withdrawals</a></li>
   						</ul>
   					</li>
+
   					<li class="col-sm-3">
   						<ul>
-  							<li><a href="accounts-and-conditions.php">Accounts &amp; Conditions</a></li>
+  							<li class="dropdown-header">Accounts &amp; Conditions</li>
   							<li><a href="trading-accounts.php">Trading Account</a></li>
   							<li><a href="tac.php">Trading Account Conditions</a></li>
   							<li><a href="islamic-accounts.php">Islamic Accounts</a></li>
@@ -203,15 +204,19 @@
   					</li>
   					<li class="col-sm-3">
   						<ul>
+                <li class="dropdown-header">Platforms</li>
   							<li><a href="software-downloads.php">Software Downloads</a></li>
   							<li><a href="metatrader-4.php">MetaTrader 4</a></li>
   							<li><a href="webtrader.php">WebTrader</a></li>
   							<li><a href="metatrader4-mobile.php">MetaTrader 4 Mobile</a></li>
   						</ul>
   					</li>
+
   					<li class="col-sm-3">
+              <li class="divider" style="display: none;"></li>
   						<ul>
-  							<li class="disabled"><a href="copy-trading.php">Copy Trading</a></li>
+                <li class="dropdown-header">Social Trading</li>
+  							<!-- <li class="disabled"><a href="copy-trading.php">Copy Trading</a></li> -->
   							<li class="disabled"><a href="ezy-socio.php">Ezy Socio</a></li>
   							<li class="disabled"><a href="fx-junction.php">FX Junction</a></li>
   						</ul>

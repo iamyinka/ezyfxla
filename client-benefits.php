@@ -133,7 +133,7 @@
             <div class="col-xs-8 col-sm-8">
               <h6>Security of Funds</h6>
               <ul class="ppro">
-                <li><i class="fa fa-check"></i>Clients can choose among a <strong>great variety of</strong> <a href="payment-options">payment options</a> such as Bank Wire, Skrill, Visa, MasterCard, Neteller, among others.</li>
+                <li><i class="fa fa-check"></i>Clients can choose among a <strong>great variety of</strong> <a href="payment-options.php">payment options</a> such as Bank Wire, Skrill, Visa, MasterCard, Neteller, among others.</li>
                 <li><i class="fa fa-check"></i><strong>Safety</strong> – the website uses an SSL certificate to protect your data. Your money is also safe at all times thanks to our <a href="http://ambacpolicyholders.com/segregated-account-policies/" target="_blank">segregated accounts policy</a></li>
                 <li><i class="fa fa-check"></i>Deposit Insurance which allows our traders to hedge their investments from losses.</li>
               </ul>

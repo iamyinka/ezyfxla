@@ -15,7 +15,7 @@
   <div class="container">
     <div class="bonus-intro">
       <p>TRADE MORE &amp; <br>CONVERT YOUR BONUSES INTO REAL MONEY</p>
-      <a href="#" class="btn btn-success">CLAIM BONUS</a>
+      <a href="register.php" class="btn btn-success">CLAIM BONUS</a>
     </div>
   </div>
 </section>
@@ -137,7 +137,7 @@
           </div>
           <div class="col-xs-10">
             <p>The Dynamic Bonus will be automatically credited to your account.  </p>
-            <a href="#" class="btn btn-custom-live btn-block">Get the Dynamic Bonus</a>
+            <a href="register.php" class="btn btn-custom-live btn-block">Get the Dynamic Bonus</a>
           </div>
         </div>
     </div>
