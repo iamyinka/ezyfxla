@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
         <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-          <i class="fa fa-gift pull-left"></i> Wide range of Bonuses
+          <a href="promotions.php"><i class="fa fa-gift pull-left"></i> Wide range of Bonuses</a>
         </div>
 
         <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
@@ -11,11 +11,11 @@
         </div>
 
         <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-          <i class="fa fa-google-wallet pull-left"></i> Variety of Account types
+          <a href="trading-accounts.php"><i class="fa fa-google-wallet pull-left"></i> Variety of Account types</a>
         </div>
 
         <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-          <i class="fa fa-lock pull-left"></i> Funds Security
+          <a href="safety-and-more.php"><i class="fa fa-lock pull-left"></i> Funds Security</a>
         </div>
 
         <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
@@ -23,7 +23,7 @@
         </div>
 
         <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-          <i class="fa fa-tasks pull-left"></i> Many Deposit Methods
+          <a href="payment-options.php"><i class="fa fa-tasks pull-left"></i> Many Deposit Methods</a>
         </div>
       </div>
     </div>

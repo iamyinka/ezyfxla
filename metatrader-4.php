@@ -25,7 +25,7 @@
               <a class="btn btn-link" href="software-downloads.php" style="color: #fff; margin-top: 60px;">DOWNLOAD NOW</a>
                 <div class="overlay">
                   <h6 style="color: #fff;">EZYFX Metatrader 4</h6>
-                  <a class="info" href="software-downloads.php">Download NOW <i class="fa fa-arrow-down"></i></a>
+                  <a class="info" href="downloads/EzyFx-MT4.zip">Download NOW <i class="fa fa-arrow-down"></i></a>
                 </div>
             </div>
           </div>
