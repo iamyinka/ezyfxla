@@ -1989,7 +1989,17 @@ footer .contactInfo {
   margin-top: -3px;
 }
 
+.agreement {
+  max-height: 400px;
+  overflow-x: auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 20px;
+}
 
+.agreement .ppro {
+  margin-left: 30px;
+}
 
 
 
