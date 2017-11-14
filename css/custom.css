@@ -1992,7 +1992,7 @@ footer .contactInfo {
 .agreement {
   max-height: 400px;
   overflow-x: scroll;
-  background-color: #fff;
+  background: #fff;
   padding: 40px;
   border-radius: 20px;
 }
