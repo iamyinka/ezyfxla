@@ -2002,6 +2002,11 @@ footer .contactInfo {
 }
 
 
+.subMenuItem li em {
+  margin-right: 5px;
+  font-size: .85em;
+}
+
 
 
 
