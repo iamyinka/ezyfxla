@@ -476,7 +476,7 @@ form > div > label > input:focus, form > div > label > select:focus
 								<span class="button-checkbox">
 									<button type="button" class="btn btn-default" data-color="primary">I Agree to the </button>
 									<input type="checkbox" class="hidden" required="" />
-									<a href="#" target="_blank">Partnership Terms &amp; Conditions</a>
+									<a href="#agreement">Partnership Terms &amp; Conditions</a>
 								</span>
 							</label>
 							<!-- </a> -->
@@ -491,9 +491,160 @@ form > div > label > input:focus, form > div > label > select:focus
 					</form>
 
 					<div class="col-xs-12">
-						<h2 class="text-center">Agreement</h2>
-						<div class="agreement">
-							<h4>Privacy Policy</h4>
+						<h2 class="text-center">Partnership Agreement</h2>
+						<div class="agreement" id="agreement">
+
+							
+							<p>
+								The present Agreement is made between EZYFX LIMITED (hereinafter referred to as “the Company”) and the Partner. The Parties hereby agree as follows:
+							</p>
+
+							<ol class="subMenuItem ppro">
+								<li><em>1.</em> General provisions </li>
+								<li><em>1.1.</em> The Company and the Partner undertake obligations to attract Customers so that Customers conduct trading operations with the instruments the Company offers.</li> 
+								<li><em>1.2.</em> The Partner undertakes rights and obligations laid down in the present Agreement with regard to attraction of Customers for entering into brokerage service contracts with the Company. The Partner also undertakes other rights and obligations hereinafter set forth. Honouring the commitments stipulated in the present Agreement, the Partner attracts Customers for the Company acting in his name.</li> 
+								<li><em>1.3.</em> The Partner unconditionally acknowledges that all Customers attracted are the Company’s Customers.</li> 
+								<li><em>1.4.</em> Language</li> 
+								<li><em>1.4.1.</em> The ruling language of the present Agreement is English. </li> 
+								<li><em>1.4.2.</em> For partners' convenience, the Company may provide the translation of the present Agreement into another language. The function of the translation is merely informative.</li> 
+								<li><em>1.4.3.</em> In case of inconsistency between the English version and the translation of the present Agreement into another language, the English version shall be of prior importance.</li> 
+								<li><em>1.5.</em> Partner’s identity verification</li> 
+								<li><em>1.5.1.</em> The Company shall be entitled to request confirmation of any information the Partner provided at the stage of registration with the affiliate program. For this purpose, the Company shall be entitled to request a scanned copy or a notarized copy of the Partner's ID document (at the Company's discretion). </li> 
+								<li><em>1.5.2.</em> If the Partner has not received the Company's request for a scanned copy or a notarized copy of the ID document, verification of the affiliate account shall be deemed non-obligatory. However, the Company reserves the right to restrict access of non-verified accounts to certain services. In this case, the Partner may optionally pass the verification procedure.</li> 
+								<li><em>1.5.3.</em> Should any information provided by the Partner during registration (name, residential address or telephone number) change, the Partner shall immediately inform the Partner Relations Department of the Company about these changes and request the Company to update the information.</li> 
+								<li><em>1.5.4.</em> The Partner acknowledges and agrees that any information provided at the stage of registration with the affiliate program may be employed by the Company in an anti-money laundering campaign.</li> 
+								<li><em>1.5.5.</em> The Partner shall be responsible for the authenticity of the ID documents (copies). The Partner acknowledges the Company's right to contact law enforcement agencies of the country where the ID document was issued to confirm its authenticity if it is questionable. Should the ID document be found to be a forgery, the Company shall be entitled to bring the Partner to justice pursuant to the current legislation of the country where the ID document was issued.</li> 
+								<li><em>2.</em> Relationship with Customers</li> 
+								<li><em>2.1.</em> The Partner may provide any advertising information about the Company referring to the corresponding section of the Company’s website and information confirmed to be authentic by the Company to potential Customers.</li> 
+								<li><em>2.2.</em> The Partner warrants the authenticity and legal validity of all documents and contracts which the Partner submits to the Company in the name of a Customer.</li> 
+								<li><em>2.3.</em> The Partner shall provide Customers with essential reliable information relevant to entering into brokerage service contracts with the Company, give Customers explanations regarding content of the contracts and the Company’s services.</li> 
+								<li><em>2.4.</em> The Partner is obliged to notify a Customer of risks related to currency trading before the Public Offer Agreement is signed.</li> 
+								<li><em>2.5.</em> Providing recommendations and information to motivate a Customer to trading operations is not part of the Company’s service plan. In exceptional cases, the Company has a right to provide information, recommendations and pieces of advice to a Customer at its discretion, however the Company shall not bear responsibility for consequences of such recommendations. All trading operations originating from inaccurate information or a mistake are in effect and compulsory for execution by a Customer and by the Company.</li> 
+								<li><em>2.6.</em> The Partner shall refrain from giving a Customer recommendations and pieces of advice concerning trading operations on the trading account. If otherwise, the Company shall not bear responsibility for consequences of the recommendations and pieces of advice.</li> 
+								<li><em>3.</em> Partner’s rights and obligations</li> 
+								<li><em>3.1.</em> The Partner is obliged to attract new Customers so that Customers enter into brokerage service agreements with the Company and operate on international financial markets under the Company's terms and conditions.</li> 
+								<li><em>3.2.</em> The Partner is obliged to open an affiliate account with the Company for receiving commissions.</li> 
+								<li><em>3.3.</em> The Partner is obliged to be competent at the Company’s services and master general information about international financial markets.</li> 
+								<li><em>3.4.</em> The Partner is obliged to study all the Company’s informational resources on his own and inform Customers about important changes in time.</li> 
+								<li><em>3.5.</em> The Partner is obliged to provide Customers of the affiliate group with comprehensive information and legal support, as well as solve problems Customers may face while trading on foreign exchange markets.</li> 
+								<li><em>3.6.</em> The Partner is obliged to answer all Customer questions regarding the services provided by the Company.</li> 
+								<li><em>3.7.</em> The Partner shall not be entitled to make any sub-agency and other agreements (contracts), which give a right to delegate Partner’s authority, in full or in part, to the third parties under the present Agreement without prior written consent of the Company. Assignment of right of demand is only possible after obtaining the Company’s consent.</li> 
+								<li><em>3.8.</em> Should the Partner be incapable of solving the problem of a Customer on his own, the Partner is obliged to contact the Company’s specialists with all the details necessary to solve the problem (account numbers, order tickets, time etc.).</li>  
+								<li><em>3.9.</em> The Partner has a right to plan and implement marketing and advertising campaigns, provided that the Company approved the campaigns.</li>  
+								<li><em>3.10.</em> The Company reserves the right to cancel affiliate commissions without prior notice in case the Partner was found to request the keyword "EZYFX" and its spelling variations, including conformable words in other languages, in such search engines as YANDEX, GOOGLE etc. to attract new Customers.</li>  
+								<li><em>3.11.</em> The Partner has a right to replenish the affiliate account and withdraw funds from it in accordance with the Public Offer Agreement.</li>  
+								<li><em>3.12.</em> As stipulated in the Public Offer Agreement, the affiliate account is available in the mode of a private customer account, i.e. the Partner has a right to conduct trading operations on the affiliate account. Due to rapid changes in the exchange rates of national currencies used by customers to replenish their trading accounts, the Company reserves the right to use an average of these exchange rates in settlements with partners.</li>  
+								<li><em>3.13.</em> In case of any problems related to business running and rendering the Company’s services, the Partner shall contact the Company with details of a problem so that the Company can consult the Partner in time on possible ways to solve it.</li>  
+								<li><em>3.14.</em> The Partner shall only be entitled to conduct trading operations on a Customer’s trading account by written permission of a Customer.</li>  
+								<li><em>3.15.</em> The Partner shall not be entitled to make settlements with Customers (cash or non-cash, in national or foreign currency) and to accept funds, securities or other property from Customers.</li>  
+								<li><em>3.16.</em> The Partner has a right to monitor efficiency of promotional campaigns through custom affiliate codes and affiliate statistics provided by the Company.</li>  
+								<li><em>3.17.</em> The Partner has a right to use promotional materials provided by the Company such as banners, widgets/informers, text links, landing pages etc.</li>  
+								<li><em>3.18.</em> The Partner has a right to use the design of the Company’s brand production for advertising.</li>  
+								<li><em>3.19.</em> The Partner has a right to attract other partners and earn a commission from every trade of Customers they referred.</li>  
+								<li><em>3.20.</em> The Partner has a right to refer ForexCopy followers and receive commissions from their trades.</li>  
+								<li><em>3.21.</em> The Partner has a right to refer PAMM traders and earn commissions from their trades.</li>  
+								<li><em>3.22.</em> The Partner has a right to refer PAMM investors and earn a profit share set by a PAMM trader in case the investment is profitable.</li>  
+								<li><em>3.23.</em> The Partner has a right for a free affiliate website with regularly updated content. The Partner shall be entitled to give it a domain name. The latter is to be approved by the Company in advance.</li>  
+								<li><em>3.24.</em> The Partner has a right to conduct trading operations on the affiliate account.</li>  
+								<li><em>4.</em> Company’s rights and obligations</li>  
+								<li><em>4.1.</em> The Company is obliged to open trading accounts for Customers referred by the Partner pursuant to the Public Offer Agreement.</li>  
+								<li><em>4.2.</em> The Company shall enable Customers to conduct trading operations in the system by providing Customers with logins and passwords.</li>  
+								<li><em>4.3.</em> The Company is obliged to maintain a comprehensive record of all operations made by Customers.</li>  
+								<li><em>4.4.</em> The Company shall provide the Partner with information concerning the content of agreements signed as well as the terms and conditions of Customer participation in foreign exchange trading.</li>  
+								<li><em>4.5.</em> The Company is obliged to make payments to the Partner on the basis of a monthly income and expense sheet in accordance with the procedure set out in Clause 10 hereof.</li>  
+								<li><em>4.6.</em> The Company has a right to request the Partner to provide a full report on the course and results of the Customer attraction campaigns.</li>  
+								<li><em>4.7.</em> The Company has a right to terminate the Agreement in case the Partner did not attract 3 or more Customers within 30 days since registration with the Company’s affiliate program. The Partner shall not be entitled to refer close relatives if the Partner is an individual, or close relatives of the founders if the Partner is a legal entity. The Partner shall not be entitled to refer his own accounts.</li>  
+								<li><em>4.8.</em> The Company has a right to exclude a Customer account from the affiliate group in case the account was not replenished within 30 days since registration in Client Cabinet.</li>  
+								<li><em>4.9.</em> In the event that the Partner fails to perform any obligations under the present Agreement, the Company has a right to exclude Customers from his affiliate group.</li>  
+								<li><em>4.10.</em> The Company has a right to inform Customers of the affiliate group about commissions received by the Partner from trading operations conducted by them on international financial markets pursuant to the present Agreement.</li>  
+								<li><em>4.11</em> In the event that the Partner breaches or fails to perform any obligations under the present Agreement, the Company shall be entitled to terminate the present Agreement at its sole discretion.</li>  
+								<li><em>4.12</em> The Company has a right to perform other actions stipulated in the present Agreement and its Appendices.</li>  
+								<li><em>5.</em> Partner’s work principles and Customer attraction</li>  
+								<li><em>5.1</em> The Partner has a right to create a website relevant to the Company’s activities containing information about international financial markets and providing brokerage, dealer and investment services with regard to Clause 3 hereof.</li>  
+								<li><em>5.2.</em> A Customer is registered and referred to the affiliate group by either of the following methods:</li>  
+								<li><em>5.2.1.</em> A Customer clicks on an affiliate link to the Company’s official website.</li>  
+								<li><em>5.2.2</em> A Customer enters an affiliate code in the trading account registration form.</li>  
+								<li><em>5.2.3</em> The Partner submits a Customer identification form signed by a Customer to the Company.</li>  
+								<li><em>5.3</em> A Customer may choose to decline the Partner’s services and opt for being serviced by the Company.</li>  
+								<li><em>5.4.</em> With a view to prevent unfair competition, it is prohibited to move clients from one affiliate group to another, as well as to move present Customers to affiliate groups. This Clause of the present Agreement is to be also observed by present Customers opening new accounts with the Company with an aim to move them to affiliate groups. Note: A Customer may apply to the Company with explanations why he was moved to another affiliate group. The Company shall consider and deliver a decision on each application individually.</li>   
+								<li><em>5.5.</em> The Partner shall not be entitled to get affiliate commissions from his own accounts and those owned by his close relatives if the Partner is an individual; as well as from private accounts of founders or accounts of their close relatives if the Partner is a legal entity.</li>  
+								<li><em>5.6.</em> The Partner is prohibited to use unfair methods of attracting the Customers including but not limited to using any forms of forced redirecting of users to the websites of the Company and registering them in the affiliate group.</li>   
+								<li><em>6.</em> Dispute resolution</li>    
+								<li><em>6.1.</em> The Partner has a right to lodge a claim with the Company within 5 working days of the date upon which the Partner became aware of any event or occurrence alleged to give rise to such a claim.</li>    
+								<li><em>6.2.</em> Any claim by the Customer against the Company shall be either written on paper and sent to the Company by post or emailed to one of the Company’s official email addresses specified on the Company’s website. Claims made in any other way (forum, telephone etc.) shall not be taken into consideration.</li>    
+								<li><em>6.3.</em> The particulars of a claim must contain: the first and second name of the Partner/Partner’s company name; core description of a disputable situation; other dispute details that might contribute to dispute resolution. The particulars of a claim must not contain: emotional evaluation of a disputable situation; verbal abuse of the Company; expletives.</li>    
+								<li><em>6.4.</em> The Company has a right to request a Customer/the Partner to provide any information necessary for dispute resolution.</li>    
+								<li><em>6.5.</em> The Company has a right to reject a claim if the provisions set out in Clauses 6.2, 6.3, 6.4, 7.2 and 7.3 have not been met.</li>    
+								<li><em>6.6.</em> The Company is obliged to examine the Partner’s claim, deliver a decision on the dispute with the shortest possible delay and email it to the Partner. Maximum period for dispute investigation is 10 working days since the date the claim was filed.</li>    
+								<li><em>6.7.</em> Disputes concerning interpretation or application of the present Agreement shall be settled by negotiation.</li>    
+								<li><em>6.8.</em> A dispute might be referred to arbitration under the dispute resolution procedure. A request for arbitration can be submitted in case the claim was not satisfied, or there was no response to the claim within the period specified in Clauses 6.5, 7.2 and 7.3 hereof.</li>    
+								<li><em>7.</em> Data exchange</li>      
+								<li><em>7.1.</em> The Company shall contact the Partner via the following means of communication:</li>      
+								<li><em>7.1.1.</em> email;</li>      
+								<li><em>7.1.2.</em> fax;</li>      
+								<li><em>7.1.3.</em> phone;</li>      
+								<li><em>7.1.4.</em> post office;</li>      
+								<li><em>7.1.5.</em> announcement in appropriate section of the Company’s website;</li>      
+								<li><em>7.1.6</em> other electronic means of communication set by the Company (Skype, ICQ, etc.)</li>      
+								<li><em>7.2.</em> The Partner may contact the Company using the means of communication listed in Clause 7.1 hereof.</li>      
+								<li><em>7.3.</em> Messages, documents, announcements, notifications, confirmations, reports etc. shall be deemed accepted by the opposite Party:</li>      
+								<li><em>7.3.1.</em> 1 hour after sending a message by email;</li>      
+								<li><em>7.3.2.</em> 1 hour after sending a message by trading terminal internal mail;</li>      
+								<li><em>7.3.3.</em> 1 hour after sending a message by fax;</li>      
+								<li><em>7.3.4.</em> right after a telephone conversation was finished;</li>      
+								<li><em>7.3.5.</em> 7 calendar days after sending documents by post;</li>      
+								<li><em>7.3.6.</em> 1 hour after an announcement was posted on the Company’s website.</li>       
+								<li><em>8.</em> Confidential information</li>        
+								<li><em>8.1.</em> The Partner shall not be entitled to disclose information received from the Company during the cooperation and data the present Agreement contains throughout the period of validity of the present Agreement and within 5 years after its termination.</li>        
+								<li><em>8.2.</em> The Partner shall not be entitled to divulge confidential information concerning the Company’s business and services to a rival third party.</li>        
+								<li><em>8.3.</em> The Parties shall ensure confidentiality of Customer personal and account data as well as details of trades conducted by Customers.</li>
+								<li><em>9.</em> Incomes and mutual settlements</li>
+								<li><em>9.1.</em> In case, a daily commission for any of the trading days is more than $500, and the number of attracted active (actually trading) Customers is less than 10, the Company reserves the right to revise the commission amount on this affiliate account and reduce it to 0.5 pip unilaterally.</li>
+								<li><em>9.2.</em> The Company shall pay the Partner an affiliate commission only in case the Partner attracted not less than 3 actually trading Customers.</li>
+								<li><em>9.3.</em> The Company pays affiliate commissions to the Partner in accordance with Appendix 1 of the present Agreement. Commissions shall not be more than 50% of the average equity value on all Customer accounts in the affiliate group for a reporting month. The average equity value is calculated as a sum of equity values on all Customer accounts at the beginning and at the end of each reporting month divided by 2.</li>
+								<li><em>9.4.</em> When calculating commissions, the Company has a right not to take into consideration trades made by Customers as a result of the trading platform faults and exclude Customers responsible for such trades from the affiliate group.</li>
+								<li><em>9.5.</em> In case the amount of commissions from trades of a given Customer exceeds 30% of the total amount of commissions credited to the affiliate account, or if Clause 5.5 of the present Agreement is violated, the Company reserves the right not to pay the commissions to the Partner and exclude such Customers from the affiliate group.</li>
+								<li><em>9.6.</em> Should orders on the account of a referred Customer be detected violating EZYFX general regulations, the rules of the bonus system; should commissions be charged from allegedly fraudulent accounts; or should Customers be found using strategies aimed at deriving profit from affiliate commissions and rebates to the detriment of the main trading (including but not limited to cases when this strategy is a part of the common strategy of a Customer account and an affiliate account), the Company reserves the right to cancel the commissions from such accounts and exclude such Customers from the affiliate group.</li>
+								<li><em>9.7.</em> In case registration data of the Partner coincides, in part or in full, with registration data of a Customer who belongs to the affiliate group, the Company reserves the right to regard this coincidence as a ground to apply Clauses 5.5 and 9.5 of the present Agreement to the affiliate account in full measure.</li>
+								<li><em>9.8.</em> In case the account of a Customer belonging to the affiliate group and the affiliate account are found using the same IP address, the Company reserves the right to consider this coincidence as a ground to apply Clauses 5.5 and 9.5 of the present Agreement to the affiliate account in full measure.</li>
+								<li><em>9.9.</em> In order to prevent dishonest attempts to obtain commissions from trades executed on the accounts of referred Customers or the accounts registered under assumed names yet managed by the Partner, the Company reserves the right not to pay affiliate commissions from trades which yield the profit less than 3 pips.</li>
+								<li><em>9.10.</em> The Company may regard cases of violation of Clauses 3.1 and 5.4 of the present Agreement by the Partner as activity inconsistent with the affiliate program principles. Customers attracted through violation of the above-mentioned Clauses of the present Agreement shall be excluded from the affiliate group, and commissions derived from their trades shall be cancelled in full.</li>
+								<li><em>9.11.</em> On a monthly basis, the Partner has a right to request the Company to check the number of Customers referred and the number of Customer accounts as well as to review the results of their trading operations.</li>
+								<li><em>9.12.</em> A commission is credited to the affiliate account immediately after a referred Customer closes a trade. In case the accounts of the Partner and a Customer are based on different servers of the Company, an affiliate commission is credited the next day after a Customer closes a trade.</li>
+								<li><em>9.13.</em> The Company reserves the right not to pay a commission from trades the margin of which proceeds from the bonus funds of the bonus program participants. This Clause is applicable to commissions that have already been credited. Such bonus program participants may be excluded from the affiliate group.</li>
+								<li><em>9.14.</em> In case a Customer belonging to the affiliate group applied to the Company’s Dealing Department with a claim regarding an order from which the Partner received a commission, the Company reserves the right to cancel the affiliate commission in full.</li>
+								<li><em>9.15.</em> In case the profit from a trade made by a Customer does not exceed 5 pips, the Company reserves the right to adjust the affiliate commissions the Partner received from a part of such trades.</li>
+								<li><em>9.16.</em> Should the total amount of affiliate commissions obtained from any trading account exceeds 60% of the total deposit made by a Customer to this account (for instance, if the total amount of affiliate commissions from a $1,000 Customer account is more than $600), the Company reserves the right to adjust the total amount of affiliate commissions so that it is not more than 60% of the total deposit.</li>
+								<li><em>9.17.</em> The Company pays commissions to the Partner in accordance with Appendix 1 of the present Agreement.</li>
+								<li><em>9.18.</em> The Parties undertake to calculate and pay their taxes and other third party fiscal duties independently.</li>
+								<li><em>9.19.</em> Commission withdrawal shall be proceeded within the term, defined by the payment system, however, in case commission from referrals that were deposited via a credit card and some other payment systems, the term might be extended up to 45 calendar days since the last replenishment through this particular system with the further extending possible if required. The Company shall duly inform the Partner of imposing such restrictions.</li>
+								<li><em>9.20.</em> The Company reserves the right to cancel anytime any commissions over 1.5 pips without explanations, even after it has been credited. It can be due to the fact that cooperation with the Partner caused losses for the Company including losses while servicing his financial operations.</li> 
+								<li><em>10.</em> Final provisions</li> 
+								<li><em>10.1.</em> The present Agreement enters into force on the date when the last of the two Parties has duly signed it.</li> 
+								<li><em>10.2.</em> The present Agreement is valid for 12 months since the date when signed by the Parties.</li> 
+								<li><em>10.3.</em> Should the conditions of the present Agreement be fulfilled, the Agreement shall be prolonged for an indefinite period of time.</li> 
+								<li><em>10.4.</em> The Company shall have the absolute discretion to amend and supplement any of the terms and conditions stipulated in the present Agreement and shall give 5 calendar days’ prior notice.</li> 
+								<li><em>10.5.</em> Either Party may terminate the present Agreement unilaterally by giving at least 5 calendar days’ prior notice to the other Party.</li> 
+								<li><em>10.6.</em> Either Party shall be entitled to apply to court seeking to terminate the present Agreement in case of repeated breach of obligations by the other Party and other cases specified in the current legislation.</li> 
+								<li><em>10.7.</em> No amendment, supplement or appendix to this agreement shall be effective unless it is in writing and signed by the duly authorized representatives of the Parties within the time limit prescribed by these amendments, supplements and appendices. If the date of becoming effective is not specified, they shall enter into force on the date when signed by the Parties.</li> 
+								<li><em>10.8.</em> The present Agreement and its appendices are executed in two copies of which each Party shall retain one. Each copy shall be deemed equally authentic.</li>
+							</ol>
+							<hr>
+							<p>Appendix: Mutual settlements</p>
+
+							<ol class="subMenuItem ppro">
+								<li><em>1.</em> The Company shall pay the Partner affiliate commissions from all trades made by Customers referred by the Partner, regardless of the fact whether Customers gained any profit or not. </li>
+								<li><em>2.</em> Affiliate commission amount </li>
+								<li><em>2.1.</em> The Company shall pay the Partner a commission of 1.5 pips from each trade made on Forex major instruments. </li>
+								<li><em>2.2.</em> The Company shall pay the Partner a commission of 1.2 pips from each trade made on CFDs. </li>
+								<li><em>2.3.</em> The Company shall pay the Partner a commission of $20 for each trade made on GOLD and $10 for each trade made on SILVER.</li>
+								<li><em>2.4.</em> The Company shall pay the Partner a commission equal to 33.3% of the fee charged by the Company from a trade on a given futures contract. </li>
+								<li><em>2.5.</em> The Company shall pay the Partner a commission equal to 4% of each option value. </li>
+								<li><em>2.6.</em> The affiliate commission amount is specified for a 1 lot trade on Forex, CFDs and metals. </li>
+								<li><em>3.</em> Any other payments are possible only if the Company and the Partner agreed it in a collateral arrangement.</li>
+							</ol>
+
+							<!-- <h4>Privacy Policy</h4>
 
 							<p>At EZYFX we strive to deliver quality products and services to our users. We value their businesses
 								and recognize that privacy is an important issue. The information contained in this Privacy Policy
@@ -1025,6 +1176,323 @@ invalid, the validity of the remaining Terms and Conditions shall not be affecte
 In all other instances the Terms and Conditions as well as the use of the website are
 exclusively governed by and construed in accordance with the laws of Vanuatu. 
 							</p>
+							<h4>
+								ORDER EXECUTION POLICY
+							</h4>
+							<h6>1. Introduction</h6>
+							<p>
+								Operating under the trading name EZYFX, regulated and recognized by Vanuatu FSC as one of the Registered Financial Service Provider (FSP). its registered address at S.I.P Building, P.O Box 3010, Rue Pasteur, Port Villa Vanuatu
+Referred to as “EZYFX Limited”, we”, or “us”, is authorized and regulated by International Financial Services Commission (IFSC).
+							</p>
+							<p>
+								“The Site” shall refer collectively to ezyfx.la website and its available language versions and domain names.
+							</p>
+
+							<p>
+								“Client” shall refer to any person or entity who registered an account at the Site.
+							</p>
+							<p>
+								EZYFX Limited has established its Order Execution Policy (hereinafter referred to as the “Policy”) in order to take all reasonable steps to achieve the best possible results for its clients (“Best
+Execution”) either when executing client orders or receiving and transmitting orders for execution in relation to financial instruments.
+							</p>
+							<p>
+								EZYFX Limited shall apply the Policy upon acceptance of an order and also when a client gives no specific instruction on the method of execution. Nevertheless, when the client gives a specific instruction on an order, EZYFX Limited will execute the order following such instruction. If EZYFX Limited receives a specific instruction on an order, this may prevent EZYFX Limited from implementing the Policy to achieve the best possible result for the execution of the order.
+							</p>
+							<h6>2. Scope and Services</h6>
+							<p>
+								The Policy shall apply whenever EZYFX Limited executes an order on behalf of its clients. EZYFX Limited will always act as principal (counterparty) when executing orders by clients. Although EZYFX Limited takes every reasonable step to achieve the best possible result for its clients, we cannot guarantee that when executing a transaction the client’s price will be more favorable than one which might be available elsewhere.
+							</p>
+							<h6>3. Order Execution Factors</h6>
+							<p>
+								EZYFX Limited shall take all reasonable steps to achieve the best possible result for its clients taking into account the following factors when executing clients’ orders against EZYFX Limited’ quoted prices:
+							</p>
+
+							<ul class="ppro">
+								<li>3.1 Price</li>
+								<p>EZYFX Limited produces its own tradable prices from information obtained from third party external sources (such as banks, etc.) that generally provide liquidity to the global market.</p>
+								<p>
+									For any given Financial Instrument EZYFX Limited will quote two prices: the higher price (ASK) at which the client can buy (go long) that Financial Instrument, and the lower price (BID) at which the client can sell (go short) that Financial Instrument; The difference between the lower and the higher price of a given Financial Instrument is the SPREAD.
+								</p>
+								<p>
+									EZYFX Limited will ensure that the client is given the best execution by ensuring that the calculation of the bid /ask spread is made with reference to a selection of underlying price providers and data sources.
+								</p>
+								<p>
+									EZYFX Limited updates its prices as frequently as the limitations of technology and communication links allow. EZYFX Limited reviews the independent third party external
+								</p>
+								<p>
+									Reference sources it uses at least once a year, to ensure that the pricing it offers continue to be correct and competitive.
+								</p>
+								<p>
+									EZYFX Limited will not quote any price outside its operations time (see Execution Venue(s) below) therefore no orders can be placed by the client during that time.
+								</p>
+
+								<li>3.2 Costs</li>
+								<p>
+									For opening a position in some types of Financial Instruments clients may be required to pay a financing fee or a commission that may be charged in the form of a percentage of the overall value of the trade or as a fixed amount.
+								</p>
+								<p>
+									We make every effort to ensure that clients are informed of such costs before they chose to trade. We further ensure that there are not any unknown to the client variables in place.
+								</p>
+								<p>
+									
+									For all types of Financial Instruments we offer, the commission and financing fees are not incorporated into EZYFX Limited quoted price and are charged explicitly to the client account.
+								</p>
+								<li>3.3 Speed of Execution</li>
+								<p>
+									Prices change in the course of time and the frequency of the change depends on the different financial instruments and market conditions.
+								</p>
+								<p>
+									EZYFX Limited is committed to providing the highest possible speed of execution within the limitations of technology and communication links.
+								</p>
+								<p>
+									EZYFX Limited acts as principal and not as agent on the client’s behalf. Therefore, EZYFX Limited is the sole Execution Venue for the execution of clients’ orders for the Financial Instruments provided by EZYFX Limited.
+								</p>
+								<p>
+									In case clients undertake transactions on an electronic system, they may be exposed to risks in relation to the system, including but not limited to the failure of hardware and software (Servers/Internet). The result of any system failure may be that clients’ orders are either not executed or are not executed according to their instructions.
+								</p>
+								<p>
+									EZYFX Limited does not accept any liability in the case of such a failure. The use of wireless or dial-up connection or any other form of unstable connection at the client’s end, may result in poor or interrupted connectivity or lack of signal strength causing delays in the data transmission between the us and the client when using EZYFX Limited’ Electronic Trading Platform. The delay may cause sending to EZYFX Limited orders that are out of date (on old prices). In this case EZYFX Limited will update the price and execute the order at the market price available.
+								</p>
+								<li>3.4 Nature of the Order</li>
+								<p>
+									The type of the order can affect its execution. Below are given the different types of orders that client can place with us:
+								</p>
+								<li>3.4.1 Market order </li>
+								<p>
+									(also “Instant order”) - an order to buy or sell at the price available at a given time. The order will usually be filled at the price the client sees on EZYFX Limited trading platform screen. There may be cases that the price will be different: if the market has moved while the client is placing his order, the price will differ. The client may place a Stop Loss to limit his loss or a Take Profit to limit his profit.
+								</p>
+								<li>3.4.2 Pending order</li>
+
+								<p>
+									Clients are allowed to buy and sell a financial instrument at a pre- defined price in the future, i.e. place the order at the best available price once a given price is reached. We offer are four types of pending orders available in EZYFX Limited trading platform:
+								</p>
+
+								<ul class="ppro">
+									<li>&mdash; Buy Limit</li>
+									<li>&mdash; Buy Stop</li>
+									<li>&mdash; Sell Limit</li>
+									<li>&mdash; Sell Stop</li>
+								</ul>
+
+								<p>
+									Clients may also attach a Stop Loss and/or Take Profit on pending orders
+								</p>
+
+								<li>3.4.3 Trailing Order</li>
+								<p>
+									To close a position, clients may use the following orders:
+								</p>
+								<p>
+									Stop Loss - the order closes a position at a price less profitable for the client as compared to the current price when making the order
+								</p>
+								<p>
+									Take Profit – the order closes a position at a price more profitable for the client as compared to the price when making the order.
+								</p>
+								<li>3.5 Size of the Order</li>
+
+								<p>
+									All orders are placed in lot sizes.  A lot is a unit measuring the transaction amount and it  is different per each financial instrument. Details of the lot sizes are available on the Site.
+								</p>
+								<p>
+									If the client wishes to execute a large size order, in some cases the price may become less favorable considering the liquidity in the market. EZYFX Limited reserves the right not to accept a client’s order, in case the size of the order is large and cannot be filled by EZYFX Limited.
+								</p>
+								<li>3.6 Likelihood of Execution</li>
+								<p>
+									EZYFX Limited strives to provide its clients with the fastest execution reasonably possible. We execute clients’ orders at the requested price. However, there may be trading conditions causing orders not be filled at the requested price but at the best available price. This may occur, for example, during periods of volatile market conditions; when trading session starts or on possible gaps where the underlying financial instruments have been restricted or suspended on a particular market.
+								</p>
+
+								<p>
+									Although EZYFX Limited executes all orders placed by the client, it reserves the right to decline an order of any type or execute the order at the first available market price.
+								</p>
+
+								<p>
+									EZYFX Limited reserves the right to modify its spread. The client may experience widened spreads and execution at the best available price considering the current market conditions.
+								</p>
+
+								<p>
+									In the case of any technical communication failure, as well as any incorrect reflection on the quotes feed, EZYFX Limited may at its sole discretion not execute a certain order or change the opening and/or closing price of the order.
+								</p>
+
+								<li>3.7 Market Impact</li>
+								<p>
+									Some factors may affect the price of the underlying financial instruments from which the price, quoted by EZYFX Limited, is derived. These factors may influence the criteria that EZYFX Limited takes into consideration in order to ensure the best possible result for its clients. Clients hereby fully and irrevocably accept all risks related to the formation of the
+EZYFX limited’ price, including without limitation unfavorable changes in the market
+								</p>
+
+								<p>
+									Conditions, and acknowledge that EZYFX Limited has taken all reasonable steps to ensure the best possible result for its clients under the current circumstances.
+								</p>
+
+								<li>3.8 Best Execution Criteria</li>
+								<p>
+									EZYFX Limited will generally consider the following best execution criteria for determining the relative importance of the execution factors:
+								</p>
+								<ul class="ppro">
+									<li>&mdash; the kind of the order</li>
+									<li>&mdash; the record of the client with EZYFX Limited</li>
+									<li>&mdash; the specifics of the execution venue</li>
+									<li>&mdash; the specifics of the financial instruments that are the subject of the order</li>	
+								</ul>
+
+								<p>
+									The best possible result shall be determined in terms of the total consideration (unless the objective of the order execution dictates otherwise), representing the price of the financial instrument and the costs directly or indirectly related to the execution of the order, including execution venue fees, clearing and settlement fees and any other fees paid to third parties involved in the execution of the order (if applicable).
+								</p>
+
+								<p>
+									Other factors that may affect the execution of an order include without limitation speed, likelihood of execution, order size, order nature.
+								</p>
+							</ul>
+
+							<h6>4. Specific Instructions</h6>
+
+							<p>
+								If the client gives a specific instruction to EZYFX Limited as to how to carry out an order and EZYFX Limited has accepted this instruction, EZYFX Limited shall arrange – to the extent possible – for the execution of the client order strictly in accordance with the given instruction.
+							</p>
+							<p>
+								However, the specific instruction may prevent EZYFX Limited from taking the steps in this Policy to achieve the best possible result for the client.
+							</p>
+							<p>
+								Certain trading conditions may prevent EZYFX Limited from strictly following the client's instructions. This may result in being unable to apply this Policy.
+							</p>
+
+							<h6>5. Execution Venue(s)</h6>
+							<p>
+								Execution venues are the entities with which the orders are placed or to which EZYFX Limited transmits orders for execution. EZYFX Limited will enter into all transactions with the client as principal (counterparty) and act as the sole execution venue for all client orders. The client shall open and close a position of any particular financial instrument with EZYFX Limited through its trading platform.
+							</p>
+							<p>
+								Provided that there is only one possible venue, best execution is achieved by execution on that venue. Clients note that best execution is a process, which considers a variety of factors, not an outcome.
+When EZYFX Limited is carrying out a client’s order, EZYFX Limited shall execute the order following its execution policy, however EZYFX Limited does not guarantee that the exact requested price will be obtained at all times and, in any event, the factors may lead to a different result in a particular transaction.
+							</p>
+							<p>
+								The client hereby fully and irrevocably accept that all transactions entered in any particular financial instrument with EZYFX Limited are executed outside a regulated market or a multi-lateral trading facility (MTF) and the client is exposed to a greater risk of a possible default of the counterparty (i.e.
+EZYFX Limited).
+							</p>
+							<h6>6. Monitoring and Review</h6>
+							<p>
+								EZYFX Limited shall monitor on a regular basis the effectiveness of its order execution arrangements and execution policy to deliver the most favorable result to its clients and to identify and correct any errors or problems that may occur. EZYFX Limited reserves the right to correct any deficiencies in this Policy and to make improvement to its relevant execution arrangements wherever deemed necessary by EZYFX Limited.
+							</p>
+							<p>
+								It should be noted that EZYFX Limited will not notify clients separately of changes, other than substantial
+							</p>
+							<p>
+								Material changes (a substantial material change may include a change of execution venues, considerable delay in carrying out orders, etc.) to the Policy and clients should refer to the Site for the
+							</p>
+							<h6>7. Client Consent</h6>
+							<p>
+								The Policy is made available to every existing or potential client of EZYFX Limited. When establishing a business relationship with the client, EZYFX Limited is required to obtain the client’s prior consent to this Policy. Additionally, EZYFX Limited is required to obtain the client’s prior consent before executing client’s orders or receiving and transmitting orders to carry out outside a regulated market or a multi-lateral trading facility (MTF). The client is informed and acknowledges that EZYFX Limited always acts as principal (counterparty) and is the sole execution venue, which is not a regulated market or a multi-lateral trading facility (MTF).
+							</p>
+							<p>
+								By entering into the Public Offer Agreement with EZYFX Limited for providing services of conversion arbitrage operations at the international currency market and derivatives markets, the client is consenting to an application of this Policy on him.
+							</p>
+
+							<p>
+								In this Policy or any Regulations:
+							</p>
+
+							<p>
+								Execution venue - shall mean a regulated market, an MTF, a systematic internaliser, or a market maker or other liquidity provider or an entity that performs a similar function in a third country to the functions performed by any of the foregoing.
+							</p>
+
+							<p>
+								Multilateral trading facility (MTF) - shall mean a multilateral system operated by an investment firm or market operator, which brings together multiple third-party buying and selling interests in financial instruments in the system, in accordance with non-discretionary rules, in a way that results in a contract in accordance with the provisions of Title II of the Markets in Financial Instruments Directive (MiFID).
+							</p>
+
+							<p>
+								Regulated market - shall mean a multilateral system operated and/or managed by a market operator, which brings together or facilitates the bringing together of multiple third-party buying and selling interests in financial instruments – in the system and in accordance with its nondiscretionary rules – in a way that results in a contract, in respect of the financial instruments admitted to trading under its rules and/or systems, and which is authorized and functions regularly and in accordance with the provisions of Title III of MiFID.
+							</p>
+
+							<p>
+								Systematic internalizer - shall mean an investment firm which, on an organized, frequent and systematic basis, deals on own account by executing client orders outside a regulated market or an MTF.
+							</p>
+
+							<p>
+								Should you require any additional information about the Order Execution Policy of EZYFX Limited, please contact us at <a href="mailto:support@ezyfx.la">support@ezyfx.la</a>
+							</p>
+
+							<h4>COMPLAINT HANDLING POLICY</h4>
+							<p>
+								EZYFX Limited, hereinafter referred to as the ‘Company,’ strives to provide top-quality brokerage services for trading on the Forex market.
+							</p>
+							<p>
+								The Company has appointed a Compliance Officer who is responsible for efficiently handling any complaints from the Client. This would allow the Company to successfully deal with issues and prevent them from reoccurring in the future.
+							</p>
+							<h6>Definition</h6>
+							<p>
+								According to the Company, a complaint is any objection and/or dissatisfaction that the Client may have with regards to the provision of any financial service provided by the Company.
+							</p>
+
+							<h6>Procedure</h6>
+							<p>
+								The Compliance Officer is tasked with processing Client complaints, except in the case where the complaint involves the Compliance Officer; such complaints shall be handled by the Managing Director.
+							</p>
+							<p>
+								Clients may register complaints using the following methods:
+							</p>
+							<ul class="ppro">
+								<li>Email: ezyfxla@gmail.com</li>
+								<li>Telephone: +44 20309 71796 (International format) or 0044 20309 71796 </li>
+							</ul>
+							<p>
+								The requests will be forwarded to the Compliance Officer within 48 hours after being received. After he/she receives them, the Client will be sent a notification that their request is being processed within 48 hours.
+							</p>
+							<p>
+								The Client will receive a final response or a holding response explaining the findings of the investigation up to 4 weeks from the date the Compliance Officer receives the Client’s complaint. If a holding response is sent to the Complainant, an explanation shall be given stating the reasons why the Company has not been able to resolve the complaint as well as giving a time estimate for the resolution of the issue.
+							</p>
+							<p>
+								If after 8 weeks of receiving the complaint we are still unable to resolve the issue, the Compliance Officer will notify you in writing about the reasons for the delay and indicate an updated time estimate to resolve the issue.
+							</p>
+							<p>
+								When the Client receives the final response, they will have 8 weeks to respond. If no response is received within that period from the complainant indicating that they are still dissatisfied with the explanation, the Complaint will be considered resolved.
+							</p>
+							<p>
+								If the complainant is still not satisfied with the Company’s final response, they can refer their complaint with a copy of the Company’s final response to the competent authorities for further investigation within a period of 6 months.
+							</p>
+							<p>
+								EZYFX Limited is regulated and recognized by Vanuatu FSC as one of the Registered Financial Service Provider (FSP).
+							</p>
+							<p>
+									Address: S.I.P Building, <br>
+									P.O Box 3010, <br>
+									Rue Pasteur, <br>
+									Port Villa, <br>
+									Vanuatu <br>
+									Website: https://www.ezyfx.la/ <br>
+									Tel: +44 20309 71796
+							</p>
+							<h4>Anti-Money Laundering Policy</h4>
+							<p>
+								The Anti-Money Laundering Policy of EZYFX Limited is a crucial part of the company’s code of ethics. Its purpose is to ensure that customers who choose to engage in illegal activities are held up to a moral standard, while the rest of our clients who do not engage in illegitimate actions feel safe using our products.	Money laundering is defined as “the process of creating the appearance that large amounts of money obtained from serious crimes, such as drug trafficking or terrorist activity, originated from a legitimate source.” By presenting illegally obtained funds as legitimate, one commits a crime as they intentionally obscure the illegitimate source of that money. Both domestic and international laws condemn money laundering and make it illegal for companies that provide financial services, such as EZYFX Limited, as well as its customers, employees or agents to knowingly engage or attempt to engage in this type of criminal transactions.
+							</p>
+							<h6>Procedures</h6>
+							<p>
+								EZYFX Limited has implemented a highly sophisticated system for the detection of any signals that might suggest a customer is engaging in such illegal activities. This system keeps a record of and verifies all client identification materials, and tracks and maintains detailed records of all transactions.
+							</p>
+							<p>
+								EZYFX Limited dedicates its keen attention to tracking suspicious and significant transaction activities, and reports such activities along with comprehensive information to the relevant law enforcement bodies. To maintain the integrity of reporting systems and to safeguard businesses, the legislative framework provides legal protection to the providers of such information.
+							</p>
+							<p>
+								A key step to preventing and discouraging money laundering using our platforms is the fact that EZYFX Limited does not accept cash deposits. EZYFX Limited has the right to refuse to process a transfer at any stage where it believes the transfer to be connected in any way to money laundering or criminal activity. <br>
+								EZYFX Limited cannot inform customers that they have been reported for suspicious activity.
+							</p>
+							<h6>Requirements</h6>
+							<p>
+								In order to comply with anti-money laundering laws, EZYFX Limited requires a number of different documents to verify the identity of each customer.
+							</p>
+							<p>
+								The first document required is a legal government-issued document of identification that contains a picture of the customer. This may be a government-issued passport, a local ID card, or a driver's license (for countries where the driver's license is accepted as a primary identification document). Company, student or other cards are not acceptable forms of identification.
+							</p>
+							<p>
+								The second step is to verify your address. This may be done through your document of identification if it includes it. Other acceptable records are bills paid in the past three months that include your name and address, bank statements or any other document with the customer’s name and address issued from an internationally recognized organization.
+							</p>
+							<p>
+								Any documents in non-Latin letters must be translated into English by an official interpreter; the translation must be stamped and signed by the translator and a notary, and sent together with the original document with a clear picture of the customer on it.
+							</p>
+							<p>
+								EZYFX Limited requires that all deposits where the name of the originating customer is present be made from the same name of the customer in our records. Third-party payments are not accepted.
+							</p>
+							<p>
+								Withdrawing money may be done from the same account and by the same way it was received. For withdrawals where the name of the recipient is present, the name must be an exact match for the name of the customer in our records. For example, if the deposit was made by a wire transfer, funds may be withdrawn only by a wire transfer to the same bank and to the same account from which it originated. If the deposit was made via an electronic currency transfer, funds may be withdrawn only via an electronic currency transfer through the same system and to the same account it originated from.
+							</p> -->
 						</div>
 					</div>
 				</div>

@@ -127,7 +127,7 @@
 
 
       <div class="col-md-12">
-        <div class="col-md-2">
+        <div class="col-md-3">
 
           <ul>
             <h6>About</h6>
@@ -141,7 +141,7 @@
             <li><a href="careers.php">Careers</a></li>
           </ul>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-3">
 
           <ul>
             <h6>Account</h6>
@@ -155,7 +155,7 @@
             <li><a href="https://secure.ezyfx.la/login" target="_blank">My Account</a></li>
           </ul>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-3">
 
           <ul>
             <h6>Trade</h6>
@@ -164,6 +164,7 @@
             <li><a href="software-downloads.php">Platform Information</a></li>
             <li><a href="https://trade.mql5.com/trade?servers=EZYFX-Demo+Server%2cEZYFX-Live+7&trade_server=EZYFX" target="_blank">Web Trader</a></li>
             <li><a href="downloads/EzyFx-MT4.zip" target="_blank">Download MetaTrader 4</a></li>
+            <li><a href="legals.php">Legals</a></li>
           </ul>
         </div>
         <!-- <div class="col-md-2">
@@ -178,7 +179,7 @@
             <li><a href="#">Shares</a></li>
           </ul>
         </div> -->
-        <div class="col-md-2">
+        <div class="col-md-3">
 
           <ul>
             <h6>Education</h6>
@@ -192,7 +193,7 @@
           </ul>
         </div>
 
-        <div class="col-md-2 long-links">
+        <!-- <div class="col-md-2 long-links">
 
           <ul>
             <h6>Legal</h6>
@@ -210,11 +211,11 @@
             </div>
             
           </ul>
-        </div>
+        </div> -->
 
-        <div class="col-md-2">
+        <!-- <div class="col-md-2"> -->
 
-          <ul>
+          <!-- <ul>
             <div id="openInfo1">
               <li><a href="#">Complaint Handling Policy</a></li>
               <li><a href="#">Order Execution Policy</a></li>
@@ -222,7 +223,7 @@
               <li><a href="#">Anti-Money Laundering</a></li>
               <li><a href="#">Know Your Customer</a></li>
               <li><a href="#">Privacy Policy</a></li>
-            </div>
+            </div> -->
             <!-- <h6>Education</h6>
             <div class="small-line">
             </div>
@@ -231,8 +232,8 @@
             <li><a href="#">Online Webinar Lesson</a></li>
             <li><a href="#">Trading Central</a></li>
             <li><a href="#">FAQs</a></li> -->
-          </ul>
-        </div>
+          <!-- </ul> -->
+        <!-- </div> -->
       </div>
     </div>
   </section>

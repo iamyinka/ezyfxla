@@ -164,13 +164,13 @@
   					<li class="col-sm-3">
   						<ul>
   							<li class="dropdown-header">Legal Documents</li>
-  							<li class="disabled"><a href="tou.php">Terms Of Use</a></li>
+  							<li><a href="legals.php#tab2">Terms Of Use</a></li>
   							<li class="disabled"><a href="au.php">Acceptable Use</a></li>
   							<li class="disabled"><a href="deposit-withdrawal.php">Deposit &amp; Withdrawal</a></li>
   							<li class="disabled"><a href="risk-disclosure.php">Risk Disclosure &amp; Disclaimer</a></li>
   							<li class="disabled"><a href="complaints.php">Complaint Handling Policy</a></li>
   							<li class="disabled"><a href="oep.php">Order Execution Policy</a></li>
-  							<li class="disabled"><a href="margin-call-policy.php">Margin Call Policy</a></li>
+  						<!--	<li class="disabled"><a href="margin-call-policy.php">Margin Call Policy</a></li> -->
   							<li class="disabled"><a href="anti-money-laundering.php">Anti Money Laundering</a></li>
   							<li class="disabled"><a href="know-your-customer.php">Know Your Customer</a></li>
                 <li class="disabled"><a href="privacy-policy.php">Privacy Policy</a></li>
@@ -302,14 +302,14 @@
   			</li> -->
 
 
-        <li class="dropdown">
+        <!-- <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-book"></i>Education  <b class="caret"></b></a>
           <ul class="dropdown-menu">
             <li class="disabled"><a href="vec.php">Video Education Center</a></li>
             <li class="disabled"><a href="online-webinar-lessons.php">Online Webinar Lessons</a></li>
             <li class="disabled"><a href="trading-central.php">Trading Central</a></li>
           </ul>
-        </li>
+        </li> -->
 
 
         <li class="dropdown dropdown-large">
@@ -352,7 +352,7 @@
 
 
 
-        <li><a href="events.php"><i class="fa fa-calendar"></i>Events</a></li>
+        <li><a href="http://blog.ezyfx.la" target="_blank"><i class="fa fa-calendar"></i>Blog</a></li>
   		</ul>
 
   	</div><!-- /.nav-collapse -->
