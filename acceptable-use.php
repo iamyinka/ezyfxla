@@ -39,13 +39,13 @@ label:before {
 }
 
 label[for*='1']:before { content: '\f1cb'; }
-label[for*='2']:before { content: '\f17d'; }
+/*label[for*='2']:before { content: '\f17d'; }
 label[for*='3']:before { content: '\f16b'; }
 label[for*='4']:before { content: '\f1a9'; }
 label[for*='5']:before { content: '\f1c0'; }
 label[for*='6']:before { content: '\f185'; }
 label[for*='7']:before { content: '\f1da'; }
-label[for*='8']:before { content: '\f0c5'; }
+label[for*='8']:before { content: '\f0c5'; }*/
 /*label[for*='9']:before { content: '\f2ac'; }
 label[for*='10']:before { content: '\f2a0'; }*/
 
@@ -61,14 +61,14 @@ input:checked + label {
   border-bottom: 1px solid #fff;
 }
 
-#tab1:checked ~ #content1,
+#tab1:checked ~ #content1/*,
 #tab2:checked ~ #content2,
 #tab3:checked ~ #content3,
 #tab4:checked ~ #content4,
 #tab5:checked ~ #content5,
 #tab6:checked ~ #content6,
 #tab7:checked ~ #content7,
-#tab8:checked ~ #content8/*,
+#tab8:checked ~ #content8,
 #tab9:checked ~ #content9,
 #tab10:checked ~ #content10*/ {
   display: block;
@@ -114,9 +114,9 @@ input:checked + label {
 <main>
   
   <input id="tab1" type="radio" name="tabs" checked>
-  <label for="tab1">Privacy Policy</label>
+  <label for="tab1">Acceptable Use</label>
     
-  <input id="tab2" type="radio" name="tabs">
+  <!-- <input id="tab2" type="radio" name="tabs">
   <label for="tab2">RISK DISCLOSURE</label>
     
   <input id="tab3" type="radio" name="tabs">
@@ -135,7 +135,7 @@ input:checked + label {
   <label for="tab7">Forex-Education Currencies and Instruments</label>
 
   <input id="tab8" type="radio" name="tabs">
-  <label for="tab8">EZYFX NO DEPOSIT PROMOTION</label>
+  <label for="tab8">EZYFX NO DEPOSIT PROMOTION</label> -->
 
 <!--   <input id="tab9" type="radio" name="tabs">
   <label for="tab9">Forex-Education Currencies and Instruments</label>
@@ -144,7 +144,7 @@ input:checked + label {
   <label for="tab10">Forex-Education Currencies and Instruments</label> -->
     
   <section id="content1">
-    <p>At EZYFX we strive to deliver quality products and services to our users. We value their businesses
+    <!-- <p>At EZYFX we strive to deliver quality products and services to our users. We value their businesses
                                 and recognize that privacy is an important issue. The information contained in this Privacy Policy
                                 explains the practices of EZYFX, and its subsidiaries and affiliates (collectively, "EZYFX," "we," or
                                 "us") regarding the personal or non-personal information that we collect from you or about you
@@ -434,7 +434,7 @@ possibility that client‟s investment become of no value.
                                     </p>
                                 </ul>
 
-                            </ol>
+                            </ol> -->
 
                             <h4 class="text-center" id="tou">Terms of Use for EZYFX</h4>
                             <p class="text-center">Governing the Access to the Website and the Online Trading Environment</p>
@@ -673,9 +673,9 @@ invalid, the validity of the remaining Terms and Conditions shall not be affecte
 In all other instances the Terms and Conditions as well as the use of the website are
 exclusively governed by and construed in accordance with the laws of Vanuatu. 
                             </p>
-  </section>
+  <!-- </section>
     
-  <section id="content3">
+  <section id="content3"> -->
     <h6>1. Introduction</h6>
                             <p>
                                 Operating under the trading name EZYFX, regulated and recognized by Vanuatu FSC as one of the Registered Financial Service Provider (FSP). its registered address at S.I.P Building, P.O Box 3010, Rue Pasteur, Port Villa Vanuatu
@@ -905,58 +905,12 @@ EZYFX Limited).
                             <p>
                                 Should you require any additional information about the Order Execution Policy of EZYFX Limited, please contact us at <a href="mailto:support@ezyfx.la">support@ezyfx.la</a>
                             </p>
-  </section>
-    
-  <section id="content4">
-    <p>
-                                EZYFX Limited, hereinafter referred to as the ‘Company,’ strives to provide top-quality brokerage services for trading on the Forex market.
-                            </p>
-                            <p>
-                                The Company has appointed a Compliance Officer who is responsible for efficiently handling any complaints from the Client. This would allow the Company to successfully deal with issues and prevent them from reoccurring in the future.
-                            </p>
-                            <h6>Definition</h6>
-                            <p>
-                                According to the Company, a complaint is any objection and/or dissatisfaction that the Client may have with regards to the provision of any financial service provided by the Company.
-                            </p>
 
-                            <h6>Procedure</h6>
-                            <p>
-                                The Compliance Officer is tasked with processing Client complaints, except in the case where the complaint involves the Compliance Officer; such complaints shall be handled by the Managing Director.
-                            </p>
-                            <p>
-                                Clients may register complaints using the following methods:
-                            </p>
-                            <ul class="ppro">
-                                <li>Email: ezyfxla@gmail.com</li>
-                                <li>Telephone: +44 20309 71796 (International format) or 0044 20309 71796 </li>
-                            </ul>
-                            <p>
-                                The requests will be forwarded to the Compliance Officer within 48 hours after being received. After he/she receives them, the Client will be sent a notification that their request is being processed within 48 hours.
-                            </p>
-                            <p>
-                                The Client will receive a final response or a holding response explaining the findings of the investigation up to 4 weeks from the date the Compliance Officer receives the Client’s complaint. If a holding response is sent to the Complainant, an explanation shall be given stating the reasons why the Company has not been able to resolve the complaint as well as giving a time estimate for the resolution of the issue.
-                            </p>
-                            <p>
-                                If after 8 weeks of receiving the complaint we are still unable to resolve the issue, the Compliance Officer will notify you in writing about the reasons for the delay and indicate an updated time estimate to resolve the issue.
-                            </p>
-                            <p>
-                                When the Client receives the final response, they will have 8 weeks to respond. If no response is received within that period from the complainant indicating that they are still dissatisfied with the explanation, the Complaint will be considered resolved.
-                            </p>
-                            <p>
-                                If the complainant is still not satisfied with the Company’s final response, they can refer their complaint with a copy of the Company’s final response to the competent authorities for further investigation within a period of 6 months.
-                            </p>
-                            <p>
-                                EZYFX Limited is regulated and recognized by Vanuatu FSC as one of the Registered Financial Service Provider (FSP).
-                            </p>
-                            <p>
-                                    Address: S.I.P Building, <br>
-                                    P.O Box 3010, <br>
-                                    Rue Pasteur, <br>
-                                    Port Villa, <br>
-                                    Vanuatu <br>
-                                    Website: https://www.ezyfx.la/ <br>
-                                    Tel: +44 20309 71796
-                            </p>
+
+  </section>
+    <!-- 
+  <section id="content4">
+    
                             <h4>Anti-Money Laundering Policy</h4>
                             <p>
                                 The Anti-Money Laundering Policy of EZYFX Limited is a crucial part of the company’s code of ethics. Its purpose is to ensure that customers who choose to engage in illegal activities are held up to a moral standard, while the rest of our clients who do not engage in illegitimate actions feel safe using our products.  Money laundering is defined as “the process of creating the appearance that large amounts of money obtained from serious crimes, such as drug trafficking or terrorist activity, originated from a legitimate source.” By presenting illegally obtained funds as legitimate, one commits a crime as they intentionally obscure the illegitimate source of that money. Both domestic and international laws condemn money laundering and make it illegal for companies that provide financial services, such as EZYFX Limited, as well as its customers, employees or agents to knowingly engage or attempt to engage in this type of criminal transactions.
@@ -1466,7 +1420,7 @@ EZYFX Limited).
   			&mdash; In case the bonus account becomes dormant.
   		</li>
   	</ul>
-  </section>
+  </section> -->
     
 </main>
 

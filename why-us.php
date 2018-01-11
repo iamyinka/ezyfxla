@@ -32,7 +32,7 @@
             <div class="panel-heading">
               <h4 style="color: #fff;">Why EZYFX ?</h4>
             </div>
-            <div class="panel-body">
+            <div class="panel-body" style="text-align: justify;">
               <p>
                 <strong>EZYFX LIMITED</strong> is a leader in online Forex trading dedicated to providing innovative trading technology, superior customer service, and reliable streaming liquidity. We provide Services to individual and institutional traders, hedge funds, commercial entities, brokerage firms, and money managers around the world. Our trading solutions provide 24-hour Forex trading with competitive pricing, fully automated execution, sales and support in 13 languages, servicing clients in over 200 countries.
               </p>
@@ -41,18 +41,19 @@
                 <strong>FRIENDLY RELIABLE &amp; PROFITABLE</strong> – those are just some of the reasons behind our customers’ choice. It is our passion and devotion to the business and industry that make us different from our competitors.
               </p>
 
-              <p><a class="ezyfxInfo">Even More &raquo;</a></p>
+              <p><a class="ezyfxInfo" style="float: right;">Even More &raquo;</a></p>
+              <div class="clearfix"></div>
 
               <div class="moreInfo">
                 <p>
-                  At <strong>EZYFX</strong> we are committed to developing and implementing top-notch technologies and a high level of services to satisfy even the most demanding traders. As we recognize the importance of doing business in a safe and stable environment, all of our activities are based on transparency and honesty.
+                  At <strong>EZYFX Limited</strong> we are committed to developing and implementing top-notch technologies and a high level of services to satisfy even the most demanding traders. As we recognize the importance of doing business in a safe and stable environment, all of our activities are based on transparency and honesty.
                 </p>
                 <p>
                   We provide our customers with a large selection of financial services and investment products to trade successfully with and offer a variety of trading options designed to suit the needs of both private and corporate clients.
                 </p>
               </div>
               <p>
-                All financial and brokerage services of EZYFX are globally regulated by <a href="#" class="btn-link2">Vanuatu Financial Services Commission (VFSC)</a>.
+                All financial and brokerage services of EZYFX Limited are globally regulated by <a href="https://www.vfsc.vu/" target="_blank" class="btn-link2">Vanuatu Financial Services Commission (VFSC)</a>.
               </p>
             </div>
           </div>

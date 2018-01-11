@@ -1,10 +1,10 @@
 <?php include('includes/nav.php'); ?>
 
 <?php
-$creaditcard = array("EUR", "GBP", "USD");
-$megatransfer = array("EUR", "GBP", "USD");
-$chinapay = array("EUR", "GBP", "USD");
-$wiretrans = array("EUR", "GBP", "USD");
+$creaditcard = array("EUR", "GBP", "USD", "RUB");
+$megatransfer = array("EUR", "USD", "GBP", "AED", "AUD", "BTC", "CAD", "CHF", "CNY", "CZK", "DKK", "HKD", "HUF","ILS", "IDR", "INR", "JPY", "KWD", "LTC", "LTL", "MYR", "NOK", "NZD", "PHP", "PLN", "RON", "RUB", "SAR", "SEK", "SGD");
+$chinapay = array("EUR", "USD", "GBP", "AED", "AUD", "CAD", "CHF", "CNY", "CZK", "DKK", "HKD", "HUF","ILS", "IDR", "INR", "JPY", "KWD", "LTL", "MYR", "NOK", "NZD", "PHP", "PLN", "RON", "RUB", "SAR", "SEK", "SGD");
+$wiretrans = array("EUR", "USD", "GBP", "CZK", "NOK", "SEK", "CHF", "CAD", "AUD", "DKK", "HKD", "JPY", "NZD", "PLN", "RUB", "SGD");
 
 
 
@@ -30,7 +30,7 @@ if(isset($_REQUEST['myactionper']) && $_REQUEST['myactionper']=='banktransfer')
   $total_amount = sprintf("%1.2f", $total_amount);
   $signature = hash("sha256", $secret_code . $separator . $merchant_id . $separator . $items . $separator . $quantity . $separator . $amount . $separator . $total_amount . $separator . $currency . $separator . $secret_code);
   ?>
-  <form id="banktransfer" name="form" method="post" action="mailer2.php" class="mu-contact-form">
+  <form id="banktransfer" name="form" method="post" action="https://www.megatransfer.com/payments/">
       <input type="hidden" name="items" value="<?php echo $items ?>"/>
       <input type="hidden" name="quantity" value="<?php echo $quantity ?>"/>
       <input type="hidden" name="amount" value="<?php echo $amount ?>"/>
@@ -83,7 +83,7 @@ $items = $_REQUEST['ref'];
   $total_amount = sprintf("%1.2f", $total_amount);
   $signature = hash("sha256", $secret_code . $separator . $merchant_id . $separator . $items . $separator . $quantity . $separator . $amount . $separator . $total_amount . $separator . $currency . $separator . $secret_code);
   ?>
-  <form id="credit" name="form" method="post" action="https://www.megatransfer.com/payments/" class="mu-contact-form">
+  <form id="credit" name="form" method="post" action="https://www.megatransfer.com/payments/">
       <input type="hidden" name="items" value="<?php echo $items ?>"/>
       <input type="hidden" name="quantity" value="<?php echo $quantity ?>"/>
       <input type="hidden" name="amount" value="<?php echo $amount ?>"/>
@@ -139,7 +139,7 @@ $items = $_REQUEST['ref'];
   $total_amount = sprintf("%1.2f", $total_amount);
   $signature = hash("sha256", $secret_code . $separator . $merchant_id . $separator . $items . $separator . $quantity . $separator . $amount . $separator . $total_amount . $separator . $currency . $separator . $secret_code);
   ?>
-  <form id="unionpayment" name="form" method="post" action="https://www.megatransfer.com/payments/" class="mu-contact-form">
+  <form id="unionpayment" name="form" method="post" action="https://www.megatransfer.com/payments/">
       <input type="hidden" name="items" value="<?php echo $items ?>"/>
       <input type="hidden" name="quantity" value="<?php echo $quantity ?>"/>
       <input type="hidden" name="amount" value="<?php echo $amount ?>"/>
@@ -195,7 +195,7 @@ $items = $_REQUEST['ref'];
   $total_amount = sprintf("%1.2f", $total_amount);
   $signature = hash("sha256", $secret_code . $separator . $merchant_id . $separator . $items . $separator . $quantity . $separator . $amount . $separator . $total_amount . $separator . $currency . $separator . $secret_code);
   ?>
-  <form id="megatransfer" name="form" method="post" action="https://www.megatransfer.com/payments/" class="mu-contact-form">
+  <form id="megatransfer" name="form" method="post" action="https://www.megatransfer.com/payments/">
       <input type="hidden" name="items" value="<?php echo $items ?>"/>
       <input type="hidden" name="quantity" value="<?php echo $quantity ?>"/>
       <input type="hidden" name="amount" value="<?php echo $amount ?>"/>
@@ -251,7 +251,7 @@ $items = $_REQUEST['ref'];
   $total_amount = sprintf("%1.2f", $total_amount);
   $signature = hash("sha256", $secret_code . $separator . $merchant_id . $separator . $items . $separator . $quantity . $separator . $amount . $separator . $total_amount . $separator . $currency . $separator . $secret_code);
   ?>
-  <form id="default" name="form" method="post" action="https://www.megatransfer.com/payments/" class="mu-contact-form">
+  <form id="default" name="form" method="post" action="https://www.megatransfer.com/payments/">
       <input type="hidden" name="items" value="<?php echo $items ?>"/>
       <input type="hidden" name="quantity" value="<?php echo $quantity ?>"/>
       <input type="hidden" name="amount" value="<?php echo $amount ?>"/>
@@ -487,9 +487,8 @@ $items = $_REQUEST['ref'];
                </div>
              </div>
              <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-              <div id="form-messages"></div>
                <div class="fundsDeposit">
-                 <form role="form " action="mailer2.php" method="post" id="paymentForm">
+                 <form role="form " action="" method="get" id="mypopupaction">
                    <input type="hidden" name="myactionper" id="myactionper" value="" />
                    <div class="form-group">
                      <div class="input-group">
@@ -504,7 +503,7 @@ $items = $_REQUEST['ref'];
                      <div class="input-group">
                        <div class="input-group addon">
                          <span class="input-group-addon" id="basic-addon1"><i class="fa fa-envelope-o"></i></span>
-                         <input type="email" class="form-control" id="depositEmail" placeholder="Enter Email Address" name="customerEmail">
+                         <input type="email" class="form-control" id="depositEmail" placeholder="Enter Email Address">
                        </div>
                      </div>
                    </div>
@@ -567,13 +566,13 @@ $items = $_REQUEST['ref'];
                      <div class="input-group">
                        <div class="input-group addon">
                          <span class="input-group-addon" id="basic-addon1"><i class="fa fa-mobile-phone"></i></span>
-                         <input type="phone" class="form-control" id="subscriberPhone" placeholder="Enter Phone Number" name="subscriberPhone">
+                         <input type="phone" class="form-control" id="subscriberPhone" placeholder="Enter Phone Number">
                        </div>
                      </div>
                    </div>
 
                    <div class="form-group">
-                     <input type="submit" name="depositBtn" id="depositBtn" value="Make Deposit &rarr;" class="btn btn-custom-demo btn-block">
+                     <input type="submit" name="depositBtn" value="Make Deposit &rarr;" class="btn btn-custom-demo btn-block">
                    </div>
                  </form>
                </div>

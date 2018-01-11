@@ -15,7 +15,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12">
-        <p class="text-center">EZYFX Islamic account is a unique offer designed exclusively for Muslim traders</p>
+        <p class="lead text-center">EZYFX Islamic account is a unique offer designed exclusively for Muslim traders</p>
       </div>
     </div>
   </div>
@@ -29,7 +29,7 @@
           <div class="row">
             <div class="col-xs-12 col-sm-12">
               <div class="islamic-sections">
-                <i class="fa fa-thumbs-up"></i>
+                <img src="./images/shariah.png" alt="">
                 <h6>100% Shariah Compliant</h6>
                 <p>Pay no interest on your positions held overnight</p>
               </div>
@@ -37,7 +37,7 @@
 
             <div class="col-xs-12 col-sm-12">
               <div class="islamic-sections">
-                <i class="fa fa-hand-o-up"></i>
+                <i class="fa fa-hand-o-up" style="color: coral;"></i>
                 <h6>AVAILABLE AT ONE CLICK</h6>
                 <p>Simply check “Swap Free” box when you open your account</p>
               </div>
@@ -45,7 +45,7 @@
 
             <div class="col-xs-12 col-sm-12">
               <div class="islamic-sections">
-                <i class="fa fa-users"></i>
+                <i class="fa fa-users" style="color: lightcoral;"></i>
                 <h6>AVAILABLE FOR ALL ACCOUNT TYPES</h6>
                 <p>Trade without swaps on any account that suits you best</p>
               </div>

@@ -634,6 +634,278 @@ can't find an answer to, our support agents are always there to help you out.</p
                                 </div>
                             </div>
                         </div>
+
+
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-2" href="#faq-cat-2-sub-8">
+                                    <h4 class="panel-title">
+                                        CAN I CHANGE MY ACCOUNT CURRENCY?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-2-sub-8" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    You are not able to change the currency of your trading account through the portal.
+This is because you may have existing trading history which would become inaccurate
+after making such a change. You can easily apply for a new account and select your
+desired currency.
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-2" href="#faq-cat-2-sub-9">
+                                    <h4 class="panel-title">
+                                        HOW DO I APPLY FOR A NEW LIVE ACCOUNT?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-2-sub-9" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    If you want to sign up for a live account, or an additional live account, simply select
+‘My Account’ from the EZYFX Dashboard.
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-2" href="#faq-cat-2-sub-10">
+                                    <h4 class="panel-title">
+                                        CAN I OPEN ADDITIONAL DEMO ACCOUNTS?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-2-sub-10" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Yes, you can! Select ‘Create demo account’ from our MetaTrader 4 Terminal or our
+mobile app. The account will be created in a few seconds and you’ll then be able to
+log in.
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-2" href="#faq-cat-2-sub-11">
+                                    <h4 class="panel-title">
+                                        WHAT BASE CURRENCIES CAN YOU OPEN AN ACCOUNT IN?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-2-sub-11" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    We offer the following base currencies: USD, EUR, GBP, AUD and CHF. <br>
+                                    <br>
+                                    <h6>Deposits and Withdrawals</h6>
+                                    You can fund your account through any of the methods below: <br><br>
+
+                                    <ul class="ppro">
+                                        <li>&mdash; Bank Wire/ Bank Transfer</li>
+                                        <li>&mdash; Visa</li>
+                                        <li>&mdash; Mastercard</li>
+                                        <li>&mdash; Skrill</li>
+                                        <li>&mdash; Neteller</li>
+                                    </ul>
+
+                                    Please note, certain methods are available only in selected countries. If you are
+unsure, please contact our support team for more information.To initiate funding,
+select ‘Deposit Funds’ once logged-into EZY Dashboard, select your desired method
+then simply follow the prompts to fund your trading account.
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-2" href="#faq-cat-2-sub-12">
+                                    <h4 class="panel-title">
+                                        CAN I TRANSFER MONEY BETWEEN MY ACCOUNTS?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-2-sub-12" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Yes, you can transfer any free equity between accounts using the EZY Dashboard. From
+within the ‘Trading Accounts’ menu, select ‘Inter-Account Transfer’ and choose the
+sending and recipient accounts and the amount.
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-2" href="#faq-cat-2-sub-13">
+                                    <h4 class="panel-title">
+                                        HOW DO I WITHDRAW FUNDS FROM MY TRADING ACCOUNT?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-2-sub-13" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    To withdraw funds from your trading account, first select ‘Withdraw Funds’ in the EZY
+Dashboard, where you will be guided through the process. <br><br>
+Our Accounts team will then process the withdrawal from your trading account.
+Withdrawals are usually processed within 48 hours. Funds are typically sent back to
+the original source, meaning, if you deposit through Credit Card, funds will be sent
+back to the same Credit Card.
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-2" href="#faq-cat-2-sub-14">
+                                    <h4 class="panel-title">
+                                        CAN I SEE A LIST OF ALL MY DEPOSIT AND WITHDRAWAL TRANSACTIONS?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-2-sub-14" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Yes, you can see a list of all deposit and withdrawal transactions you’ve completed
+across all your accounts from the ‘Funding History’ section. You can search by account 
+number or by date, and can click on the reference number for more information.
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-2" href="#faq-cat-2-sub-15">
+                                    <h4 class="panel-title">
+                                        ARE THERE FEES FOR WITHDRAWING FUNDS FROM MY ACCOUNT?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-2-sub-15" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    We do not charge fees for withdrawing funds by bank wire transfer. However, please
+note that you will be liable for any fees charged by the banks involved in the
+transaction, including intermediaries. Withdrawals via credit card will attract a fee.
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-2" href="#faq-cat-2-sub-16">
+                                    <h4 class="panel-title">
+                                        DOES EZYFX ALLOW THIRD-PARTY PAYMENTS?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-2-sub-16" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    EZYFX does not allow third-party payments. Funds can only be sent to an account in
+the same name as the EZYFX trading account
+                                </div>
+                            </div>
+                        </div>
+
+                        <h6 class="text-center">Statements and Trading History</h6>
+        
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-2" href="#faq-cat-2-sub-17">
+                                    <h4 class="panel-title">
+                                        CAN I SEE MY TRADING HISTORY?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-2-sub-17" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Your trading history on EZYFX can be seen by clicking on the “Order History” tab in the
+terminal. If the Order History panel is not visible, you can add it as a widget to your
+view. <br><br>
+To view your account history and generate statements on requests through MT4. Once
+logged-in:
+<br><br>
+<ul class="ppro">
+    <li>
+        Select the ‘Account History’ tab
+    </li>
+    <li>
+        Right-click to define the period you want the information for
+    </li>
+    <li>
+        Once period has been selected, select the ‘Save a Report’ or ‘Save a Detailed
+Report’ buttons to generate
+    </li>
+</ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-2" href="#faq-cat-2-sub-18">
+                                    <h4 class="panel-title">
+                                        I NEED HELP. HOW CAN I CONTACT YOU?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-2-sub-18" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    You can contact us in many ways – select ‘Support’ from within the EZY Dashboard
+and you can see our full contact information, or start a Live Chat with one of our
+representatives or request a Call Back.
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-2" href="#faq-cat-2-sub-19">
+                                    <h4 class="panel-title">
+                                        CAN I SEE A LIST OF ALL MY DEPOSIT AND WITHDRAWAL TRANSACTIONS?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-2-sub-19" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Yes, you can see a list of all deposit and withdrawal transactions you’ve completed
+across all your accounts from the ‘Funding History’ section. You can search by account 
+number or by date, and can click on the reference number for more information.
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
 
@@ -645,14 +917,16 @@ can't find an answer to, our support agents are always there to help you out.</p
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#accordion-cat-3" href="#faq-cat-3-sub-1">
                                     <h4 class="panel-title">
-                                        FAQ Item Category #3
+                                        DO YOU OFFER FIXED OR VARIABLE SPREADS?
                                         <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
                                     </h4>
                                 </a>
                             </div>
                             <div id="faq-cat-3-sub-1" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    As a reputable brokerage firm engaged with world class Liquidity providers, all
+products tradable on our platforms are variable spreads. However, to cater client’s
+demand we do offer fix spread which are limited to approvals.
                                 </div>
                             </div>
                         </div>
@@ -660,17 +934,248 @@ can't find an answer to, our support agents are always there to help you out.</p
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#accordion-cat-3" href="#faq-cat-3-sub-2">
                                     <h4 class="panel-title">
-                                        FAQ Item Category #3
+                                        WHAT ARE SWAPS, AND WHAT IS THE DIFFERENCE BETWEEN POSITIVE AND
+NEGATIVE SWAPS?
                                         <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
                                     </h4>
                                 </a>
                             </div>
                             <div id="faq-cat-3-sub-2" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    A forex contract expires every two days. Instead of actual delivery of the underlying
+asset, many traders and investors will ‘rollover’ the contract to extend its trading
+period. It’s upon this ‘rollover’ that swaps are earned or incurred by the holder of a
+forex contract. The swap rate is calculated as the interest rate difference between the
+two nations issuing the currency, and are added to, or subtracted, from the profit and
+loss for the contract. <br><br>
+A positive swap is where you earn interest from the contract, and a negative swap is
+where you incur interest on the contract.
                                 </div>
                             </div>
                         </div>
+
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-3" href="#faq-cat-3-sub-3">
+                                    <h4 class="panel-title">
+                                        WHAT IS LEVERAGE AND HOW DOES IT AFFECT MY ACCOUNT?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-3-sub-3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    As the name suggests, the term “Leverage” was coined because using leverage
+allowed you to trade with more than you have. Leverage allows you to do this by
+reducing the amount of margin required for each position opened. Please have a look
+at how to calculate margin to see how increasing leverage can increase the risks and
+rewards of a trade.
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-3" href="#faq-cat-3-sub-4">
+                                    <h4 class="panel-title">
+                                        HOW CAN I CHANGE THE LEVERAGE ON MY ACCOUNT?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-3-sub-4" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    You can change the leverage settings on your account by contacting our EZY support
+team.
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-3" href="#faq-cat-3-sub-5">
+                                    <h4 class="panel-title">
+                                        WHAT IS THE MAXIMUM LEVERAGE ALLOWED ON MY ACCOUNT?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-3-sub-5" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Leverage increases the risks and rewards of trading. The larger your account balance,
+the larger the risks and rewards become on a trade. For this reason, we have maximum
+leverage levels, which are set to safeguard client assets and ensure liquidity providers
+aren’t exposed to excessive risk. <br><br>
+                                    <table class="table table-responsive">
+                                        <thead>
+                                            <td>
+                                                <strong>Account balance</strong>
+                                            </td>
+                                            <td>
+                                                <strong>Maximum leverage allowed</strong>
+                                            </td>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    $10 - $500
+                                                </td>
+                                                <td>
+                                                    1:1000
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    $100 - $5,000 
+                                                </td>
+                                                <td>
+                                                    1:400
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                                <td>
+                                                    $100 – unlimited 
+                                                </td>
+                                                <td>
+                                                    1:200
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    The maximum leverage levels for a given account are:
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-3" href="#faq-cat-3-sub-6">
+                                    <h4 class="panel-title">
+                                        WHAT IS MARGIN/MARGIN REQUIREMENT?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-3-sub-6" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Margin is the amount required to open a new forex position. It is not a fee or a charge
+to your account – it is an amount set aside from your free equity to support your new
+trade. It is the client’s responsibility to maintain sufficient funds in their respective
+accounts to avoid triggering a margin call.
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-3" href="#faq-cat-3-sub-7">
+                                    <h4 class="panel-title">
+                                        HOW DO I CALCULATE THE REQUIRED MARGIN?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-3-sub-7" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Margin requirements are calculated as follows: <br><br>
+                                    (100,000 units * Number of standard lots)/Leverage * conversion rate to your base
+currency <br><br>
+For example, for a USD account with 500:1 leverage, if you place a EUR/USD buy order
+of 0.1 lots (10,000 EUR) @ 1.3632, the calculation would be as follows: <br><br>
+{(100,000 *1.3632)*(0.1)}/500 = $27.26 <br><br>
+100,000EUR * 1.3632 = $136,320 (margin required for a standard lot when leverage is
+1:1) <br><br>
+$136,320 * 0.1 = $13,632 (margin required for 0.1 lots when leverage is 1:1) <br><br>
+$13,632/500 = $27.26 (margin required for 0.1 lots when leverage is 500:1) <br><br>
+For more information, please see our page on leverage and margin explained.
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-3" href="#faq-cat-3-sub-8">
+                                    <h4 class="panel-title">
+                                        WHEN WILL A MARGIN CALL BE TRIGGERED?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-3-sub-8" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    A margin call is triggered when your account’s equity falls below 50% of the required
+margin. For more information please see our margin call policy page.
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-3" href="#faq-cat-3-sub-9">
+                                    <h4 class="panel-title">
+                                        WHAT IS SLIPPAGE?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-3-sub-9" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Slippage is the difference between the execution price and the requested price of a
+pending order or trade. It is caused by gapping in the markets (where gapping refers
+to a situation where there is a break between the tradable prices). Please be advised
+that slippage is a natural occurrence caused by market forces and is by no means
+induced by EZYFX. 
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-3" href="#faq-cat-3-sub-10">
+                                    <h4 class="panel-title">
+                                        I NEED HELP – HOW CAN I CONTACT YOU?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-3-sub-10" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    You can contact us either by: <br><br>
+                                    <ul class="ppro">
+                                        <li>
+                                            &mdash; clicking on ‘Contact Us’ from the website and viewing full contract information
+                                        </li>
+                                        <li>
+                                            &mdash; or start a Live Chat with one of our representatives.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+
+
+
+
+
                     </div>
                 </div>
 
@@ -681,14 +1186,21 @@ can't find an answer to, our support agents are always there to help you out.</p
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#accordion-cat-4" href="#faq-cat-4-sub-1">
                                     <h4 class="panel-title">
-                                        FAQ Item Category #4
+                                        WHAT PLATFORMS DO YOU OFFER?
                                         <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
                                     </h4>
                                 </a>
                             </div>
                             <div id="faq-cat-4-sub-1" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    EZYFX is our very own proprietary trading platform – designed, created and built inhouse
+to provide you with the ultimate trading experience. With a highly-customisable
+UI, dedicated widgets, one-click trading and fully-dedicated mobile and tablet apps,
+EZYFX offers it all. <br><br>
+Our MetaTrader 4 (MT4) platform is ideal for both new and experience spread
+betting*, forex, contracts for difference (CFD) and metals trader. If you’re looking for
+an online trading platform, MT4 is one of the most popular online trading platforms
+in the market
                                 </div>
                             </div>
                         </div>
@@ -696,17 +1208,65 @@ can't find an answer to, our support agents are always there to help you out.</p
                             <div class="panel-heading">
                                 <a data-toggle="collapse" data-parent="#accordion-cat-4" href="#faq-cat-4-sub-2">
                                     <h4 class="panel-title">
-                                        FAQ Item Category #4
+                             ARE THERE FEES FOR USING YOUR PLATFORMS?
                                         <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
                                     </h4>
                                 </a>
                             </div>
                             <div id="faq-cat-4-sub-2" class="panel-collapse collapse">
                                 <div class="panel-body">
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    There are no download, setup or subscription fees for using our platforms.
+Fees and charges apply to trading.
                                 </div>
                             </div>
                         </div>
+
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-4" href="#faq-cat-4-sub-3">
+                                    <h4 class="panel-title">
+                             WHAT ARE THE TIME ZONE OF YOUR PLATFORMS?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-4-sub-3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    MT4 - GMT +0
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="panel panel-default panel-faq">
+                            <div class="panel-heading">
+                                <a data-toggle="collapse" data-parent="#accordion-cat-4" href="#faq-cat-4-sub-4">
+                                    <h4 class="panel-title">
+                             CAN I TRADE ON MY MOBILE?
+                                        <span class="pull-right"><i class="glyphicon glyphicon-plus"></i></span>
+                                    </h4>
+                                </a>
+                            </div>
+                            <div id="faq-cat-4-sub-4" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    Yes. EZYFX MT4 is available on iPhone and Android. Please visit the respective app
+stores to download them. <br><br>
+                                    <div class="col-xs-4 col-sm-4 col-md-4 downloads">
+                                      <a href="https://itunes.apple.com/us/app/metatrader-4/id496212596?server=EZYFX" target="_blank"><img src="images/downloads/ios.png" alt="" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-xs-4 col-sm-4 col-md-4 downloads">
+                                      <a href="https://trade.mql5.com/trade?servers=EZYFX-Demo+Server,EZYFX-Live+7&trade_server=EZYFX" target="_blank"><img src="images/downloads/mt42.png" alt="" class="img-responsive"></a>
+                                    </div>
+                                    <div class="col-xs-4 col-sm-4 col-md-4 downloads">
+                                      <a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader4" target="_blank"><img src="images/downloads/android.png" alt="" class="img-responsive"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
                     </div>
                 </div>
 

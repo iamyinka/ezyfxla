@@ -33,7 +33,7 @@
     <div class="hero-text">
       <h3 class="text-center" style="margin-top: -80px;">Our Vision</h3>
       <div class="small-line" style="width: 5%;"></div>
-      <p class="lead text-center">To Help Maximize The Value Of Our Client’s <a href="#" class="btn-link">Financial Needs</a></p>
+      <p class="lead text-center">To Help Maximize The Value Of Our Client’s Financial Needs</p>
     </div>
 
     <div class="row">
@@ -46,7 +46,7 @@
                 <img src="images/handshake.jpg" alt="">
                 <h6>Personal</h6>
               </div>
-              <p>At Ezyfx we value all our customers to demonstrate financial integrity, whether you are small, medium or high volume trade. We have tailored bonuses for all our clients and accounts compatible with all trading styles. which makes our vision more clear and focused.</p>
+              <p>At EZYFX Limited we value all our customers to demonstrate financial integrity, whether you are small, medium or high volume trade. We have tailored bonuses for all our clients and accounts compatible with all trading styles. which makes our vision more clear and focused.</p>
             </div>
            </div>
           </div>
@@ -58,7 +58,7 @@
                 <img src="images/efficiency.jpg" alt="">
                 <h6>Efficient</h6>
               </div>
-              <p>At Ezyfx, efficiency is highly important to us and so we ensure that all our customers have the most efficient tools and communication to suit their needs. We have a dedicated customer support team ready to serve you.</p>
+              <p>At EZYFX Limited, efficiency is highly important to us and so we ensure that all our customers have the most efficient tools and communication to suit their needs. We have a dedicated customer support team ready to serve you.</p>
               <p></p><br>
             </div>
           </div>
@@ -72,7 +72,7 @@
                   <img src="images/transparency.jpg" alt=""> 
                   <h6>Transparent</h6>
                 </div>
-                <p>At Ezyfx, we have ‘what you see is what you get’ policy with no hidden charges or spreads. Our website clearly outlines you tariff as so does your account. We make sure to deliver state of the art resources to ensure that our commitment is being fulfilled.</p>
+                <p>At EZYFX Limited, we have ‘what you see is what you get’ policy with no hidden charges or spreads. Our website clearly outlines you tariff as so does your account. We make sure to deliver state of the art resources to ensure that our commitment is being fulfilled.</p>
               </div>
             </div>
 
@@ -84,7 +84,7 @@
                   <img src="images/competitive.jpg" alt="">
                   <h6>Competitive</h6>
                 </div>
-                <p>At Ezyfx, we are determined to be competitive so that you, as the customer get the best package on the market. We are constantly introducing the best promotions and freebies for our customers to prosper. We love it when you profit.</p>
+                <p>At EZYFX Limited, we are determined to be competitive so that you, as the customer get the best package on the market. We are constantly introducing the best promotions and freebies for our customers to prosper. We love it when you profit.</p>
                 <p></p><br>
               </div>
             </div>
@@ -102,7 +102,7 @@
         <div class="hero-text">
           <h3 class="text-center" style="margin-top: -80px;">Our Mission</h3>
           <div class="small-line" style="width: 5%;"></div>
-          <p class="lead text-center">To Help Maximize The Value Of Our Client’s <a href="#" class="btn-link">Financial Needs</a></p>
+          <p class="lead text-center">To Help Maximize The Value Of Our Client’s Financial Needs</p>
         </div>
 
         <div class="mission-area">
@@ -119,7 +119,7 @@
                 </p>
 
                 <p>
-                  With Cyber hacking and information security risk at an all-time high, it is paramount that we have the best security protecting our clients. Our platform has implemented the latest and most power <a href="#" class="btn-link">cybersecurity</a> standards encrypting all data. We have a longstanding relationship with liquidity providers and prime brokers who provide us with the ability to provide the best trading conditions and accurate liquidity always.
+                  With Cyber hacking and information security risk at an all-time high, it is paramount that we have the best security protecting our clients. Our platform has implemented the latest and most power cybersecurity standards encrypting all data. We have a longstanding relationship with liquidity providers and prime brokers who provide us with the ability to provide the best trading conditions and accurate liquidity always.
                 </p>
 
                 <p>

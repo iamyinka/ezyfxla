@@ -226,32 +226,32 @@ input:focus ~ .highlight {
 
     <div class="col-lg-offset-4 col-lg-4" id="panel" style="margin-bottom: 40px;">
         <h2>Get In Touch</h2>
-
-        <form>
+		<div id="form-messages"></div>
+        <form id="ajax-contact" method="post" action="mailer.php">
 
             <div class="group">
-                <input type="text" required>
+                <input type="text" name="contactName" id="name" required>
                 <span class="highlight"></span>
                 <span class="bar"></span>
                 <label>Name</label>
             </div>
 
             <div class="group">
-                <input type="text" required>
+                <input type="text" name="contactEmail" id="email" required>
                 <span class="highlight"></span>
                 <span class="bar"></span>
                 <label>Email</label>
             </div>
 
             <div class="group">
-                <input type="tel" placeholder="E.g +1-206-333-3334" required>
+                <input type="tel" name="contactPhone" id="tel" placeholder="E.g +1-206-333-3334" required>
                 <span class="highlight"></span>
                 <span class="bar"></span>
                 <label>Mobile No</label>
             </div>
 
             <div class="group">
-                <input type="text" required>
+                <input type="text" name="contactMsg" id="msg" required>
                 <span class="highlight"></span>
                 <span class="bar"></span>
                 <label>Message</label>
@@ -267,3 +267,4 @@ input:focus ~ .highlight {
 </section>
 
 <?php include('includes/footer.php'); ?>
+<script src="js/app.js"></script>

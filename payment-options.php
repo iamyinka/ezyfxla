@@ -1,10 +1,10 @@
 <?php include('includes/nav.php'); ?>
 
 <?php
-$creaditcard = array("EUR", "GBP", "USD", "RUB");
-$megatransfer = array("EUR", "USD", "GBP", "AED", "AUD", "BTC", "CAD", "CHF", "CNY", "CZK", "DKK", "HKD", "HUF","ILS", "IDR", "INR", "JPY", "KWD", "LTC", "LTL", "MYR", "NOK", "NZD", "PHP", "PLN", "RON", "RUB", "SAR", "SEK", "SGD");
-$chinapay = array("EUR", "USD", "GBP", "AED", "AUD", "CAD", "CHF", "CNY", "CZK", "DKK", "HKD", "HUF","ILS", "IDR", "INR", "JPY", "KWD", "LTL", "MYR", "NOK", "NZD", "PHP", "PLN", "RON", "RUB", "SAR", "SEK", "SGD");
-$wiretrans = array("EUR", "USD", "GBP", "CZK", "NOK", "SEK", "CHF", "CAD", "AUD", "DKK", "HKD", "JPY", "NZD", "PLN", "RUB", "SGD");
+$creaditcard = array("EUR", "GBP", "USD");
+$megatransfer = array("EUR", "GBP", "USD");
+$chinapay = array("EUR", "GBP", "USD");
+$wiretrans = array("EUR", "GBP", "USD");
 
 
 
@@ -50,9 +50,14 @@ if(isset($_REQUEST['myactionper']) && $_REQUEST['myactionper']=='banktransfer')
       <!--//FOR LIVE GATEWAY-->
       <!--<input type="hidden" name="gateway_id" value="1"/>-->
       <input type="hidden" name="payment_method" value="wt"/>
+      <input type="hidden" name="success_url" value="http://ezyfx.la/payment-success.php"/>
+	  <input type="hidden" name="fail_url" value="http://ezyfx.la/payment-fail.php"/>
+	  <input type="hidden" name="callback_url" value="http://ezyfx.la/payment-callback.php"/>
+     <!--
       <input type="hidden" name="success_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=success"/>
       <input type="hidden" name="fail_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=fail"/>
       <input type="hidden" name="callback_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=callback"/>
+      -->
       <input type="submit" name="Submit" class="ic-btn" value="Deposit Now"/>
   </form>
   <script type="text/javascript">
@@ -101,9 +106,14 @@ $items = $_REQUEST['ref'];
       <!--//FOR LIVE GATEWAY-->
       <!--<input type="hidden" name="gateway_id" value="1"/>-->
       <input type="hidden" name="payment_method" value="cc"/>
+      <input type="hidden" name="success_url" value="http://ezyfx.la/payment-success.php"/>
+	  <input type="hidden" name="fail_url" value="http://ezyfx.la/payment-fail.php"/>
+	  <input type="hidden" name="callback_url" value="http://ezyfx.la/payment-callback.php"/>
+     <!--
       <input type="hidden" name="success_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=success"/>
       <input type="hidden" name="fail_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=fail"/>
       <input type="hidden" name="callback_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=callback"/>
+      -->
       <input type="submit" name="Submit" class="ic-btn" value="Deposit Now"/>
   </form>
   <script type="text/javascript">
@@ -152,9 +162,14 @@ $items = $_REQUEST['ref'];
       <!--//FOR LIVE GATEWAY-->
       <!--<input type="hidden" name="gateway_id" value="1"/>-->
       <input type="hidden" name="payment_method" value="mt"/>
+      <input type="hidden" name="success_url" value="http://ezyfx.la/payment-success.php"/>
+	  <input type="hidden" name="fail_url" value="http://ezyfx.la/payment-fail.php"/>
+	  <input type="hidden" name="callback_url" value="http://ezyfx.la/payment-callback.php"/>
+     <!--
       <input type="hidden" name="success_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=success"/>
       <input type="hidden" name="fail_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=fail"/>
       <input type="hidden" name="callback_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=callback"/>
+      -->
       <input type="submit" name="Submit" class="ic-btn" value="Deposit Now"/>
   </form>
   <script type="text/javascript">
@@ -203,9 +218,14 @@ $items = $_REQUEST['ref'];
       <!--//FOR LIVE GATEWAY-->
       <!--<input type="hidden" name="gateway_id" value="1"/>-->
       <input type="hidden" name="payment_method" value="mt"/>
+      <input type="hidden" name="success_url" value="http://ezyfx.la/payment-success.php"/>
+	  <input type="hidden" name="fail_url" value="http://ezyfx.la/payment-fail.php"/>
+	  <input type="hidden" name="callback_url" value="http://ezyfx.la/payment-callback.php"/>
+     <!--
       <input type="hidden" name="success_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=success"/>
       <input type="hidden" name="fail_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=fail"/>
       <input type="hidden" name="callback_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=callback"/>
+      -->
       <input type="submit" name="Submit" class="ic-btn" value="Deposit Now"/>
   </form>
   <script type="text/javascript">
@@ -254,9 +274,14 @@ $items = $_REQUEST['ref'];
       <!--//FOR LIVE GATEWAY-->
       <!--<input type="hidden" name="gateway_id" value="1"/>-->
       <input type="hidden" name="payment_method" value="cc|ch|mt|wt"/>
+      <input type="hidden" name="success_url" value="http://ezyfx.la/payment-success.php"/>
+	  <input type="hidden" name="fail_url" value="http://ezyfx.la/payment-fail.php"/>
+	  <input type="hidden" name="callback_url" value="http://ezyfx.la/payment-callback.php"/>
+     <!--
       <input type="hidden" name="success_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=success"/>
       <input type="hidden" name="fail_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=fail"/>
       <input type="hidden" name="callback_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=callback"/>
+      -->
       <input type="submit" name="Submit" class="ic-btn" value="Deposit Now"/>
   </form>
   <script type="text/javascript">
@@ -471,8 +496,9 @@ $items = $_REQUEST['ref'];
                </div>
              </div>
              <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+              <div id="form-messages"></div>
                <div class="fundsDeposit">
-                 <form role="form " action="" method="get" id="mypopupaction">
+                 <form role="form " action="mailer2.php" method="post" id="paymentForm">
                    <input type="hidden" name="myactionper" id="myactionper" value="" />
                    <div class="form-group">
                      <div class="input-group">
@@ -487,7 +513,7 @@ $items = $_REQUEST['ref'];
                      <div class="input-group">
                        <div class="input-group addon">
                          <span class="input-group-addon" id="basic-addon1"><i class="fa fa-envelope-o"></i></span>
-                         <input type="email" class="form-control" id="depositEmail" placeholder="Enter Email Address">
+                         <input type="email" class="form-control" id="depositEmail" placeholder="Enter Email Address" name="customerEmail">
                        </div>
                      </div>
                    </div>
@@ -550,13 +576,13 @@ $items = $_REQUEST['ref'];
                      <div class="input-group">
                        <div class="input-group addon">
                          <span class="input-group-addon" id="basic-addon1"><i class="fa fa-mobile-phone"></i></span>
-                         <input type="phone" class="form-control" id="subscriberPhone" placeholder="Enter Phone Number">
+                         <input type="phone" class="form-control" id="subscriberPhone" placeholder="Enter Phone Number" name="subscriberPhone">
                        </div>
                      </div>
                    </div>
 
                    <div class="form-group">
-                     <input type="submit" name="depositBtn" value="Make Deposit &rarr;" class="btn btn-custom-demo btn-block">
+                     <input type="submit" name="depositBtn" id="depositBtn" value="Make Deposit &rarr;" class="btn btn-custom-demo btn-block">
                    </div>
                  </form>
                </div>

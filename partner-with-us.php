@@ -151,68 +151,69 @@ form > div > label > input:focus, form > div > label > select:focus
 	<section>
 		<div class="container">
 			<h2 class="text-center" style="margin-top: -10px; padding-bottom: 5px;">Partner Registration Form</h2>
+			<div id="form-messages" style="color: #444; text-align: center;"></div>
 		</div>
 
 		<div class="container">
 			<div class="row">
 				<div class="partner-form">
 					<div class="col-md-12">
-						<form method="get">
+						<form id="ajax-contact" method="post" action="partner-success.php">
 							<div class="col-md-6" style="border-right: 1px solid #ccc; border-bottom: 1px solid #ccc;">
 								<label>
 									Status
-									<select tabindex="5" required="">
-										<option>Select Status</option>
-										<option>Individual</option>
-										<option>Company</option>
+									<select id="status" tabindex="5" name="status" required="">
+										<option value="">Select Status</option>
+										<option value="Individual">Individual</option>
+										<option value="Company">Company</option>
 									</select>
 								</label>
 							</div>
 							<div class="col-md-6" style="border-right: 1px solid #ccc; border-bottom: 1px solid #ccc;">
 								<label>
 									Partnership Type
-									<select tabindex="5" required="">
-										<option>Select Type</option>
-										<option>Introducing Broker</option>
-										<option>Trader Partner</option>
-										<option>Investment Project</option>
-										<option>Webmaster</option>
-										<option>Blogger</option>
-										<option>FX Education Project</option>
-										<option>Exchanger</option>
-										<option>FX Signal Provider</option>
-										<option>FX Advisor Seller</option>
+									<select tabindex="5" id="partnerType" name="partnerType" required="">
+										<option value="">Select Type</option>
+										<option value="Introducing Broker">Introducing Broker</option>
+										<option value="Trader Partner">Trader Partner</option>
+										<option value="Investment Project">Investment Project</option>
+										<option value="Webmaster">Webmaster</option>
+										<option value="Blogger">Blogger</option>
+										<option value="FX Education Project">FX Education Project</option>
+										<option value="Exchanger">Exchanger</option>
+										<option value="FX Signal Provider">FX Signal Provider</option>
+										<option value="FX Advisor Seller">FX Advisor Seller</option>
 									</select>
 								</label>
 							</div>
 							<div class="col-md-6" style="border-right: 1px solid #ccc; border-bottom: 1px solid #ccc;">
 								<label>
 									Name
-									<input placeholder="What is your full name?" tabindex="1" required=""/>
+									<input placeholder="What is your full name?" id="name" name="name" tabindex="1" required=""/>
 								</label>
 							</div>
 							<div class="col-md-6" style="border-right: 1px solid #ccc; border-bottom: 1px solid #ccc;">
 								<label>
 									Email
-									<input placeholder="What is your email address" tabindex="2" required=""/>
+									<input placeholder="What is your email address" name="email" id="email" tabindex="2" required=""/>
 								</label>
 							</div>
 							<div class="col-md-4" style="border-right: 1px solid #ccc; border-bottom: 1px solid #ccc;">
 								<label>
 									Address
-									<input placeholder="What is your mailing address" tabindex="2" required=""/>
+									<input placeholder="What is your mailing address" name="address"  id="address" tabindex="2" required=""/>
 								</label>
 							</div>
 							<div class="col-md-4" style="border-right: 1px solid #ccc; border-bottom: 1px solid #ccc;">
 								<label>
 									City
-									<input placeholder="What City?" tabindex="3" required=""/>
+									<input placeholder="What City?" tabindex="3" name="city" id="city" required=""/>
 								</label>
 							</div>
 							<div class="col-md-4" style="border-right: 1px solid #ccc; border-bottom: 1px solid #ccc;">
 								<label>
 									State
-									<input placeholder="What State?" tabindex="4" required=""/>
+									<input placeholder="What State?" tabindex="4" name="state" id="state" required=""/>
 								</label>
 							</div>
 
@@ -444,14 +445,14 @@ form > div > label > input:focus, form > div > label > select:focus
 							<div class="col-md-4" style="border-right: 1px solid #ccc; border-bottom: 1px solid #ccc;">
 								<label>
 									Telephone
-									<input placeholder="What is your phone number?" tabindex="1" required=""/>
+									<input placeholder="What is your phone number?" id="tel" tabindex="1" name="tel" required=""/>
 								</label>
 							</div>
 
 							<div class="col-md-4" style="border-right: 1px solid #ccc; border-bottom: 1px solid #ccc;">
 								<label>
 									Date of Birth
-									<input type="date" placeholder="What State?" tabindex="4" required=""/>
+									<input type="date" placeholder="What State?" id="dob" name="dob" tabindex="4" required=""/>
 								</label>
 							</div>
 					<!-- <div class="col-md-4" style="border: none;">
@@ -1573,3 +1574,4 @@ EZYFX Limited).
 				});
 	});
 </script>
+<script src="js/app2.js"></script>

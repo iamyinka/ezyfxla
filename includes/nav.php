@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-101625319-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-101625319-1');
+    </script>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ezyfx-Asia</title>
-    <link rel="icon" href="https://www.ezyfx.la/wp-content/themes/ezyfx/img/favicon.png" type="image/gif" sizes="16x16">
+    <meta name="description" content="best forex broker in asia, asia's best forex, forex broker in kuala lumpur, forex broker in malaysia, welcome to forex trading, forex trading, copy trading, forex account, forex promotions kuala lumpur">
+    <meta name="author" content="EZYFX LIMITED">
+    <title>EZYFX - Best Forex Broker In Asia</title>
+    <link rel="icon" href="./images/favicon.png" type="image/gif" sizes="16x16">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -164,18 +176,46 @@
   					<li class="col-sm-3">
   						<ul>
   							<li class="dropdown-header">Legal Documents</li>
-  							<li><a href="legals.php#tab2">Terms Of Use</a></li>
-  							<li class="disabled"><a href="au.php">Acceptable Use</a></li>
-  							<li class="disabled"><a href="deposit-withdrawal.php">Deposit &amp; Withdrawal</a></li>
-  							<li class="disabled"><a href="risk-disclosure.php">Risk Disclosure &amp; Disclaimer</a></li>
-  							<li class="disabled"><a href="complaints.php">Complaint Handling Policy</a></li>
-  							<li class="disabled"><a href="oep.php">Order Execution Policy</a></li>
+  							<li><a href="acceptable-use.php">Acceptable Use</a></li>
+                <li><a href="anti-money-laundering.php">Anti Money Laundering</a></li>
+                <li><a href="binary-options-cashback-tnc.php">Cashback Terms &amp; Conditions</a></li>
+                <li><a href="complaint-handling-policy.php">Complaint Handling Policy</a></li>
+                <li><a href="currencies-and-instruments.php">Currencies &amp; Instruments</a></li>
+                <li><a href="forex-bonus-tnc.php">Forex Bonus Terms &amp; Conditions</a></li>
+                <!-- <li><a href="know-your-customer.php">Know Your Customer</a></li> -->
+                
+                <!-- <li><a href="terms-of-use.php">Terms Of Use</a></li> -->
+  							<!-- <li class="disabled"><a href="deposit-withdrawal.php">Deposit &amp; Withdrawal</a></li> -->
   						<!--	<li class="disabled"><a href="margin-call-policy.php">Margin Call Policy</a></li> -->
-  							<li class="disabled"><a href="anti-money-laundering.php">Anti Money Laundering</a></li>
-  							<li class="disabled"><a href="know-your-customer.php">Know Your Customer</a></li>
-                <li class="disabled"><a href="privacy-policy.php">Privacy Policy</a></li>
   						</ul>
   					</li>
+
+
+            <li class="col-sm-3">
+              <li class="divider" style="display: none;"></li>
+              <ul>
+                <li class="dropdown-header"><span style="visibility: hidden;">More Legal Documents</span></li>
+                <li style="margin-bottom: 5px;"><a href="no-deposit-promotion.php" style="color: #262626;">EZYFX No Deposit Promotion</a></li>
+                <li style="margin-bottom: 5px;"><a href="order-execution-policy.php" style="color: #262626;">Order Execution Policy</a></li>
+                <li style="margin-bottom: 5px;"><a href="privacy-policy.php" style="color: #262626;">Privacy Policy</a></li>
+                <li style="margin-bottom: 5px;"><a href="risk-disclosure-n-disclaimer.php" style="color: #262626;">Risk Disclosure &amp; Disclaimer</a></li>
+                <li style="margin-bottom: 5px;"><a href="rebates-and-bonuses.php" style="color: #262626;">Rebates &amp; Bonuses</a></li>
+              </ul>
+            </li>
+
+            <!-- <li class="col-sm-3">
+              <li class="divider" style="display: none;"></li>
+              <ul>
+                <li class="dropdown-header">Social Trading</li>
+                
+
+                <li><a href="no-deposit-promotion.php" style="color: #262626;">EZYFX No Deposit Promotion</a></li>
+                <li><a href="order-execution-policy.php" style="color: #262626;">Order Execution Policy</a></li>
+                <li><a href="privacy-policy.php" style="color: #262626;">Privacy Policy</a></li>
+                <li><a href="risk-disclosure-n-disclaimer.php" style="color: #262626;">Risk Disclosure &amp; Disclaimer</a></li>
+                <li><a href="rebates-and-bonuses.php" style="color: #262626;">Rebates &amp; Bonuses</a></li>
+              </ul>
+            </li> -->
   				</ul>
 
   			</li>
@@ -190,7 +230,7 @@
   							<li class="dropdown-header">Deposits &amp; Withdrawals</li>
   							<li><a href="payment-options.php">Payment Options</a></li>
   							<li><a href="deposit-my-account.php">Deposit My Account</a></li>
-  							<li class="disabled"><a href="withdrawals.php">Withdrawals</a></li>
+  							<!-- <li class="disabled"><a href="withdrawals.php">Withdrawals</a></li> -->
   						</ul>
   					</li>
 
@@ -217,8 +257,8 @@
   						<ul>
                 <li class="dropdown-header">Social Trading</li>
   							<!-- <li class="disabled"><a href="copy-trading.php">Copy Trading</a></li> -->
-  							<li class="disabled"><a href="ezy-socio.php">Ezy Socio</a></li>
-  							<li class="disabled"><a href="fx-junction.php">FX Junction</a></li>
+  							<li><a href="http://ezysocio.com" target="_blank" style="color: #262626;">Ezy Socio</a></li>
+  							<li><a href="https://www.fxjunction.com/?rf=BRKR1" style="color: #262626;" target="_blank">FX Junction</a></li>
   						</ul>
   					</li>
   				</ul>
@@ -336,13 +376,13 @@
   					<li class="col-sm-3">
   						<ul>
   							<li class="dropdown-header">Promo Material</li>
-  							<li><a href="banners-n-more.php">Banners, Logos &amp; Avatars</a></li>
-  							<li><a href="ezy-certificate.php">EZYFX Certificates</a></li>
-  							<li><a href="ezy-seals.php">EZYFX Corporate Seals</a></li>
-                <li><a href="informers.php">Informers</a></li>
-                <li><a href="merchandise.php">Merchandise</a></li>
-                <li><a href="apis.php">API's</a></li>
-                <li><a href="partners-ready-site.php">Partner's Ready Site</a></li>
+  							<li class="disabled"><a href="banners-n-more.php">Banners, Logos &amp; Avatars</a></li>
+  							<li class="disabled"><a href="ezy-certificate.php">EZYFX Certificates</a></li>
+  							<li class="disabled"><a href="ezy-seals.php">EZYFX Corporate Seals</a></li>
+                <li class="disabled"><a href="informers.php">Informers</a></li>
+                <li class="disabled"><a href="merchandise.php">Merchandise</a></li>
+                <li class="disabled"><a href="apis.php">API's</a></li>
+                <li class="disabled"><a href="partners-ready-site.php">Partner's Ready Site</a></li>
   						</ul>
   					</li>
 

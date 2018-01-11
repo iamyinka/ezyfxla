@@ -26,14 +26,19 @@
                           <div class="tab-content">
                               <div id="tab1" class="tab-pane fade active in">
                                   <table class="table table-responsive table-striped table-bordered table-hover footable toggle-medium">
+                                    <style>
+                                      th {
+                                        text-align: center;
+                                      }
+                                    </style>
                                       <thead>
                                            <th class="tb-color1">CRITERIA</th>
-                                           <th data-hide="all" class="tb-color2">EZY</th>
-                                           <th data-hide="all" class="tb-color2">EZY CLASSIC</th>
-                                           <th data-hide="all" class="tb-color2">EZY ISLAMIC</th>
-                                           <th data-hide="all" class="tb-color3">ECN STANDARD</th>
-                                           <th data-hide="all" class="tb-color3">ECN PREMIUM</th>
-                                           <th data-hide="all" class="tb-color3">ECN SEGREGATED</th>
+                                           <th data-hide="all" class="tb-color2">EZY <br> BASIC</th>
+                                           <th data-hide="all" class="tb-color2">EZY <br> CLASSIC</th>
+                                           <th data-hide="all" class="tb-color2">EZY <br> ISLAMIC</th>
+                                           <th data-hide="all" class="tb-color3">ECN <br> STANDARD</th>
+                                           <th data-hide="all" class="tb-color3">ECN <br> PREMIUM</th>
+                                           <th data-hide="all" class="tb-color3">ECN <br> SEGREGATED</th>
                                        </thead>
                                        <tbody>
                                           <tr>
@@ -304,7 +309,7 @@
   </div>
 </section>
 
-<section class="take-note tac">
+<section class="take-note tac" style="padding-top: 10px;">
   <div class="container">
     <div class="col-xs-12 col-sm-12">
       <p style="color: #b33;"><strong>* <em>Terms &amp; Conditions applies</em></strong></p>

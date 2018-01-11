@@ -17,15 +17,16 @@
     <div class="row">
       <div class="col-xs-12 col-sm-6">
         <h4>Safety of Clients' Funds</h4>
-        <p>At EZYFX, we know you work hard for your money and quite frankly deserve that peace of mind. We give our customers complete satisfaction of security because we practice what we preach unlike others. All our funds are stored in separate client accounts with no overlapping.</p>
+        <p>At EZYFX Limited, we know you work hard for your money and quite frankly deserve that peace of mind. We give our customers complete satisfaction of security because we practice what we preach unlike others. All our funds are stored in separate client accounts with no overlapping.</p>
 
-        <a class="ezyfxInfo">Read More &raquo;</a>
+        <a class="ezyfxInfo pull-right">Read More &raquo;</a>
+        <div class="clearfix"></div>
 
         <div class="moreInfo">
           <p>We enforce stringent standards of Data Security subject to a high-level scrutiny and all your personal details are encrypted using SSL (Secure Sots Layer). We personally do not store any of your financial detail as they are all processed using our partner network which is a fully licensed payment gateway protecting client with PCI regulated servers.</p>
         </div>
 
-        <p>Your fund and its security is our number one priority, with EZYFX you can be completely sure that we are protecting your funds. Here's how: </p>
+        <p>Your fund and its security is our number one priority, with EZYFX Limited you can be completely sure that we are protecting your funds. Here's how: </p>
       </div>
 
       <div class="col-xs-12 col-sm-6">

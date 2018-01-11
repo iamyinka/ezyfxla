@@ -189,6 +189,10 @@ header {
   /*margin-bottom: 0;*/
 }
 
+/*#logo a i.fa {
+  padding: 0 15px;
+}*/
+
 #logo img {
   width: 10em;
   height: auto;
@@ -801,15 +805,21 @@ section.ourVnM h2 {
   color: #444;
 }
 
-.vision-title {
+.vision-title h6 {
   text-align: center;
+  color: coral;
+  font-size: 1.5em;
+  text-shadow: 1px 1px .5px #444;
+  opacity: .89;
 }
+
+
 
 .vision-title img {
   width: 100%;
   max-width: 100%;
   /*height: 319px;*/
-  max-height: 319px;
+  max-height: 155px;
 }
 
 .vision-title i.fa {
@@ -876,8 +886,8 @@ section.ourVnM h2 {
 
 .sider2 {
   padding-left: 10px;
+  /*position: relative;*/
 }
-
 .side-bar .panel:nth-child(odd) {
   border-left: 10px solid #444;
 }
@@ -1349,6 +1359,11 @@ section.ourVnM h2 {
   margin-bottom: 30px;
 }
 
+.islamic-sections img {
+  width: 200px;
+  height: 200px;
+}
+
 .islamic-content2 > p:first-child {
   color: #633;
 }
@@ -1356,10 +1371,13 @@ section.ourVnM h2 {
 .islamic-content i.fa {
   color: #000;
   font-size: 3em;
-  border: 1px solid #444;
+  border: 2px solid rgba(210, 210, 210, .78);
   border-radius: 50%;
-  padding: 30px;
+  /*padding: 30px;*/
   margin-bottom: 10px;
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
 }
 
 .softwares {
@@ -1647,9 +1665,14 @@ section.ourVnM h2 {
   color: #94BD49;
 }
 
+/*.extra-footer {
+  display: flex;
+}
+*/
 .extra-footer a {
   background: rgba(255, 255, 255, .2);
   opacity: .3;
+  /*flex: 1;*/
 }
 
 .extra-footer a img {
@@ -1757,6 +1780,7 @@ ul.ppro li i.fa {
 
 #ezyfxInfo, #ezyfxInfo2, .ezyfxInfo, #learnMore1, #learnMore2, #learnMore3, #learnMore4, #learnMore5, #learnMore6 {
   cursor: pointer;
+  color: #b33;
 }
 
 #moreInfo, #moreInfo2, .moreInfo, #openInfo1, #learnMore2, #openInfo2, #learnMore4, #openInfo3, #learnMore6 {
@@ -1922,6 +1946,10 @@ ul.ppro li i.fa {
     top: 5px;
 }
 
+.footer-end {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
 
 .contact-us form {
   width: 100%;
@@ -1942,6 +1970,21 @@ ul.ppro li i.fa {
 
 footer .contactInfo {
   margin-top: 30px;
+}
+
+.contactInfo #socials {
+  text-align: center;
+}
+
+.contactInfo a i.fa {
+  opacity: .87;
+  font-size: 1.5em;
+  margin-right: 30px;
+  color: coral;
+}
+
+.contactInfo a i.fa:hover {
+  color: #b33;
 }
 
 #option1, #option2, #option3, #option4, #option5 {
@@ -2154,6 +2197,7 @@ footer p, footer h6 {
   width: 100%;
 }
 
+
 .footer-nav {
   border-top: 2px solid #b33;
   background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, .8)), url('../images/bg2.jpg') center center no-repeat;
@@ -2186,6 +2230,7 @@ footer p, footer h6 {
 
 .footer-nav ul li {
   margin-bottom: 10px;
+	text-align: center;
 }
 
 
@@ -2207,9 +2252,40 @@ footer p, footer h6 {
 
 footer .trademark {
   background-color: #000;
-  color: #fff;
   padding: 15px 0;
   text-align: center;
+}
+
+.trademark a i.fa {
+  color: rgba(255, 255, 255, .7);
+  margin-bottom: 20px;
+  font-size: 1.5em;
+  margin-right: 20px;
+}
+
+.trademark a:last-child i.fa {
+  margin-right: 0;
+}
+
+.trademark a i.fa:hover {
+  color: #b33;
+  /*font-size: 1.7em;*/
+  text-shadow: 2px 2px 1px #b33;
+}
+
+.trademark p {
+  color: #fff;
+}
+
+.trademark p a {
+  opacity: .65;
+  color: #fff;
+  transition: all .6s;
+}
+
+.trademark p a:hover {
+  color: #b33;
+  opacity: 1;
 }
 
 /*.long-links ul li {
@@ -2348,10 +2424,10 @@ select.goog-te-combo {
 
 
 .animate-banner {
-   -webkit-animation: flickerAnimation 10s infinite;
-   -moz-animation: flickerAnimation 10s infinite;
-   -o-animation: flickerAnimation 10s infinite;
-    animation: flickerAnimation 10s infinite;
+   -webkit-animation: flickerAnimation 2s infinite;
+   -moz-animation: flickerAnimation 2s infinite;
+   -o-animation: flickerAnimation 2s infinite;
+    animation: flickerAnimation 2s infinite;
 }
 
 
@@ -2407,6 +2483,51 @@ select.goog-te-combo {
 /* *************************
     Media Queries
 ************************* */
+
+@media (max-width: 980px) {
+	.bigText {
+	  font-size: 2.5em;
+	}
+}
+
+@media (max-width: 856px) {
+	.bigText {
+	  font-size: 2em;
+	}
+}
+
+@media (max-width: 801px) {
+	.main-hero .carousel-caption {
+	  bottom: 10px;
+	}
+	
+	.main-hero .carousel-caption a {
+		font-size: .85em;
+		display: inline-block;
+	}
+}
+
+@media (max-width: 600px) {
+	.bigText {
+		display: none;
+	}
+	
+	.main-hero .carousel-caption {
+		bottom: 4px;
+	}
+}
+
+@media (max-width: 400px) {
+	.smallText {
+		display: none;
+	}
+}
+
+
+
+
+
+
 
 
 

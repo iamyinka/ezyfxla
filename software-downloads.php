@@ -148,7 +148,7 @@
             <p>You can access the EZYFX MetaTrader 4 for Web to receive the most powerful and convenient tool for technical analysis and trading on the markets.</p>
           </div>
 
-          <a href="register.php" class="btn btn-custom-success btn-lg">OPEN AN ACCOUNT &raquo;</a> <a href="https://trade.mql5.com/trade?servers=EZYFX-Demo+Server,EZYFX-Live+7&trade_server=EZYFX" target="_blank" class="btn btn-custom-success btn-lg">ACCESS EZYFX MT4 WEBTRADER &raquo;</a>
+          <a href="register.php" class="btn btn-custom-success btn-lg">OPEN AN ACCOUNT &raquo;</a> <a href="https://trade.mql5.com/trade?servers=EZYFX-Demo+Server%2cEZYFX-Live+7%2cEZYFX-Live+Server&trade_server=EZYFX-Demo Server&demo_server=EZYFX-Demo Server&startup_mode=open_demo&lang=en" target="_blank" class="btn btn-custom-success btn-lg">ACCESS EZYFX MT4 WEBTRADER &raquo;</a>
         </div>
     </div>
   </div>

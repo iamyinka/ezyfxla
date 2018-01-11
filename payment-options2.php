@@ -1,10 +1,10 @@
 <?php include('includes/nav.php'); ?>
 
 <?php
-$creaditcard = array("EUR", "GBP", "USD");
-$megatransfer = array("EUR", "GBP", "USD");
-$chinapay = array("EUR", "GBP", "USD");
-$wiretrans = array("EUR", "GBP", "USD");
+$creaditcard = array("EUR", "GBP", "USD", "RUB");
+$megatransfer = array("EUR", "USD", "GBP", "AED", "AUD", "BTC", "CAD", "CHF", "CNY", "CZK", "DKK", "HKD", "HUF","ILS", "IDR", "INR", "JPY", "KWD", "LTC", "LTL", "MYR", "NOK", "NZD", "PHP", "PLN", "RON", "RUB", "SAR", "SEK", "SGD");
+$chinapay = array("EUR", "USD", "GBP", "AED", "AUD", "CAD", "CHF", "CNY", "CZK", "DKK", "HKD", "HUF","ILS", "IDR", "INR", "JPY", "KWD", "LTL", "MYR", "NOK", "NZD", "PHP", "PLN", "RON", "RUB", "SAR", "SEK", "SGD");
+$wiretrans = array("EUR", "USD", "GBP", "CZK", "NOK", "SEK", "CHF", "CAD", "AUD", "DKK", "HKD", "JPY", "NZD", "PLN", "RUB", "SGD");
 
 
 
@@ -30,7 +30,7 @@ if(isset($_REQUEST['myactionper']) && $_REQUEST['myactionper']=='banktransfer')
   $total_amount = sprintf("%1.2f", $total_amount);
   $signature = hash("sha256", $secret_code . $separator . $merchant_id . $separator . $items . $separator . $quantity . $separator . $amount . $separator . $total_amount . $separator . $currency . $separator . $secret_code);
   ?>
-  <form id="banktransfer" name="form" method="post" action="mailer2.php" class="mu-contact-form">
+  <form id="banktransfer" name="form" method="post" action="https://www.megatransfer.com/payments/">
       <input type="hidden" name="items" value="<?php echo $items ?>"/>
       <input type="hidden" name="quantity" value="<?php echo $quantity ?>"/>
       <input type="hidden" name="amount" value="<?php echo $amount ?>"/>
@@ -47,14 +47,17 @@ if(isset($_REQUEST['myactionper']) && $_REQUEST['myactionper']=='banktransfer')
       <input type="hidden" name="signature" value="<?php echo $signature ?>"/>
       <!--FOR TEST GATEWAY-->
       <input type="hidden" name="gateway_id" value="0"/>
-      <!--//FOR LIVE GATEWAY
-      http://ezyfx.la/payment-gateway-test?paymenttype=fail
-      -->
+      <!--//FOR LIVE GATEWAY-->
       <!--<input type="hidden" name="gateway_id" value="1"/>-->
       <input type="hidden" name="payment_method" value="wt"/>
       <input type="hidden" name="success_url" value="http://ezyfx.la/payment-success.php"/>
 	  <input type="hidden" name="fail_url" value="http://ezyfx.la/payment-fail.php"/>
 	  <input type="hidden" name="callback_url" value="http://ezyfx.la/payment-callback.php"/>
+     <!--
+      <input type="hidden" name="success_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=success"/>
+      <input type="hidden" name="fail_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=fail"/>
+      <input type="hidden" name="callback_url" value="http://ezyfx.la/payment-gateway-test?paymenttype=callback"/>
+      -->
       <input type="submit" name="Submit" class="ic-btn" value="Deposit Now"/>
   </form>
   <script type="text/javascript">
@@ -83,7 +86,7 @@ $items = $_REQUEST['ref'];
   $total_amount = sprintf("%1.2f", $total_amount);
   $signature = hash("sha256", $secret_code . $separator . $merchant_id . $separator . $items . $separator . $quantity . $separator . $amount . $separator . $total_amount . $separator . $currency . $separator . $secret_code);
   ?>
-  <form id="credit" name="form" method="post" action="https://www.megatransfer.com/payments/" class="mu-contact-form">
+  <form id="credit" name="form" method="post" action="https://www.megatransfer.com/payments/">
       <input type="hidden" name="items" value="<?php echo $items ?>"/>
       <input type="hidden" name="quantity" value="<?php echo $quantity ?>"/>
       <input type="hidden" name="amount" value="<?php echo $amount ?>"/>
@@ -139,7 +142,7 @@ $items = $_REQUEST['ref'];
   $total_amount = sprintf("%1.2f", $total_amount);
   $signature = hash("sha256", $secret_code . $separator . $merchant_id . $separator . $items . $separator . $quantity . $separator . $amount . $separator . $total_amount . $separator . $currency . $separator . $secret_code);
   ?>
-  <form id="unionpayment" name="form" method="post" action="https://www.megatransfer.com/payments/" class="mu-contact-form">
+  <form id="unionpayment" name="form" method="post" action="https://www.megatransfer.com/payments/">
       <input type="hidden" name="items" value="<?php echo $items ?>"/>
       <input type="hidden" name="quantity" value="<?php echo $quantity ?>"/>
       <input type="hidden" name="amount" value="<?php echo $amount ?>"/>
@@ -195,7 +198,7 @@ $items = $_REQUEST['ref'];
   $total_amount = sprintf("%1.2f", $total_amount);
   $signature = hash("sha256", $secret_code . $separator . $merchant_id . $separator . $items . $separator . $quantity . $separator . $amount . $separator . $total_amount . $separator . $currency . $separator . $secret_code);
   ?>
-  <form id="megatransfer" name="form" method="post" action="https://www.megatransfer.com/payments/" class="mu-contact-form">
+  <form id="megatransfer" name="form" method="post" action="https://www.megatransfer.com/payments/">
       <input type="hidden" name="items" value="<?php echo $items ?>"/>
       <input type="hidden" name="quantity" value="<?php echo $quantity ?>"/>
       <input type="hidden" name="amount" value="<?php echo $amount ?>"/>
@@ -251,7 +254,7 @@ $items = $_REQUEST['ref'];
   $total_amount = sprintf("%1.2f", $total_amount);
   $signature = hash("sha256", $secret_code . $separator . $merchant_id . $separator . $items . $separator . $quantity . $separator . $amount . $separator . $total_amount . $separator . $currency . $separator . $secret_code);
   ?>
-  <form id="default" name="form" method="post" action="https://www.megatransfer.com/payments/" class="mu-contact-form">
+  <form id="default" name="form" method="post" action="https://www.megatransfer.com/payments/">
       <input type="hidden" name="items" value="<?php echo $items ?>"/>
       <input type="hidden" name="quantity" value="<?php echo $quantity ?>"/>
       <input type="hidden" name="amount" value="<?php echo $amount ?>"/>
@@ -293,181 +296,187 @@ $items = $_REQUEST['ref'];
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
-        <h1><i class="fa fa-usd"></i>Funds Deposit</h1>
+        <h1><i class="fa fa-credit-card-alt"></i>Payment Options</h1>
       </div>
-      <?php include 'open-accts.php'; ?>
+      <?php include 'mobile-links.php'; ?>
     </div>
   </div>
 </section>
 
-<section class="reg-start deposit">
+<section class="reg-start">
   <div class="container">
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12">
-          <div class="deposit-intro">
-            <p>Deposit funds into an <strong>EZYFX</strong> Global trading account with security and speed today</p>
+    <div class="row softwares paymentOptions">
+        <a id="option1">
+          <div class="col-sm-4 col-md-4">
+            <img src="images/deposit-methods/bank-tf.png" alt="EZYFX MT4 Trader For Desktop">
+          </div>
 
-            <p>We offer a variety of methods for depositing and withdrawing funds quickly and easily. There are no fees for making a deposit and you are free to withdraw your funds at any time. Learn more about our convenient funding methods by clicking on the options below.</p>
+          <div class="col-sm-8 col-md-8">
+            <h4>Bank Wire Transfer <span class="pull-right" id="option1Sign1"><strong>+</strong></span><span class="pull-right" id="option1Sign2"><strong>-</strong></span></h4>
+            <p><strong>Region</strong>: Worldwide</p>
+            <p><strong>Max. Deposit</strong>: $10000</p>
+            <p><strong>Fees / Commissions</strong>: $0 USD</p>
+            <p><strong>Processing Time</strong>: Up to 2 Business Days</p>
+            <!-- <p class="pull-right" id="learnMore3"><a>Read More &raquo;</a></p>
+            <p class="pull-right" id="learnMore4"><a>Read Less &raquo;</a></p> -->
+
+          </div>
+        </a>
+        <div class="col-sm-4">
+
+        </div>
+        <div class="col-sm-8">
+          <div id="paymentOption1">
+            <p>In order to ensure the highest levels of security for Customers' transactions, EZYFX uses the services of MegaTransfer to receive deposits via Bank Transfer. MegaTransfer is a global leader in money transfer services and is licensed and regulated in the United Kingdom by the Financial Conduct Authority, the UK's Financial Services Regulator.</p>
+
+            <a href="register.php" class="btn btn-custom-success btn-lg" target="_blank">OPEN AN ACCOUNT &raquo;</a> <a data-toggle="modal" data-target="#localTransfer" onclick="actionperform('banktransfer');" class="btn btn-custom-success btn-lg">Make Deposit Via Bank Transfer &raquo;</a>
+          </div>
+        </div>
+    </div>
+
+
+    <div class="row softwares paymentOptions">
+        <a id="option2">
+          <div class="col-sm-4 col-md-4">
+            <img src="images/deposit-methods/cc.png" alt="EZYFX MT4 Trader For Desktop">
+          </div>
+
+          <div class="col-sm-8 col-md-8">
+            <h4>Credit Card <span class="pull-right" id="option2Sign1"><strong>+</strong></span><span class="pull-right" id="option2Sign2"><strong>-</strong></span></h4>
+            <p><strong>Region</strong>: Worldwide</p>
+            <p><strong>Max. Deposit</strong>: $10000</p>
+            <p><strong>Fees / Commissions</strong>: $0 USD</p>
+            <p><strong>Processing Time</strong>: Up to 2 Business Days</p>
+            <!-- <p class="pull-right" id="learnMore3"><a>Read More &raquo;</a></p>
+            <p class="pull-right" id="learnMore4"><a>Read Less &raquo;</a></p> -->
+
+          </div>
+        </a>
+        <div class="col-sm-4">
+
+        </div>
+        <div class="col-sm-8">
+          <div id="paymentOption2">
+            <p>Did you know that according to the European Central Bank, during 2014 almost half of all non-cash transactions within the EU were card payments? Furthermore, card payments marked an increase of 8.8% compared to the previous year.</p>
+            <p>EZYFX supports that trend by allowing you to deposit into your Trading Account through the use of your international Visa or MasterCard, regardless whether you are in the EU or not.</p>
+
+            <a href="register.php" class="btn btn-custom-success btn-lg" target="_blank">OPEN AN ACCOUNT &raquo;</a> <a data-toggle="modal" data-target="#localTransfer" onclick="actionperform('credit');" class="btn btn-custom-success btn-lg">Deposit via Credit Card &raquo;</a>
+          </div>
+        </div>
+    </div>
+
+    <div class="row softwares paymentOptions">
+        <a id="option3">
+          <div class="col-sm-4 col-md-4">
+            <img src="images/footer/mt2.png" alt="EZYFX MT4 Trader For Desktop">
+          </div>
+
+          <div class="col-sm-8 col-md-8">
+            <h4>Mega Transfer <span class="pull-right" id="option3Sign1"><strong>+</strong></span><span class="pull-right" id="option3Sign2"><strong>-</strong></span></h4>
+            <p><strong>Region</strong>: Worldwide</p>
+            <p><strong>Max. Deposit</strong>: $10000</p>
+            <p><strong>Fees / Commissions</strong>: $0 USD</p>
+            <p><strong>Processing Time</strong>: Up to 2 Business Days</p>
+            <!-- <p class="pull-right" id="learnMore3"><a>Read More &raquo;</a></p>
+            <p class="pull-right" id="learnMore4"><a>Read Less &raquo;</a></p> -->
+
+          </div>
+        </a>
+        <div class="col-sm-4">
+
+        </div>
+        <div class="col-sm-8">
+          <div id="paymentOption3">
+            <p>In order to ensure the highest levels of security for Customers' transactions, EZYFX uses the services of MegaTransfer to receive deposits. MegaTransfer is a global leader in money transfer services and is licensed and regulated in the United Kingdom by the Financial Conduct Authority, the UK's Financial Services Regulator.</p>
+
+            <a href="register.php" class="btn btn-custom-success btn-lg" target="_blank">OPEN AN ACCOUNT &raquo;</a> <a data-toggle="modal" data-target="#localTransfer" onclick="actionperform('megatransfer');" class="btn btn-custom-success btn-lg">Deposit via MegaTransfer &raquo;</a>
+          </div>
+        </div>
+    </div>
+
+    <div class="row softwares paymentOptions">
+        <a id="option4">
+          <div class="col-sm-4 col-md-4">
+            <img src="images/deposit-methods/upay.svg" alt="EZYFX MT4 Trader For Desktop">
+          </div>
+
+          <div class="col-sm-8 col-md-8">
+            <h4>UnionPay <span class="pull-right" id="option4Sign1"><strong>+</strong></span><span class="pull-right" id="option4Sign2"><strong>-</strong></span></h4>
+            <p><strong>Region</strong>: Worldwide</p>
+            <p><strong>Max. Deposit</strong>: $10000</p>
+            <p><strong>Fees / Commissions</strong>: $0 USD</p>
+            <p><strong>Processing Time</strong>: Up to 2 Business Days</p>
+            <!-- <p class="pull-right" id="learnMore3"><a>Read More &raquo;</a></p>
+            <p class="pull-right" id="learnMore4"><a>Read Less &raquo;</a></p> -->
+
+          </div>
+        </a>
+        <div class="col-sm-4">
+
+        </div>
+        <div class="col-sm-8">
+          <div id="paymentOption4">
+            <p>In order to ensure the highest levels of security for Customers' transactions, EZYFX uses the services of MegaTransfer to receive deposits via UnionPay. MegaTransfer is a global leader in money transfer services and is licensed and regulated in the United Kingdom by the Financial Conduct Authority, the UK's Financial Services Regulator.</p>
+
+            <a href="register.php" class="btn btn-custom-success btn-lg" target="_blank">OPEN AN ACCOUNT &raquo;</a> <a data-toggle="modal" data-target="#localTransfer" onclick="actionperform('megatransfer');" class="btn btn-custom-success btn-lg">Deposit via UnionPay &raquo;</a>
+          </div>
+        </div>
+    </div>
+
+
+    <div class="row softwares paymentOptions">
+        <a id="option5">
+          <div class="col-sm-4 col-md-4">
+            <img src="images/deposit-methods/local-tf.png" alt="EZYFX MT4 Trader For Desktop">
+          </div>
+
+          <div class="col-sm-8 col-md-8">
+            <h4>Local Bank Transfer <span class="pull-right" id="option5Sign1"><strong>+</strong></span><span class="pull-right" id="option5Sign2"><strong>-</strong></span></h4>
+            <p><strong>Region</strong>: Worldwide</p>
+            <p><strong>Max. Deposit</strong>: $10000</p>
+            <p><strong>Fees / Commissions</strong>: $0 USD</p>
+            <p><strong>Processing Time</strong>: Up to 2 Business Days</p>
+            <!-- <p class="pull-right" id="learnMore3"><a>Read More &raquo;</a></p>
+            <p class="pull-right" id="learnMore4"><a>Read Less &raquo;</a></p> -->
+
+          </div>
+        </a>
+        <div class="col-sm-4">
+
+        </div>
+        <div class="col-sm-8">
+          <div id="paymentOption5">
+            <p>Text for Local Bank Transfer.</p>
+
+            <a href="register.php" class="btn btn-custom-success btn-lg" target="_blank">OPEN AN ACCOUNT &raquo;</a> <a data-toggle="modal" data-target="#localTransfer" onclick="actionperform('megatransfer');" class="btn btn-custom-success btn-lg disabled">Contact us for info &raquo;</a>
           </div>
         </div>
     </div>
   </div>
 </section>
 
-<section class="deposit-methods">
+
+
+<section class="take-note">
   <div class="container">
-    <div class="each-methods">
-      <div class="row">
-        <div class="col-sm-4">
-          <img src="images/deposit-methods/bank-tf.png" alt="">
-        </div>
+    <div class="col-xs-12 col-sm-12">
+      <h6>NOTE:</h6>
 
-        <div class="payments">
-          <div class="col-sm-6">
-            <p><strong>Bank Transfer</strong></p>
-
-            <p>Bank fee. During transfer an additional correspondent bank commission could be charged. Deposit is processed within 2-4 business days.</p>
-          </div>
-
-          <div class="col-sm-2">
-            <a class="btn btn-danger btn-block" data-toggle="modal" data-target="#localTransfer" onclick="actionperform('banktransfer');">Deposit</a>
-          </div>
-        </div>
-      </div>
+      <ol>
+        <li>To prevent fraud or scam, it is the responsibility of the Client to verify the Local Depositor identity with us before making any deposit through it or only make deposit via Local Depositor that provided inside the cabinet.</li>
+        <li>For fund deposit by credit card, it only allowed to withdraw back to the same credit card with the same amount of deposit made; for other amount of withdrawal, your fund cannot be withdrawn by using local depositor if any (first priority) or wire transfer where bank fee applies (but the company reserves the rights to hold this withdrawal request up to 90 days from the first date of the deposit made by the credit card to prevent dispute issue). Withdraw fee of 5% of withdraw amount could be charged if the account is inactive or very less transaction from the latest deposit.</li>
+        <li>Credit card gateway is only accepted for Albania, Andorra, Armenia, Austria, Azerbaijan, Belarus, Belgium, Bosnia and Herzegovina, Brunei, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Georgia, Germany, Greece, Hungary, Iceland, Indonesia, Ireland, Italy, Kazakhstan, Kyrgyzstan, Latvia, Liechtenstein, Lithuania, Luxembourg, Macedonia, Malaysia, Malta, Moldova, Monaco, Montenegro, Netherlands, Norway, Pakistan, Philippines, Poland, Portugal, Russian Federation, San Marino, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, Spain, Sweden, Switzerland, Taiwan, province of China, Tajikistan, Thailand, Turkmenistan, Ukraine, United Arab Emirates, United Kingdom, Uzbekistan, Vietnam.</li>
+      </ol>
     </div>
-
-    <div class="each-methods">
-      <div class="row">
-        <div class="col-sm-4">
-          <img src="images/deposit-methods/cc.png" alt="">
-        </div>
-
-        <div class="payments" style="margin-top: 50px;">
-          <div class="col-sm-6">
-            <p><strong>Credit/Debit Card</strong></p>
-
-            <p>System fee. Deposit is processed within 24-48 hours.</p>
-          </div>
-
-          <div class="col-sm-2">
-            <a class="btn btn-danger btn-block" data-toggle="modal" data-target="#localTransfer" onclick="actionperform('credit');">Deposit</a>
-          </div>
-        </div>
-      </div>
-  </div>
-
-
-
-
-
-
-
-    <div class="each-methods">
-      <div class="row">
-        <div class="col-sm-4">
-          <img src="images/footer/mt.png" alt="" style="margin-top: 30px;">
-        </div>
-
-        <div class="payments" style="margin-top: 20px;">
-          <div class="col-sm-6">
-            <p><strong>Mega Transfer</strong></p>
-
-            <p>No fees. Instant deposit.</p>
-          </div>
-
-          <div class="col-sm-2">
-            <a class="btn btn-danger btn-block" data-toggle="modal" data-target="#localTransfer" onclick="actionperform('megatransfer');">Deposit</a>
-          </div>
-        </div>
-      </div>
-  </div>
-
-    <div class="each-methods">
-      <div class="row">
-        <div class="col-sm-4">
-          <img src="images/deposit-methods/upay.svg" alt="">
-        </div>
-
-        <div class="payments" style="margin-top: 50px;">
-          <div class="col-sm-6">
-            <p><strong>Deposit via China Union Pay</strong></p>
-
-            <p>No fees. Instant deposit. Only for residents of China.</p>
-          </div>
-
-          <div class="col-sm-2">
-            <a class="btn btn-danger btn-block" data-toggle="modal" data-target="#localTransfer" onclick="actionperform('unionpayment');">Deposit</a>
-          </div>
-        </div>
-      </div>
-  </div>
-
-    <div class="each-methods">
-      <div class="row">
-        <div class="col-sm-4">
-          <img src="images/deposit-methods/local-tf.png" alt="">
-        </div>
-
-        <div class="payments" style="margin-top: 50px;">
-          <div class="col-sm-6">
-            <p><strong>Local Transfer</strong></p>
-
-            <p>Bank fees vary. Deposit is processed within 1-2 days.</p>
-          </div>
-
-          <div class="col-sm-2">
-            <a href="#" class="btn btn-danger btn-block disabled">Contact us for info &raquo;</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- <div class="each-methods">
-      <div class="row">
-        <div class="col-sm-4">
-          <img src="images/deposit-methods/bank-tf.png" alt="">
-        </div>
-
-        <div class="payments">
-          <div class="col-sm-6">
-            <p><strong>Local transfer in Malaysia</strong></p>
-
-            <p>Bank fees vary. Deposit is processed within 1-2 days.</p>
-          </div>
-
-          <div class="col-sm-2">
-            <a href="#" class="btn btn-danger btn-block">Deposit</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="each-methods">
-      <div class="row">
-        <div class="col-sm-4">
-          <img src="images/deposit-methods/bank-tf.png" alt="">
-        </div>
-
-        <div class="payments">
-          <div class="col-sm-6">
-            <p><strong>Local transfer in Malaysia</strong></p>
-
-            <p>Bank fees vary. Deposit is processed within 1-2 days.</p>
-          </div>
-
-          <div class="col-sm-2">
-            <a href="#" class="btn btn-danger btn-block">Deposit</a>
-          </div>
-        </div>
-      </div>
-    </div> -->
   </div>
 </section>
 
 
 
 
-             <!-- MODALS -->
+
+
+                    <!-- PAYMENT MODAL -->
 
 <div class="row">
  <div class="col-xs-12 col-sm-6 col-sm-offset-3">
@@ -487,9 +496,8 @@ $items = $_REQUEST['ref'];
                </div>
              </div>
              <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-              <div id="form-messages"></div>
                <div class="fundsDeposit">
-                 <form role="form " action="mailer2.php" method="post" id="paymentForm">
+                 <form role="form " action="" method="get" id="mypopupaction">
                    <input type="hidden" name="myactionper" id="myactionper" value="" />
                    <div class="form-group">
                      <div class="input-group">
@@ -504,7 +512,7 @@ $items = $_REQUEST['ref'];
                      <div class="input-group">
                        <div class="input-group addon">
                          <span class="input-group-addon" id="basic-addon1"><i class="fa fa-envelope-o"></i></span>
-                         <input type="email" class="form-control" id="depositEmail" placeholder="Enter Email Address" name="customerEmail">
+                         <input type="email" class="form-control" id="depositEmail" placeholder="Enter Email Address">
                        </div>
                      </div>
                    </div>
@@ -567,13 +575,13 @@ $items = $_REQUEST['ref'];
                      <div class="input-group">
                        <div class="input-group addon">
                          <span class="input-group-addon" id="basic-addon1"><i class="fa fa-mobile-phone"></i></span>
-                         <input type="phone" class="form-control" id="subscriberPhone" placeholder="Enter Phone Number" name="subscriberPhone">
+                         <input type="phone" class="form-control" id="subscriberPhone" placeholder="Enter Phone Number">
                        </div>
                      </div>
                    </div>
 
                    <div class="form-group">
-                     <input type="submit" name="depositBtn" id="depositBtn" value="Make Deposit &rarr;" class="btn btn-custom-demo btn-block">
+                     <input type="submit" name="depositBtn" value="Make Deposit &rarr;" class="btn btn-custom-demo btn-block">
                    </div>
                  </form>
                </div>
@@ -612,6 +620,7 @@ $items = $_REQUEST['ref'];
    </div>
  </div>
 </div>
+
 
 <?php include('includes/footer.php'); ?>
 <script type="text/javascript">

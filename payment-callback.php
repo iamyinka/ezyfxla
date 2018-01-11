@@ -6,7 +6,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
-        <h1><i class="fa fa-check"></i>Payment Successful</h1>
+        <h1><i class="fa fa-exclamation-triangle"></i>Payment Failed</h1>
       </div>
       <?php include 'open-accts.php'; ?>
     </div>
@@ -18,7 +18,7 @@
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
           <div class="deposit-intro text-center">
-            <h4>Your transaction has been successfully completed.</h4>
+            <h4>Your Payment Failed</h4>
           </div>
         </div>
     </div>

@@ -24,12 +24,25 @@ $('#return-to-top').click(function() {      // When arrow is clicked
 
 $(document).ready(function() {
 
-  // $('#homeModal').modal('show');
+ //  $('#homeModal').modal('show');
 
-  if (sessionStorage.getItem('dontLoad') == null){
-    $('#homeModal').modal('show');
-    sessionStorage.setItem('dontLoad', 'true');
-  }
+ // if (sessionStorage.getItem('dontLoad') == null){
+ //   $('#homeModal').modal('show');
+ //   sessionStorage.setItem('dontLoad', 'true');
+ // }
+	
+	if (typeof Storage != "undefined") {
+		if (!localStorage.getItem("done")) {
+			  setTimeout(function() {
+				$('#homeModal').modal('show');
+			  }, 1400);
+			}
+			localStorage.setItem("done", true);
+	  }	
+	
+	
+	
+	
 
  $('.carousel').carousel({
      interval: 5000
@@ -190,6 +203,36 @@ $("#submitForm").on('click', function() {
     });
 });
 
+
+
+
+  $("#paymentForm").on("submit", function(e) {
+    var postData = $(this).serializeArray();
+    var formURL = $(this).attr("action");
+    $.ajax({
+        url: formURL,
+        type: "POST",
+        data: postData,
+        success: function(data, textStatus, jqXHR) {
+            $('#localTransfer .modal-header .modal-title').html("Payment Details Received");
+            $('#localTransfer .modal-body').html(data);
+            $("#depositBtn").remove();
+        },
+        error: function(jqXHR, status, error) {
+            console.log(status + ": " + error);
+        }
+    });
+    e.preventDefault();
+
+    $("#depositBtn").on('click', function() {
+        $("#paymentForm").submit();
+    });
 });
+
+
+
+});
+
+
 
 

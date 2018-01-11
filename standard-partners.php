@@ -60,8 +60,8 @@
           As an IB you will be compensated for introducing new clients to EZYFX. We will provide you with a complete range of solutions to do business, including promotional materials, trading platforms, and transaction execution tools.
         </blockquote>
         <p>As a rule, our IBs receive additional rewards for representing EZYFX on a local level.</p>
-        <p>Read more about the <a href="#">Affiliate Links</a>.</p>
-        <p>Learn more about how to develop your partnership with EZYFX by downloading our <a href="#">Partner’s Starter Kit <sup>pdf</sup></a></p>
+        <p>Read more about the Affiliate Links.</p>
+        <p>Learn more about how to develop your partnership with EZYFX by downloading our Partner’s Starter Kit <sup>pdf</sup></p>
         <a href="partner-with-us.php" target="_blank" class="btn btn-custom-success btn-lg">Become a Partner &raquo;</a>
       </div>
 
@@ -73,8 +73,8 @@
         <p>Trader-Partner is the beginning level of partnership with EZYFX. That type of partnership is suitable for individuals who want to make additional earnings by promoting our services and making our company known to their trading community.</p>
         <p>As this is a basic type of partnership, no specific experience or knowledge of web development is required. We will provide you with a complete range of solutions to do business, including promotional materials, trading platforms, and transaction execution tools.</p>
         <p>Your compensation is based on the trading volume of people in your affiliate group.</p>
-        <p>Read more about the <a href="#">Affiliate Links</a>.</p>
-        <p>Learn more about how to develop your partnership with EZYFX by downloading our <a href="#">Partner’s Starter Kit <sup>pdf</sup></a></p>
+        <p>Read more about the Affiliate Links.</p>
+        <p>Learn more about how to develop your partnership with EZYFX by downloading our Partner’s Starter Kit <sup>pdf</sup></p>
         <a href="partner-with-us.php" target="_blank" class="btn btn-custom-success btn-lg">Become a Partner &raquo;</a>
       </div>
 
@@ -87,7 +87,7 @@
         <p>If you run a money management project that attracts investments to FX, this partnership option may be the one for you. We will provide money managers like you with the largest selection of instruments to attract new customers and benefit from that. Compensation is based on commission on the attracted funds.</p>
         <p>Partners that register with us as Investment Projects may open a trading account with the EZYFX PAMM system and benefit from the investor’s profit through trust management.</p>
         <p>You are welcome to take advantage of our wide range of promotional materials. They can help you attract new clients as well as keep current ones interested and active. Browse our collection of merchandise, banners, logos, avatars, informers, APIs, certificates, corporate seals, among others.</p>
-        <p>Read more about the <a href="#">Affiliate Links</a>.</p>
+        <p>Read more about the Affiliate Links.</p>
         <a href="partner-with-us.php" target="_blank" class="btn btn-custom-success btn-lg">Become a Partner &raquo;</a>
       </div>
 
@@ -101,7 +101,7 @@
         <p>If you are a webmaster or a website owner, with our affiliate program you have an excellent opportunity to receive high affiliate commissions. If you run a website focused on finance and investments, we will send you an affiliate link and other promotional materials to either place on your website or use anywhere on the internet to redirect users to the EZYFX main website or Client’s Cabinet. You can then make a profit by earning commission on all of your successful referrals.</p>
 
         <p>You are welcome to take advantage of our wide range of promotional materials. They can help you attract new clients as well as keep current ones interested and active. Browse our collection of merchandise, banners, logos, avatars, informers, APIs, certificates, corporate seals, among others</p>
-        <p>Read more about the <a href="#">Affiliate Links</a>.</p>
+        <p>Read more about the Affiliate Links.</p>
         <a href="partner-with-us.php" target="_blank" class="btn btn-custom-success btn-lg">Become a Partner &raquo;</a>
       </div>
 
