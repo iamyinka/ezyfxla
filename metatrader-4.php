@@ -45,20 +45,22 @@
       <div class="col-xs-12 col-sm-4 mt4-features">
         <h4>EZY MT4 FEATURES</h4>
 
-        <ul>
+        <ul class="ezyLists">
           <li>Over 100 Instruments Including Forex, CFDs and Futures</li>
           <li>1 Single Login Access to 8 Platforms</li>
           <li>Spreads as low as 0 pips</li>
           <li>Full EA (Expert Advisor) Functionality</li>
-          <li>1 Click Trading and Built in News Functionality</li>
-          <li>Technical Analysis Tools with 50 indicators and charting tools</li>
-          <li>3 Chart Types</li>
-          <li>Micro Lot Accounts (Optional)</li>
-          <li>Hedging allowed</li>
-          <li>VPS Functionality</li>
+          <li>1 Click Trading and Built in News Functionality <br><a class="ezyfxInfo">Read More &raquo;</a></li>
+          <div class="moreInfo">
+            <li>Technical Analysis Tools with 50 indicators and charting tools</li>
+            <li>3 Chart Types</li>
+            <li>Micro Lot Accounts (Optional)</li>
+            <li>Hedging allowed</li>
+            <li>VPS Functionality</li>
+          </div>
         </ul>
 
-        <a href="register.php" class="btn btn-custom-live btn-block">Get Your EzyFX Account</a>
+        <a href="register.php" class="btn btn-custom-live btn-block">Get Your EZYFX Account</a>
       </div>
     </div>
   </div>

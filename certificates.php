@@ -4,53 +4,15 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
-        <h1><i class="fa fa-bolt"></i>Energy Bonus</h1>
+        <h1><i class="fa fa-certificate"></i>Certificates</h1>
       </div>
       <?php include 'open-accts.php'; ?>
     </div>
   </div>
 </section>
 
-<section class="reg-start e-bonus">
-  <div class="container">
-    <div class="bonus-intro">
-      <h2 style="color: #fff;">60%</h2>
-      <h4 style="color: #fff;">Energy Bonus</h4>
-      <p>RECHARGE YOUR DEPOSIT</p>
-      <a href="register.php" class="btn btn-success">CLAIM BONUS</a>
-    </div>
-  </div>
-</section>
 
-<!-- <section class="bonus-icons">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-        <i class="fa fa-gift pull-left"></i> Wide range of Bonuses
-      </div>
 
-      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-        <i class="fa fa-star-half pull-left"></i> 5% Interest Rate
-      </div>
-
-      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-        <i class="fa fa-google-wallet pull-left"></i> Variety of Account types
-      </div>
-
-      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-        <i class="fa fa-lock pull-left"></i> Funds Security
-      </div>
-
-      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-        <i class="fa fa-venus-double pull-left"></i> Fixed Spreads
-      </div>
-
-      <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-        <i class="fa fa-tasks pull-left"></i> Many Deposit Methods
-      </div>
-    </div>
-  </div>
-</section> -->
 <?php include 'includes/bonus-icons.php' ?>
 
 <section class="reg-start bonus-hero">

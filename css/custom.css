@@ -443,7 +443,7 @@ blockquote {
 
 .btn-custom-danger:hover {
   background-color: transparent;
-  color: #000;
+  color: #fff;
 }
 
 .btn-custom-success:visited {
@@ -1296,7 +1296,7 @@ section.ourVnM h2 {
 }
 
 .deposit-banner3 {
-  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.5)), url('../images/refactor/sliders/acct-types/4.jpg') center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, 0.5)), url('../images/refactor/sliders/acct-types/8.jpg') center center no-repeat;
   min-height: 300px;
   margin-top: 10px;
   background-size: cover;
@@ -1405,7 +1405,7 @@ section.ourVnM h2 {
 
 .mt4-dl {
   background: url('../images/payments/mt4-pc.png') 100% 100% no-repeat;
-  background-size: cover;
+  background-size: contain;
   min-height: 300px;
 }
 
@@ -2139,6 +2139,13 @@ footer .contactInfo {
 
 
 
+
+
+/*MISC*/
+
+.ezyLists {
+  font-size: .85em;
+}
 
 
 

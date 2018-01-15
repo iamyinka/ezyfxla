@@ -92,9 +92,9 @@
           <div class="col-sm-6">
             <div class="reason-tabs">
               <i class="fa fa-users fa-spin-hover"></i>
-              <h6>Dealing Room</h6>
+              <h6>Trading Room</h6>
 
-              <p>The ‘Dealing Room’ is your gateway to ultimate success. This is where our customers get a cohesive range of <a href="video-education-center.php">trading tutorials, educational materials and webinars</a> all composed and hosted by world-class traders.</p>
+              <p>The ‘Trading Room’ is your gateway to ultimate success. This is where our customers get a cohesive range of <a href="video-education-center.php">trading tutorials, educational materials and webinars</a> all composed and hosted by world-class traders.</p>
             </div>
           </div>
 

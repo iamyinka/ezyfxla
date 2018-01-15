@@ -20,7 +20,7 @@
   </div>
 </section>
 
-<section class="bonus-icons">
+<!-- <section class="bonus-icons">
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
@@ -48,7 +48,8 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
+<?php include 'includes/bonus-icons.php' ?>
 
 <section class="reg-start bonus-hero">
   <div class="container">

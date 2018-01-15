@@ -96,7 +96,7 @@ form > div > label > input:focus, form > div > label > select:focus
 	</div>
 </section>
 
-<section class="bonus-icons">
+<!-- <section class="bonus-icons">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
@@ -124,7 +124,9 @@ form > div > label > input:focus, form > div > label > select:focus
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
+
+<?php include 'includes/bonus-icons.php' ?>
 
 <section class="reg-start partnerWithUs">
 	<div class="container">

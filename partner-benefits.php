@@ -11,7 +11,7 @@
   </div>
 </section>
 
-<section class="bonus-icons">
+<!-- <section class="bonus-icons">
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
@@ -39,7 +39,9 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
+
+<?php include 'includes/bonus-icons.php' ?>
 
 <section class="reg-start bonus-hero">
   <div class="container">
@@ -54,10 +56,10 @@
           <li><i class="fa fa-check"></i> We work with <a href="metatrader-4.php"><strong>MetaTrader4</strong></a> – an award-winning platform, by far the most preferred choice of professional traders.</li>
           <li><i class="fa fa-check"></i> We are the <strong>fastest-growing broker</strong>.</li>
           <li><i class="fa fa-check"></i> EZYFX offers its partners the most competitive <strong>commission</strong> on the market – up to 75% on the spread.</li>
-          <li><i class="fa fa-check"></i> You can choose among a <strong>great variety of partnerships</strong>. At EZYFX there is something for everyone, whether you are an individual with no prior Forex experience or a business that has been providing financial services for years. Check out our <a href="sub-ezy-partners.php">full list of Types of Partnership</a> in order to find the one that is perfect for you.</li>
+          <li><i class="fa fa-check"></i> You can choose among a <strong>great variety of partnerships</strong>. At EZYFX there is something for everyone, whether you are an individual with no prior Forex experience or a business that has been providing financial services for years. Check out our <a href="standard-partners.php">full list of Types of Partnership</a> in order to find the one that is perfect for you.</li>
           <li><i class="fa fa-check"></i> We also offer you a <strong>sub-Introducing Broker</strong> type of partnership, where you benefit from your clients’ clients.</li>
           <li><i class="fa fa-check"></i> <strong>Additional rewards</strong> to Introducing Brokers, so that you earn even more than your partner commission.</li>
-          <li><i class="fa fa-check"></i> <strong>Advanced technology</strong> – both you and your clients can benefit from <a href="http://www.huffingtonpost.com/james-canton/seven-cutting-edge-innova_b_8907676.html" target="_blank">cutting-edge innovations</a> when it comes to our line of trading instruments for algorithmic or self-trading, money management, and investment.</li>
+          <li><i class="fa fa-check"></i> <strong>Advanced technology</strong> – both you and your clients can benefit from cutting-edge innovations when it comes to our line of trading instruments for algorithmic or self-trading, money management, and investment.</li>
           <li><i class="fa fa-check"></i> Your very own <strong>affiliate link</strong> that stores all of your referral traffic information and statistics. You will also be able to attach a custom affiliate link to your partner’s affiliate link and see all traffic (clicks and registration statistics for both the main and the custom affiliate links).</li>
           <li><i class="fa fa-check"></i> <strong>A ready-to-use affiliate website</strong> that you can use to expand your business.</li>
           <li><i class="fa fa-check"></i> <strong>Full partner statistics</strong> accessible at any time from the easy-to-use Partners Cabinet.</li>

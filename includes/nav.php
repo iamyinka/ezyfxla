@@ -362,7 +362,7 @@
   							<li><a href="partnership-programs.php">Partnership Programs</a></li>
   							<li><a href="partner-benefits.php">Benefits For Partners</a></li>
                 <li><a href="client-benefits.php">Benefits For Clients</a></li>
-                <li class="disabled"><a href="partner-earnings.php">Partner's Earnings</a></li>
+                <!-- <li class="disabled"><a href="partner-earnings.php">Partner's Earnings</a></li> -->
                 <li><a href="rebate-system.php">Rebate System</a></li>
   						</ul>
   					</li>
@@ -379,10 +379,11 @@
   							<li class="disabled"><a href="banners-n-more.php">Banners, Logos &amp; Avatars</a></li>
   							<li class="disabled"><a href="ezy-certificate.php">EZYFX Certificates</a></li>
   							<li class="disabled"><a href="ezy-seals.php">EZYFX Corporate Seals</a></li>
-                <li class="disabled"><a href="informers.php">Informers</a></li>
+                <li class="disabled"><a href="videos.php">Videos</a></li>
+                <!-- <li class="disabled"><a href="informers.php">Informers</a></li>
                 <li class="disabled"><a href="merchandise.php">Merchandise</a></li>
                 <li class="disabled"><a href="apis.php">API's</a></li>
-                <li class="disabled"><a href="partners-ready-site.php">Partner's Ready Site</a></li>
+                <li class="disabled"><a href="partners-ready-site.php">Partner's Ready Site</a></li> -->
   						</ul>
   					</li>
 
